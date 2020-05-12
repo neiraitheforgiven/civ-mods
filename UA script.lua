@@ -12,15 +12,14 @@ function countPlayerKeeperStacks(playerId)
     local uaTableName = string.format("senecaUAtable%s", playerId)
     MapModData.uaTableName = MapModData.uaTableName or {}
     local uaTable = MapModData.uaTableName
-    for i in pairs(uaTable) do
-      uaTable[i] = nil 
-    end
     local playerTeamId = playerObj:GetTeam()
     local playerTeamObj = Teams[playerTeamId]
     for entryPlayerId, entryPlayerObj in pairs(Players) do
-      if entryPlayerObj:IsBarbarian() then 
-        table.insert(uaTable, entryPlayerId, 0)
-        continue 
+      if entryPlayerObj:IsBarbarian() then
+        if uaTable[entryPlayerId] = nil then
+          table.insert(uaTable, entryPlayerId, 0)
+          continue 
+        end
       end
       if playerTeamObj:IsAtWar(entryPlayerObj:GetTeam()) then
         local numberOfWarringCivs = 0
@@ -31,9 +30,17 @@ function countPlayerKeeperStacks(playerId)
             numberOfWarringCivs = numberOfWarringCivs + 1
           end
         end
-        table.insert(uaTable, entryPlayerId, numberOfWarringCivs)
-      else
-        table.insert(uaTable, entryPlayerId, 0)
+        local numberOfSavedWarringCivs = uaTable[entryPlayerId]
+        if numberOfSavedWarringCivs = nil then
+          table.insert(uaTable, entryPlayerId, numberOfWarringCivs)
+        else
+          if numberOfWarringCivs > numberOfSavedWarringCivs then
+          uaTable[entryPlayerId] = numberOfWarringCivs
+        end
+      else -- we're not at war with them any more (or maybe never were)
+        if uaTable[entryPlayerId] = nil then
+          table.insert(uaTable, entryPlayerId, 0)
+        end
       end
     end
   end
