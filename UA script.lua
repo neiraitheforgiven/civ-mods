@@ -5,10 +5,10 @@ include("Sukritact_saveutils.lua"); MY_MOD_NAME = "Neirai-Seneca-Lua";
 --We only care to do this when the maps are small
 c_ntf_teamcountmultiplier = math.max(8 / Game.CountCivTeamsEverAlive(), 1)
 
-function countPlayerKeeperStacks(playerId)
+function CountPlayerKeeperStacks(playerId)
   local playerObj = Players[playerId]
   if playerObj:GetCivilizationType() == GameInfoTypes.CIVILIZATION_NTF_SENECA then
-    --create a table for this player or don't
+    --create a table for this player or don't if it already exists
     local uaTableName = string.format("senecaUAtable%s", playerId)
     MapModData.uaTableName = MapModData.uaTableName or {}
     local uaTable = MapModData.uaTableName
@@ -76,7 +76,7 @@ function KeeperPower(playerId)
         if unit:IsCombatUnit() then
           local keeperStacks = UnitGetKeeperStacks(playerId, unit)
           if keeperStacks > 0 then
-            local promotionName = 'PROMOTION_NTFSENECAKEEPER'..string(keeperStacks)
+            local promotionName = "PROMOTION_NTFSENECAKEEPER"..string(keeperStacks)
             unit.SetHasPromotion(GameInfoTypes[promotionName], true)
           else
             RemoveKeeperStacks(unit)
