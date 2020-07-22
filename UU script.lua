@@ -124,5 +124,6 @@ for playerId, playerObj in pairs(Players) do
     Events.SerialEventUnitSetDamage.Add(ListenSEUSD)
     GameEvents.PlayerDoTurn.Add(GetExtraMoveFromAdjacentEnemy)
     GameEvents.PlayerDoTurn.Add(ResetOnPT)
+    break
   end
 end
