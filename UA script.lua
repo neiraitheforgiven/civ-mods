@@ -4,10 +4,18 @@ include("Sukritact_saveutils.lua"); MY_MOD_NAME = "Neirai-Seneca-Lua";
 --normalize the UA to the number of Teams expected on a standard map.
 --We only care to do this when the maps are small
 c_ntf_teamcountmultiplier = math.max(8 / Game.CountCivTeamsEverAlive(), 1)
+NTF_SenecaId = GameInfoTypes.CIVILIZATION_NTF_SENECA
+NTF_UAPromo1 = GameInfoTypes.PROMOTION_NTFSENECAKEEPER1
+NTF_UAPromo2 = GameInfoTypes.PROMOTION_NTFSENECAKEEPER2
+NTF_UAPromo3 = GameInfoTypes.PROMOTION_NTFSENECAKEEPER3
+NTF_UAPromo4 = GameInfoTypes.PROMOTION_NTFSENECAKEEPER4
+NTF_UAPromo5 = GameInfoTypes.PROMOTION_NTFSENECAKEEPER5
+NTF_UAPromo6 = GameInfoTypes.PROMOTION_NTFSENECAKEEPER6
+
 
 function CountPlayerKeeperStacks(playerId)
   local playerObj = Players[playerId]
-  if playerObj:GetCivilizationType() == GameInfoTypes.CIVILIZATION_NTF_SENECA then
+  if playerObj:GetCivilizationType() == NTF_SenecaId then
     --create a table for this player or don't if it already exists
     local uaTableName = string.format("senecaUAtable%s", playerId)
     MapModData.uaTableName = MapModData.uaTableName or {}
@@ -18,7 +26,7 @@ function CountPlayerKeeperStacks(playerId)
       if entryPlayerObj:IsBarbarian() then
         if uaTable[entryPlayerId] = nil then
           table.insert(uaTable, entryPlayerId, 0)
-          continue 
+          continue
         end
       end
       if playerTeamObj:IsAtWar(entryPlayerObj:GetTeam()) then
@@ -49,7 +57,7 @@ end
 
 function KeeperPower(playerId)
   local playerObj = Players[playerId]
-  if playerObj:GetCivilizationType() == GameInfoTypes.CIVILIZATION_NTF_SENECA then
+  if playerObj:GetCivilizationType() == NTF_SenecaId then
     --don't bother to do this if we're not at war with anyone
     local weAreAtWar = false
     local playerTeamId = playerObj:GetTeam()
@@ -80,6 +88,7 @@ function KeeperPower(playerId)
       for unit in playerObj:Units() do
         if unit:IsCombatUnit() then
           if keeperStacks > 0 then
+            RemoveKeeperStacks(unit)
             local promotionName = "PROMOTION_NTFSENECAKEEPER"..string(keeperStacks)
             unit.SetHasPromotion(GameInfoTypes[promotionName], true)
           else
@@ -100,16 +109,16 @@ end
 
 
 function RemoveKeeperStacks(unit)
-  unit:SetHasPromotion(GameInfoTypes.PROMOTION_NTFSENECAKEEPER1, false)
-  unit:SetHasPromotion(GameInfoTypes.PROMOTION_NTFSENECAKEEPER2, false)
-  unit:SetHasPromotion(GameInfoTypes.PROMOTION_NTFSENECAKEEPER3, false)
-  unit:SetHasPromotion(GameInfoTypes.PROMOTION_NTFSENECAKEEPER4, false)
-  unit:SetHasPromotion(GameInfoTypes.PROMOTION_NTFSENECAKEEPER5, false)
-  unit:SetHasPromotion(GameInfoTypes.PROMOTION_NTFSENECAKEEPER6, false)
+  unit:SetHasPromotion(NTF_UAPromo1, false)
+  unit:SetHasPromotion(NTF_UAPromo2, false)
+  unit:SetHasPromotion(NTF_UAPromo3, false)
+  unit:SetHasPromotion(NTF_UAPromo4, false)
+  unit:SetHasPromotion(NTF_UAPromo5, false)
+  unit:SetHasPromotion(NTF_UAPromo6, false)
 end
 
 for _, player in pairs(Players) do
-  if player:GetCivilizationType() == CIVILIZATION_NTF_SENECA then
+  if player:GetCivilizationType() == NTF_SenecaId then
     GameEvents.DoPlayerTurn.Add(CountPlayerKeeperStacks)
     GameEvents.DoPlayerTurn.Add(KeeperPower)
     break
