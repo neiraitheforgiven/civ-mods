@@ -112,5 +112,6 @@ for _, player in pairs(Players) do
   if player:GetCivilizationType() == CIVILIZATION_NTF_SENECA then
     GameEvents.DoPlayerTurn.Add(CountPlayerKeeperStacks)
     GameEvents.DoPlayerTurn.Add(KeeperPower)
+    break
   end
 end
