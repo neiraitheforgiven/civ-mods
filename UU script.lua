@@ -13,7 +13,7 @@ function GetExtraMoveFromAdjacentEnemy(playerId)
   if playerObj:GetCivilizationType() == NTF_SenecaId then
     local playerTeamId = playerObj:GetTeam()
     for unitObj in playerObj:Units() do
-      if unitObj:IsHasPromotionType(NTF_IsGunner) then
+      if unitObj:IsHasPromotion(NTF_IsGunner) then
         if IsAdjacentToEnemy(playerId, playerTeamId, unitObj) then
           unitObj:SetHasPromotion(NTF_GunnerMoves, true)
         else
@@ -40,7 +40,7 @@ function IsAdjacentToEnemy(playerId, playerTeamId, unitObj)
           local plotUnit = plotInRange:GetUnit(0)
           local plotUnitPlayerId = plotUnit:GetOwner()
           if plotUnitPlayerId ~= playerId then
-            local otherTeamObj = Teams[plotUnitPlayerId]
+            local otherTeamObj = Teams[Players[plotUnitPlayerId]:GetTeam()]
             if otherTeamObj:IsAtWar(playerTeamId) then
               return true
             end
@@ -110,7 +110,7 @@ function ResetOnPT(playerId) -- all else has failed, we'll do this on the next t
   if playerId > 0 then
     playerObj = Players[playerId - 1]
   elseif playerId == 0 then
-    playerObj = Players[Game.CountCivPlayersEverAlive - 1]
+    playerObj = Players[Game.CountCivPlayersEverAlive() - 1]
   end
   for unitObj in playerObj:Units() do
     if unitObj:IsHasPromotion(NTF_Tortured) then
