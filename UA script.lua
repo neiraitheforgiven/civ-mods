@@ -23,33 +23,36 @@ function CountPlayerKeeperStacks(playerId)
     local playerTeamId = playerObj:GetTeam()
     local playerTeamObj = Teams[playerTeamId]
     for entryPlayerId, entryPlayerObj in pairs(Players) do
-      if entryPlayerObj:IsBarbarian() then
-        if uaTable[entryPlayerId] = nil then
-          table.insert(uaTable, entryPlayerId, 0)
-          continue
-        end
-      end
-      if playerTeamObj:IsAtWar(entryPlayerObj:GetTeam()) then
-        local numberOfWarringCivs = 0
-        for otherPlayerId, otherPlayerObj in pairs(Players) do
-          local otherTeamObj = Teams[otherPlayerId]
-          if not otherTeamObj:IsAtWar(playerTeamId) and 
-              otherTeamObj:IsAtWar(entryPlayerObj:GetTeam()) then
-            numberOfWarringCivs = numberOfWarringCivs + 1
+      repeat
+        if entryPlayerObj:IsBarbarian() then
+          if uaTable[entryPlayerId] = nil then
+            table.insert(uaTable, entryPlayerId, 0)
+            do break end
           end
         end
-        local numberOfSavedWarringCivs = uaTable[entryPlayerId]
-        if numberOfSavedWarringCivs = nil then
-          table.insert(uaTable, entryPlayerId, numberOfWarringCivs)
-        else
-          if numberOfWarringCivs > numberOfSavedWarringCivs then
-          uaTable[entryPlayerId] = numberOfWarringCivs
+        if playerTeamObj:IsAtWar(entryPlayerObj:GetTeam()) then
+          local numberOfWarringCivs = 0
+          for otherPlayerId, otherPlayerObj in pairs(Players) do
+            local otherTeamObj = Teams[otherPlayerId]
+            if not otherTeamObj:IsAtWar(playerTeamId) and 
+                otherTeamObj:IsAtWar(entryPlayerObj:GetTeam()) then
+              numberOfWarringCivs = numberOfWarringCivs + 1
+            end
+          end
+          local numberOfSavedWarringCivs = uaTable[entryPlayerId]
+          if numberOfSavedWarringCivs = nil then
+            table.insert(uaTable, entryPlayerId, numberOfWarringCivs)
+          else
+            if numberOfWarringCivs > numberOfSavedWarringCivs then
+              uaTable[entryPlayerId] = numberOfWarringCivs
+            end
+          end
+        else -- we're not at war with them any more (or maybe never were)
+          if uaTable[entryPlayerId] = nil then
+            table.insert(uaTable, entryPlayerId, 0)
+          end
         end
-      else -- we're not at war with them any more (or maybe never were)
-        if uaTable[entryPlayerId] = nil then
-          table.insert(uaTable, entryPlayerId, 0)
-        end
-      end
+      until true
     end
   end
 end
@@ -63,13 +66,9 @@ function KeeperPower(playerId)
     local playerTeamId = playerObj:GetTeam()
     local playerTeamObj = Teams[playerTeamId]
     for entryPlayerId, entryPlayerObj in pairs(Players) do
-      if entryPlayerObj:IsBarbarian then
-        continue
-      else
-        if playerTeamObj:IsAtWar(entryPlayerObj:GetTeam()) then
-          weAreAtWar = true
-          break
-        end
+      if entryPlayerObj and not entryPlayerObj:IsBarbarian() and 
+          playerTeamObj:IsAtWar(entryPlayerObj:GetTeam()) then
+        weAreAtWar = true
       end
     end
     if weAreAtWar then
@@ -90,7 +89,7 @@ function KeeperPower(playerId)
           if keeperStacks > 0 then
             RemoveKeeperStacks(unit)
             local promotionName = "PROMOTION_NTFSENECAKEEPER"..string(keeperStacks)
-            unit.SetHasPromotion(GameInfoTypes[promotionName], true)
+            unit:SetHasPromotion(GameInfoTypes[promotionName], true)
           else
             RemoveKeeperStacks(unit)
           end
@@ -119,8 +118,8 @@ end
 
 for _, player in pairs(Players) do
   if player:GetCivilizationType() == NTF_SenecaId then
-    GameEvents.DoPlayerTurn.Add(CountPlayerKeeperStacks)
-    GameEvents.DoPlayerTurn.Add(KeeperPower)
+    GameEvents.PlayerDoTurn.Add(CountPlayerKeeperStacks)
+    GameEvents.PlayerDoTurn.Add(KeeperPower)
     break
   end
 end
