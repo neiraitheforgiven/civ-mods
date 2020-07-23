@@ -12,7 +12,7 @@ function upkeepThreeSisterOutpost(playerId)
     for plotLoop = 0, Map.GetNumPlots() - 1, 1 do
       local Plot = Map.GetPlotByIndex(plotLoop)
       if Plot then
-        if Plot:GetImprovementType == NTF_3SisterOutpost then
+        if Plot:GetImprovementType() == NTF_3SisterOutpost then
           if Plot:IsImprovmentPillaged() then
             save(Plot, '3SisterStockpile', 0)
           else
@@ -45,7 +45,7 @@ function upkeepThreeSisterOutpost(playerId)
               end
             end
           end
-        elseif Plot:GetImprovementType == NTF_3SisterFarm then
+        elseif Plot:GetImprovementType() == NTF_3SisterFarm then
           if Plot:GetOwner() ~= playerId then
             Plot:SetImprovementType(NTF_3SisterOutpost)
           end
