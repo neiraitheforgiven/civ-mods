@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai -->
+<GameData>
+	<Language_en_US>
+		<!--=============================================================-->
+		<!-- Unique Unit - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_UNIT_MC_NTF_SENECA_SWIFT_STRIKE">
+			<Text>Swift Strike Warband</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_NTF_SENECA_SWIFT_STRIKE_HELP">
+			<Text>Musketman replacement unique to the Seneca. After attacking an enemy unit, that unit and all adjacent to it from the same civilization have -10% [ICON_STRENGTH] Combat Strength for their next turn. When starting a turn adjacent to an enemy unit, gains +1 [ICON_MOVES] Movement and may move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_NTF_SENECA_SWIFT_STRIKE_STRATEGY">
+			<Text>The Swift Strike Warband is an early gunpowder unit, unique to the Seneca. The Swift Strike Warband excels in close combat with multiple opponents, with attacks that cause nearby enemy units to lose combat strength for their next turn. In addition to this, when starting next to an enemy unit the Swift Strike Warband has an extra movement point and can move after attacking. Use these abilities in conjunction to quickly rout enemy forces and retreat to safety.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_NTF_SENECA_SWIFT_STRIKE_PEDIA">
+			<Text>An integral part of the military tactics of all members of the Iroquois Confederacy, but particularly that of the Seneca, was the use of techniques similar to guerrilla warfare. Seneca warbands would frequently ambush their opponents, making use of their experience with the local terrain and the network of waterways that crossed it. Once the Seneca adopted firearms, this was only more pronounced - their skill and accuracy with the new weapons took encroaching Europeans by surprise, while their abandonment of 'traditional' firearm strategies left European tactics useless. [NEWLINE][NEWLINE]Seneca warbands were highly sought after as allies by those around them. The Haudenosaunee (Iroqois Confederacy) valued the Seneca as "Keepers of the Western Door" who kept them safe from enemies to the the west. Seneca warbands would go out on excursions to recruit members for the band, or to secure fertile land for growing crops. The Europeans courted the Seneca to join their forces in wars against each other, and the introduction of guns and horses to the Seneca made them a formidable war force indeed.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Unique Improvement  - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS">
+			<Text>Three Sisters Outpost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS_HELP">
+			<Text>Boosts the [ICON_FOOD] Food output and [ICON_STRENGTH] Defensive bonus of the tile. If built outside Seneca territory, food yields are stored until the tile becomes Seneca land or a Seneca trade unit passes over it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_MC_LITE_NUBIAN_ROYAL_PYRAMID_TEXT">
+			<Text>The Three Sisters Outpost is a tile improvement unique to the Seneca, able to be built on plains, grassland, or tundra tiles with a source of Fresh Water. In addition to providing units stationed on the tile with +30% [ICON_STRENGTH] Combat Strength while defending, the Three Sisters Outpost provides the tile with additional [ICON_FOOD] Food. When built outside Seneca territory, this food is stored until the tile either becomes Seneca territory or a Seneca trade route passes over it, at which point the food is collected by the nearest city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS_PEDIA">
+			<Text>Construct a [LINK=IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS]Three Sisters Outpost[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MC_NTF_SENECA_THREE_SISTERS_HELP">
+			<Text>Provides +1 [ICON_FOOD] Food, additional +1 [ICON_FOOD] Food with Civil Service. +30% Strength on defense to units on this tile. Food accumulated if built outside Seneca territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MC_NTF_SENECA_THREE_SISTERS_REC">
+			<Text>It will increase the [ICON_FOOD] Food output of this tile, and increase the [ICON_STRENGTH] Strength of units stationed here.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Unique Ability  - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_TRAIT_MC_NTF_KEEPERS_OF_THE_WESTERN_DOOR_SHORT">
+			<Text>Keepers of the Western Door</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_MC_NTF_KEEPERS_OF_THE_WESTERN_DOOR">
+			<Text>While at war, units receive +5% [ICON_STRENGTH] Combat Strength while attacking for every non-enemy civilization at war with your enemy.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Mod Support - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<!--Unique Cultural Influence-->
+		<Row Tag="TXT_KEY_GENERIC_MC_NTF_SENECA_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are planting Corn, Squash, and Beans with each other and enlisting in the military -- I, uh, suppose that's not a bad thing, but I fear the rest of the world may succumb to your influence.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Misc Civ Text - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<!--Denonyms-->
+		<Row Tag="TXT_KEY_MC_NTF_SENECA">
+			<Text>The Seneca</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_MC_NTF_SENECA_DESC">
+			<Text>Empire of the Seneca</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_MC_NTF_SENECA_SHORT_DESC">
+			<Text>Seneca</Text>
+		</Row>-->
+		<Row Tag="TXT_KEY_MC_NTF_SENECA_ADJECTIVE">
+			<Text>Seneca</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Dawn of Man - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_MC_NTF_SENECA_TEXT">
+			<Text>Welcome, chief Cornplanter! In the days before American history was first put to the pen, your people, the Seneca were a mighty people who campaigned upon the Eastern lands of what would later be called the United States. The Seneca's influence flowed wide across your great continent, and was felt in the agricultural practices of peoples from the Mississippi to the Great Lakes, and from the frigid north to the swamplands of the south. It is across this great land that your people were renowned and feared as well, for yours was a powerful nation mastered in the ways of new weapons.[NEWLINE][NEWLINE]Shrewd Cornplanter! Your people were known for their military might, feared their ability to strike faster than a rattlesnake. Yet, to your kin and your allies, you were known for your protection and commitment to peace. Now is a new age, where strangers both peaceful and wicked will seek your hand in battle. Will you keep a watchful eye for threats to peace as you build a nation that will stand the test of time?</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Diplomacy Lines - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_FIRSTGREETING_1">
+			<Text>Hello, Strangers! It is the wish of me and my people to live peaceably and quietly with you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_FIRSTGREETING_2">
+			<Text>Welcome to the lands of the Seneca, stranger. Come, hear the wisdom of our Mothers, so we may be of one mind.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DEFEATED_1">
+			<Text>Our hearts are forever grieved by the fears of our women and children, for you have destroyed them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_REPEAT_TOO_MUCH_1">
+			<Text>You keep asking. I keep saying no. Perhaps you should go away and work to earn this for yourself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>Your people are lazy. They seek a way to get much without giving up anything.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_HOSTILE_HELLO_1">
+			<Text>Oh, so you have enough bravery to stand before me. You are not worth my efforts, but I would reward any of my warriors who struck you down in this moment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_POLITE_HELLO_1">
+			<Text>Welcome, my sister, my brother.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>Oh, my eyes do not betray me. I look upon one who would kill my people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_HUMAN_AT_WAR_1">
+			<Text>The Seneca are strong warriors, who strike swiftly in battle. How can aid you in your struggle?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Your forces gather. The Seneca are brave, and we will protect our people. Move, or we will move you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Do not test me. Do you not know that we Seneca are called the Keepers of the Western Door? We have never failed to close that door despite the fetid corpses of aggressors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_PLOT_BUYING_WARNING_1">
+			<Text>Your grasping at lands will leave us without corn for the winter. Stay your hand, and quiet your hand, friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>I say this, we are preparing for war. If you come nearer, you may find out for yourself how swiftly we may strike.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>Your grasping at lands will leave us without corn for the winter. Stay your hand, and quiet your hand, friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_HOSTILE_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>You take whatever you will. We will take it back, piece by piece. We will take you, too, piece by piece.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_EXPANSION_WARNING_1">
+			<Text>You are spreading your cities in such a way as to deny us a place to grow crops. Please do not do this, friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Your cities are a threat to our crops. This is not good. If it comes to starvation or war, know that we will choose war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_AGGRESSIVE_EXPANSION_1">
+			<Text>You have not consulted with those who live in these lands whether this was an acceptable and peacable place to found a city. I will be forced to defend our peoples.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_HOSTILE_AGGRESSIVE_EXPANSION_1">
+			<Text>Your cities are placed on the land of the Six Nations. They will burn, I promise you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>Ha! A powerful friend with powerful warriors is a sight that brings me joy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>It is good to see how well-fed and richly attired you families have become, friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>You should have come to us to learn the secrets to growing food in this land. But you scorned us instead. Now look at your small, starving families.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>You scorn the Seneca, and you want to fight us with what? A handful of men? Do you not know who we are? Have you not heard?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>You feel no remorse throwing away life like it is dirty water. The sight of all of the death on the battlefield disgusts us, turns our stomachs. Darkens our hearts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TOO_SOON_FOR_DOF_1">
+			<Text>Friends? No. The Seneca must keep a watch for things and ways that harm our peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DENOUNCE_1">
+			<Text>You are the worst kind of filth. One who throws away lives and harms women and children just so that you can live a life of luxury, never using your muscles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DENOUNCE_2">
+			<Text>You hear the sound of my cries. I am warning all who can hear that you are a threat to peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>You are forcing me to bring out the weapons that I wished never to see again. And for what?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HUMAN_DOFED_FRIEND_1">
+			<Text>Ahh, you are friends with {1_CivName}. They have been allies to the Seneca and the Six Nations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HUMAN_DOFED_ENEMY_1">
+			<Text>{1_CivName}? You have made yourself a friend of {1_CivName}? A shame. A real shame.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>You throw mud on the good name of {1_CivName}. We will not sit by and listen to this talk.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>The Seneca also have no love for {1_CivName}. Perhaps we will one day stand with you against them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>We are of one mind. I have also befriended {1_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>So. The serpent sheds its skin and is seen for what it is. Your alliegence with {1_CivName} reveals your character.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>We are of one mind. I have also denounced {1_CivName} and their ways.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_COOP_WAR_REQUEST_1">
+			<Text>The Seneca look for war against {1_CivName}. Will you join us? Together we are strongest.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_COOP_WAR_TIME_1">
+			<Text>You pledged to fight against {1_CivName} with us. Do not falter, or the Seneca will be left fighting alone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DEC_FRIENDSHIP_1">
+			<Text>Let us be friends. You will find the Seneca to be a steadfast and protective ally.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_RETURNED_CIVILIAN_1">
+			<Text>Our women were mourning and we were preparing to find someone to replace that one! But you have brought peace with this action!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_MINOR_CIV_COMPETITION_1">
+			<Text>Come. You must know that {1_MinorCivName:textkey} is kept most safe and happy when they learn from the Seneca.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_MINOR_CIV_COMPETITION_2">
+			<Text>You must not truly think that {1_MinorCivName:textkey} is worthy of starting emnity between my people and yours. Leave {1_MinorCivName:textkey} alone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DECLARATION_PROTECT_CITY_STATE_1">
+			<Text>2_MajorCivName:textkey} announces to the world that it is now protecting {1_MinorCivName:textkey}. Attacking the City-State will greatly damage relations and may lead to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DECLARATION_ABANDON_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} has taken back its guarantee of protecting {1_MinorCivName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_ATTACKED_PROTECTED_CITY_STATE_1">
+			<Text>You have attacked {@1_MinorCivName}, and she calls out to us for protection.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_BULLIED_PROTECTED_CITY_STATE_1">
+			<Text>You have attacked {@1_MinorCivName}, and she calls out to us for protection.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DONT_SETTLE_NO_1">
+			<Text>We have been planting and living off these lands through hundreds of summers and winters. Do not think that your recent arrival is a reason for us to stop.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DONT_SETTLE_YES_1">
+			<Text>We respect your claim on these lands, and only ask that in return, you treat us with similar respect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_LUXURY_TRADE_1">
+			<Text>Yes, we accept. This is the way to friendship between our nations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Let us travel freely in your lands. We will allow you to do the same.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_RESPONSE_REQUEST_1">
+			<Text>Come, in the times that are arriving, we will need your help in this matter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_ATTACKED_HOSTILE_1">
+			<Text>Yet another senseless war. Your lust for blood will be sated by your own.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_ATTACKED_EXCITED_1">
+			<Text>Ha! The Seneca do not have an empty name when we are called warriors, or striking serpents!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_ATTACKED_SAD_1">
+			<Text>You fight wars in such a senseless manner, where no glory is gained and your tribe just loses good men and women. Pathetic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_ATTACKED_BETRAYED_1">
+			<Text>Oh, I knew this would happen. I only prayed that it would not.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DOW_GENERIC_1">
+			<Text>You will see the might of the Seneca on the battlefield. It will be the sight that haunts your eyes as your head hangs on a spear.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DOW_GENERIC_2">
+			<Text>Or warriors will strike deep into your heart and drive you and your ways away from our Nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DOW_LAND_1">
+			<Text>We must build plantations and outposts with crops for the winter where the land allows us to. Which happens to be where your cities are.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DOW_WORLD_CONQUEST_1">
+			<Text>The Seneca, and the Six Nations, will cover the world, and we will govern the peoples of all of the lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DOW_OPPORTUNITY_1">
+			<Text>It seems to us that we will be rich, and well rewarded, if we overtake you. So we are no longer listening to the word of peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DOW_DESPERATE_1">
+			<Text>The Seneca must always keep the Six Nations safe. And if we must do it with war, so be it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DOW_BETRAYAL_1">
+			<Text>It seems to us that we will be rich, and well rewarded, if we overtake you. So we are no longer listening to the word of peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TOO_SOON_NO_PEACE_1">
+			<Text>The Seneca have not forgotten the bloodshed and fire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_BAD_1">
+			<Text>No.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_GOOD_1">
+			<Text>Yes. I agree to this.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Spy Names - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_SPY_NAME_MC_NTF_SENECA_0">
+			<Text>Handsome Lake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_NTF_SENECA_1">
+			<Text>Ah-wen-Eyu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_NTF_SENECA_2">
+			<Text>Governor Blacksnake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_NTF_SENECA_3">
+			<Text>Red Jacket</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_NTF_SENECA_4">
+			<Text>Half-King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_NTF_SENECA_5">
+			<Text>George</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_NTF_SENECA_6">
+			<Text>Chielf Halftown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_NTF_SENECA_7">
+			<Text>Destroy Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_NTF_SENECA_8">
+			<Text>Deerfoot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_NTF_SENECA_9">
+			<Text>Chief John Big Tree</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Civilopedias  - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<!--Civilisation Pedia-->
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_TITLE">
+			<Text>The Seneca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_TEXT_1">
+			<Text>The Seneca were one of the first Native American peoples that European colonists encounter. They were likely responsible for teaching Dutch, French, and English colonists how to grow crops in America and how to survive the winters. They were founding members of the Iroquios Confederacy and a powerful ally in both war and peace. Today, the Seneca are a thriving, if small, nation of people within the United States who look towards a bright future.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_TEXT_2">
+			<Text>While pre-columbian Seneca holdings may have been much larger, at the time of the American Revolution, the Seneca lived in a sizeable area south of Lake Ontario within what is now the State of New York. The land is a combination of northern lowlands bordering Lake Ontario, with a fertile plateau region to the south punctuated by long, thin lakes. This area is valued for its natural beauty and expansive farming potential.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_HEADING_3">
+			<Text>Pre-columbian influence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_TEXT_3">
+			<Text>Archaeologists have found evidence that in the time before the birth of the United States, the Seneca engaged in wars of conquest in what is now the Eastern United States. Evidence of Seneca weapons and agricultural practices can be found in areas as far west as the Mississippi River, and as far south as northern Florida. The Seneca were also founding members of the Iroquois Confederacy in approximately 1570; a government with a constitution that was remarkably advanced and influenced the government structure of the United States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_HEADING_4">
+			<Text>A Warrior People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_TEXT_4">
+			<Text>The Senece were positioned by the Iroquois Confederacy as the "Keepers of the Western Door". It was their responsibility to provide a diplomatic and martial defense for the rest of the Confederacy. Their warriors were feared for their quick strikes, and kept an ongoing animosity with some of the neighboring peoples, such as the Huron and the Neutrals. During the time of the Colonists, the Seneca continued to flex their military might, defeating enemy Native American peoples and forcing them to resettle in areas to increase the Seneca influence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_HEADING_5">
+			<Text>War with Colonists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_TEXT_5">
+			<Text>The Seneca were active partners in the fur trade, and they angered the French because of their interferance with the Huron, who were the French allies. The Seneca made trading alliegences with the Dutch and the English in order to fight off the French. The Seneca then successfully entertained a long-standing period of on-again, off-again combat against the French, which contributed to and was ultimately ended by the succession of French Canada to the British, Seneca allies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_HEADING_6">
+			<Text>American Revolution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_TEXT_6">
+			<Text>During the American Revolution, both the British and Americans courted the Seneca as their allies, but the Seneca vowed to remain neutral. However, the American people's obvious disdain for the Seneca and the lavish promises of the British eventually convinced the Seneca to join the war on the side of the British. The British intended to use the Seneca to harry American supply chains, but the Seneca took the fight into colonial towns. The scale of death and destruction in the American Revolution soon sickened the Seneca, however, and the American Army General John Sullivan embarked on a campaign to exterminate the Seneca, burning their homes, plantations, and every article of food that they could get at. The Seneca were forced into a retreat, successfully slowing Sullivan in order to save whomever they could from the brutal total war doctrine that Sullivan employed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_HEADING_7">
+			<Text>After the War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_TEXT_7">
+			<Text>Following the war, the Iroquois Confedracy dissolved and the Seneca sold much of their lands the Americans and accepted life on reservations. Most managed to remain in what had become New York and withstand relocations to other States. They also became allies of the Americans, fighting alongside them in other conflicts. Today, the Seneca still fight alongside the Americans -- the Seneca proudly provide the most enlisted men and women per capita of any people group in the United States.</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_FACTOID_HEADING">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_NTF_SENECA_FACTOID_TEXT ">
+			<Text>Placeholder</Text>
+		</Row>-->
+		<!--Leader Civilopedia-->
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_DESC">
+			<Text>Cornplanter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_LIVED">
+			<Text>c. 1740 - 1836</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_NAME">
+			<Text>Cornplanter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_SUBTITLE">
+			<Text>Chief of the Seneca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TITLES_1">
+			<Text>Kaiiontwa'kon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TITLES_2">
+			<Text>John Abeel III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TITLES_3">
+			<Text>Gaiant'wake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TEXT_1">
+			<Text>Cornplanter was a Seneca War Chief who led the Seneca through several wars with European and American colonists. But he is most remembered for his work after the American, soothing tensions between the Americans and the Seneca. He is remembered by the Americans as a hero, and was the first Native American to have a monument erected in his favor in the United States. It is possible that this work saved the Seneca Nation's cultural identity during a time of weakness and during the era of aggressive American campaigns to resettle and weaken Native peoples.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TEXT_2">
+			<Text>As with most Greek myth, Agamemnon's early life was full of family betrayal and tragedy. When Agamemnon was a child, his father, Altreus, murdered his nephews (Agamemnon's cousins) and fed them to his twin brother, Thysetes, in response to Thysetes committing adultery with Altreus's wife. Thysetes had another son - Aegisthus - by his own daughter (Greek myth was like this), who vowed revenge against Altreus and his sons. Aegisthus eventually murdered Altreus and installed his own father as king of Mycenae. Heeding the vow that Aegisthus had sworn against them, Agamemnon and his brother fled Mycenae and took refuge in Sparta. Here they both married daughters of King Tyndareus - Agamemnon to Clytemnestra, and his brother Menalaus to her sister, Helen. [NEWLINE][NEWLINE]Agamemnon and Menelaus eventually took their own revenge against Thyestes and Aegisthus, driving them both from Mycenae and recapturing the throne for their family. By this point, Menelaus had succeeded Tyndareus as king of Sparta, so the throne of Mycenae went to Agamemnon. As fate (or rather, the Fates) would have it, this was just the latest in a long line of murder, incest and treachery to take place within Agamemnon's family, all of which was due to the crimes of his ancestor, Tantalus (who was bad enough to warrant his own cruel punishment in Tartarus), causing a curse to be bestowed upon Pelops (his son) and their family by Myrtilus as he lay dying. Despite this unfortunate setback, Agamemnon was able to achieve greatness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HEADING_3">
+			<Text>The Trojan War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TEXT_3">
+			<Text>Following the kidnapping of his sister-in-law, Helen, Agamemnon set about mustering a vast army of Greek forces to wage war upon the Trojans. However, before even setting off, Agamemnon had been able to incur the wrath of Artemis. Whether this was on behalf of the young men who were being sent to die or because of Agamemnon slaying an animal sacred to her while boasting that he was her equal, the result was a variety of maladies including plague and a lack of wind (generally important when setting sail in this era). Desparate to appease Artemis, Agamemnon eventually sacrificed his own daughter, Iphigenia - satisfying Artemis and allowing the Greeks to sail.[NEWLINE][NEWLINE]Once at Troy, Agamemnon was a skilled soldier and commander-in-chief of the Greek forces. He is said to have killed hundreds of men on his own, and is recognised by Achilles as being the "best in strength and in throwing the spear." Unlike all other Greek soldiers and heroes spoken of in the Iliad, he never requires the support of the Gods in battle, and yet remains on equal footing with the divinely-favoured.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HEADING_4">
+			<Text>Return journey and death</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TEXT_4">
+			<Text>After ten long years, Troy had fallen, and Agamemnon could return home with the rest of the Greek army. Although not quite as prone to being blown off track by vengeful Gods as some of his contemporaries, Agamemnon was nonetheless still subject to the curse which had befallen his family. Upon his return to Greece he discovered that his wife, Clytemnestra, had taken his cousin Aegisthus as a lover. Never having forgotten his vow to exact revenge upon Agamemnon, he announces a feast to celebrate the latter's successful return from war. As Agamemnon entered the dining hall, however, Aegisthus ambushed and murdered him, taking the throne of Mycenae for himself. This, of course, furthered the feud within the family, and Aegisthus and Clytemnestra were in turn murdered by Agamemnon's son, Orestes. Naturally, this resulted in Orestes being pursued relentlessly by the Furies and incurring his own dramatic tale of redemption, but that is for another time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_FACTOID_HEADING">
+			<Text>Agamemnon Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_FACTOID_TEXT">
+			<Text>Despite his death upon his return to Greece, Agamemnon is still able to make a guest appearance in the Odyssey as Odysseus descends to the underworld. Evidently making the most of his brief encounter, he uses it to warn Odysseus not to trust women.[NEWLINE][NEWLINE]The fortunes of Agamemnon have formed the subject of numerous tragedies, ancient and modern, the most famous being the Oresteia of Aeschylus. In the legends of the Peloponnesus, Agamemnon was regarded as the highest type of a powerful monarch, and in Sparta he was worshipped under the title of Zeus Agamemnon. His tomb was pointed out among the ruins of Mycenae and at Amyclae. </Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- City List - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_GANONDAGAN">
+			<Text>Ganondagan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_NUNDAWAO">
+			<Text>Nundawao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_GENUNDOWA">
+			<Text>Genundowa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_KANAWAGAS">
+			<Text>Kanawagas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_CHENUSSIO">
+			<Text>Chenussio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_KAYAHSUTOKE">
+			<Text>Kayahsuto'ke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_OHIO">
+			<Text>Ohio'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_KAOTO">
+			<Text>Kaoto'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_THANONOKEO">
+			<Text>Thanonokeo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_ONOTAKE">
+			<Text>Onota'ke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_KATAEAEKESKEO">
+			<Text>Ka'taeaekeskeo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_TOSYOWE">
+			<Text>Tosyowe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_THANOWOTE">
+			<Text>Thanowote</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_TKETSOA">
+			<Text>Tketsoa'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_TYOETSESYO">
+			<Text>Tyoetse'syo'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_SKANEHTATI">
+			<Text>Skanehtati</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_WASTOKE">
+			<Text>Wasto'ke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_KASTEEKO">
+			<Text>Kasteeko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_KANYEKE">
+			<Text>Kanye'ke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_KANOWOKO">
+			<Text>Kanowoko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_TSYOKOWOTI">
+			<Text>Tsyokowoti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_SWEKE">
+			<Text>Sweke'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_KAYAHAKE">
+			<Text>Kayaha'ke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_TSYONESHIYO">
+			<Text>Tsyoneshiyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_TYOSSKWAEAETASE">
+			<Text>Tyos'skwaeaetase</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_KANOKTIYOKE">
+			<Text>Kanoktiyo'ke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_HEYOOKE">
+			<Text>Heyooke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_TWASKO">
+			<Text>Twasko'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_HATEYOYAYAKTO">
+			<Text>Ha'teyoyaya'kto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_NTF_SENECA_TYONOHSATEKE">
+			<Text>Tyonohsateke'</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
