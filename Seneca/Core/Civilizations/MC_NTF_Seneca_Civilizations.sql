@@ -11,7 +11,7 @@ FROM Civilizations WHERE (Type = 'CIVILIZATION_IROQUOIS');
 --==========================================================================================================================		
 INSERT INTO Civilization_Leaders 
 			(CivilizationType, 				LeaderheadType)
-VALUES		('CIVILIZATION_MC_NTF_SENECA', 	'LEADER_MC_CORNPLANTER');
+VALUES		('CIVILIZATION_MC_NTF_SENECA', 	'LEADER_MC_NTF_CORNPLANTER');
 
 --==========================================================================================================================	
 -- Civilization_FreeBuildingClasses

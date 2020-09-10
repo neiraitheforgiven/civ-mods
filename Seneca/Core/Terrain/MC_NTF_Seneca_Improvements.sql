@@ -3,7 +3,8 @@
 --==========================================================================================================================	
 INSERT INTO Improvements
 		(Type,											SpecificCivRequired,	CivilizationType,					FreshWaterMakesValid,	OutsideBorders,	DefenseModifier,	Description,										Help,													 Civilopedia,												ArtDefineTag,										PortraitIndex,	IconAtlas)
-VALUES	('IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS',		1,						'CIVILIZATION_MC_NTF_SENECA',		1,						1,				30,					'TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS',	'TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS_HELP',	 'TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS_PEDIA',	'ART_DEF_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS', 	3,				'MC_NTF_SENECA_ATLAS');
+VALUES	('IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS',		1,						'CIVILIZATION_MC_NTF_SENECA',		1,						1,				30,					'TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS',	'TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS_HELP',	 'TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS_PEDIA',	'ART_DEF_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS', 	3,				'MC_NTF_SENECA_ATLAS'),
+        ('IMPROVEMENT_MC_NTF_SENECA_OUTPOST',           1,                      'CIVILIZATION_MC_NTF_SENECA',       1,                      1,              30,                 'TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS',  'TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS_HELP',  'TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS_PEDIA',   'ART_DEF_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS',  3,              'MC_NTF_SENECA_ATLAS');
 
 --==========================================================================================================================	
 -- Improvement_ValidTerrains
@@ -12,7 +13,10 @@ INSERT INTO Improvement_ValidTerrains
 		(ImprovementType,								TerrainType)
 VALUES	('IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS',		'TERRAIN_GRASSLAND'),
 		('IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS',		'TERRAIN_TUNDRA'),
-		('IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS',		'TERRAIN_PLAINS');
+		('IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS',		'TERRAIN_PLAINS'),
+        ('IMPROVEMENT_MC_NTF_SENECA_OUTPOST',           'TERRAIN_GRASSLAND'),
+        ('IMPROVEMENT_MC_NTF_SENECA_OUTPOST',           'TERRAIN_TUNDRA'),
+        ('IMPROVEMENT_MC_NTF_SENECA_OUTPOST',           'TERRAIN_PLAINS');
 
 --==========================================================================================================================	
 -- Improvement_Yields
