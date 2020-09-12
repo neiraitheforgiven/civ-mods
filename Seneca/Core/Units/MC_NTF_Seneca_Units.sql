@@ -79,7 +79,7 @@ PediaType,                                PediaEntry,                           
 'AS2D_IF_LEVELUP',                        1,                30,         30,           59,             'ABILITY_ATLAS',
 'PEDIA_ATTRIBUTES',                       'TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER6', null, 0, 0, 0),
 
-('PROMOTION_MC_NTF_SENECA_GUNNER',        'TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER_HINT',   'TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER_HINT',
+('PROMOTION_MC_NTF_SENECAKEEPER_HINT',    'TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER_HINT',   'TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER_HINT',
 'AS2D_IF_LEVELUP',                        1,                null,       null,         59,             'ABILITY_ATLAS',
 'PEDIA_ATTRIBUTES',                       'TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER_HINT', null, 0, 0, 0),
 

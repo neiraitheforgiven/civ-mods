@@ -101,6 +101,13 @@ INSERT INTO Traits
 VALUES		('TRAIT_MC_NTF_KEEPERS_OF_THE_WESTERN_DOOR',	'TXT_KEY_TRAIT_MC_NTF_KEEPERS_OF_THE_WESTERN_DOOR',	'TXT_KEY_TRAIT_MC_NTF_KEEPERS_OF_THE_WESTERN_DOOR_SHORT');
 
 --==========================================================================================================================	
+-- Trait_FreePromotions
+--==========================================================================================================================				
+INSERT INTO Trait_FreePromotions
+			(TraitType,										PromotionType)
+VALUES		('TRAIT_MC_NTF_KEEPERS_OF_THE_WESTERN_DOOR',	'PROMOTION_MC_NTF_SENECAKEEPER_HINT');
+
+--==========================================================================================================================	
 -- Leader_Traits
 --==========================================================================================================================				
 INSERT INTO Leader_Traits
