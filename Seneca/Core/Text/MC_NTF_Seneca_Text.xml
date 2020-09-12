@@ -45,7 +45,7 @@
 			<Text>Keepers of the Western Door</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_MC_NTF_KEEPERS_OF_THE_WESTERN_DOOR">
-			<Text>While at war, units receive +5% [ICON_STRENGTH] Combat Strength while attacking for every non-enemy civilization at war with your enemy.</Text>
+			<Text>While at war, units receive +5% [ICON_STRENGTH] Combat Strength while attacking for every non-enemy civilization at war with your enemy, doubled when adjacent to a friendly unit.</Text>
 		</Row>
 		<!--=============================================================-->
 		<!-- Mod Support - - - - - - - - - - - - - - - - - - - - - - - - -->
