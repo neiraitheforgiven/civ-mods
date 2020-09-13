@@ -3,7 +3,7 @@
 --==========================================================================================================================
 INSERT INTO ArtDefine_StrategicView
             (StrategicViewType,								TileType,   Asset)
-VALUES      ('ART_DEF_UNIT_MC_NTF_SENECA_SWIFT_STRIKE',		'Unit',     'sv_SwiftStrike.dds');
+VALUES      ('ART_DEF_UNIT_MC_NTF_SENECA_SWIFT_STRIKE',		'Unit',     'sv_Enchophoros.dds');
 --==========================================================================================================================
 -- ArtDefine_UnitInfos
 --==========================================================================================================================           
@@ -16,9 +16,9 @@ FROM ArtDefine_UnitInfos WHERE  (Type = 'ART_DEF_UNIT_INFANTRY');
 --==========================================================================================================================   
 INSERT INTO ArtDefine_UnitInfoMemberInfos  
             (UnitInfoType,									UnitMemberInfoType,										NumMembers)
-VALUES		('ART_DEF_UNIT_MC_NTF_SENECA_SWIFT_STRIKE',		'ART_DEF_UNIT_MEMBER_MC_NTF_SENECA_SWIFT_STRIKE_1',		4),
-			('ART_DEF_UNIT_MC_NTF_SENECA_SWIFT_STRIKE',		'ART_DEF_UNIT_MEMBER_MC_NTF_SENECA_SWIFT_STRIKE_2',		5),
-			('ART_DEF_UNIT_MC_NTF_SENECA_SWIFT_STRIKE',		'ART_DEF_UNIT_MEMBER_MC_NTF_SENECA_SWIFT_STRIKE_3',		5);
+VALUES		('ART_DEF_UNIT_MC_NTF_SENECA_SWIFT_STRIKE',		'ART_DEF_UNIT_MEMBER_MC_NTF_SENECA_SWIFT_STRIKE_1',		3),
+			('ART_DEF_UNIT_MC_NTF_SENECA_SWIFT_STRIKE',		'ART_DEF_UNIT_MEMBER_MC_NTF_SENECA_SWIFT_STRIKE_2',		3),
+			('ART_DEF_UNIT_MC_NTF_SENECA_SWIFT_STRIKE',		'ART_DEF_UNIT_MEMBER_MC_NTF_SENECA_SWIFT_STRIKE_3',		3);
 
 --==========================================================================================================================
 -- ArtDefine_UnitMemberCombats
@@ -71,12 +71,12 @@ FROM ArtDefine_UnitMemberInfos WHERE (Type = 'ART_DEF_UNIT_MEMBER_RIFLEMAN');
 INSERT INTO ArtDefine_UnitMemberInfos  
             (Type,														Scale, ZOffset, Domain, Model, MaterialTypeTag, MaterialTypeSoundOverrideTag)
 SELECT      ('ART_DEF_UNIT_MEMBER_MC_NTF_SENECA_SWIFT_STRIKE_2'),		Scale, ZOffset, Domain, ('civ5_irorm_2.fxsxml'), MaterialTypeTag, MaterialTypeSoundOverrideTag
-FROM ArtDefine_UnitMemberInfos WHERE (Type = 'ART_DEF_UNIT_MEMBER_RIFLEMAN');*/
+FROM ArtDefine_UnitMemberInfos WHERE (Type = 'ART_DEF_UNIT_MEMBER_RIFLEMAN');
 
 
 INSERT INTO ArtDefine_UnitMemberInfos  
             (Type,														Scale, ZOffset, Domain, Model, MaterialTypeTag, MaterialTypeSoundOverrideTag)
 SELECT      ('ART_DEF_UNIT_MEMBER_MC_NTF_SENECA_SWIFT_STRIKE_3'),		Scale, ZOffset, Domain, ('civ_irorm2.fxsxml'), MaterialTypeTag, MaterialTypeSoundOverrideTag
-FROM ArtDefine_UnitMemberInfos WHERE (Type = 'ART_DEF_UNIT_MEMBER_RIFLEMAN');*/
+FROM ArtDefine_UnitMemberInfos WHERE (Type = 'ART_DEF_UNIT_MEMBER_RIFLEMAN');
 --==========================================================================================================================
 --==========================================================================================================================

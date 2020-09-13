@@ -103,9 +103,10 @@ VALUES		('TRAIT_MC_NTF_KEEPERS_OF_THE_WESTERN_DOOR',	'TXT_KEY_TRAIT_MC_NTF_KEEPE
 --==========================================================================================================================	
 -- Trait_FreePromotions
 --==========================================================================================================================				
-INSERT INTO Trait_FreePromotions
-			(TraitType,										PromotionType)
-VALUES		('TRAIT_MC_NTF_KEEPERS_OF_THE_WESTERN_DOOR',	'PROMOTION_MC_NTF_SENECAKEEPER_HINT');
+INSERT INTO Trait_FreePromotionUnitCombats
+			(TraitType,										UnitCombatType, 												PromotionType)
+SELECT	'TRAIT_MC_NTF_KEEPERS_OF_THE_WESTERN_DOOR',	Type,									'PROMOTION_MC_NTF_SENECAKEEPER_HINT'
+FROM UnitCombatInfos;
 
 --==========================================================================================================================	
 -- Leader_Traits

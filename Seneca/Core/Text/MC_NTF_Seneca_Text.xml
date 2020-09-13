@@ -26,7 +26,7 @@
 		<Row Tag="TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS_HELP">
 			<Text>Boosts the [ICON_FOOD] Food output and [ICON_STRENGTH] Defensive bonus of the tile. If built outside Seneca territory, food yields are stored until the tile becomes Seneca land or a Seneca trade unit passes over it.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIVILOPEDIA_MC_LITE_NUBIAN_ROYAL_PYRAMID_TEXT">
+		<Row Tag="TXT_KEY_CIVILOPEDIA_MC_NTF_SENECA_THREE_SISTERS_TEXT">
 			<Text>The Three Sisters Outpost is a tile improvement unique to the Seneca, able to be built on plains, grassland, or tundra tiles with a source of Fresh Water. In addition to providing units stationed on the tile with +30% [ICON_STRENGTH] Combat Strength while defending, the Three Sisters Outpost provides the tile with additional [ICON_FOOD] Food. When built outside Seneca territory, this food is stored until the tile either becomes Seneca territory or a Seneca trade route passes over it, at which point the food is collected by the nearest city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS_PEDIA">
@@ -46,6 +46,81 @@
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_MC_NTF_KEEPERS_OF_THE_WESTERN_DOOR">
 			<Text>While at war, units receive +5% [ICON_STRENGTH] Combat Strength while attacking for every non-enemy civilization at war with your enemy, doubled when adjacent to a friendly unit.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Unit Promotions - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER1">
+			<Text>Battle Keepers 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER1_HELP">
+			<Text>Deal an addition 5% damage when attacking, doubled when adjacent to a friendly unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER2">
+			<Text>Battle Keepers 2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER2_HELP">
+			<Text>Deal an addition 10% damage when attacking, doubled when adjacent to a friendly unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER3">
+			<Text>Battle Keepers 3</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER3_HELP">
+			<Text>Deal an addition 15% damage when attacking, doubled when adjacent to a friendly unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER4">
+			<Text>Battle Keepers 4</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER4_HELP">
+			<Text>Deal an addition 20% damage when attacking, doubled when adjacent to a friendly unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER5">
+			<Text>Battle Keepers 5</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER5_HELP">
+			<Text>Deal an addition 25% damage when attacking, doubled when adjacent to a friendly unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER6">
+			<Text>Battle Keepers 6</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER6_HELP">
+			<Text>Deal an addition 30% damage when attacking, doubled when adjacent to a friendly unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER_HINT">
+			<Text>Keepers of the Western Door</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECAKEEPER_HINT_HELP">
+			<Text>Each other player that joins you in a war against a common foe increases unit damage by 5% (max 30%) until that war ends, doubled when adjacent to a friendly unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_GUNNER">
+			<Text>Swift Striker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_GUNNER_HELP">
+			<Text>Gains +1 Movement and the ability to move after attacking when starting adjacent to an enemy unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_GUNNER_MOVES">
+			<Text>Snake-like Swiftness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_GUNNER_MOVES_HELP">
+			<Text>+1 Movement. Can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_BEFORERANDOM">
+			<Text>Demoralizing Attacks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_BEFORERANDOM_HELP">
+			<Text>Attacking an enemy unit causes all adjacent enemy units to suffer a -10% combat penalty until the end of that player's next turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_AFTERRANDOM">
+			<Text>Enemy Demoralized!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_AFTERRANDOM_HELP">
+			<Text>Attacking an enemy unit causes all adjacent enemy units to suffer a -10% combat penalty until the end of that player's next turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_NERFBAT">
+			<Text>Tortured Losses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_NERFBAT_HELP">
+			<Text>=10% combat strength due to demoralising eyewitness accounts</Text>
 		</Row>
 		<!--=============================================================-->
 		<!-- Mod Support - - - - - - - - - - - - - - - - - - - - - - - - -->

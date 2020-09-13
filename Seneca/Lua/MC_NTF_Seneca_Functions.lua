@@ -1,5 +1,5 @@
 include("FLuaVector.lua")
-include("Sukritact_saveutils.lua"); MY_MOD_NAME = "Neirai-Seneca-Lua";
+include("Sukritact_SaveUtils.lua"); MY_MOD_NAME = "Neirai-Seneca-Lua";
 
 --normalize the UA to the number of Teams expected on a standard map.
 --We only care to do this when the maps are small
@@ -19,36 +19,43 @@ function CountPlayerKeeperStacks(playerId)
     local uaTableName = string.format("senecaUAtable%s", playerId)
     MapModData.uaTableName = MapModData.uaTableName or {}
     local uaTable = MapModData.uaTableName
+    print(tostring(uaTable))
     local playerTeamId = playerObj:GetTeam()
     local playerTeamObj = Teams[playerTeamId]
     for entryPlayerId, entryPlayerObj in pairs(Players) do
       repeat
         if entryPlayerObj:IsBarbarian() then
-          if uaTable[entryPlayerId] = nil then
+          if uaTable[entryPlayerId] == nil then
             table.insert(uaTable, entryPlayerId, 0)
+            print('inserted barbarian')
             do break end
           end
         end
         if playerTeamObj:IsAtWar(entryPlayerObj:GetTeam()) then
           local numberOfWarringCivs = 0
           for otherPlayerId, otherPlayerObj in pairs(Players) do
-            local otherTeamObj = Teams[otherPlayerId]
-            if not otherTeamObj:IsAtWar(playerTeamId) and 
-                otherTeamObj:IsAtWar(entryPlayerObj:GetTeam()) then
-              numberOfWarringCivs = numberOfWarringCivs + 1
+            if otherPlayerId ~= playerId then
+              local otherTeamObj = Teams[otherPlayerId]
+              if not otherTeamObj:IsAtWar(playerTeamId) and 
+                  otherTeamObj:IsAtWar(entryPlayerObj:GetTeam()) then
+                numberOfWarringCivs = numberOfWarringCivs + 1
+              end
             end
           end
           local numberOfSavedWarringCivs = uaTable[entryPlayerId]
-          if numberOfSavedWarringCivs = nil then
+          if numberOfSavedWarringCivs == nil then
             table.insert(uaTable, entryPlayerId, numberOfWarringCivs)
+            print('inserted ' .. tostring(numberOfWarringCivs) .. ' for player ' .. tostring(entryPlayerId))
           else
             if numberOfWarringCivs > numberOfSavedWarringCivs then
               uaTable[entryPlayerId] = numberOfWarringCivs
+               print('inserted ' .. tostring(numberOfWarringCivs) .. ' for player ' .. tostring(entryPlayerId))
             end
           end
         else -- we're not at war with them any more (or maybe never were)
-          if uaTable[entryPlayerId] = nil then
+          if uaTable[entryPlayerId] == nil then
             table.insert(uaTable, entryPlayerId, 0)
+             print('inserted 0 for player ' .. tostring(entryPlayerId))
           end
         end
       until true
@@ -73,23 +80,29 @@ function KeeperPower(playerId)
     if weAreAtWar then
       local uaTableName = string.format("senecaUAtable%s", playerId)
       local uaTable = MapModData.uaTableName
+      print(tostring(uaTable))
       local keeperStacks = 0
       for enemyPlayerId, enemyPlayerObj in pairs(Players) do
-        local stacks = uaTable.enemyPlayerId
-        if stacks >= 6 then
-          keeperStacks = 6
-          break
-        elseif stacks > keeperStacks then
-          keeperStacks = stacks
+        local stacks = uaTable[enemyPlayerId]
+        print('loaded ' .. tostring(stacks) .. ' stacks for player ' .. tostring(enemyPlayerId))
+        if stacks then
+          if stacks >= 6 then
+            keeperStacks = 6
+            break
+          elseif stacks > keeperStacks then
+            keeperStacks = stacks
+          end
         end
       end
       for unit in playerObj:Units() do
         if unit:IsCombatUnit() then
           if keeperStacks > 0 then
             RemoveKeeperStacks(unit)
-            local promotionName = "PROMOTION_MC_NTF_SENECAKEEPER"..string(keeperStacks)
+            local promotionName = "PROMOTION_MC_NTF_SENECAKEEPER"..tostring(keeperStacks)
             unit:SetHasPromotion(GameInfoTypes[promotionName], true)
+            print('we found stacks, there should be promotions')
           else
+            print('no stacks, removing promotions')
             RemoveKeeperStacks(unit)
           end
         end
@@ -126,10 +139,10 @@ function upkeepThreeSisterOutpost(playerId)
       local Plot = Map.GetPlotByIndex(plotLoop)
       if Plot then
         if Plot:GetImprovementType() == MC_NTF_3SisterOutpost then
-          if Plot:IsImprovmentPillaged() then
+          if Plot:IsImprovementPillaged() then
             save(Plot, '3SisterStockpile', 0)
           else
-            if Plot:GetOwner() = playerId then
+            if Plot:GetOwner() == playerId then
               local stockpile = load(Plot, '3SisterStockpile')
               if stockpile > 0 then
                 local minDistance = 999999999
@@ -144,7 +157,7 @@ function upkeepThreeSisterOutpost(playerId)
                   end
                 end
                 if closestCity then
-                  City:ChangeFood(stockpile)
+                  closestCity:ChangeFood(stockpile)
                   save(Plot, '3SisterStockpile', 0)
                   Plot:SetImprovementType(MC_NTF_3SisterFarm)
                 end
@@ -183,6 +196,7 @@ function GetExtraMoveFromAdjacentEnemy(playerId)
       if unitObj:IsHasPromotion(MC_NTF_IsGunner) then
         if IsAdjacentToEnemy(playerId, playerTeamId, unitObj) then
           unitObj:SetHasPromotion(MC_NTF_GunnerMoves, true)
+          unitObj:ChangeMoves(1)
         else
           unitObj:SetHasPromotion(MC_NTF_GunnerMoves, false)
         end
@@ -222,7 +236,14 @@ end
 function ListenSEUSD(playerId, unitId, newDamage, oldDamage)
   if newDamage > oldDamage then --filter out heals
     local playerObj = Players[playerId]
-    local unitObj = PlayerObj:GetUnitById(unitId)
+    if not playerObj then
+      --this unit is probably a barbarian
+      return
+    end
+    local unitObj = playerObj:GetUnitByID(unitId)
+    if not unitObj then
+      return
+    end
     if not unitObj:IsHasPromotion(MC_NTF_AfterRandom) then
       local unitPlot = unitObj:GetPlot()
       --this unit took damage from somewhere, check around for a unit that dealt damage
@@ -233,25 +254,27 @@ function ListenSEUSD(playerId, unitId, newDamage, oldDamage)
           if adjPlot:GetNumUnits() > 0 then
             for j = 0, adjPlot:GetNumUnits() - 1 do
               local adjPlotUnitObj = adjPlot:GetUnit(j)
-              if adjacentPlotUnitObj:IsHasPromotion(MC_NTF_AfterRandom) then
+              if adjPlotUnitObj:IsHasPromotion(MC_NTF_AfterRandom) then
                 --this is the unit that did the thing                
                 --which means unitObj is the guy we attacked
+                print('Setting an ' .. tostring(unitObj:GetUnitType()) .. ' to tortured.')
                 unitObj:SetHasPromotion(MC_NTF_Tortured, true)
                 for k = 0, 5 do
                   local otherPlot = Map.PlotDirection(unitPlot:GetX(), unitPlot:GetY(), k);
                   if otherPlot ~= nil then
                     if otherPlot:GetNumUnits() > 0 then
-                      for m - 0, otherPlot:GetNumUnits() - 1 do
+                      for m = 0, otherPlot:GetNumUnits() - 1 do
                         local otherPlotUnitObj = otherPlot:GetUnit(m)
-                        if otherPlotUnitObj:GetOwner() == adjacentPlotUnitObj:GetOwner() then
+                        if otherPlotUnitObj:GetOwner() == unitObj:GetOwner() then
+                          print('Setting an ' .. tostring(otherPlotUnitObj:GetUnitType()) .. ' to tortured.')
                           otherPlotUnitObj:SetHasPromotion(MC_NTF_Tortured, true)
                         end
                       end
                     end
                   end
                 end
-                adjacentPlotUnitObj:SetHasPromotion(MC_NTF_AfterRandom, false)
-                adjacentPlotUnitObj:SetHasPromotion(MC_NTF_BeforeRandom, true)
+                adjPlotUnitObj:SetHasPromotion(MC_NTF_AfterRandom, false)
+                adjPlotUnitObj:SetHasPromotion(MC_NTF_BeforeRandom, true)
                 return -- we found the dude, stop doing anything.
               end
             end
@@ -288,11 +311,12 @@ end
 
 for _, player in pairs(Players) do
   if player:GetCivilizationType() == MC_NTF_SenecaId then
+    print('Seneca found. Loading functions')
     Events.SerialEventUnitSetDamage.Add(ListenSEUSD)
-    GameEvents.PlayerDoTurn.Add(GetExtraMoveFromAdjacentEnemy)
-    GameEvents.PlayerDoTurn.Add(ResetOnPT)
     GameEvents.PlayerDoTurn.Add(CountPlayerKeeperStacks)
+    GameEvents.PlayerDoTurn.Add(GetExtraMoveFromAdjacentEnemy)
     GameEvents.PlayerDoTurn.Add(KeeperPower)
+    GameEvents.PlayerDoTurn.Add(ResetOnPT)
     GameEvents.PlayerDoTurn.Add(upkeepThreeSisterOutpost)
     break
   end
