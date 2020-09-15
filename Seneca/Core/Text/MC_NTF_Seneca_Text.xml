@@ -24,10 +24,10 @@
 			<Text>Three Sisters Outpost</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS_HELP">
-			<Text>Boosts the [ICON_FOOD] Food output and [ICON_STRENGTH] Defensive bonus of the tile. If built outside Seneca territory, food yields are stored until the tile becomes Seneca land or a Seneca trade unit passes over it.</Text>
+			<Text>Boosts the [ICON_FOOD] Food output and [ICON_STRENGTH] Defensive bonus of the tile. If built outside Seneca territory, 1 [ICON_FOOD] Food is stored every turn until the tile becomes Seneca land.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_MC_NTF_SENECA_THREE_SISTERS_TEXT">
-			<Text>The Three Sisters Outpost is a tile improvement unique to the Seneca, able to be built on plains, grassland, or tundra tiles with a source of Fresh Water. In addition to providing units stationed on the tile with +30% [ICON_STRENGTH] Combat Strength while defending, the Three Sisters Outpost provides the tile with additional [ICON_FOOD] Food. When built outside Seneca territory, this food is stored until the tile either becomes Seneca territory or a Seneca trade route passes over it, at which point the food is collected by the nearest city.</Text>
+			<Text>The Three Sisters Outpost is a tile improvement unique to the Seneca, able to be built on plains, grassland, or tundra tiles with a source of Fresh Water or without hills. In addition to providing units stationed on the tile with +30% [ICON_STRENGTH] Combat Strength while defending, the Three Sisters Outpost provides the tile with additional [ICON_FOOD] Food. When built outside Seneca territory, this food is stored until the tile becomes Seneca territory, at which point the food is collected by the nearest city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS_PEDIA">
 			<Text>Construct a [LINK=IMPROVEMENT_MC_NTF_SENECA_THREE_SISTERS]Three Sisters Outpost[\LINK]</Text>
@@ -120,7 +120,7 @@
 			<Text>Tortured Losses</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_NERFBAT_HELP">
-			<Text>=10% combat strength due to demoralising eyewitness accounts</Text>
+			<Text>=10% combat strength due to demoralising eyewitness accounts.</Text>
 		</Row>
 		<!--=============================================================-->
 		<!-- Mod Support - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -467,25 +467,49 @@
 			<Text>Early Life</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TEXT_2">
-			<Text>As with most Greek myth, Agamemnon's early life was full of family betrayal and tragedy. When Agamemnon was a child, his father, Altreus, murdered his nephews (Agamemnon's cousins) and fed them to his twin brother, Thysetes, in response to Thysetes committing adultery with Altreus's wife. Thysetes had another son - Aegisthus - by his own daughter (Greek myth was like this), who vowed revenge against Altreus and his sons. Aegisthus eventually murdered Altreus and installed his own father as king of Mycenae. Heeding the vow that Aegisthus had sworn against them, Agamemnon and his brother fled Mycenae and took refuge in Sparta. Here they both married daughters of King Tyndareus - Agamemnon to Clytemnestra, and his brother Menalaus to her sister, Helen. [NEWLINE][NEWLINE]Agamemnon and Menelaus eventually took their own revenge against Thyestes and Aegisthus, driving them both from Mycenae and recapturing the throne for their family. By this point, Menelaus had succeeded Tyndareus as king of Sparta, so the throne of Mycenae went to Agamemnon. As fate (or rather, the Fates) would have it, this was just the latest in a long line of murder, incest and treachery to take place within Agamemnon's family, all of which was due to the crimes of his ancestor, Tantalus (who was bad enough to warrant his own cruel punishment in Tartarus), causing a curse to be bestowed upon Pelops (his son) and their family by Myrtilus as he lay dying. Despite this unfortunate setback, Agamemnon was able to achieve greatness.</Text>
+			<Text>Cornplanter -- known as Gyantwachia or Kaiiontwa'kon, meaning "Planter" or "By What One Plants" -- was born to a Seneca mother and a Dutch colonist father. His father was a fur trader and gunsmith, and was welcomed into the Haudenosaunee (the name used by the Iroquois to refer to themselves -- 'Iroquois' is a name given them by the people around them, not used by the Haudenosaunee themselves) communities to provide both services. As the Haudenosaunee are a matrilineal people, Cornplanter became a member of his mother's clan, the Wolf Clan. As a male of the Wolf Clan, Cornplanter was trained in the traditional vocation of males in the Wolf Clan -- War Chief.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HEADING_3">
-			<Text>The Trojan War</Text>
+			<Text>Pre-Revolution Activities</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TEXT_3">
-			<Text>Following the kidnapping of his sister-in-law, Helen, Agamemnon set about mustering a vast army of Greek forces to wage war upon the Trojans. However, before even setting off, Agamemnon had been able to incur the wrath of Artemis. Whether this was on behalf of the young men who were being sent to die or because of Agamemnon slaying an animal sacred to her while boasting that he was her equal, the result was a variety of maladies including plague and a lack of wind (generally important when setting sail in this era). Desparate to appease Artemis, Agamemnon eventually sacrificed his own daughter, Iphigenia - satisfying Artemis and allowing the Greeks to sail.[NEWLINE][NEWLINE]Once at Troy, Agamemnon was a skilled soldier and commander-in-chief of the Greek forces. He is said to have killed hundreds of men on his own, and is recognised by Achilles as being the "best in strength and in throwing the spear." Unlike all other Greek soldiers and heroes spoken of in the Iliad, he never requires the support of the Gods in battle, and yet remains on equal footing with the divinely-favoured.</Text>
+			<Text>Cornplanter was first noticed by European chroniclers for his participation in Seneca wars efforts against the British as part of the French and Indian Wars. He was present for Braddock's Defeat, a seminal battle between trained, professional British soldiers and Seneca, French, and other allied Native forces. Braddock's forces outmanned their enemies, but were subject to hundreds of losses while the French and Indians lost mere dozens. These experiences helped Cornplanter to establish himself as a respected warrior, but also made him cautious of the death toll involved in white men's warfare.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HEADING_4">
-			<Text>Return journey and death</Text>
+			<Text>The American Revolution</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TEXT_4">
-			<Text>After ten long years, Troy had fallen, and Agamemnon could return home with the rest of the Greek army. Although not quite as prone to being blown off track by vengeful Gods as some of his contemporaries, Agamemnon was nonetheless still subject to the curse which had befallen his family. Upon his return to Greece he discovered that his wife, Clytemnestra, had taken his cousin Aegisthus as a lover. Never having forgotten his vow to exact revenge upon Agamemnon, he announces a feast to celebrate the latter's successful return from war. As Agamemnon entered the dining hall, however, Aegisthus ambushed and murdered him, taking the throne of Mycenae for himself. This, of course, furthered the feud within the family, and Aegisthus and Clytemnestra were in turn murdered by Agamemnon's son, Orestes. Naturally, this resulted in Orestes being pursued relentlessly by the Furies and incurring his own dramatic tale of redemption, but that is for another time.</Text>
+			<Text>At the onset of the American Revolution, Cornplanter counseled the Seneca to remain neutral. "War is war. Death is death. A fight is a hard business." While his influence kept the Seneca out of the war for some time, eventually the British prevailed, partly by branding Cornplanter as a coward, and by offering rich rewards to the Seneca if they fought on their side. The Seneca joined Loyalist forces in attacking American townsites in what the Americans labeled massacres. This enraged the Americans, who began a scorched-earth campaign against the Seneca, forcing them to tend to their very survival instead of bolstering the Loyalist forces. The war was ill-fated, as the British Loyalists lost, and the Seneca lands were left sacked and burned.</Text>
+		</Row>
+			<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HEADING_5">
+			<Text>After the Revolution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TEXT_5">
+			<Text>The aftermath of the Revolution left the Seneca in a very weakened state, and with fresh animosity from the victorious Americans. Cornplanter turned all of his efforts towards diplomacy with the Americans and between the Americans and other Native American tribes. He met with George Washington to protest the treatment of his people, and extracted promises to protect the Haudenosaunee lands. Cornplanter also met with and was impressed with the teachings of the Quakers. He asked the Quakers to educate his own son and open schools on Haudenosaunee lands. During the War of 1812, Cornplanter supported the American army and encouraged the other Haudenosaunee to do the same.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HEADING_6">
+			<Text>Honored by the Americans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TEXT_6">
+			<Text>The Americans bestowed various honors on Cornplanter for his efforts to bring peace between the Native Americans and the fledgling United States. These honors included a peace pipe that George Washington carved himself from a Tomahawk, which became a symbol of peace between the United States and the Seneca, a monument erected to honor his gravesite, and the regalia of an American general. a tract of land that was bequeathed to Cornplanter "and his descendents forever" -- which apparently meant until the 1960s when the area was flooded by the construction of a dam. Still, these efforts and these honors, particularly the tract of land, helped shield the Seneca during the era of forced Native relocations, since they could not legally be removed from the Cornplanter Tract -- although the Americans certainly tried to remove them nonetheless.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HEADING_7">
+			<Text>Later Years</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TEXT_7">
+			<Text>In the years following his diplomatic successes, Cornplanter became disillusioned with the American ways of life and their effect on the Seneca -- particularly the ways of alcohol and the despair it brought. Cornplanter burned his general's regalia and renounced the American ways, joining his brother Handsome Lake, a Seneca religious leader, in preaching that the Haudenosaunee return to their traditions and reject those of whites. He saw the Americans as lazy opportunists, who would stop at nothing to take advantage of the Seneca. He closed the schools on Seneca land, although he remained on good terms with the Quakers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_HEADING_8">
+			<Text>Verdict of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_TEXT_8">
+			<Text>Cornplanter was and still is a controversial figure in history. Some Seneca believe he was a traitor, selling out his people to the American government in order to protect himself. However, his actions helped the Seneca weather the storm of Americanization, and may have saved the Seneca identity from being 'lost' during the American attempts to relocate them -- a fate suffered by many smaller Native American peoples at the time.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_FACTOID_HEADING">
-			<Text>Agamemnon Factoids</Text>
+			<Text>Cornplanter Factoid</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_MC_NTF_CORNPLANTER_FACTOID_TEXT">
-			<Text>Despite his death upon his return to Greece, Agamemnon is still able to make a guest appearance in the Odyssey as Odysseus descends to the underworld. Evidently making the most of his brief encounter, he uses it to warn Odysseus not to trust women.[NEWLINE][NEWLINE]The fortunes of Agamemnon have formed the subject of numerous tragedies, ancient and modern, the most famous being the Oresteia of Aeschylus. In the legends of the Peloponnesus, Agamemnon was regarded as the highest type of a powerful monarch, and in Sparta he was worshipped under the title of Zeus Agamemnon. His tomb was pointed out among the ruins of Mycenae and at Amyclae. </Text>
+			<Text>Cornplanter's Peace Pipe -- the one carved from a tomahawk by George Washington -- has had an interesting history. Given to Cornplanter in 1792, the pipe was donated to the New York State Museum by a Seneca diplomat in 1851. 100 years later, it had gone missing -- probably stolen -- and found its way into the hands of private collectors. In 2018, the was re-donated to the New York State Museum, who returned it to the Seneca in 2020.</Text>
 		</Row>
 		<!--=============================================================-->
 		<!-- City List - - - - - - - - - - - - - - - - - - - - - - - - - -->
