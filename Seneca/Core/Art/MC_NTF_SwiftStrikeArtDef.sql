@@ -3,7 +3,7 @@
 --==========================================================================================================================
 INSERT INTO ArtDefine_StrategicView
             (StrategicViewType,								TileType,   Asset)
-VALUES      ('ART_DEF_UNIT_MC_NTF_SENECA_SWIFT_STRIKE',		'Unit',     'sv_Enchophoros.dds');
+VALUES      ('ART_DEF_UNIT_MC_NTF_SENECA_SWIFT_STRIKE',		'Unit',     'SV_er_seneca_uu.dds');
 --==========================================================================================================================
 -- ArtDefine_UnitInfos
 --==========================================================================================================================           

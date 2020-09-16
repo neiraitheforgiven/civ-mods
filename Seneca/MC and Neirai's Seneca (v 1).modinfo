@@ -50,8 +50,8 @@
     <File md5="D3A2C36D2E83A68C20F9C35AC7611FA7" import="1">Art/Atlases/MC_NTF_Seneca_Alpha_32.dds</File>
     <File md5="57470F6424A25468685A8DF10E9AD8AD" import="1">Art/Atlases/MC_NTF_Seneca_Alpha_48.dds</File>
     <File md5="BC7F821DA8F759DC3C01F7ECE8385449" import="1">Art/Atlases/MC_NTF_Seneca_Alpha_64.dds</File>
-    <File md5="B06D514E121271837747541F19DBF69F" import="1">Art/Models/MC_EnchophorosUnitFlag_32.dds</File>
-    <File md5="F67435324BE245D725401C9F1DBC4AE6" import="1">Art/Models/sv_Enchophoros.dds</File>
+    <File md5="B06D514E121271837747541F19DBF69F" import="1">Art/Atlases/Unitflag_er_seneca_uu.dds</File>
+    <File md5="F67435324BE245D725401C9F1DBC4AE6" import="1">Art/Atlases/SV_er_seneca_uu.dds</File>
     <File md5="3F71EB1368DF0BAACFF02DACA112CA8F" import="1">Art/Models/Swift Strike Warband/civ5_irorm.fxsxml</File>
     <File md5="82AC70741ED004E2AA8DB7CB0F2FCA08" import="1">Art/Models/Swift Strike Warband/civ5_irorm.gr2</File>
     <File md5="8194FFF70DAC55E77887046985973EF9" import="1">Art/Models/Swift Strike Warband/civ5_irorm2.fxsxml</File>
@@ -80,7 +80,7 @@
     <File md5="9292E0FADBFD957F76A9B7E420169847" import="1">Art/Scenes/MC_NTF_Seneca_Map.dds</File>
     <File md5="832D9BFA19C0997E93325EA789190149" import="0">Core/Art/MC_NTF_ThreeSistersArtDef.sql</File>
     <File md5="4F8A8CE7F8B8831DAF398EBB4F64316B" import="0">Core/Art/MC_NTF_SwiftStrikeArtDef.sql</File>
-    <File md5="86540527C3A49228AFB3FA63AB5773BC" import="0">Core/Art/MC_NTF_Seneca_Leaderscene.xml</File>
+    <File md5="86540527C3A49228AFB3FA63AB5773BC" import="1">Core/Art/MC_NTF_Seneca_Leaderscene.xml</File>
     <File md5="56B9981CC405FA3A6234CD256A99E8FC" import="0">Core/Civilizations/MC_NTF_Seneca_Civilizations.sql</File>
     <File md5="15C43A3B12814DC968E9FCAACF1A1C89" import="0">Core/GameInfo/MC_NTF_Seneca_IconTextureAtlases.sql</File>
     <File md5="42B2AC27760CB5D0B21E6DF49C583377" import="0">Core/GameInfo/MC_NTF_Seneca_Sounds.xml</File>

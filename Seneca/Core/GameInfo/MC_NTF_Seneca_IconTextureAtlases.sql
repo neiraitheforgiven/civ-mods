@@ -19,6 +19,6 @@ VALUES	('MC_NTF_SENECA_ATLAS',					256, 		'MC_NTF_SENECA_256.dds',				2,				3),
 		('MC_NTF_SENECA_ALPHA_ATLAS',			32, 		'MC_NTF_SENECA_ALPHA_256.dds',			1,				1),
 		('MC_NTF_SENECA_ALPHA_ATLAS',			24, 		'MC_NTF_SENECA_ALPHA_256.dds',			1,				1),
 		('MC_NTF_SENECA_ALPHA_ATLAS',			16, 		'MC_NTF_SENECA_ALPHA_256.dds',			1,				1),
-		('MC_NTF_SENECA_SWIFT_STRIKE_FLAG',		32, 		'MC_NTF_EnchophorosUnitFlag_32.dds',	1,				1);
+		('MC_NTF_SENECA_SWIFT_STRIKE_FLAG',		32, 		'Unitflag_er_seneca_uu.dds',	1,				1);
 --==========================================================================================================================	
 --==========================================================================================================================	

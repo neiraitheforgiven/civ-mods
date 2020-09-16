@@ -24,10 +24,14 @@ function CountPlayerKeeperStacks(playerId)
     local playerTeamObj = Teams[playerTeamId]
     for entryPlayerId, entryPlayerObj in pairs(Players) do
       repeat
-        if entryPlayerObj:IsBarbarian() then
+        if entryPlayerObj:IsBarbarian() or not entryPlayerObj:IsAlive() then
           if uaTable[entryPlayerId] == nil then
             table.insert(uaTable, entryPlayerId, 0)
-            print('inserted barbarian')
+            print('inserted barbarian or dead player')
+            do break end
+          else
+            uaTable[entryPlayerId] = 0
+            print('inserted 0 for player ' .. tostring(entryPlayerId))
             do break end
           end
         end
@@ -196,7 +200,7 @@ function GetExtraMoveFromAdjacentEnemy(playerId)
       if unitObj:IsHasPromotion(MC_NTF_IsGunner) then
         if IsAdjacentToEnemy(playerId, playerTeamId, unitObj) then
           unitObj:SetHasPromotion(MC_NTF_GunnerMoves, true)
-          unitObj:ChangeMoves(1)
+          unitObj:SetMoves(3)
         else
           unitObj:SetHasPromotion(MC_NTF_GunnerMoves, false)
         end
