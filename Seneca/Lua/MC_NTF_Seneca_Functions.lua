@@ -200,7 +200,8 @@ function GetExtraMoveFromAdjacentEnemy(playerId)
       if unitObj:IsHasPromotion(MC_NTF_IsGunner) then
         if IsAdjacentToEnemy(playerId, playerTeamId, unitObj) then
           unitObj:SetHasPromotion(MC_NTF_GunnerMoves, true)
-          unitObj:SetMoves(3)
+          print("Maximum moves is " .. tostring(unitObj:MaxMoves()))
+          unitObj:SetMoves(unitObj:MaxMoves())
         else
           unitObj:SetHasPromotion(MC_NTF_GunnerMoves, false)
         end
