@@ -96,13 +96,13 @@
 			<Text>Swift Striker</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_GUNNER_HELP">
-			<Text>Gains +1 Movement and the ability to move after attacking when starting adjacent to an enemy unit.</Text>
+			<Text>Can move after attacking. Gains +1 Movement when starting adjacent to an enemy unit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_GUNNER_MOVES">
 			<Text>Snake-like Swiftness</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_GUNNER_MOVES_HELP">
-			<Text>+1 Movement. Can move after attacking.</Text>
+			<Text>+1 Movement</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MC_NTF_SENECA_BEFORERANDOM">
 			<Text>Demoralizing Attacks</Text>
