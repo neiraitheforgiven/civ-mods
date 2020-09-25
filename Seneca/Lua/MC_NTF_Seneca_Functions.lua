@@ -19,7 +19,6 @@ function CountPlayerKeeperStacks(playerId)
     local uaTableName = string.format("senecaUAtable%s", playerId)
     MapModData.uaTableName = MapModData.uaTableName or {}
     local uaTable = MapModData.uaTableName
-    print(tostring(uaTable))
     local playerTeamId = playerObj:GetTeam()
     local playerTeamObj = Teams[playerTeamId]
     for entryPlayerId, entryPlayerObj in pairs(Players) do
@@ -27,7 +26,6 @@ function CountPlayerKeeperStacks(playerId)
         if entryPlayerObj:IsBarbarian() or not entryPlayerObj:IsAlive() then
           if uaTable[entryPlayerId] == nil then
             table.insert(uaTable, entryPlayerId, 0)
-            print('inserted barbarian or dead player')
             do break end
           else
             uaTable[entryPlayerId] = 0
@@ -49,17 +47,14 @@ function CountPlayerKeeperStacks(playerId)
           local numberOfSavedWarringCivs = uaTable[entryPlayerId]
           if numberOfSavedWarringCivs == nil then
             table.insert(uaTable, entryPlayerId, numberOfWarringCivs)
-            print('inserted ' .. tostring(numberOfWarringCivs) .. ' for player ' .. tostring(entryPlayerId))
           else
             if numberOfWarringCivs > numberOfSavedWarringCivs then
               uaTable[entryPlayerId] = numberOfWarringCivs
-               print('inserted ' .. tostring(numberOfWarringCivs) .. ' for player ' .. tostring(entryPlayerId))
             end
           end
         else -- we're not at war with them any more (or maybe never were)
           if uaTable[entryPlayerId] == nil then
             table.insert(uaTable, entryPlayerId, 0)
-             print('inserted 0 for player ' .. tostring(entryPlayerId))
           end
         end
       until true
@@ -88,7 +83,6 @@ function KeeperPower(playerId)
       local keeperStacks = 0
       for enemyPlayerId, enemyPlayerObj in pairs(Players) do
         local stacks = uaTable[enemyPlayerId]
-        print('loaded ' .. tostring(stacks) .. ' stacks for player ' .. tostring(enemyPlayerId))
         if stacks then
           if stacks >= 6 then
             keeperStacks = 6
@@ -104,9 +98,7 @@ function KeeperPower(playerId)
             RemoveKeeperStacks(unit)
             local promotionName = "PROMOTION_MC_NTF_SENECAKEEPER"..tostring(keeperStacks)
             unit:SetHasPromotion(GameInfoTypes[promotionName], true)
-            print('we found stacks, there should be promotions')
           else
-            print('no stacks, removing promotions')
             RemoveKeeperStacks(unit)
           end
         end
@@ -200,7 +192,6 @@ function GetExtraMoveFromAdjacentEnemy(playerId)
       if unitObj:IsHasPromotion(MC_NTF_IsGunner) then
         if IsAdjacentToEnemy(playerId, playerTeamId, unitObj) then
           unitObj:SetHasPromotion(MC_NTF_GunnerMoves, true)
-          print("Maximum moves is " .. tostring(unitObj:MaxMoves()))
           unitObj:SetMoves(unitObj:MaxMoves())
         else
           unitObj:SetHasPromotion(MC_NTF_GunnerMoves, false)
@@ -240,17 +231,17 @@ end
 
 function ListenSEUSD(playerId, unitId, newDamage, oldDamage)
   if newDamage > oldDamage then --filter out heals
-    local playerObj = Players[playerId]
-    if not playerObj then
+    local enemyPlayerObj = Players[playerId]
+    if not enemyPlayerObj then
       --this unit is probably a barbarian
       return
     end
-    local unitObj = playerObj:GetUnitByID(unitId)
-    if not unitObj then
+    local firstEnemyUnitObj = enemyPlayerObj:GetUnitByID(unitId)
+    if not firstEnemyUnitObj then
       return
     end
-    if not unitObj:IsHasPromotion(MC_NTF_AfterRandom) then
-      local unitPlot = unitObj:GetPlot()
+    if not firstEnemyUnitObj:IsHasPromotion(MC_NTF_AfterRandom) then
+      local unitPlot = firstEnemyUnitObj:GetPlot()
       --this unit took damage from somewhere, check around for a unit that dealt damage
       --all the units we care about are melee units
       for i = 0, 5 do
@@ -258,28 +249,26 @@ function ListenSEUSD(playerId, unitId, newDamage, oldDamage)
         if adjPlot ~= nil then
           if adjPlot:GetNumUnits() > 0 then
             for j = 0, adjPlot:GetNumUnits() - 1 do
-              local adjPlotUnitObj = adjPlot:GetUnit(j)
-              if adjPlotUnitObj:IsHasPromotion(MC_NTF_AfterRandom) then
+              local swiftStrikeUnitObj = adjPlot:GetUnit(j)
+              if swiftStrikeUnitObj:IsHasPromotion(MC_NTF_AfterRandom) then
                 --this is the unit that did the thing                
-                --which means unitObj is the guy we attacked
-                print('Setting an ' .. tostring(unitObj:GetUnitType()) .. ' to tortured.')
-                unitObj:SetHasPromotion(MC_NTF_Tortured, true)
+                --which means firstEnemyUnitObj is the guy we attacked
+                firstEnemyUnitObj:SetHasPromotion(MC_NTF_Tortured, true)
                 for k = 0, 5 do
                   local otherPlot = Map.PlotDirection(unitPlot:GetX(), unitPlot:GetY(), k);
                   if otherPlot ~= nil then
                     if otherPlot:GetNumUnits() > 0 then
                       for m = 0, otherPlot:GetNumUnits() - 1 do
                         local otherPlotUnitObj = otherPlot:GetUnit(m)
-                        if otherPlotUnitObj:GetOwner() == unitObj:GetOwner() then
-                          print('Setting an ' .. tostring(otherPlotUnitObj:GetUnitType()) .. ' to tortured.')
+                        if otherPlotUnitObj:GetOwner() == firstEnemyUnitObj:GetOwner() then
                           otherPlotUnitObj:SetHasPromotion(MC_NTF_Tortured, true)
                         end
                       end
                     end
                   end
                 end
-                adjPlotUnitObj:SetHasPromotion(MC_NTF_AfterRandom, false)
-                adjPlotUnitObj:SetHasPromotion(MC_NTF_BeforeRandom, true)
+                swiftStrikeUnitObj:SetHasPromotion(MC_NTF_AfterRandom, false)
+                swiftStrikeUnitObj:SetHasPromotion(MC_NTF_BeforeRandom, true)
                 return -- we found the dude, stop doing anything.
               end
             end
@@ -309,7 +298,7 @@ function ResetOnPT(playerId) -- all else has failed, we'll do this on the next t
   end
   for unitObj in playerObj:Units() do
     if unitObj:IsHasPromotion(MC_NTF_Tortured) then
-      unitObj:SetHasPromotion(MC_NTF_Tortured, true)
+      unitObj:SetHasPromotion(MC_NTF_Tortured, false)
     end
   end
 end
