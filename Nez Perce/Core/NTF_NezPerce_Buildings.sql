@@ -105,5 +105,157 @@ INSERT INTO Building_ResourceYieldChanges
 SELECT 'BUILDING_NTF_CONSERVATIONCENTER', ResourceType, 'YIELD_CULTURE', 1
 FROM Improvement_ResourceTypes WHERE ImprovementType in ('IMPROVEMENT_CAMP', 'IMPROVEMENT_PASTURE');
 
+--==========================================================================================================================    
+-- BuildingClasses
+--==========================================================================================================================    
+INSERT INTO BuildingClasses
+(Type, DefaultBuilding, Description)
+VALUES ('BUILDINGCLASS_NTF_TOURISMWIDGET1', 'BUILDING_NTF_TOURISMWIDGET1', 'TXT_KEY_BUILDING_NTF_WIDGETS');
 
+INSERT INTO BuildingClasses
+(Type, DefaultBuilding, Description)
+VALUES ('BUILDINGCLASS_NTF_TOURISMWIDGET2', 'BUILDING_NTF_TOURISMWIDGET2', 'TXT_KEY_BUILDING_NTF_WIDGETS');
 
+INSERT INTO BuildingClasses
+(Type, DefaultBuilding, Description)
+VALUES ('BUILDINGCLASS_NTF_TOURISMWIDGET4', 'BUILDING_NTF_TOURISMWIDGET4', 'TXT_KEY_BUILDING_NTF_WIDGETS');
+
+INSERT INTO BuildingClasses
+(Type, DefaultBuilding, Description)
+VALUES ('BUILDINGCLASS_NTF_TOURISMWIDGET8', 'BUILDING_NTF_TOURISMWIDGET8', 'TXT_KEY_BUILDING_NTF_WIDGETS');
+
+INSERT INTO BuildingClasses
+(Type, DefaultBuilding, Description)
+VALUES ('BUILDINGCLASS_NTF_TOURISMWIDGET16', 'BUILDING_NTF_TOURISMWIDGET16', 'TXT_KEY_BUILDING_NTF_WIDGETS');
+
+INSERT INTO BuildingClasses
+(Type, DefaultBuilding, Description)
+VALUES ('BUILDINGCLASS_NTF_TOURISMWIDGET32', 'BUILDING_NTF_TOURISMWIDGET32', 'TXT_KEY_BUILDING_NTF_WIDGETS');
+
+INSERT INTO BuildingClasses
+(Type, DefaultBuilding, Description)
+VALUES ('BUILDINGCLASS_NTF_TOURISMWIDGET64', 'BUILDING_NTF_TOURISMWIDGET64', 'TXT_KEY_BUILDING_NTF_WIDGETS');
+
+INSERT INTO BuildingClasses
+(Type, DefaultBuilding, Description)
+VALUES ('BUILDINGCLASS_NTF_TOURISMWIDGET128', 'BUILDING_NTF_TOURISMWIDGET128', 'TXT_KEY_BUILDING_NTF_WIDGETS');
+
+INSERT INTO Buildings
+(Type, BuildingClass, Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, TechEnhancedTourism, GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas,
+PortraitIndex)
+VALUES (
+'BUILDING_NTF_TOURISMWIDGET1', --Type
+'BUILDINGCLASS_NTF_TOURISMWIDGET1', --BuildingCLass
+-1, --Cost
+NULL, --PreregTech
+'TXT_KEY_BUILDING_NTF_WIDGETS', --Help
+'TXT_KEY_BUILDING_NTF_WIDGETS', --Description
+'TXT_KEY_BUILDING_NTF_WIDGETS', --Civilopedia
+'TXT_KEY_BUILDING_NTF_WIDGETS', --Strategy
+'ART_DEF_BUILDING_CASTLE', --ArtDefineTag
+'TECH_ECOLOGY', --EnhancedYieldTech
+1, --TechEnhancedTourism
+-1, --GreatWorkCount
+-1, --MinAreaSize
+25, --HurryCostModifier
+'NTF_NEZ_ATLAS', --IconAtlas
+0); --PortraitIndex
+
+INSERT INTO Buildings
+(Type, BuildingClass, Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, TechEnhancedTourism, GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas,
+PortraitIndex)
+SELECT (
+'BUILDING_NTF_TOURISMWIDGET2', --Type
+'BUILDINGCLASS_NTF_TOURISMWIDGET2', --BuildingCLass
+Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, 
+2, --TechEnhancedTourism
+GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas, PortraitIndex)
+FROM Buildings
+WHERE Type = 'BUILDING_NTF_TOURISMWIDGET1';
+
+INSERT INTO Buildings
+(Type, BuildingClass, Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, TechEnhancedTourism, GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas,
+PortraitIndex)
+SELECT (
+'BUILDING_NTF_TOURISMWIDGET4', --Type
+'BUILDINGCLASS_NTF_TOURISMWIDGET4', --BuildingCLass
+Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, 
+4, --TechEnhancedTourism
+GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas, PortraitIndex)
+FROM Buildings
+WHERE Type = 'BUILDING_NTF_TOURISMWIDGET1';
+
+INSERT INTO Buildings
+(Type, BuildingClass, Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, TechEnhancedTourism, GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas,
+PortraitIndex)
+SELECT (
+'BUILDING_NTF_TOURISMWIDGET8', --Type
+'BUILDINGCLASS_NTF_TOURISMWIDGET8', --BuildingCLass
+Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, 
+8, --TechEnhancedTourism
+GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas, PortraitIndex)
+FROM Buildings
+WHERE Type = 'BUILDING_NTF_TOURISMWIDGET1';
+
+INSERT INTO Buildings
+(Type, BuildingClass, Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, TechEnhancedTourism, GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas,
+PortraitIndex)
+SELECT (
+'BUILDING_NTF_TOURISMWIDGET16', --Type
+'BUILDINGCLASS_NTF_TOURISMWIDGET16', --BuildingCLass
+Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, 
+16, --TechEnhancedTourism
+GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas, PortraitIndex)
+FROM Buildings
+WHERE Type = 'BUILDING_NTF_TOURISMWIDGET1';
+
+INSERT INTO Buildings
+(Type, BuildingClass, Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, TechEnhancedTourism, GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas,
+PortraitIndex)
+SELECT (
+'BUILDING_NTF_TOURISMWIDGET32', --Type
+'BUILDINGCLASS_NTF_TOURISMWIDGET32', --BuildingCLass
+Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, 
+32, --TechEnhancedTourism
+GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas, PortraitIndex)
+FROM Buildings
+WHERE Type = 'BUILDING_NTF_TOURISMWIDGET1';
+
+INSERT INTO Buildings
+(Type, BuildingClass, Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, TechEnhancedTourism, GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas,
+PortraitIndex)
+SELECT (
+'BUILDING_NTF_TOURISMWIDGET64', --Type
+'BUILDINGCLASS_NTF_TOURISMWIDGET64', --BuildingCLass
+Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, 
+64, --TechEnhancedTourism
+GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas, PortraitIndex)
+FROM Buildings
+WHERE Type = 'BUILDING_NTF_TOURISMWIDGET1';
+
+INSERT INTO Buildings
+(Type, BuildingClass, Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, TechEnhancedTourism, GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas,
+PortraitIndex)
+SELECT (
+'BUILDING_NTF_TOURISMWIDGET128', --Type
+'BUILDINGCLASS_NTF_TOURISMWIDGET128', --BuildingCLass
+Cost, PrereqTech, Help, Description, Civilopedia, Strategy, ArtDefineTag,
+EnhancedYieldTech, 
+128, --TechEnhancedTourism
+GreatWorkCount, MinAreaSize, HurryCostModifier, IconAtlas, PortraitIndex)
+FROM Buildings
+WHERE Type = 'BUILDING_NTF_TOURISMWIDGET1';
