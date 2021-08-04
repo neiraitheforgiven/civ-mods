@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Language_en_US>
+        <!--=============================================================-->
+        <!-- Unique Unit - - - - - - - - - - - - - - - - - - - - - - - - -->
+        <!--=============================================================-->
+        <Row Tag="TXT_KEY_UNIT_NTF_APPALOOSA">
+            <Text>Appaloosa Rider</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_NTF_APPALOOSA_PEDIA">
+            <Text>When the Nez Perce first acquired Horses from the south, they quickly went to work selectively breeding the traits they most valued; strength for working, a smooth gait when running, and distinctive metallic coats with leopard-like spots. The Nez Perce would carefully trade for horses featuring these traits, and would geld or trade away inferior horses to prevent them from tainting their herds. These horses, the Appaloosa, were highly valued for their strength and war capabilities -- their gait was so smooth that archers could shoot accurately from their backs. After the Americans forced the Nez Perce onto reservations, they took away the ability to breed Appaloosa and so the modern breed no longer represents the original values of the Nez Perce. In recent years, the Nez Perce have begun a campaign to re-breed the original Appaloosa traits, resulting in a separate breed known as the "Nez Perce Horse".</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_NTF_APPALOOSA_HELP">
+            <Text>Lancer replacement unique to the Nez Perce. Unlike the Lancer, is a ranged attacker and can move after attacking. When trained, generates a burst of [ICON_GOLDEN_AGE] Golden Age points based on the number of [ICON_RES_HORSE] Horses you are importing.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_NTF_APPALOOSA_STRATEGY">
+            <Text>Appaloosa Riders are good at harrying enemy positions due to their powerful ranged attacks. However, the more important part of their strategy is non-combatant. With no Horse requirement, you can build as many of them as possible in order to gain golden ages and, late in the game, bonus tourism, as once you research Ecology, every two mounted units you have ever built counts as a Great Work in terms of tourism and culture.</Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row><Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
