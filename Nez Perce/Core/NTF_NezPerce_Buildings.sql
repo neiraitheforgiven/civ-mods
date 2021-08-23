@@ -53,9 +53,24 @@ VALUES
 --==========================================================================================================================
 -- Resources
 --==========================================================================================================================
-INSERT INTO Resources 
+INSERT OR REPLACE INTO Resources 
             (Type,                      Description,                        Civilopedia,                                ArtDefineTag,                   ResourceClassType,      Happiness,  AITradeModifier,    ResourceUsage,  AIObjective,    'Unique',   IconString,                 PortraitIndex,  IconAtlas)
 VALUES      ('RESOURCE_MC_SALMON',      'TXT_KEY_RESOURCE_MC_SALMON',       'TXT_KEY_CIV5_RESOURCE_MC_SALMON_TEXT',     'ART_DEF_RESOURCE_MC_SALMON',   'RESOURCECLASS_LUXURY', 4,          10,                 2,              0,              2,          '[ICON_RES_MC_SALMON]',     4,              'MC_CHINOOK_ATLAS');
+
+
+-- I am a bit concerned about conflict with the Chinook (because who doesn't play with the Chinook?) so doing this text insert in SQL.
+INSERT OR REPLACE INTO Language_en_US (Tag, Text)
+VALUES
+(
+    'TXT_KEY_RESOURCE_MC_SALMON',
+    'Salmon'
+),
+(
+    'TXT_KEY_CIV5_RESOURCE_MC_SALMON_TEXT',
+    'The Chinook salmon is the largest species of Pacific salmon. Other commonly used names for the species include king salmon, Quinnat salmon, spring salmon, and Tyee salmon. Chinook are anadromous fish native to the north Pacific Ocean and the river systems of western North America, ranging from California to Alaska. They are also native to Asian rivers ranging from northern Japan to the Palyavaam River in the Siberian far east, although only the Kamchatka Peninsula supports relatively persistent native populations. They have been introduced to other parts of the world, including New Zealand and the Great Lakes. A large Chinook is a prized and sought-after catch for a sporting angler. The flesh of the salmon is also highly valued for its dietary nutritional content. Some populations are endangered, though Chinook salmon have not been assessed for the IUCN Red List.'
+);
+
+
 --==========================================================================================================================
 -- Resource_YieldChanges
 --==========================================================================================================================
