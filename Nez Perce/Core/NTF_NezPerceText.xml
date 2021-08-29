@@ -33,8 +33,9 @@
         </Row>
         <Row Tag="TXT_KEY_LEADER_NTF_CHIEFJOSEF_DESC">
             <Text>Chief Joseph</Text>
-        </Row><Row Tag="">
-            <Text></Text>
+        </Row>
+        <Row Tag="TXT_KEY_DAWN_OF_MAN_NTF_NEZPERCE_TEXT">
+            <Text>Blessings, Chief Joseph, leader of the Nez Perce! Your people, who call themselves the Nimiipuu, live mainly in the State of Idaho in the U.S. A hard-working people, with a knack for cultivating and conserving nature, you made a name for yourselves during the birth of the United States. When the Americans drove you from your lands, you showed that your principles of loyalty and dignity were unshakable even in the most desperate and unfair of times.[NEWLINE][NEWLINE]Now again, Chief Joseph, we look to you. Lead our people through uncertain and unknown lands. Show the strength of our principles, as we renew our people again. Guide us as we in turn guide our people, who will stand the test of time.</Text>
         </Row>
         <Row Tag="TXT_KEY_TRAIT_NTF_THUNDER_TO_GREAT_HEIGHTS_SHORT">
             <Text>Thunder in the Great Heights</Text>
