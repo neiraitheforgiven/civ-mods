@@ -146,6 +146,72 @@
         <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_UMATILLA">
             <Text>Umatilla</Text>
         </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_0">
+            <Text>Twisted Hair</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_1">
+            <Text>Looking Glass</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_2">
+            <Text>White Bird</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_3">
+            <Text>Ollokot</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_4">
+            <Text>Lean Elk</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_5">
+            <Text>Eagle from the Light</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_6">
+            <Text>Five Wounds</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_7">
+            <Text>Claudia</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_8">
+            <Text>Sundown</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_9">
+            <Text>Elaine</Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
         <Row Tag="">
             <Text></Text>
         </Row>
