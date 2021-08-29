@@ -31,89 +31,119 @@
         <Row Tag="TXT_KEY_BUILDING_NTF_WIDGETS">
             <Text>Secrets of the Nez Perce</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_LEADER_NTF_CHIEFJOSEF_DESC">
+            <Text>Chief Joseph</Text>
         </Row><Row Tag="">
             <Text></Text>
         </Row>
-        <Row Tag="">
+        <Row Tag="TXT_KEY_TRAIT_NTF_THUNDER_TO_GREAT_HEIGHTS_SHORT">
+            <Text>Thunder in the Great Heights</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_NTF_THUNDER_TO_GREAT_HEIGHTS">
+            <Text>When a city is training a mounted unit, it gains the effects of a [ICON_GOLDEN_AGE] Golden Age. After researching Ecology, gain +1 [ICON_CULTURE] culture and +1 [ICON_TOURISM] tourism for each mounted unit you constructed this game.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NTF_NEZPERCE_DESC">
+            <Text>The Nez Percen Tribe</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NTF_NEZPERCE">
+            <Text>Nez Perce</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NTF_NEZPERCE_ADJECTIVE">
+            <Text>Nez Perce</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DAWN_OF_MAN_NTF_NEZPERCE_TEXT">
             <Text></Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_KAMIAH">
+            <Text>Kamiah</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_ALLPAWAWAII">
+            <Text>Al''pawawaii</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_WALLOWA">
+            <Text>Wallowa</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_SAHATP">
+            <Text>Sáhatp</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_TUCANNON">
+            <Text>Tucannon</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_WILLIWEWIX">
+            <Text>Williwewix</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_NACOXKUUS">
+            <Text>Naco''x Kuus</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_WAWAWIH">
+            <Text>Wawáwih</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_SILAYLOO">
+            <Text>Silayloo</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_WEYIKESPE">
+            <Text>Weyikespe</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
-        </Row>
-        <Row Tag="">
-            <Text></Text>
-        </Row>
-        <Row Tag="">
-            <Text></Text>
-        </Row>
-        <Row Tag="">
-            <Text></Text>
-        </Row>
-        <Row Tag="">
-            <Text></Text>
-        </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_XUYELP">
+            <Text>Xuyelp</Text>
         </Row>
 
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_PINAWAWI">
+            <Text>Pinăwăwi</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_SHIMINEKEM">
+            <Text>Shimínĕkĕm</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_AHSAHKA">
+            <Text>Ahsahka</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_KAMIAHP">
+            <Text>Kămiăhp</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_LAMTAMA">
+            <Text>Lamtáma</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_LEEPWEY">
+            <Text>Léepwey</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_SAKAN">
+            <Text>Sakán</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_IWASNIMA">
+            <Text>Iyăsnimă</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_YAKTOIN">
+            <Text>Yaktōin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_IWATOIN">
+            <Text>Iwatōin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_TUNEHE">
+            <Text>Tunĕhĕ</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_PALOT">
+            <Text>Palót</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_HASUTIN">
+            <Text>Hasutin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_HASEIWAWIH">
+            <Text>Hăsweiwăwih</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_ANATOIN">
+            <Text>Ánatōin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_HINSEPU">
+            <Text>Hinsepu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_PIPUINIMU">
+            <Text>Pipu''inimu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_KUSEYNEISEKIT">
+            <Text>Kuseyneisekit</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_UMATILLA">
+            <Text>Umatilla</Text>
         </Row>
         <Row Tag="">
             <Text></Text>
