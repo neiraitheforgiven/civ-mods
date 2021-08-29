@@ -16,20 +16,20 @@
         <Row Tag="TXT_KEY_UNIT_NTF_APPALOOSA_STRATEGY">
             <Text>Appaloosa Riders are good at harrying enemy positions due to their powerful ranged attacks. However, the more important part of their strategy is non-combatant. With no Horse requirement, you can build as many of them as possible in order to gain golden ages and, late in the game, bonus tourism, as once you research Ecology, every two mounted units you have ever built counts as a Great Work in terms of tourism and culture.</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_BUILDING_NTF_CONSERVATIONCENTER_HELP">
+            <Text>Unlike the Research Lab it replaces, produces +1 [ICON_SCIENCE] Science and [ICON_CULTURE] Culture for each Camp and Pasture in the city (instead of base +4 Science) and causes [ICON_RES_MC_SALMON] Salmon to appear along rivers. (These Salmon can be worked by Camps.)</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_BUILDING_NTF_CONSERVATIONCENTER">
+            <Text>Conservation Center</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_CIV5_BUILDINGS_NTF_CONSERVATIONCENTER_TEXT">
+            <Text>The Nez Perce have focused a lot of effort on conserving the land, water, and words of their past. Through conservation efforts, the Nez Perce have been able to bring species of Salmon in their area back from the brink of extinction and help to return the State of Idaho back to the condition it was before colonialism took place.</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_BUILDING_NTF_CONSERVATIONCENTER_STRATEGY">
+            <Text>To make the most of the Conservation Center, ensure that you seek out locations rich with luxuries that can be improved by Camps and Pastures. In addition, leave some unimproved tiles next to rivers; Salmon can appear in hexes next to cities with no resources or other improvements, but never next to other Salmon.</Text>
         </Row>
-        <Row Tag="">
-            <Text></Text>
+        <Row Tag="TXT_KEY_BUILDING_NTF_WIDGETS">
+            <Text>Secrets of the Nez Perce</Text>
         </Row>
         <Row Tag="">
             <Text></Text>
