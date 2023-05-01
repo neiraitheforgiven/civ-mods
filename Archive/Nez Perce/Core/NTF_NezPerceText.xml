@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Language_en_US>
+        <!--=============================================================-->
+        <!-- Unique Unit - - - - - - - - - - - - - - - - - - - - - - - - -->
+        <!--=============================================================-->
+        <Row Tag="TXT_KEY_UNIT_NTF_APPALOOSA">
+            <Text>Appaloosa Rider</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_NTF_APPALOOSA_PEDIA">
+            <Text>When the Nez Perce first acquired Horses from the south, they quickly went to work selectively breeding the traits they most valued; strength for working, a smooth gait when running, and distinctive metallic coats with leopard-like spots. The Nez Perce would carefully trade for horses featuring these traits, and would geld or trade away inferior horses to prevent them from tainting their herds. These horses, the Appaloosa, were highly valued for their strength and war capabilities -- their gait was so smooth that archers could shoot accurately from their backs. After the Americans forced the Nez Perce onto reservations, they took away the ability to breed Appaloosa and so the modern breed no longer represents the original values of the Nez Perce. In recent years, the Nez Perce have begun a campaign to re-breed the original Appaloosa traits, resulting in a separate breed known as the "Nez Perce Horse".</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_NTF_APPALOOSA_HELP">
+            <Text>Lancer replacement unique to the Nez Perce. Unlike the Lancer, is a ranged attacker that can move after attacking and trades the Formation promotion for the Accuracy I promotion. When trained, generates a burst of [ICON_GOLDEN_AGE] Golden Age points based on the number of [ICON_RES_HORSE] Horses you are importing.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_NTF_APPALOOSA_STRATEGY">
+            <Text>Appaloosa Riders are good at harrying enemy positions due to their powerful ranged attacks. However, the more important part of their strategy is non-combatant. With no Horse requirement, you can build as many of them as possible in order to gain golden ages and, late in the game, bonus tourism, as once you research Ecology, every two mounted units you have ever built counts as a Great Work in terms of tourism and culture.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_NTF_CONSERVATIONCENTER_HELP">
+            <Text>Unlike the Research Lab it replaces, produces +1 [ICON_SCIENCE] Science and [ICON_CULTURE] Culture for each Camp and Pasture in the city (instead of base +4 Science) and causes [ICON_RES_MC_SALMON] Salmon to appear along rivers. (These Salmon can be worked by Camps.)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_NTF_CONSERVATIONCENTER">
+            <Text>Conservation Center</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_BUILDINGS_NTF_CONSERVATIONCENTER_TEXT">
+            <Text>The Nez Perce have focused a lot of effort on conserving the land, water, and words of their past. Through conservation efforts, the Nez Perce have been able to bring species of Salmon in their area back from the brink of extinction and help to return the State of Idaho back to the condition it was before colonialism took place.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_NTF_CONSERVATIONCENTER_STRATEGY">
+            <Text>To make the most of the Conservation Center, ensure that you seek out locations rich with luxuries that can be improved by Camps and Pastures. In addition, leave some unimproved tiles next to rivers; Salmon can appear in hexes next to cities with no resources or other improvements, but never next to other Salmon.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_NTF_WIDGETS">
+            <Text>Secrets of the Nez Perce</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_NTF_CHIEFJOSEF_DESC">
+            <Text>Chief Joseph</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DAWN_OF_MAN_NTF_NEZPERCE_TEXT">
+            <Text>Blessings, Chief Joseph, leader of the Nez Perce! Your people, who call themselves the Nimiipuu, live mainly in the State of Idaho in the U.S. A hard-working people, with a knack for cultivating and conserving nature, you made a name for yourselves during the birth of the United States. When the Americans drove you from your lands, you showed that your principles of loyalty and dignity were unshakable even in the most desperate and unfair of times.[NEWLINE][NEWLINE]Now again, Chief Joseph, we look to you. Lead our people through uncertain and unknown lands. Show the strength of our principles, as we renew our people again. Guide us as we in turn guide our people, who will stand the test of time.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_NTF_THUNDER_TO_GREAT_HEIGHTS_SHORT">
+            <Text>Thunder in the Great Heights</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_NTF_THUNDER_TO_GREAT_HEIGHTS">
+            <Text>When a city is training a mounted unit, it gains the effects of a [ICON_GOLDEN_AGE] Golden Age. After researching Ecology, gain +1 [ICON_CULTURE] culture and +1 [ICON_TOURISM] tourism for each mounted unit you constructed this game.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NTF_NEZPERCE_DESC">
+            <Text>The Nez Percen Tribe</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NTF_NEZPERCE">
+            <Text>Nez Perce</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NTF_NEZPERCE_ADJECTIVE">
+            <Text>Nez Perce</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DAWN_OF_MAN_NTF_NEZPERCE_TEXT">
+            <Text></Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_KAMIAH">
+            <Text>Kamiah</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_ALLPAWAWAII">
+            <Text>Al''pawawaii</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_WALLOWA">
+            <Text>Wallowa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_SAHATP">
+            <Text>Sáhatp</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_TUCANNON">
+            <Text>Tucannon</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_WILLIWEWIX">
+            <Text>Williwewix</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_NACOXKUUS">
+            <Text>Naco''x Kuus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_WAWAWIH">
+            <Text>Wawáwih</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_SILAYLOO">
+            <Text>Silayloo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_WEYIKESPE">
+            <Text>Weyikespe</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_XUYELP">
+            <Text>Xuyelp</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_PINAWAWI">
+            <Text>Pinăwăwi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_SHIMINEKEM">
+            <Text>Shimínĕkĕm</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_AHSAHKA">
+            <Text>Ahsahka</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_KAMIAHP">
+            <Text>Kămiăhp</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_LAMTAMA">
+            <Text>Lamtáma</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_LEEPWEY">
+            <Text>Léepwey</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_SAKAN">
+            <Text>Sakán</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_IWASNIMA">
+            <Text>Iyăsnimă</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_YAKTOIN">
+            <Text>Yaktōin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_IWATOIN">
+            <Text>Iwatōin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_TUNEHE">
+            <Text>Tunĕhĕ</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_PALOT">
+            <Text>Palót</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_HASUTIN">
+            <Text>Hasutin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_HASEIWAWIH">
+            <Text>Hăsweiwăwih</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_ANATOIN">
+            <Text>Ánatōin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_HINSEPU">
+            <Text>Hinsepu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_PIPUINIMU">
+            <Text>Pipu''inimu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_KUSEYNEISEKIT">
+            <Text>Kuseyneisekit</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_NEZPERCE_UMATILLA">
+            <Text>Umatilla</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_0">
+            <Text>Twisted Hair</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_1">
+            <Text>Looking Glass</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_2">
+            <Text>White Bird</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_3">
+            <Text>Ollokot</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_4">
+            <Text>Lean Elk</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_5">
+            <Text>Eagle from the Light</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_6">
+            <Text>Five Wounds</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_7">
+            <Text>Claudia</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_8">
+            <Text>Sundown</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NTF_NEZPERCE_9">
+            <Text>Elaine</Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
+        <Row Tag="">
+            <Text></Text>
+        </Row>
