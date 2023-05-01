@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e6a0f213-b134-49c7-a5f2-cffed3a52404" version="1">
+  <Properties>
+    <Name>MC and Neirai's Seneca</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds [COLOR_POSITIVE_TEXT]the Seneca[ENDCOLOR] under [COLOR_POSITIVE_TEXT]Cornplanter[ENDCOLOR] to the game as a playable civil</Teaser>
+    <Description>Adds [COLOR_POSITIVE_TEXT]the Seneca[ENDCOLOR] under [COLOR_POSITIVE_TEXT]Cornplanter[ENDCOLOR] to the game as a playable civilisation</Description>
+    <Authors>Neirai, More Civs</Authors>
+    <SpecialThanks>Firaxis</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="Cultural Diversity" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="RED Modpack" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Traits" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="The Enlightenment Era" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="6861B1D9210B837D035593143C3BF1BF" import="1">Art/Atlases/MC_NTF_Seneca_128.dds</File>
+    <File md5="B09B5F6515691DAF2A19166730E92E68" import="1">Art/Atlases/MC_NTF_Seneca_24.dds</File>
+    <File md5="E0E3BAE210D55E8428B83EA6BACD7BA9" import="1">Art/Atlases/MC_NTF_Seneca_256.dds</File>
+    <File md5="3056E34457C5A9FF1A6DDD6AB835FAEE" import="1">Art/Atlases/MC_NTF_Seneca_32.dds</File>
+    <File md5="B67601DA809B0F2929503EB31CDB030F" import="1">Art/Atlases/MC_NTF_Seneca_45.dds</File>
+    <File md5="1F3FCFB1A1CB5E8E6530BBCBBE8B5BD8" import="1">Art/Atlases/MC_NTF_Seneca_48.dds</File>
+    <File md5="E5B433E1AEE457B01035073F25AFC086" import="1">Art/Atlases/MC_NTF_Seneca_64.dds</File>
+    <File md5="D598CDF044828FFC879B6CC4688275C3" import="1">Art/Atlases/MC_NTF_Seneca_80.dds</File>
+    <File md5="D840AF10E398A3F3D70C9509171F906D" import="1">Art/Atlases/MC_NTF_Seneca_Alpha_128.dds</File>
+    <File md5="88CC5FC67A0DA2A51D623C950C4312A6" import="1">Art/Atlases/MC_NTF_Seneca_Alpha_16.dds</File>
+    <File md5="F931089379E830124F86D5E040BEBBE6" import="1">Art/Atlases/MC_NTF_Seneca_Alpha_24.dds</File>
+    <File md5="CE46F1E86E5665DAF655D8DC4871C81C" import="1">Art/Atlases/MC_NTF_Seneca_Alpha_256.dds</File>
+    <File md5="D3A2C36D2E83A68C20F9C35AC7611FA7" import="1">Art/Atlases/MC_NTF_Seneca_Alpha_32.dds</File>
+    <File md5="57470F6424A25468685A8DF10E9AD8AD" import="1">Art/Atlases/MC_NTF_Seneca_Alpha_48.dds</File>
+    <File md5="BC7F821DA8F759DC3C01F7ECE8385449" import="1">Art/Atlases/MC_NTF_Seneca_Alpha_64.dds</File>
+    <File md5="B06D514E121271837747541F19DBF69F" import="1">Art/Atlases/Unitflag_er_seneca_uu.dds</File>
+    <File md5="F67435324BE245D725401C9F1DBC4AE6" import="1">Art/Atlases/SV_er_seneca_uu.dds</File>
+    <File md5="3F71EB1368DF0BAACFF02DACA112CA8F" import="1">Art/Models/Swift Strike Warband/civ5_irorm.fxsxml</File>
+    <File md5="82AC70741ED004E2AA8DB7CB0F2FCA08" import="1">Art/Models/Swift Strike Warband/civ5_irorm.gr2</File>
+    <File md5="8194FFF70DAC55E77887046985973EF9" import="1">Art/Models/Swift Strike Warband/civ5_irorm2.fxsxml</File>
+    <File md5="8AA245137E531BD0BFDED0146BC5F4DA" import="1">Art/Models/Swift Strike Warband/civ5_irorm2.gr2</File>
+    <File md5="1C40F168ED469A7B5AEB3058520B39AA" import="1">Art/Models/Swift Strike Warband/civ5_irorm_2.fxsxml</File>
+    <File md5="A56B71A65B065D23AD0CD669220E6D53" import="1">Art/Models/Swift Strike Warband/civ5_irorm_2.gr2</File>
+    <File md5="6E003A77606035B1D174D360FFCC18C2" import="1">Art/Models/Swift Strike Warband/irorm2.dds</File>
+    <File md5="56A8E88A0945810A278270870D0194B9" import="1">Art/Models/Swift Strike Warband/irorm_2.dds</File>
+    <File md5="CFBDE8C4CB2F4FE15D5B3D2DA31D7102" import="1">Art/Models/Swift Strike Warband/irorm_diff.dds</File>
+    <File md5="328C783F14BAFA217B573765070DDACA" import="1">Art/Models/Swift Strike Warband/irorm_sref.dds</File>
+    <File md5="E0B467D23C5EE855F6CA8DB20DC9AE62" import="1">Art/Models/Swift Strike Warband/irorm_sref2.dds</File>
+    <File md5="E33DD8E084893E6344CB842D621CAD15" import="1">Art/Models/Swift Strike Warband/irorm_sref_2.dds</File>
+    <File md5="5DFFB2CCA467960E36AFD0228FDFAA37" import="1">Art/Models/Three Sisters Outpost/iroqueseMarket_cm.dds</File>
+    <File md5="D3CB178C76E0361D4CCD6749B70A10F5" import="1">Art/Models/Three Sisters Outpost/iroqueseWall_cm.dds</File>
+    <File md5="9D74329F2DDCC8B1AF698C632227CC1C" import="1">Art/Models/Three Sisters Outpost/iroqueseWorkshop_cm.dds</File>
+    <File md5="776DBB48C1C84B6AF7AC19636D96A88B" import="1">Art/Models/Three Sisters Outpost/North American Encampment 1 B.fxsxml</File>
+    <File md5="DD27051FC4ADE9F34FA59399130A7CA7" import="1">Art/Models/Three Sisters Outpost/North American Encampment 1 HB.fxsxml</File>
+    <File md5="2B5558043BF356A5C2B5387DEE6C4EFE" import="1">Art/Models/Three Sisters Outpost/North American Encampment 1 HB.gr2</File>
+    <File md5="74271A6485488C625BABD1B2DC790E15" import="1">Art/Models/Three Sisters Outpost/North American Encampment 1 HBPL.blend</File>
+    <File md5="1B780C78A033CA65584BE3128D132C29" import="1">Art/Models/Three Sisters Outpost/North American Encampment 1 PL.fxsxml</File>
+    <File md5="9A8AF28A7075EDA17051194EE6CC6456" import="1">Art/Models/Three Sisters Outpost/North American Encampment 1 PL.gr2</File>
+    <File md5="FD0FCF42F4708C3CC54DEA3E3BEE4060" import="1">Art/Models/Three Sisters Outpost/North American Encampment 1.blend</File>
+    <File md5="DD4B3B4232452B55506647E3BEDE59C5" import="1">Art/Models/Three Sisters Outpost/North American Encampment 1.gr2</File>
+    <File md5="09D38376C9D390BAF9CD1886989F824E" import="1">Art/Scenes/MC_NTF_Seneca_DoM.dds</File>
+    <File md5="67D244FB2006F5043DE601B88A032C5C" import="1">Art/Scenes/MC_NTF_Seneca_Leaderscene.dds</File>
+    <File md5="9292E0FADBFD957F76A9B7E420169847" import="1">Art/Scenes/MC_NTF_Seneca_Map.dds</File>
+    <File md5="832D9BFA19C0997E93325EA789190149" import="0">Core/Art/MC_NTF_ThreeSistersArtDef.sql</File>
+    <File md5="4F8A8CE7F8B8831DAF398EBB4F64316B" import="0">Core/Art/MC_NTF_SwiftStrikeArtDef.sql</File>
+    <File md5="86540527C3A49228AFB3FA63AB5773BC" import="1">Core/Art/MC_NTF_Seneca_Leaderscene.xml</File>
+    <File md5="56B9981CC405FA3A6234CD256A99E8FC" import="0">Core/Civilizations/MC_NTF_Seneca_Civilizations.sql</File>
+    <File md5="15C43A3B12814DC968E9FCAACF1A1C89" import="0">Core/GameInfo/MC_NTF_Seneca_IconTextureAtlases.sql</File>
+    <File md5="42B2AC27760CB5D0B21E6DF49C583377" import="0">Core/GameInfo/MC_NTF_Seneca_Sounds.xml</File>
+    <File md5="7C7111302CE202BA8E803BBE66CA1C1F" import="0">Core/Leaders/MC_NTF_Seneca_Leader.sql</File>
+    <File md5="3EEAEF781526CA68BA44BC2C5DE36B12" import="0">Core/Terrain/MC_NTF_Seneca_Improvements.sql</File>
+    <File md5="F9DA5045A50F61B3A7108B670082DBEF" import="0">Core/Text/MC_NTF_Seneca_Text.xml</File>
+    <File md5="15EFEBD4B111226CB8E80D5FE56FA3CD" import="0">Core/Units/MC_NTF_Seneca_UnitPromotions.sql</File>
+    <File md5="106AECFF7CDD9D33767659E493BC9564" import="0">Core/Units/MC_NTF_Seneca_Units.sql</File>
+    <File md5="AFB3DF5B9E00F33105DEAC1DB6FC30F0" import="0">Lua/MC_NTF_Seneca_Functions.lua</File>
+    <File md5="EDBB6B61EB521DEAF59C49D18E2EA79F" import="1">Lua/PlotIterators.lua</File>
+    <File md5="CE027FA99BBFE825267ED638E88BEFB2" import="1">Lua/Sukritact_SaveUtils.lua</File>
+    <File md5="A37BFDEEFF0C9C7DCD0B780B48DE1537" import="0">Mod Support/MC_NTF_Seneca_ModSupport.sql</File>
+    <File md5="2414B7DDC5D16A3F30D5DD3889992F3B" import="1">Sounds/MC_NTF_Seneca_War.mp3</File>
+    <File md5="2C280DD02E7B9EC947749349BCDF7747" import="1">Sounds/MC_NTF_Seneca_Peace.mp3</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Art/MC_NTF_Seneca_Leaderscene.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Art/MC_NTF_SwiftStrikeArtDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/MC_NTF_ThreeSistersArtDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations/MC_NTF_Seneca_Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_NTF_Seneca_IconTextureAtlases.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_NTF_Seneca_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaders/MC_NTF_Seneca_Leader.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Terrain/MC_NTF_Seneca_Improvements.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Text/MC_NTF_Seneca_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_NTF_Seneca_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_NTF_Seneca_UnitPromotions.sql</UpdateDatabase>
+      <UpdateDatabase>Mod Support/MC_NTF_Seneca_ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/MC_NTF_Seneca_Functions.lua">
+      <Name>MC_NTF_Seneca_Functions</Name>
+      <Description>Functions for the Seneca</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
