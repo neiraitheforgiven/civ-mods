@@ -24,7 +24,7 @@ MinAreaSize,
 ConquestProb,
 HurryCostModifier,
 'NTF_POHNPEI_ATLAS', --IconAtlas
-0
+0)
 FROM Buildings WHERE Type = 'BUILDING_TEMPLE';
 
 
