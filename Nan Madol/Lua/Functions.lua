@@ -22,29 +22,44 @@ function OnCityCreated(
         --save that the city has been founded
         save(player, 'HasFoundedNanMadol', true)
         --check all plots owned by both cities
-
-
-
-  if plot:IsCoastalLand() then
-      -- Get the adjacent plots to the original city
-      local adjacentPlots = GetAdjacentPlots(city:Plot())
-
-      -- Find the first empty adjacent plot
-      local targetPlot
-      for i, adjPlot in ipairs(adjacentPlots) do
-          if not adjPlot:IsCity() then
-              targetPlot = adjPlot
-              break
+        for i = 0, nanMadol:GetNumCityPlots() - 1, 1 do
+          local plot = nanMadol:GetCityIndexPlot(i)
+          --if the plot is land, swap it with the other city
+          if plot:GetOwner() == playerID and not plot:IsWater() then
+            plot:SetOwner(playerID, cityID)
+            -- give nan madol another water plot
+            local aPurchasablePlots = {nanMadol:GetBuyablePlotList()};
+            for p = 0, #aPurchasablePlots do
+              local buyablePlot = aPurchasablePlots[p]
+              if buyablePlot:IsWater() then
+                buyablePlot:SetOwner(playerID, nanMadol:GetID())
+                break
+              end
+            end
           end
+        end
+        --give all water plots on other city to nan madol
+        for i = 0, city:GetNumCityPlots() - 1, 1 do
+          local plot = city:GetCityIndexPlot(i)
+          if plot:GetOwner() == playerID and plot:IsWater() then
+            plot:SetOwner(playerID, nanMadol:GetID())
+            --give the city another land plot
+            local aPurchasablePlots = {city:GetBuyablePlotList()};
+            for p = 0, #aPurchasablePlots do
+              local buyablePlot = aPurchasablePlots[p]
+              if not buyablePlot:IsWater() then
+                buyablePlot:SetOwner(playerID, city:GetID())
+                break
+              end
+            end
+          end
+        end
       end
-
-      -- Create a new city on the target plot
-      if targetPlot ~= nil then
-          local newCity = Players[playerID]:InitCity(targetPlot:GetX(), targetPlot:GetY())
-          newCity:SetName(city:GetName() .. " 2")
-      end
+    end
   end
 end
+
+
 
 for _, player in pairs(Players) do
   if player:GetCivilizationType() == NTF_POHNPEI then
