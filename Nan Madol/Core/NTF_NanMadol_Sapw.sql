@@ -22,9 +22,9 @@ VALUES
 5, --DOFWillingness
 8, --loyalty
 3, --neediness
-8, --forgiveness
-2, --chattiness
-2, --meanness
+3, --forgiveness
+6, --chattiness
+3, --meanness
 'NTF_POHNPEI_ATLAS', --IconAtlas
 1);
 
@@ -150,7 +150,7 @@ INSERT INTO Leader_MinorCivApproachBiases
             (LeaderType,                    MinorCivApproachType,               Bias)
 VALUES      ('LEADER_NTF_SAPW',   'MINOR_CIV_APPROACH_IGNORE',        4),
             ('LEADER_NTF_SAPW',   'MINOR_CIV_APPROACH_FRIENDLY',      2),
-            ('LEADER_NTF_SAPW',   'MINOR_CIV_APPROACH_PROTECTIVE',    6),
+            ('LEADER_NTF_SAPW',   'MINOR_CIV_APPROACH_PROTECTIVE',    2),
             ('LEADER_NTF_SAPW',   'MINOR_CIV_APPROACH_CONQUEST',      6),
             ('LEADER_NTF_SAPW',   'MINOR_CIV_APPROACH_BULLY',         8);
 
