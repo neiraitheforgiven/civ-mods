@@ -59,12 +59,18 @@ function OnCityCreated(
   end
 end
 
-
+--Completing a wonder should make a new Improvement in the water around Nan Madol
+function OnWonderCompleted(playerId, cityId, buildingId)
+  local player = Players(playerId)
+  if player:GetCivilizationType() == NTF_POHNPEI and
+      --check if the building is a wonder
+      GameInfo.Buildings[buildingId].BuildingClass == "BUILDINGCLASS_WORLD_WONDER" then
 
 for _, player in pairs(Players) do
   if player:GetCivilizationType() == NTF_POHNPEI then
     print('Pohnpei found. Loading functions')
-    Events.SerialEventCityFounded(OnCityCreated)
+    Events.SerialEventCityFounded.Add(OnCityCreated)
+    GameEvents.CityConstructed.Add(OnWonderCompleted)
     break
   end
 end
