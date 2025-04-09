@@ -21,6 +21,8 @@ function OnCityCreated(
         nanMadol:SetName("Nan Madol")
         --save that the city has been founded
         save(player, 'HasFoundedNanMadol', true)
+        --add the duplicate palace to the city
+        nanMadol:SetHasBuildingType(GameInfoTypes["BUILDING_NAN_MADOL_PALACE"], 1)
         --check all plots owned by both cities
         for i = 0, nanMadol:GetNumCityPlots() - 1, 1 do
           local plot = nanMadol:GetCityIndexPlot(i)
@@ -92,11 +94,52 @@ function OnWonderCompleted(playerId, cityId, buildingId)
   end
 end
 
+--At the end of turn, record the position of each Sounpei unit
+function OnTurnEnd()
+  local player = Players[Game.GetActivePlayer()]
+  if player:GetCivilizationType() == NTF_POHNPEI then
+    local units = player:GetUnits()
+    for i = 0, units:GetCount() - 1, 1 do
+      local unit = units:Item(i)
+      if unit:GetUnitType() == GameInfo.Units["UNIT_SOUNPEI"].ID then
+        local plot = unit:GetPlot()
+        --save the position of the unit
+        save(player, 'SounpeiUnitPosition ' + unit.unitId, plot)
+      end
+    end
+  end
+end
+
+--At the start of turn, check if the Sounpei unit is in the same position as last turn
+function OnTurnStart()
+  local player = Players[Game.GetActivePlayer()]
+  if player:GetCivilizationType() == NTF_POHNPEI then
+    local units = player:GetUnits()
+    for i = 0, units:GetCount() - 1, 1 do
+      local unit = units:Item(i)
+      if unit:GetUnitType() == GameInfo.Units["UNIT_SOUNPEI"].ID then
+        local plot = unit:GetPlot()
+        local lastPlot = load(player, 'SounpeiUnitPosition' + unit.unitId)
+        if lastPlot ~= nil then
+          --check if the unit is in the same position as last turn
+          if plot:GetX() == lastPlot:GetX() and plot:GetY() == lastPlot:GetY() then
+            --switch promotions on the unit
+            unit:SetHasPromotion(GameInfo.Promotions["PROMOTION_WITHDRAW"].ID, false)
+            unit:SetHasPromotion(GameInfo.Promotions["PROMOTION_HEAVY_ATTACK"].ID, true)
+          end
+        end
+      end
+    end
+  end
+end
+
 for _, player in pairs(Players) do
   if player:GetCivilizationType() == NTF_POHNPEI then
     print('Pohnpei found. Loading functions')
     Events.SerialEventCityFounded.Add(OnCityCreated)
     GameEvents.CityConstructed.Add(OnWonderCompleted)
+    Events.SerialEventTurnEnd.Add(OnTurnEnd)
+    Events.SerialEventTurnStart.Add(OnTurnStart)
     break
   end
 end
