@@ -133,6 +133,48 @@ function OnTurnStart()
   end
 end
 
+--At the start of turn, check each yield and whether a wonder in Nan Madol produces it. Then, add the yield to nan madol for each tomb of the saudeleur you own.
+function OnTurnStartTombEffect()
+  local player = Players[Game.GetActivePlayer()]
+  if player:GetCivilizationType() == NTF_POHNPEI then
+    for city in player:GetCities() do
+      --check if the city is Nan Madol
+      if city:GetName() == "Nan Madol" then
+        local tombs = 0
+        for i = 0, city:GetNumCityPlots() - 1, 1 do
+          local plot = city:GetCityIndexPlot(i)
+          if plot:GetImprovementType() == GameInfo.Improvements["IMPROVEMENT_NAN_MADOL_TOMB"].ID then
+            --add the yield to the city for each tomb of the saudeleur you own
+            tombs = tombs + 1
+          end
+        end
+        if tombs > 0 then
+          --check if the city has a wonder that produces a yield
+          for yieldType = 0, GameInfo.Yields.Count - 1, 1 do
+            yieldDone = false
+            for i = 0, city:GetNumBuildingClassTypes() - 1, 1 do
+              if yieldDone then break end
+              local buildingClass = city:GetBuildingClassType(i)
+              if GameInfo.Buildings[buildingClass].BuildingClass == "BUILDINGCLASS_WORLD_WONDER" then
+                --check if the building produces the yield
+                if city.GetBuildingYieldChange(buildingClass, yieldType) > 0 then
+                  --add the yield to the city for each tomb of the saudeleur you own
+                  city:ChangeYield(yieldType, tombs)
+                  yieldDone = true
+                elseif Game.GetBuildingYieldModifier(buildingClass, yieldType) > 0 then
+                  --add the yield to the city for each tomb of the saudeleur you own
+                  city:ChangeYield(yieldType, tombs)
+                  yieldDone = true
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end
+
 for _, player in pairs(Players) do
   if player:GetCivilizationType() == NTF_POHNPEI then
     print('Pohnpei found. Loading functions')
@@ -140,6 +182,7 @@ for _, player in pairs(Players) do
     GameEvents.CityConstructed.Add(OnWonderCompleted)
     Events.SerialEventTurnEnd.Add(OnTurnEnd)
     Events.SerialEventTurnStart.Add(OnTurnStart)
+    Events.SerialEventTurnStart.Add(OnTurnStartTombEffect)
     break
   end
 end
