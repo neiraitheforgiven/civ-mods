@@ -65,6 +65,32 @@ function OnWonderCompleted(playerId, cityId, buildingId)
   if player:GetCivilizationType() == NTF_POHNPEI and
       --check if the building is a wonder
       GameInfo.Buildings[buildingId].BuildingClass == "BUILDINGCLASS_WORLD_WONDER" then
+    local city = player:GetCityByID(cityId)
+    if city.GetName() == "Nan Madol" then
+      for i = 0, city:GetNumCityPlots() - 1, 1 do
+        plot = city:GetCityIndexPlot(i)
+        if plot:IsWater() then
+          if plot:GetImprovementType() == -1 and plot:GetResourceType() == -1 then
+            table.insert(plots, plot)
+          end
+        end
+      end
+      if #plots = 0 then
+        for i = 0, city:GetNumCityPlots() - 1, 1 do
+          plot = city:GetCityIndexPlot(i)
+          if plot:IsWater() then
+            if plot:GetImprovementType() == -1 then
+              table.insert(plots, plot)
+            end
+          end
+        end
+      end
+      --create a new improvement on one of the plots
+      local randomPlot = plots[math.random(#plots)]
+      player:SetImprovementType(randomPlot, GameInfo.Improvements["IMPROVEMENT_NAN_MADOL_TOMB"].ID)
+    end
+  end
+end
 
 for _, player in pairs(Players) do
   if player:GetCivilizationType() == NTF_POHNPEI then
