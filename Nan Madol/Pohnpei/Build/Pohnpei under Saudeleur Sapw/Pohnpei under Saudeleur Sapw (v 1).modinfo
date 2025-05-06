@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="67baf217-cec6-4118-89fd-c43da828c84b" version="1">
+  <Properties>
+    <Name>Pohnpei under Saudeleur Sapw</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Pohn Pohn Pohn...</Teaser>
+    <Description>Pohn Pohn Pohn...</Description>
+    <Authors>john.denotter</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="5132132C156A6EEE082CB139C626615B" import="0">Functions.lua</File>
+    <File md5="61640B450373DB7592D0F1B4954041D0" import="0">NTF_NanMadol_Buildings.sql</File>
+    <File md5="BB11A3246CA06B2B55BF6A34CFC8E21C" import="0">NTF_NanMadol_Civilization.sql</File>
+    <File md5="D8F2EBD8A24A9F2950DAB602177C9F01" import="0">NTF_NanMadol_Sapw.sql</File>
+    <File md5="AD8C530166976EF73CF93C263F83E0F3" import="0">NTF_NanMadol_Sounpei.sql</File>
+    <File md5="CCBCCDE04E64240F2CD75C8083C4DFA1" import="0">NTF_NanMadol_Text.xml</File>
+    <File md5="FA05902BBA2A526F2A0A9F193E6C1746" import="1">Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>NTF_NanMadol_Sounpei.sql</UpdateDatabase>
+      <UpdateDatabase>NTF_NanMadol_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>NTF_NanMadol_Civilization.sql</UpdateDatabase>
+      <UpdateDatabase>NTF_NanMadol_Sapw.sql</UpdateDatabase>
+      <UpdateDatabase>NTF_NanMadol_Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Functions.lua">
+      <Name>Functions</Name>
+      <Description>Pohnpei Scripts</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
