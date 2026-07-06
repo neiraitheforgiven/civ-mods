@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0d11a53b-b77a-439a-a50b-8d42556b1ee6" version="2">
+  <Properties>
+    <Name>[US] The United Arab Emirates - Sheikh Zayed</Name>
+    <Teaser>Adds the United Arab Emirates under Sheikh Zayed Bin Rashid al Nahyan to the game.</Teaser>
+    <Description>Adds the United Arab Emirates under Sheikh Zayed Bin Rashid al Nahyan to the game. The UAE are a tourism and gold powerhouse, that can gain the maximum gold and tourism benefit from constructing massive wonders befitting their regal status! 
+
+The UAE gets gold whenever they complete a wonder in a city, and receive additional tourism in all cities when their bank account is full of money! The Emirati uniques accentuate this direction, with their uniqe hotel granting gold and tourism for all wonders, plus extra gold dependent on their tourism output. Their unique unit is a fast, deadly piracy unit which can raid trade routes and ships for additional gold in the mid-game before tourism starts to bring in the big bucks!
+
+Can you build a civilisation rich enough to put your neighbours to shame? Can you draw people from around the world to marvel at your wealth and opulence? Can you build a civilisation to stand the test of time?</Description>
+    <Authors>Urdnot_Scott</Authors>
+    <SpecialThanks>Tar, Regalman, Darth, Uighur, Chrisy and just everyone rly, u know who u are fam</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="CiD" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="ExCE" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="RtP" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="CulDiv" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="E&amp;D" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="1E9B3E82B8662F21A65DAA2634DC0916" import="0">Arts/Atlas/AtlasDefines.xml</File>
+    <File md5="AA741403509E835E93D820C8DE6CC07D" import="1">Arts/Atlas/Qasimi128.dds</File>
+    <File md5="2518632C23529AD4C675B157FCD9D02B" import="1">Arts/Atlas/Qasimi32.dds</File>
+    <File md5="7B430537040D19B59BB0F238F6C1F020" import="1">Arts/Atlas/UAE_Alpha16.dds</File>
+    <File md5="256033576210D0A11D0162D0911129DB" import="1">Arts/Atlas/UAE_Alpha24.dds</File>
+    <File md5="5C229DD3B2FD23F624D29C35ACC2956A" import="1">Arts/Atlas/UAE_Alpha32.dds</File>
+    <File md5="2494190F49C7CF097CC88C3769A91B5F" import="1">Arts/Atlas/UAE_Alpha45.dds</File>
+    <File md5="B1D8DFD22DADC7A582C94D21CC7C1E8A" import="1">Arts/Atlas/UAE_Alpha48.dds</File>
+    <File md5="A38EED4BFD53D15822249986419B909B" import="1">Arts/Atlas/UAE_Alpha64.dds</File>
+    <File md5="8D953CDAADC3DA8EDFA43825669C4FC2" import="1">Arts/Atlas/UAE_Alpha80.dds</File>
+    <File md5="D9EEEDB24F1F99876E22663B0849EDBD" import="1">Arts/Atlas/UAE_Atlas128.dds</File>
+    <File md5="EC0976DFD525284AE5551A5061A473BF" import="1">Arts/Atlas/UAE_Atlas256.dds</File>
+    <File md5="8747D6133594D1E9415246D4D9738762" import="1">Arts/Atlas/UAE_Atlas32.dds</File>
+    <File md5="B802C20DA456FF123B8A1E2DDB8CD96D" import="1">Arts/Atlas/UAE_Atlas45.dds</File>
+    <File md5="D65FA9733CBE3DE6B29F71D799BC9AC4" import="1">Arts/Atlas/UAE_Atlas64.dds</File>
+    <File md5="26617DEFD92C02965D0E7E49E4650162" import="1">Arts/Atlas/UAE_Atlas80.dds</File>
+    <File md5="93810966B9658E32711541A0040386C7" import="1">Arts/SheikhZayedDiplo.dds</File>
+    <File md5="5F13C8AE16DA764CC8732419A5621CE2" import="1">Arts/SheikhZayed_Diplo.xml</File>
+    <File md5="2ED870F063B9C68CF72C713903AC681A" import="1">Arts/UAE_DoM.dds</File>
+    <File md5="266E13B977B8437FAC639EEC54417A16" import="1">Arts/UAE_map.dds</File>
+    <File md5="81045840BCF9EC7C3E64446601BE6781" import="0">Arts/Unit/ArtDefRaider.sql</File>
+    <File md5="45966B60A14B71D35B746B8D7340B1F1" import="1">Arts/Unit/baghlah.fxsxml</File>
+    <File md5="8FD3BF6D97C9768C948114AF07561408" import="1">Arts/Unit/baghlah.gr2</File>
+    <File md5="21598273D18D536BA5B307190BE8516C" import="1">Arts/Unit/u_baghlah_dam_diff.dds</File>
+    <File md5="DB186D1910311E1E678455616078F773" import="1">Arts/Unit/u_baghlah_diff.dds</File>
+    <File md5="5212739F1B7687B88132C6F8F3E79807" import="1">Arts/Unit/u_baghlah_sref.dds</File>
+    <File md5="7AAA0D3136DF58EA97BF900924DA2E87" import="0">GameDefines/Diplo.sql</File>
+    <File md5="70ACD4B109BF4976824ED043BB107A58" import="0">GameDefines/Diplomacy_Text.xml</File>
+    <File md5="B50B635CC22758B5E98C829AAA34F588" import="0">GameDefines/ModSupport.sql</File>
+    <File md5="7748B1BE71C5365CD8CA2B7C4B55D068" import="0">GameDefines/Trait.xml</File>
+    <File md5="3ED351B1E1EE4F27D34F0E37AE203790" import="0">GameDefines/UAE_BuildingClasses.xml</File>
+    <File md5="115B13CCA5665241CF32D09098F099F6" import="0">GameDefines/UAE_Buildings.xml</File>
+    <File md5="07154C2622BC4A52B64829A6B91EC83D" import="0">GameDefines/UAE_Civilizations.xml</File>
+    <File md5="3D1565C4CAFCF8DF1BA4B553BF6349EB" import="0">GameDefines/UAE_Leader.xml</File>
+    <File md5="C8EC1428E334AEDF821B0E36FD24B9C8" import="0">GameDefines/UAE_Text.xml</File>
+    <File md5="E797CFAE42B85BF3025B95451D10D2DC" import="0">GameDefines/UAE_Units.xml</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/Plotiterators.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">Lua/SaveUtils.lua</File>
+    <File md5="CE201B15D89EE015E681E2ABBBA03702" import="1">Lua/UAE_Decisions.lua</File>
+    <File md5="8E307E49A0A8E4A103DFE9E2C913E9D2" import="0">Lua/UAE_functions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Arts/Atlas/AtlasDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Arts/Unit/ArtDefRaider.sql</UpdateDatabase>
+      <UpdateDatabase>Arts/SheikhZayed_Diplo.xml</UpdateDatabase>
+      <UpdateDatabase>GameDefines/Diplo.sql</UpdateDatabase>
+      <UpdateDatabase>GameDefines/Diplomacy_Text.xml</UpdateDatabase>
+      <UpdateDatabase>GameDefines/ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>GameDefines/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>GameDefines/UAE_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>GameDefines/UAE_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>GameDefines/UAE_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>GameDefines/UAE_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>GameDefines/UAE_Text.xml</UpdateDatabase>
+      <UpdateDatabase>GameDefines/UAE_Units.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/UAE_functions.lua">
+      <Name>functions</Name>
+      <Description>they do the stuff </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/SaveUtils.lua">
+      <Name>y r u reading this</Name>
+      <Description>fuk off</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

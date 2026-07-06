@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c4e6ab4e-3ee4-44fc-b785-bbc7e679c842" version="1">
+  <Properties>
+    <Name>JFD's The Empire of Spain (Philip II)</Name>
+    <Teaser>Adds the [COLOR_POSITIVE_TEXT]Empire of Spain[ENDCOLOR] under Philip II to the game.</Teaser>
+    <Description>See CivFanatics or Steam Workshop for full details.</Description>
+    <Authors>JFD, Janboruta, Viregel, Regalman, Sukritact</Authors>
+    <SpecialThanks>Typhlomence</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="B685D5DE-7CCA-4e75-81B4-2F60754E6330" minversion="0" maxversion="999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Rise to Power" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp;amp; Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD’s Cities in Development" />
+    <Mod id="66f38ce9-fc7b-448d-a7db-949d105b9b9f" minversion="0" maxversion="999" title="Zwei833's Renaissance Era Revised" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="DA21BBFCCBD991761CE572EB13829633" import="1">Art/Diplomacy/Janboruta_PhilipII_Diplo.dds</File>
+    <File md5="A85F2A355189600A62492AA5AF913CEA" import="1">Art/Diplomacy/Janboruta_PhilipII_Scene.xml</File>
+    <File md5="74932C6A07C75B5C9A0FB854B427E06B" import="1">Art/Graphics/Jinetes/Horseman_Spain.dds</File>
+    <File md5="630C637FC7E7B40F09E9FE760756A39C" import="1">Art/Graphics/Jinetes/Horseman_Spain.fxsxml</File>
+    <File md5="CB4C3ADDD07E4139CBCEFAC52C9C01F7" import="1">Art/Graphics/Jinetes/Horseman_Spain.gr2</File>
+    <File md5="664BCE2D3EA94B86FD8115952BEDB561" import="1">Art/Graphics/Jinetes/Horseman_Spain.jpg</File>
+    <File md5="3E202299CB1852581ED93E8BBEF0168B" import="1">Art/Graphics/Jinetes/Horseman_Spain_gloss.dds</File>
+    <File md5="C5FAC6C5674B70B1C0F97061AAB412FD" import="1">Art/Graphics/Jinetes/Horseman_Spain_Horse.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Graphics/Jinetes/no_gloss.dds</File>
+    <File md5="455B7102365AE4B5DA5E6539FA26FC90" import="1">Art/Graphics/Jinetes/sv_Jinete.dds</File>
+    <File md5="F6B0A51E3F1707AC13EB4378E450E009" import="1">Art/IconAtlas/JFD_CastileAlphaAtlas_128.dds</File>
+    <File md5="8877512DC51597874FEEF0A2F63A5EA0" import="1">Art/IconAtlas/JFD_CastileAlphaAtlas_16.dds</File>
+    <File md5="625A2FFD6FDF7CBF114C25E0DA3696C1" import="1">Art/IconAtlas/JFD_CastileAlphaAtlas_22.dds</File>
+    <File md5="3C83360C24B6DC46C5117899C70955C4" import="1">Art/IconAtlas/JFD_CastileAlphaAtlas_24.dds</File>
+    <File md5="7B1A27A3320FB710030313A283920F4C" import="1">Art/IconAtlas/JFD_CastileAlphaAtlas_256.dds</File>
+    <File md5="D2D902088080E45553646A11E4BBEE0D" import="1">Art/IconAtlas/JFD_CastileAlphaAtlas_32.dds</File>
+    <File md5="867FF4ACCCD756386596B2F20DFDFE9D" import="1">Art/IconAtlas/JFD_CastileAlphaAtlas_45.dds</File>
+    <File md5="C5BF565BC6651462A8F51A64A4430323" import="1">Art/IconAtlas/JFD_CastileAlphaAtlas_48.dds</File>
+    <File md5="EF4582B9E8704EE07D2B38F86B9FDA51" import="1">Art/IconAtlas/JFD_CastileAlphaAtlas_64.dds</File>
+    <File md5="C298B682656EA20912275D8331F592FF" import="1">Art/IconAtlas/JFD_CastileAlphaAtlas_80.dds</File>
+    <File md5="6E634E1ABEBBD07535C4D78DC9070564" import="1">Art/IconAtlas/JFD_JineteUnitFlag_32.dds</File>
+    <File md5="9F128D133A97D21304C239CD200111A1" import="1">Art/IconAtlas/JFD_PhilipIISpainAtlas_128.dds</File>
+    <File md5="50514CA83FF4D9A2E7111A8DF21F5D7A" import="1">Art/IconAtlas/JFD_PhilipIISpainAtlas_256.dds</File>
+    <File md5="EE6B34155F5538F19DDBDDF00A441BCB" import="1">Art/IconAtlas/JFD_PhilipIISpainAtlas_32.dds</File>
+    <File md5="75C9AC257E9483B4C685FA53D150770E" import="1">Art/IconAtlas/JFD_PhilipIISpainAtlas_45.dds</File>
+    <File md5="36F567AF8B505820DA4886A3717CCC1D" import="1">Art/IconAtlas/JFD_PhilipIISpainAtlas_64.dds</File>
+    <File md5="639CBA89EC5816E3670A052BB93F3E8A" import="1">Art/IconAtlas/JFD_PhilipIISpainAtlas_80.dds</File>
+    <File md5="03F1691827EB0BE4D14127E7DDA89A0D" import="1">Art/Map/Janboruta_Isabella_DOM.dds</File>
+    <File md5="13258AC0F3C271049398CD0C11A68C6D" import="1">Art/Map/MapSpain360x410.dds</File>
+    <File md5="736F962D1AD0D82C7A91394F8DE2D37E" import="1">Art/Map/DOM_Isabella.dds</File>
+    <File md5="EC91DC67270AF6EAB41CEC12C87DC16B" import="1">Art/Map/Viregel_MapSpainIsabella512.dds</File>
+    <File md5="CA526645395F5668C014756A07FABE62" import="1">Audio/PhilipII_Peace.mp3</File>
+    <File md5="4281EA2B28103B7511FA138F40355C02" import="1">Audio/PhilipII_War.mp3</File>
+    <File md5="FF6490C9AD81F9FD104EB6090EE86C00" import="0">Core/CastileIsabella_GameDefines.sql</File>
+    <File md5="7083A25CD8E4CF81C9BEE005AF73F69B" import="0">Core/SpainPhilipII_ArtDefines.sql</File>
+    <File md5="736528871DCB3D39BA040721B51930C0" import="0">Core/SpainPhilipII_GameDefines.sql</File>
+    <File md5="1570D3E9C7D1928A52234E489927A241" import="0">Core/SpainPhilipII_GameDefines_Diplomacy.sql</File>
+    <File md5="811651CDA092EDB95BD7FAAF3ABC52FA" import="0">Core/SpainPhilipII_GameDefines_ModSupport.sql</File>
+    <File md5="2D8FEB62136E3C2992A8E767E2BE9D0B" import="0">Core/SpainPhilipII_GameText.xml</File>
+    <File md5="C825DCF798C710F0728FC6BE3BDE37FE" import="0">Core/SpainPhilipII_GameText_Diplomacy.xml</File>
+    <File md5="31338FC3072235927763589EE0EB9FA6" import="0">Core/SpainPhilipII_GameText_ModSupport.xml</File>
+    <File md5="18AE8BB31DE2AE4D36F3AC31FE540FE5" import="0">Core/CastileIsabella_ArtDefines.sql</File>
+    <File md5="ECC1F8B5E012DF39DCD2FA185EB7302E" import="0">Core/CastileIsabella_GameDefines_ModSupport.sql</File>
+    <File md5="50783AC24BF55FED81705C520BFACBCA" import="0">Core/CastileIsabella_GameText.xml</File>
+    <File md5="E3F6F46C97CD2A38F42CD78570CCCD91" import="0">Core/CastileIsabella_GameText_ModSupport.xml</File>
+    <File md5="15AFFA2D692762C8070A66BE64364DAE" import="0">JFD_Castile_UserSettings.sql</File>
+    <File md5="237A87BF2ED8847F0EA4D7EBE509B8F2" import="1">Lua/JFD_Castile_Decisions.lua</File>
+    <File md5="3F29D69024FEB467F4AF3B1FA9229BC5" import="0">Lua/JFD_Castile_Functions.lua</File>
+    <File md5="71432BBEE3F1F6D47D1EE2EFAAF07C92" import="1">Lua/JFD_SpainPhilipII_Decisions.lua</File>
+    <File md5="59F6732106A1FFF76B4531641ACE90F8" import="0">Lua/JFD_SpainPhilipII_Functions.lua</File>
+    <File md5="E539594F6977B00D898061CF27F251B9" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="A4759D7B62448C31C908D01635EC0FB7" import="1">Lua/Utilities/UniqueDiplomacyUtilsV2.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>JFD_Castile_UserSettings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CastileIsabella_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CastileIsabella_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CastileIsabella_GameDefines_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CastileIsabella_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/CastileIsabella_GameText_ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>Core/SpainPhilipII_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SpainPhilipII_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SpainPhilipII_GameDefines_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SpainPhilipII_GameDefines_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SpainPhilipII_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/SpainPhilipII_GameText_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>Core/SpainPhilipII_GameText_ModSupport.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_SpainPhilipII_Functions.lua">
+      <Name>JFD_SpainPhilipII_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Castile_Functions.lua">
+      <Name>JFD_Castille_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

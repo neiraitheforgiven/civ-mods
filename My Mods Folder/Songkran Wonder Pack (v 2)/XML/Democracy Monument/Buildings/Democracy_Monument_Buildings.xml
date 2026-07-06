@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DEMOCRACY_MONUMENT</Type>
+			<BuildingClass>BUILDINGCLASS_DEMOCRACY_MONUMENT</BuildingClass>
+			<Description>TXT_KEY_BUILDING_DEMOCRACY_MONUMENT</Description>
+			<Help>TXT_KEY_WONDER_DEMOCRACY_MONUMENT_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_DEMOCRACY_MONUMENT_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_DEMOCRACY_MONUMENT_QUOTE</Quote>
+			<Cost>1060</Cost>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+			<MaxStartEra>ERA_MODERN</MaxStartEra>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_SONGKRAN</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>DEMOCRACY_MONUMENT_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DEMOCRACY_MONUMENT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DEMOCRACY_MONUMENT</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEMOCRACY_MONUMENT</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

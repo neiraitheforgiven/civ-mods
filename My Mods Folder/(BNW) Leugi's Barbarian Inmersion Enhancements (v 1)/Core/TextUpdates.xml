@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/4/2014 5:48:45 PM -->
+<GameData>
+	<Language_en_US>
+		<Replace Tag="TXT_KEY_POP_BARBARIAN_CLEARED">
+			<Text>Victory!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUPANEL_VS_BARBARIANS_BONUS">
+			<Text>Bonus VS Neutral Hostile</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BARB_CAMP_CLEARED">
+			<Text>You have captured a {1_camp} and recovered {2_Num} [ICON_GOLD] Gold!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BARB_CAMP_GENERAL_CLEARED">
+			<Text>You have captured a {1_adj} General at its {2_camp} and recovered {3_Num} [ICON_GOLD] Gold and {4_Culture} [ICON_CULTURE] Culture!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_IMPROVEMENT_ENCAMPMENT">
+			<Text>Encampment</Text>
+		</Replace>
+		
+	</Language_en_US>
+	<Civilization_UnitClassOverrides>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_BARBARIAN" UnitClassType="UNITCLASS_CAVALRY"/>
+			<Set UnitType="UNIT_CAVALRY"/>
+		</Update>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_BARBARIAN" UnitClassType="UNITCLASS_BOMBER"/>
+			<Set UnitType="UNIT_BOMBER"/>
+		</Update>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_BARBARIAN" UnitClassType="UNITCLASS_HELICOPTER_GUNSHIP"/>
+			<Set UnitType="UNIT_HELICOPTER_GUNSHIP"/>
+		</Update>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_BARBARIAN" UnitClassType="UNITCLASS_CANNON"/>
+			<Set UnitType="UNIT_CANNON"/>
+		</Update>
+	</Civilization_UnitClassOverrides>
+</GameData>
+

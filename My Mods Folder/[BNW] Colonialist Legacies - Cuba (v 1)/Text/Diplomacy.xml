@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 06/07/15 10:52:06 AM -->
+<GameData>
+	<Language_en_US>
+		<!-- DIPLOMACY: VANILLA Vanilla -->
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_FIRSTGREETING_1">
+			<Text>Destiny produces the man for the hour. The Cuban destiny has produced me, and I cannot help but wonder what destiny produced you.</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_DEFEATED_1">
+			<Text>Condemn me, it does not matter: history will absolve me.</Text>
+		</Row>
+		<!--First Greeting from leaders that don't have their own file yet-->
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_GREETING_POLITE_HELLO_1">
+			<Text>Greetings comrade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_GREETING_HOSTILE_HELLO_1">
+			<Text>I sympathize with your people, oppressed and abused. You, I despise.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_GREETING_COOP_WAR_1">
+			<Text>Greetings comrade. The repugnant imperialists will soon face the full force of our revolution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_DOW_LEADER_CL_UC_CASTRO_1">
+			<Text>Warfare is a means and not an end. Warfare is a tool of revolutionaries. The important thing is the revolution, and it is this revolution that we will bring to free your people!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_DOW_LAND_1">
+			<Text>The workers of your land are abused and exploited by your disgusting greed. I will bring them liberty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_DOW_WORLD_CONQUEST_1">
+			<Text>The Cuban people are prepared to sacrifice themselves for the cause of the destruction of imperialism and the victory of world revolution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_NOW_ENEMY_1">
+			<Text>If I had admitted what I was upon the mountains where we met, I don't believe I would have been able to descend to the plains. Now that you've helped me down, you're no longer needed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_DOW_OPPORTUNITY_1">
+			<Text>I think that a man should not live beyond the age when he begins to deteriorate. The flame that burned brightest in your life has weakened, and I will put it out.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>I expected this from imperialist scum such as yourself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_LUXURY_TRADE_1">
+			<Text>A revolution cannot succeed without the will of the people. My people offer you this. Do you accept?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_DENOUNCE_1">
+			<Text>Every revolution is a battle between the future and the past. Cuba is the future. You... well, I'm certain you can guess.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_DEC_FRIENDSHIP_1">
+			<Text>I knew a man, a great man, who said that those who tremble indignation at every injustice was a comrade. Do you tremble? Are you a friend? Are you too free?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_NO_PEACE_1">
+			<Text>A revolution is not a trail of roses, it is a fight to the death between the future and the past. I will not stop this revolution until your empire is history and your people are free.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_BULLIED_PROTECTED_CITY_STATE_1">
+			<Text>A revolution is a struggle between the exploited and the exploiters. Your exploitation of {@1_MinorCivName} is intolerable. If you do not refrain from such hostility, I will have to rally the exploited and improverished against you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_SAME_POLICIES_ORDER_1">
+			<Text>Greetings comrade! I am glad to see you too believe that capitalism is obsolete. Let us combine our forces and liberate the world from tyranny!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_CAUGHT_YOUR_SPY_1">
+			<Text>Trying to sow dissent aren't you? No one does so better than myself. If you do not remove your operatives from my cities, your own people will be attempting to kill you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_KILLED_YOUR_SPY_1">
+			<Text>In Cuba, there is a commitee in every corner and a revolution in every neighborhood. What made you think your pathetic spy could sneak in unharmed?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_KILLED_MY_SPY_1">
+			<Text>A revolution cannot succeed without sacrifice. I mourn for my fallen comrade.</Text>
+		</Row>
+		
+	</Language_en_US>
+
+</GameData>

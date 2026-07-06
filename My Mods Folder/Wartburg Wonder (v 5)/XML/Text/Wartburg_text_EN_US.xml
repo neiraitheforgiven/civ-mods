@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_WARTBURG">
+			<Text>Wartburg</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_WARTBURG_HELP">
+			<Text>Contains a pre-built Great Work of Writing. [NEWLINE]City must be built on a hill.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_WARTBURG_QUOTE">
+			<Text>[NEWLINE]"Wait, mountain - You shall become a castle for me! "[NEWLINE] - Ludwig der Springer[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_WARTBURG_PEDIA">
+			<Text>Wartburg was built as frontier fortification overlooking the town of Freyburg. Constructed in the year 1068, it was comissioned by Count Ludwig der Springer, who is rumoured to have uttered the words 'Wait, mountain - You shall become a castle for me' upon seeing the site. As well as this, he is said to have covered the site of the Castle with clay from his land, so if questioned he could maintain the castle was constructed on his lands. [NEWLINE] Wartburg was built as frontier fortification overlooking the town of Eisenach, in the state of Thuringia, Germany. Constructed in the year 1068, it was commissioned by Count Ludwig der Springer, who is rumored to have uttered the words 'Wait, mountain - You shall become a castle for me' upon seeing the site. As well as this, he is said to have covered the site of the Castle with clay from his land, so if questioned he could maintain the castle was constructed on his lands.[NEWLINE] The castle has been the former place of a minstrel contest and the location of several prominent religious figures since its foundation, including Martin Luther who worked there on the first translation of the New Testament into a modern language in over a millennium. The castle was also the site of a 'Wartburg festival' on 18 October 1817, commemorating the German victory over Napoleon in 1815. </Text>
+		</Row>
+		<!--Great Work tags-->
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_NINETY_FIVE_THESES">
+			<Text>"Why does not the Pope, whose riches are at this day more ample than those of the wealthiest of the wealthy, build the one Basilica of St. Peter with his own money, rather than with that of poor believers?"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_NINETY_FIVE_THESES">
+			<Text>Ninety-Five Theses</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

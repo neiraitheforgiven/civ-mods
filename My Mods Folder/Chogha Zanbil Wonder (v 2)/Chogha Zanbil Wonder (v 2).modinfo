@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ecc0e8c0-6a0f-402d-b2ba-23a60546cbba" version="2">
+  <Properties>
+    <Name>Chogha Zanbil Wonder</Name>
+    <Teaser>Chogha Zanbil is the world's best preserved Ziggurat</Teaser>
+    <Description>Chogha Zanbil is the world's best preserved Ziggurat, and one of the few located outside of the Mesopotamia region, instead being found in modern day Iran where it was built by Elamites around 1250 BCE. The Ziggurat is dedicated mainly to the god Inshushinak, although smaller temples within the site honour many other gods of the same Pantheon. Ingame, Chogha Zanbil provides a free temple in the city in which it is built, as well as +2 faith, while it requires Bronze Working.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="941390F678356BBF62B9C73FA20B896A" import="1">Art/Zanbil_128.dds</File>
+    <File md5="0455018308E0C8850E9357A55D9DA163" import="1">Art/Zanbil_256.dds</File>
+    <File md5="3821E5FF27D33C5D3B4E611010AE945A" import="1">Art/Zanbil_45.dds</File>
+    <File md5="82EB815D87E4CC1F408EF430C1C8EFB6" import="1">Art/Zanbil_64.dds</File>
+    <File md5="0689C736E24C5A7CA0DE689F611292B9" import="1">Art/Zanbil_80.dds</File>
+    <File md5="7C3A8B477639FFC62D7398D4959F6371" import="1">Art/Zanbil_splash.dds</File>
+    <File md5="3D4B6032FFEE826E45669EC88CB9250B" import="0">XML/Buildings/Zanbil_BuildingClasses.xml</File>
+    <File md5="2049E62C5456A0F751A4785CBB2EC6CF" import="0">XML/Buildings/Zanbil_Buildings.xml</File>
+    <File md5="DDA0AC0C7343589BB5C34FD5F816636E" import="0">XML/Civilizations/Zanbil_Civilizations.xml</File>
+    <File md5="975200A347F52231047D55EC75910570" import="0">XML/GameInfo/Zanbil_IconTextureAtlases.xml</File>
+    <File md5="14EE150301269678E702AA2454CD3EB7" import="0">XML/Text/Zanbil_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Zanbil_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Zanbil_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Zanbil_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Zanbil_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Zanbil_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

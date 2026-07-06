@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/27/2015 2:48:29 PM -->
+<GameData>
+
+
+
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_BULG_ROSE</Type>
+			<Description>TXT_KEY_IMPROVEMENT_BULG_ROSE</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_BULG_ROSE_TEXT</Civilopedia>
+			<Help>TXT_KEY_IMPROVEMENT_BULG_ROSE_HELP</Help>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_BULG_ROSE</ArtDefineTag>
+			<PillageGold>30</PillageGold>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>BULGARIA_ATLAS</IconAtlas>
+			<CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+			<RequiresFlatlands>1</RequiresFlatlands>
+			<SpecificCivRequired>1</SpecificCivRequired>
+		</Row>
+
+		<Row>
+			<Type>IMPROVEMENT_BULG_ROSE_WLTKD</Type>
+			<Description>TXT_KEY_IMPROVEMENT_BULG_ROSE</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_BULG_ROSE_TEXT</Civilopedia>
+			<Help>TXT_KEY_IMPROVEMENT_BULG_ROSE_HELP</Help>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_BULG_ROSE</ArtDefineTag>
+			<PillageGold>30</PillageGold>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>BULGARIA_ATLAS</IconAtlas>
+			<RequiresFlatlands>1</RequiresFlatlands>
+		</Row>
+	</Improvements>
+	
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BULG_ROSE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BULG_ROSE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BULG_ROSE_WLTKD</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BULG_ROSE_WLTKD</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_Yields>
+	
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BULG_ROSE</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+
+	<Builds>
+		<Row>
+			<Type>BUILD_BULG_ROSE</Type>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<Time>600</Time>
+			<ImprovementType>IMPROVEMENT_BULG_ROSE</ImprovementType>
+			<Description>TXT_KEY_BUILD_BULG_ROSE</Description>
+			<Help>TXT_KEY_BUILD_BULG_ROSE_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_BULG_ROSE_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_Z</HotKey>
+			<OrderPriority>9R</OrderPriority>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>ACTION_BULG_ROSE</IconAtlas>
+		</Row>
+	</Builds>
+
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_BULG_ROSE</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>600</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_BULG_ROSE</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_BULG_ROSE</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+		</Row>
+	</BuildFeatures>
+
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_BULG_ROSE</BuildType>
+		</Row>
+	</Unit_Builds>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_BULG_ROSE">
+			<Text>Rose Field</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_IMPROVEMENT_BULG_ROSE_TEXT">
+			<Text>A huge percentage of the world's Rose Oil comes from Bulgaria. Mainly the Rose Valley. Rose Oil, or 'Otto', is used in perfumes. Because of the small amount of oil produced by a single rose and the labor intensive work put into producing it, rose oil commands a very high price. The roses are harvested in the morning before sunrise, and the distilling is done through the rest of the same day.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_IMPROVEMENT_BULG_ROSE_HELP">
+			<Text>Only buildable by Bulgaria, and must be built on flat grassland. Unlocked at Currency, Every 4 Rose Fields in your empire will produce 1 [ICON_RES_BULG_ROSE] Rose Otto luxury. Yields +2 [ICON_GOLD] Gold and +1 [ICON_CULTURE] but also -1 [ICON_FOOD]. Rose Field Culture and Gold yields double when in range of a city that is celebrating a 'We Love The King Day'.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILD_BULG_ROSE">
+			<Text>Construct a [LINK=IMPROVEMENT_BULG_ROSE]Rose Field[\LINK]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILD_BULG_ROSE_HELP">
+			<Text>Only buildable by Bulgaria. Every four Rose Fields will grant a copy of the unique [ICON_RES_BULG_ROSE] Rose Otto luxury resource. Yields +2 Gold and +1 Culture. the base yield doubles when the city working it celebrates a WLTKD</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_BUILD_BULG_ROSE_REC">
+			<Text>It will increase the [ICON_GOLD] Gold and [ICON_CULTURE] culture output of this tile. The base [ICON_GOLD] Gold and [ICON_CULTURE] Culture yields double during WLTKDs! Every four Rose Fields produce one [ICON_RES_BULG_ROSE] Rose Otto luxury resource! </Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2dec3dd9-f21f-4659-afdc-dd64085cd01d" version="2">
+  <Properties>
+    <Name>Barbarians - Unlimited Exp</Name>
+    <Teaser>This simple mod remove the limit exp that you can get from the barbarians.</Teaser>
+    <Description>This simple mod remove the maximum exp that you can get from the barbarians. You will now get experience at any level.</Description>
+    <Authors>Bloublou</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A4727FCADB5C848846D644D5A88EABC9" import="0">Barb - exp.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Barb - exp.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

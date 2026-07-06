@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!--Unique Building-->
+		<Row Tag="TXT_KEY_BUILDING_BURJ">
+			<Text>Burj</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BURJ_HELP">
+			<Text> 50% of the [ICON_CULTURE] Culture from World Wonders, Natural Wonders, and Improvements (Landmarks, Moai, Chateau) is added to the [ICON_TOURISM] Tourism output of the city. [ICON_TOURISM] Tourism output from Great Works +50%. 20% of the [ICON_TOURISM] Tourism in this city is converted into [ICON_GOLD] Gold, and all Wonders in this city provide an additional +2 [ICON_TOURISM] Tourism and [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BURJ_STRATEGY">
+			<Text>The Burj is great for supercharging not only your tourism output, like the normal hotel, but also your gold output! By transforming 20% of your tourism directly into gold, building a Burj in your tourism cities will ensure you keep pumping out enough gold to draw in wealth-seeking socialites from around the globe! Not only that, but the additional gold and tourism from wonders in cities with a Burj will grant even more tourism and gold for your wonder heavy cities, turning them into prime global destinations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BURJ_PEDIA">
+			<Text>The glimmering towers of the Abu Dhabi and Dubai skylines have come to define the nation and its otherwordly extravegance. Starting in the late 20th century, as wealth flooded into the UAE from the increasing value of oil, businesses flocked to the fledgling nation. Nonexistent tax rates, a cooperative government and a fantastic climate turned the barren desert into a haven for the rich and famous and within mere decades some of the most incredible feats of modern engineering began to spring up across the nation. [NEWLINE] [NEWLINE] Some of the most famous towers are the mega-skyscrapers of Dubai, the nations most populous and important city. The Burj Al-Arab, an enormous mega-hotel in the cities prestigious coastal Jumeirah district, boasts an alleged 7 star rating, invidiual rooms spanning nearly 800 square metres, an underwater restaurant and prices of up to 24,000 USD per night! The Burj-Khalifa, constructed in 2010 after six years of construction and costing over 1.5 billion USD (Which is roughly the entire annual GDP of Belize) is the worlds tallest building at over 800m (nearly 3000ft) tall. That's taller than 18 Statue of Liberties! Besides its size, the tower also boasts a 200 million dollar fountain which hosts shows every 30 minutes, in which water is projected 150m into the air (Roughly the height of the Great Pyramid of Giza.) The megacities boast dozens of these megaskyscrapers, from a replica giant big ben to a rotating hotel, each more opulent than the last. All this in one of the the driest most inhospitable places in the world.</Text>
+		</Row>
+		<!--Unique Unit-->
+		<Row Tag="TXT_KEY_UNIT_QASIMI_RAIDER">
+			<Text>Qasimi Raider</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_QASIMI_RAIDER_HELP">
+			<Text>Naval Unit that specializes in attacking coastal cities to earn gold and capturing enemy ships. Gains extra gold when pillaging enemy trade routes and gets all its movement points back upon doing so or capturing an enemy ship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_QASIMI_RAIDER_STRATEGY">
+			<Text>The Qasimi Raider is an expert piracy unit, able to appear out of nowhere to seize enemy ships or plunder trade routes, and just as quickly dissapear. The Raiders ability to move again at full speed after capturing ships or pillaging trade routes allows you to be much less conservative when planning attacks, as a successful attack will be impossible for the enemy to respond to!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_QASIMI_RAIDER_CIVILOPEDIA">
+			<Text> The Qasimi were an influential and powerful dynasty which controlled much of the Persian gulf between the 18th and 19th century, and which rules both the emirates of Sharjah and Ras-Al-Khaimah to this day. The Qasimi claim descent from the Prophet Muhammad but only became active in the 18th century when the Yaruba dynasty was dissolved. From the ashes, the Qasimi formed a kingdom out of Sharjah, Ras-Al-Khaimah and Lengeh in southern Iran. [NEWLINE] [NEWLINE] The Persian gulf was, as now, an important shipping lane for goods from the far East, most importantly the British Raj. The Qasimi pirates quickly became enemies of the British Empire as they grew into a force able to assert control over this lane. Keen to secure the route for goods to flow from India to Europe, the British began a campaign in the 19th century to Eradicate the Qasimi pirates. In 1808 the British deployed 3 warships to the region as a show of force, but that same year an enormous fleet of Qasimi raiders began attacking ships off the Indian coast, seizing a large British ship, the HMS Minerva, and conerting it to the flagship of the Al Qawaseem. At that time it was estimated that the Qasimi had a fleet of 60 large oceangoing warships, 800 smaller armed Dhows and nearly 20,000 men - all this against 2 British warships. [NEWLINE] [NEWLINE] Following the disaster, and amid the news that a further 20,000 bedouin warriors had unfurled their banners and marched to join the Qawasim in the event of a land war, the British assembled a force with the aim of raiding several pirate bases from the sea. In November, the flotilla shelled several key positions and sank many Arab ships before landing a raiding party in Ras-Al-Khaimah, sacking the town and burning 30 large warships in the harbour alongside 20 smaller dhows. The raid severely weakened the Qawaseem and their piracy greatly decreased in later years. 
+				
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RAIDER">
+			<Text>Qasimi Pirate - Double gold from pillaging trade routes, and receive your movement points back when pillaging a trade route or capturing a ship</Text>
+		</Row>
+		TXT_KEY_RAIDER
+		<!--Unique Ability-->
+		<Row Tag="TXT_KEY_TRAIT_YALLAH_HABIBI_SHORT">
+			<Text>Yallah Habibi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_YALLAH_HABIBI">
+			<Text>For every 500 [ICON_GOLD] Gold in the Treasury, receive +5% [ICON_TOURISM] Tourism in the [ICON_CAPITAL] Capital and cities with a Wonder. Upon constructing a Wonder, receive [ICON_GOLD] Gold for every other Wonder in the city.</Text>
+		</Row>
+		<!--Spy Names-->
+		<Row Tag="TXT_KEY_SPY_NAME_UAE_0">
+			<Text>Khalifa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UAE_1">
+			<Text>Mohammed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UAE_2">
+			<Text>Sultan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UAE_3">
+			<Text>Hamad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UAE_4">
+			<Text>Saud</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UAE_5">
+			<Text>Humaid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UAE_6">
+			<Text>Hassa</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UAE_7">
+			<Text>Shamsa</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UAE_8">
+			<Text>Khalid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UAE_9">
+			<Text>Hassan</Text>
+		</Row>
+		<!--Denonyms-->
+		<Row Tag="TXT_KEY_UAE_DESC">
+			<Text>The United Arab Emirates</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UAE_SHORT_DESC">
+			<Text>The UAE</Text>
+			<Plurality>1</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UAE_ADJECTIVE">
+			<Text>Emirati</Text>
+		</Row>
+		<!--Civilopedias-->
+		<Row Tag="TXT_KEY_UAE">
+			<Text>The UAE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_TITLE">
+			<Text>The United Arab Emirates</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_TEXT_1">
+			<Text> The UAE rose from humble origins as an undeveloped backwater on the edge of an inhospitable desert, to a regional power and one of the richest nations on earth. Perhaps most famously, the UAE has pumped their millions into some of the most awe-inspiring constructions of the modern world and Dubai itself, the nations largest city, has become a byword for ridiculous wealth, beauty and culture - truly the pearl of the Arab gulf.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_TEXT_2">
+			<Text>The United Arab Emirates is nestled in the eastern half of the Persian gulf, on the edge of the Arabian Desert. Specifically, the UAE teeters on the edge of a particulously barren section of the desert known somewhat forebodingly as the Rub Al-Khali, or, in English - 'The Empty Quarter'. As such, the UAE is swelteringly hot, particularly in the long summer months. Frequently the temperature rolls into the 50's (120+ Farenheit) during the summer, and tends towards the low 30's or 20's during the cooler months. Nourishing currents from the Persian gulf ensure that the area remains fit for habitation however, and today much of the UAE is fairly green (albeit with the assistance of considerable manmade irrigation devices) and is certainly more populated than the inland regions bordering the nation in Saudi Arabia. The UAE also features several important Oases - Liwa Oasis is one of the largest and most important in the Arabian peninsula and has sustained life for thousands of years. There is not a single river in the UAE.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_HEADING_3">
+			<Text>Origins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_TEXT_3">
+			<Text>
+				Despite its inhospitable climate, the UAE has been inhabited for tens of thousands of years. Southern Arabia is often posited as the location where humans first left Africa, roving along the coastlines in small bands. Indeed, stone tools from the UAE have been dated as far back as 125,000 BC and there is evidence to support an even earlier habitation. Some of the earliest accounts of the region come from Mesopatamia, which was a prominent trading partner of the tribes and city-states that dotted the Persian gulf, possibly trading the extensive copper reserves of the Hajjar mountains. Julfar, one of the few named towns from this period in the UAE, grew into an important trading city and was used as a vital base for the Arab invasion of Persia in the 7th century AD. [NEWLINE] [NEWLINE] Islamic historiography contends that the UAE, along with the rest of the Bahrain region, adopted Islam in 628 upon receiving a letter from the Prophet Muhammad. The Prophet sent various letters to monarchs around the world inviting them to join Islam and it seems that his letter to the people of Bahrain and Oman is the only one to have had serious consequences - the Caesar of Byzantium, the Shah of Persia, the Negus of Ethiopia and various provincial governors of the Roman Empire all turned him down. The letter read as follows, [NEWLINE] [NEWLINE] In the name of God the Beneficent, the Merciful: From Muhammad the Prophet of God to Munzir bin Sawa, may peace be on you! I praise God, who is one and there none to be worshiped but except him. I bear evidence that there is no God but God and that Muhammad is a servant of God and His Prophet. Thereafter I remind you of God. Whoever accepts admonition does it for his own good. Whoever followed my messengers and acted in accordance their guidance; he, in fact,followed me and accepted my advice. My messengers have highly praised your behavior. You shall continue in your present office. You should remain faithful to Allah and his Prophet. I accept your recommendation regarding the people of Bahrain. I forgive the offenses of the offenders. Therefore, you may also forgive them of the people of Bahrain whoever want to continue in their Jewish or Majusi faith, should be made to pay Jizia. Seal: God’s Prophet Muhammad. [NEWLINE] [NEWLINE] Upon adopting Islam, the people of the UAE rose up against the Persians who dominated the region and joined themselves to Muhammad's new caliphate. Despite this, many tribes and clans declared their independence in the brutal Ridda Wars after Muhammads death. Claiming that they had pledged allegience to Muhammad, not to his successors, many refused to recognise the authority of a post-Muhammad caliphate, leading Abu Bakr to dispatch a large army to the region in November of 632. The ensuing battle cost, allegedly, 10,00 lives - a large graveyard in Dibba, the UAE, still stands to this day to commemorate the slaughter. After this, the region was integrated into the new caliphate.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_HEADING_4">
+			<Text>The Era of Piracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_TEXT_4">
+			<Text>Following the gradual disintegration of central control in the late 9th and 10th century, the gulf region fell under the sway of various local and external factions. In 899 the Qamratians, a violent and bizarre sect of Islam, seized the gulf coast and declared an independent republic. The Qamratians went on to forcibly extract tribute from the caliphate, pillage most of Iraq and most daringly, sack Mecca! The sect stole the Qaaba, ransoming it back to the caliphate in 952. After the collapse of the Qarmatians, the UAE fell back into relative obscurity much like the rest of the Arabian peninsula, until the Europeans arrived sometime in the 16th century. [NEWLINE] [NEWLINE] The Portugeuse briefly laid claim to the region, constructing a fort in Dibba, (Debe) but real control remained in the hands of local tribes. Sometime in the 18th century, foreign control of the region waned to the point where a new tribe - the Qawaseem - declared a free kingdom of Sharjah, Ras-Al-Khaimah and Lengeh (in modern Persia) and began an era of unrestricted piracy in the gulf. Quickly the region became known as the infamous 'Pirate Coast' as Qasimi ships plundered their way to riches unimaginable. Vital British shipping from India and the far east flowed through the gulf and the Qawaseem grew fat off of its booty - by 1809 the Qawaseem warfleet numbered at almost 100 large warships (Baghlah) and around 800 smaller gunboats (Dhows). For comparison, the British navy at the time had 3 warships (A Ship of the line and 2 frigates) in the region. Despite this size disparity, the British soon tired of the Qasimi raiding and sent a much larger force to Ras-Al-Khaimah in November of 1809. The fleet sacked the town and burned most of the ships in the harbour, before sailing down the coast and bombarding multiple known pirate hideouts. After a similar operation in 1819, this time armed with updated maps of the region, the local sheikhs were forced to concede to the superior British navy. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_HEADING_5">
+			<Text>British Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_TEXT_5">
+			<Text>Following their utter humiliation at the hands of the British fleet, the various sheikhs of the region began to sign treaties with the British comitting themselves to combatting illegal piracy and slave-trading. The readiness of these sheikhs to align themselves with the European powers gave rise to the term 'Trucial Oman' or 'Trucial States' to describe the region, especially after 2 further treaties in 1843 and 1853. Closer integration with Britain followed an 1892 'Exclusivity Agreement', in which the Emirs and Sheikhs of the UAE agreed not to enter relationships with other foreign powers and in return gained protection from the British warfleet. The relative stability this brought to the gulf allowed an explosion in trade and, above all, the pearl industry. With the waves now largely calm and piracy-free, thousands of emiratis took to the waters to fish for pearls, which were in high demand among the upper classes in Europe. [NEWLINE] [NEWLINE] The Pearl trade allowed the region to grow, particularly towns such as Sharjah and Abu Dhabi. At the time, pearl-diving was a dangerous activity; the only way to collect pearls was to manually swim to the ocean floor (often 100 feet deep or more on a single breath) to collect oysters. They would then be brought to the surface and searched, though it would often require up to a tonne of oysters to find 3 or 4 pearls. All this made pearls incredibly expensive, so although the work was dangerous and rarely bore fruit, it brought considerable wealth to the region. Until, in the 1920's, the Great depression and the invention of the cultured pearl in Japan wiped out the industry. [NEWLINE] [NEWLINE] Despite the setback, and a few decades of sever economic depression in the region, the UAE was about to stumble upon a treasure trove of something far more valuable than pearls - oil. Starting in 1935, local Sheikhs began to consent to grant rights for oil companies to survey the area for reserves. Despite the first drill turning up dry at a staggering cost of £1M, an offshore drilling in 1958 finally yielded results. Money began to flow into the states coffers and Sheikh Zayed began a massive campaign of modernisation and diversification. In 1969, Dubai too yeilded oil and the sheikh, Rashid bin Saeed Al Maktoum, began a series of projects aiming to turn Dubai into a truly global city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_HEADING_6">
+			<Text>Independence and Federation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_TEXT_6">
+			<Text>Despite the tremendous wealth now flowing out of the region, the United Kingdom began to dismantle its overseas empire. In 1968, prime minister Harold Wilson announced that the UK would seek to end its relationship with the Trucial States, not least because of the extraordinary cost of keeping a fleet deployed in the Persian gulf, and the rise of Iran. Wary of the isolated position of the UAE, Sheikh Zayed, ruler of Abu Dhabi, offered to pay for the entire cost of keeping the British navy in the region, but was turned down. In March of 1971, Edward Heath warned the states to begin preparations for independence. Reluctantly, the nine emirates of the Trucial states (the seven emirates of the modern UAE plus Bahrain and Qatar) began negotiations for a federation, but could not agree on terms. They were spurred into action when, just a day before they were due to become officially independent, an Iranian destroyer seized the Tunb islands. Fearing their exposed vulnerability, Dubai and Abu Dhabi agreed to enter a federation together and on the 2nd of December 1971, the other Emirates were invited to join. Though Bahrain and Qatar declined this invitation, the remaining emirates formed the United Arab Emirates and began preparations for their new union. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_HEADING_7">
+			<Text>Modern Times</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_TEXT_7">
+			<Text>Following this, the new nation began heavily investing its immense oil revenues. Particularly Dubai, which attempted to diversify its economy to avoid overdependence on oil revenue. By the dawn of the 21st century, the UAE had begun to attract businesses from all over the world and its two main cities - Dubai and Abu Dhabi, had grown into major global destinations. Most notably, the UAE has poured millions into the construction of immense wonders such as the Burj Dubai, the Burj Khalifa and the Palm Jumeirah. Though badly hit by the 2008 financial crash, the UAE weathered the Arab spring with little to no incedent and continued to grow at record speeds. The UAE has participated in combat operations against Afghanistan in 2001, Iraq in 2003 and Libya in 2011 and contiues to debate participation in the Syrian civil war. Though still a monarchy, the first ever elections in the UAE were held in 2006 and the movement for increased political representation is growing among middle-class Emiratis. Despite all this, the nation has faced allegations of migrant worker mistreatment, gender inequality and is largely criticised for the role of Shariah law in its legal system. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_FACTOID_HEADING">
+			<Text>UAE Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UAE_FACTOID_TEXT">
+			<Text>Not all Emirates are created equal - Abu Dhabi, the UAE's largest emirate, encompasses 87% of the nations land area, whereas the smallest, Ajman, is a mere 100 square miles, 0.3% of the land area. [NEWLINE][NEWLINE] Only about 9% of the UAE's population is native to the country, the other 91% is comprised of immigrants from dozens of countries, with India providing the most. [NEWLINE][NEWLINE] The Dubai Police owns several lambourghinis, ferrarris and bentleys for high speed chases. [NEWLINE][NEWLINE] ALL of the worlds top 5 highest skyscrapers are in Dubai, and 7 out of the top 10 highest. [NEWLINE][NEWLINE] There are no personal taxes in the UAE. [NEWLINE][NEWLINE] </Text>
+		</Row>
+		<!--City List-->
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_1">
+			<Text>Abu Dhabi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_2">
+			<Text>Dubai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_3">
+			<Text>Sharjah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_4">
+			<Text>Ajman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_5">
+			<Text>Ras Al Khaimah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_6">
+			<Text>Fujeirah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_7">
+			<Text>Umm Al Quwain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_8">
+			<Text>Al Ain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_9">
+			<Text>Al Gharbia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_10">
+			<Text>Dibba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_11">
+			<Text>Jebal Ali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_12">
+			<Text>Dhaid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_13">
+			<Text>Sham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_14">
+			<Text>Bani Yas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_15">
+			<Text>Madinat Zayed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_16">
+			<Text>Musaffah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_17">
+			<Text>Tarif</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_18">
+			<Text>Falcon City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_19">
+			<Text>Sila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_20">
+			<Text>Arida</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_21">
+			<Text>Hameem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_22">
+			<Text>Attab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_23">
+			<Text>Bur Dubai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_24">
+			<Text>Habshan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_25">
+			<Text>Khor Fakkan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UAE_26">
+			<Text>Ruwais</Text>
+		</Row>
+		<!-- Leader Civlopedia Text -->
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_DESC">
+			<Text>Zayed Bin Sultan Al-Nahyan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_LIVED">
+			<Text>1918 - 2004</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_NAME">
+			<Text>Sheikh Zayed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_SUBTITLE">
+			<Text>President of the UAE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_TITLES_1">
+			<Text>Emir of Abu Dhabi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_TITLES_2">
+			<Text>President of the UAE</Text>
+		</Row>
+		<Row
+			Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_TEXT_1">
+			<Text>Sheikh Zayed's remarkable life saw him rise from the fourth son of a lowly sheikh in Al Ain who couldn't even afford to go to school, to one of the richest and most powerful men in the middle east. Rather than merely accept the gifts thrust upon him in his life, he actively campaigned to raise the station of his countrymen and remains known as a true 'man of the people' in modern middle-eastern political discourse. In an era of corrupt, cruel and innefectual leaders throughout the Islamic world, Sheikh Zayed was able to remain fair and tolerant, while growing his country to quickly surpass almost all of his contemporaries. An archetypal benign monarch, Zayed truly shaped the modern world to his image.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_TEXT_2">
+			<Text>Sheikh Zayed was born in Abu Dhabi on March 6th 1918 as the fourth, and youngest, son of the Emir of Abu Dhabi - Sheikh Sultan bin Zayed bin Khalifah Al Nahyan. Despite their royal status, the Al-Nahyans were desperately poor and, as the fourth son, Sheikh Zayed was not sent to school and instructed in the basics of Islam. In 1927 Zayed was sent to Al Ain, further inland, to learn the ways of the Bedouin. Al Ain was situated on the crucial Al Buraimi Oasis and was an important station for the nomadic Bedouin tribes of the Emirati desert. Under their tutelage, Zayed was schooled in the ways of the desert and how to survive in such a harsh environment. Zayed was later appointed as the governor of eastern Abu Dhabi, continuing to operate out of Al Ain. Mostly desert, the position was extremely difficult. He ruled the poorest part of the nation, prone to serious disease outbreaks and wracked by starvation and poverty. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_HEADING_3">
+			<Text>The Oil Years</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_TEXT_3">
+			<Text>
+				Sheikh Zayed quickly noticed the serious problems with the region and assisted oil companies with surveys in the hope of finding deposits of the valuable resource. Quickly however, the emirate's neighbours began to realise the value of the trucial coast and attempted to make various land claims. In 1952 a group of Saudi scouts seized the oasis and declared the village of Hamasa to be a part of Saudi territory. (and with it, the vast oil reserves beneath the territory.) Many attempts were made to force Zayed to back down but he refused to compromise the territorial integrity of his state and rejected a £30M bribe from parties interested in claiming the land (For reference, 30 million pounds in 1952 was equal to about one billion dollars today.) Zayed and his brother traveled to Geneva to attempt to settle the dispute but allegations of Saudi bribery among judges quickly soured the conference and the two pulled out and returned to Arabia. Instead, Zayed appealed to his British suzerains and the oasis was occupied in a tense operation by the trucial Oman levies. Bloodshed was avoided and Zayed took personal control of the area, developing the irrigation systems and working on establishing his own contacts in the oil industry. [NEWLINE] [NEWLINE] In 1958, oil was finally discovered in the emirate. Despite this however, the innefectual sheikh Shakhbut bin Sultan Al Nahyan, Zayeds brother, refused to properly use the royalties from oil exports to benefit the area effectively and in 1966 Zayed deposed him in a bloodless coup, vowing to use the money to improve Abu Dhabis standing. Shakhbut was flown to London and was allowed to return to the UAE in the 1970s. Immedeately, Zayed began making plans to elevate the nation and hired a Japanese architect to design a capital city worthy of a major power yet trouble beset Zayeds rule almost instantly. In January 1968, the British foreign minister announced to a room of shocked Emirati sheikhs that the United Kingdom would begin preparations to sever all ties with the Trucial gulf and end its protection of the region. Fearing for the gulfs independence, Zayed offered to pay for the entire cost of the British navy in the Persian Gulf personally, but was turned down. Instead, Zayed drove to the border of Abu Dhabi and Dubai, where he met Sheikh Rashid bin Saeed Al Maktoum of Dubai. The two agreed that they would begin preparing to unite their two nations in an effort to preserve the independence of the trucial coast after the British exodus. 
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_HEADING_4">
+			<Text>The Federation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_TEXT_4">
+			<Text>Tense negotiations soon followed this agreement. Zayed was a firm believer in the principle of honest, open negotiations but the talks soon stalemated as the various states of the Persian gulf disagreed over the terms of a hypothetical union. The bickering was ended however when, on December 1st 1971, an iranian destroyer broke formation and seized the disputed Tunb islands from the emirate of Sharjah. The islands themselves were largely unimportant but it was a clear display of arrogance from Tehran, the message was clear: an independent tiny emirate was no match for her neighbours, and were vulnerable to open bullying. Shocked, Dubai and Abu Dhabi confirmed that, nomatter what happened upon independence, they would unite. The next day, the two extended their invitations to the other emirates, forming the UAE. (Bahrain and Qatr declined to join however, and remain independent.) [NEWLINE] [NEWLINE] Upon the formation of this new union, Zayed set out his vision for the future. The vast oil revenues of the Persian gulf were set to constructing schools, hospitals and roads, while Zayed made overtures to various international businesses, offering 0% tax tates and prime real estate to any businesses thinking of doing business in the new nation. Throughout the 70s and 80s, Zayed affirmed his conviction to (relative) liberalism despite the corruption and cruelty spreading throughout the Arab world. Zayed allowed free worship and permitted free media, though expected most media organisations within the UAE to self-censor and not insult the country or its rulers. Allowances were made to allow expat cultures to flower within the country, and Zayed drew scorn and criticism from many Arab government figures both inside and outside the UAE for his permissive stances on foreign cultures and religions and his liberal attitudes towards the rights of women. He considered himslef a 'Man of the People' and despite his vocal displeasure for Saddams regime in Iraq, denounced the sanctions for causing unfair suffering and starvation despite the lack of pressure on the Iraqi government, causing a storm of controversy with the UAE's close ally, Kuwait. [NEWLINE] [NEWLINE] Zayed directed considerable amounts of wealth towards aiding the less fortunate and made all hospitals, schools and universities free for UAE ciztizens, despite the 0% personal tax rate. He is also locally known as the 'Man who turned the desert green' for his extensive work in irrigating the harsh emirati desert - he is the reason that Dubai and Abu Dhabi today are lined with thousands of trees and flowers growing freely from across the world. He even set up a fund which gave money to the poorest arab nations which continues today. Despite all this genoristy, Zayed remained one of the worlds most wealthy men until is death in 2004 - at one point, the UAE sat on a tenth of the worlds proven oil reserves. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_HEADING_5">
+			<Text>Verdict of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHEIKH_ZAYED_TEXT_5">
+			<Text>There are few 'Rags to Riches' stories as captivating and incredible as Sheikh Zayeds. From the fourth son of a lowly Sheikh to one of the richest men on earth, Zayed remains a remarkeable example of what one can achieve with a bit of luck and a lot of tenacity. More importantly, Zayed was an archetypal benign monarch, and people such as him are constant examples espoused by supporters of monarchies across the world. Despite his almost unchallenged power, Zayed remained open until his death and defended personal liberty relentlessly. When asked about democracy in a 1997 interview with the New York times, Zayed argued that one did not need democracy to grant power to the people, merely the belief "that Allah has created people free, and has prescribed that each individual must enjoy freedom of choice. No one should act as if they own others." and the willpower to act upon it.</Text>
+		</Row>
+		<!-- DOM Text-->
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_UAE_TEXT">
+			<Text>
+				Welcome, oh Sheikh, the world is richer for your presence. You began your reign as the lowly Emir of a single emirate - barely a few thousand people on the edge of the brutal Arabian desert. Under your tutelage the harsh region soon blossomed into a garden of delights scarcely imagineable by your forebearers. In 1971 you led your people to independence and unified the seven emirates of Trucial Oman into the UAE, and within decades the federation had grown into a regional power. All over the world, the mere mention of your megacities conjure up visions of riches beyond the wildest dreams of the most ambitious dreamer. You grew the UAE into one of the richest places on earth, and opened the harsh desert to the world, where it became a global centre for tourism, business and the arts. Under the tutelage of you and your fellow monarchs, some of the greatest wonders of the 21st century were constructed - the tallest towers, the most opulent hotels and the most beautiful palaces. [NEWLINE][NEWLINE] Sheikh, the people of the gulf now look to you to bring them gold, silver and diamonds galore. Will you make the UAE into a a hub for the rich and famous - a land of wealth and oppurtunity? Will you turn your megacities into the shining pearls they should be, glistening in the Arab sun? Can you build a civilisation to stand the test of time?
+				
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UAE_UA_5">
+			<Text>treasury of at least 500 gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UAE_UA_10">
+			<Text>treasury of at least 1000 gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UAE_UA_15">
+			<Text>treasury of at least 1500 gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UAE_UA_20">
+			<Text>treasury of at least 2000 gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UAE_UA_25">
+			<Text>treasury of at least 2500 gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UAE_UA_30">
+			<Text>treasury of at least 3000 gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UAE_UA_35">
+			<Text>treasury of at least 3500 gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UAE_UA_40">
+			<Text>treasury of at least 4000 gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UAE_UA_45">
+			<Text>treasury of at least 4500 gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UAE_UA_50">
+			<Text>treasury of at least 5000 gold! Gas up the Ferrari, lets go for a ride, your Highness!</Text>
+		</Row> 
+		<Row Tag="TXT_KEY_DECISIONS_DUBAI_CORP">
+			<Text>Establish Dubai Inc.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_DUBAI_CORP_DESC">
+			<Text>
+				Our cities have taken to the free market like a duck to water, its time for the government to get a piece of the action. By establishing a number of corporations in league with the government, from airlines to real estate, we'll be able to generate business and allow more money to flow directly into our coffers. 				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be UAE (Sheikh Zayed)
+				[NEWLINE][ICON_BULLET]Player must be constructing a Wonder
+				[NEWLINE][ICON_BULLET]Must have researched Economics
+				[NEWLINE][ICON_BULLET]May only be enacted once
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]Costs 400 [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]Costs 800 [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]Costs 2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Purchasing units and buildings with [ICON_GOLD] Gold provides Great Engineer points
+				[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold from Engineer Specialists
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UAE_FUND">
+			<Text>Establish the Gulf Cooperation Council.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UAE_FUND_DESC">
+			<Text>
+				The Federation of our seven small Emirates into a great and wealthy nation has demonstrated that smaller countries, working together, can achieve great things. By pushing for greater ties with our trading partners, nomatter how small, we may all continue to prosper far beyond what others would even imagine!
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be UAE (Sheikh Zayed)
+				[NEWLINE][ICON_BULLET]Player must be allied to at least 5 city states
+				[NEWLINE][ICON_BULLET]May only be enacted once
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]Costs 1000 [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]Costs 2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Trade routes with City States yield an additional 2 [ICON_PRODUCTION] production and [ICON_FOOD] Food. Increased if allied.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_LEGISLATURE_NAME_CIVILIZATION_UAE">
+			<Text>Federal National Council</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UAE">
+			<Text>Prime Minister</Text>
+		</Row>
+		<!--Heads of Govt.-->
+		<Row Tag="TXT_KEY_US_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UAE_1">
+			<Text>Al Nahyan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UAE_2">
+			<Text>Al Maktoum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UAE_3">
+			<Text>Al Qasimi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UAE_4">
+			<Text>Al Nuaimi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UAE_5">
+			<Text>Al Sharqi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UAE_6">
+			<Text>Al Mu'alla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UAE_7">
+			<Text>Al Bin Ali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UAE_8">
+			<Text>Al Falasi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UAE_9">
+			<Text>Al Hamiri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UAE_10">
+			<Text>Al Balushi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_MILITARY_UAE">
+			<Text>Federal Defence Council</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_UAE">
+			<Text>Council of The Pearls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULARIST_UAE">
+			<Text>Council of the People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_BURGHERS_UAE">
+			<Text>Council of The Gilded Path</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CLERGY_UAE">
+			<Text>Council of Divine Guidance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_COMMUNIST_UAE">
+			<Text>Council of The Camps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CONSERVATIVE_UAE">
+			<Text>Council of Arabian Blood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_FASCIST_UAE">
+			<Text>Council of Iron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERAL_UAE">
+			<Text>Council of Foreign Blood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERTARIAN_UAE">
+			<Text>Council of Bedouin Blood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_NOBILITY_UAE">
+			<Text>Council of The Sheikhs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REACTIONARY_UAE">
+			<Text>Council of Righteousness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REVOLUTIONARY_UAE">
+			<Text>Council of Sweat and Blood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_SOCIALIST_UAE">
+			<Text>Council of Justice and Equality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_US_DICTATORSHIP_TITLE_LEADER_UAE">
+			<Text>Supreme President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_US_DICTATORSHIP_TITLE_GOVERNMENT_UAE">
+			<Text>Free Democratic Union of {1_CivDesc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_US_MONARCHY_TITLE_LEADER_UAE">
+			<Text>Sheikh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_US_MONARCHY_TITLE_GOVERNMENT_UAE">
+			<Text>Federation of {1_CivName}</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

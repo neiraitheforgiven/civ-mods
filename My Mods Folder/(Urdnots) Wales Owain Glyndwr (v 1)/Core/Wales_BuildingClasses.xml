@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_US_HILL_CAER</Type>
+			<DefaultBuilding>BUILDING_US_HILL_CAER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_US_CAER_TOURISM</Type>
+			<DefaultBuilding>BUILDING_US_CAER_TOURISM</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_US_CAER_CULTURE</Type>
+			<DefaultBuilding>BUILDING_US_CAER_CULTURE</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_UA_HAPPY_WORKS</Type>
+			<DefaultBuilding>BUILDING_UA_HAPPY_WORKS</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_DECISIONS_US_WELSH_LANGUAGE</Type>
+			<DefaultBuilding>BUILDING_DECISIONS_US_WELSH_LANGUAGE</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+</GameData>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b9f9bac5-c621-4458-bccf-c9ef80b2769f" version="6">
+  <Properties>
+    <Name>The Golden Pavilion Wonder</Name>
+    <Teaser>Located in Idyllic surrounds in Kyoto, Japan, Kinkaku-ji</Teaser>
+    <Description>One year on from the initial release of the Golden Pavilion, my first ever mod, it has been redone with a new icon, credit to sukritact, and support for Spanish language, my first wonder to do so, credit to elProfesor. [NEWLINE][NEWLINE]Located in Idyllic syrrounds in Kyoto, Japan, Kinkaku-ji is a large temple with the exterior walls coated in gold leaf. [NEWLINE][NEWLINE] [COLOR_POSITIVE_TEXT] Changelog:[ENDCOLOR]Added support for Spanish language[NEWLINE]New Icon</Description>
+    <Authors>Pouakai, sukritact,</Authors>
+    <SpecialThanks>ambrox62, Moriboe, elProfesor</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="B65AB4B1B5BF585AC7A3362F5F7D401C" import="1">Art/Golden_Pavilion_icon128.dds</File>
+    <File md5="95D0DBE79562FC59972F026ED88D7770" import="1">Art/Golden_Pavilion_icon256.dds</File>
+    <File md5="34CB48E4AF9B156ED0B072EC7468D625" import="1">Art/Golden_Pavilion_icon45.dds</File>
+    <File md5="E3C60C4CF1753EEDBB9F2F2600CD8688" import="1">Art/Golden_Pavilion_icon64.dds</File>
+    <File md5="9AD8FD653F998778FA32BF09FA61314F" import="1">Art/Golden_Pavilion_icon80.dds</File>
+    <File md5="4B4745B6704468EBE2D668EB5982BD0D" import="1">Art/Golden_Pavilion_splash.dds</File>
+    <File md5="BD1368E817718CCA54B364ABF65FEA34" import="0">XML/Buildings/Golden_Pavilion_BuildingClasses.xml</File>
+    <File md5="B15901CE89BE5D673DF5C00F675035E7" import="0">XML/Buildings/Golden_Pavilion_Buildings.xml</File>
+    <File md5="9BB1064DAB7C2CEB75E3D73690D58900" import="0">XML/Civilizations/Golden_Pavilion_Civilizations.xml</File>
+    <File md5="18244EE2FF4A0841F426A5C4D939507B" import="0">XML/GameInfo/Golden_Pavilion_IconTextureAtlases.xml</File>
+    <File md5="A277248E3E13889FB851081AC305BA75" import="0">XML/Text/Golden_Pavilion_text_EN_US.xml</File>
+    <File md5="E28433A065C6EB2FD8FCB4207C1BD18D" import="0">XML/Text/Golden_Pavilion_text_es_ES.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Golden_Pavilion_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Golden_Pavilion_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Golden_Pavilion_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Golden_Pavilion_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Golden_Pavilion_text_EN_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Golden_Pavilion_text_es_ES.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3f51884b-c64b-49a3-89c1-580021ae9b86" version="1">
+  <Properties>
+    <Name>[BNW] Colonialist Legacies - The Wabanaki</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Introduces the Wabanaki to Civ 5, led by the pious Henri Membertou!</Teaser>
+    <Description>Introduces the Wabanaki to Civ 5, led by the pious Henri Membertou!</Description>
+    <Authors>Neirai the Forgiven, TPangolin</Authors>
+    <SpecialThanks>reedstilt, senshidenshi, Deliverator, DJSHenniger</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events and Decisions" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="JFD’s Sovereignty" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD’s Claims, Colonies, and Crimes" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD’s and Pouakai’s Mercenaries" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="B53EDFCF346BA1C2C778EDFBC0165FBC" import="1">Art/Atlases/AlphaCLWabanakiIcon128.dds</File>
+    <File md5="AE06C7A34F48EE7BA1819A40819823B2" import="1">Art/Atlases/AlphaCLWabanakiIcon16.dds</File>
+    <File md5="E5BA1C32ECC0C72A7CEA3DAF371C2390" import="1">Art/Atlases/AlphaCLWabanakiIcon24.dds</File>
+    <File md5="6D21D2F1FDFEBA80942744F88ED60406" import="1">Art/Atlases/AlphaCLWabanakiIcon32.dds</File>
+    <File md5="DF6BF810B85AA7E3263CD7E9974004B2" import="1">Art/Atlases/AlphaCLWabanakiIcon48.dds</File>
+    <File md5="D65B31FEBA4182AE72C2DA7101672FD3" import="1">Art/Atlases/AlphaCLWabanakiIcon64.dds</File>
+    <File md5="921164BC4702BBE0819D58DD589FC060" import="1">Art/Atlases/AlphaCLWabanakiIcon80.dds</File>
+    <File md5="2DAD377FA36AE07F091EDE3ECA358F27" import="0">Art/Atlases/AtlasDefines.xml</File>
+    <File md5="B3B06A765D8B6696610560CC5935F002" import="1">Art/Atlases/CLWabanakiIcons128.dds</File>
+    <File md5="F7C18A0FE830B45BDA048444B9677984" import="1">Art/Atlases/CLWabanakiIcons256.dds</File>
+    <File md5="D8F8F06D62B214A37A7C48B86B4E7380" import="1">Art/Atlases/CLWabanakiIcons32.dds</File>
+    <File md5="9E112E1990276B075FF93B5CE15CACC7" import="1">Art/Atlases/CLWabanakiIcons45.dds</File>
+    <File md5="1A94BE1684D1C8FBA4E30C7DE16CF5ED" import="1">Art/Atlases/CLWabanakiIcons48.dds</File>
+    <File md5="CEBA5F2FAAAA1DFF9697DBC7136D8799" import="1">Art/Atlases/CLWabanakiIcons64.dds</File>
+    <File md5="D837BB081DC7D55D517B90F91F6DF1F9" import="1">Art/Atlases/CLWabanakiIcons80.dds</File>
+    <File md5="39BC53EE99766E893CA705E399F6A4E7" import="1">Art/Atlases/WabHunterFlag32.dds</File>
+    <File md5="41EEBC91CD448DA02FD4FB66E2722C60" import="1">Art/Canoe/canoe.fxsxml</File>
+    <File md5="2C7FB150D34B0A388E842FDB51F14C56" import="1">Art/Canoe/canoe.gr2</File>
+    <File md5="B0E83C9A7A20409E59C2CADC928CCC43" import="1">Art/Canoe/canoe_diff.dds</File>
+    <File md5="4DA6E824B78BBDEA4B0E2D509908AAD5" import="1">Art/Canoe/rower.dds</File>
+    <File md5="C713D6046DA011682F234C974D14C3F1" import="1">Art/Canoe/sv_Wab_Getanget.dds</File>
+    <File md5="04D34F038F8BCA51DD2026F0CA293899" import="1">Art/DawnlandsDiplo.dds</File>
+    <File md5="41560A7E2600FF23407CF20BA00BFDA4" import="1">Art/DawnlandsDoM.dds</File>
+    <File md5="06EEFBDF1EE54124DE3B5E19635A1116" import="1">Art/DawnlandsMap.dds</File>
+    <File md5="3701FB2E0ADE10AC1374278A60E2A53F" import="0">Art/Defines/EncampmentDefines.sql</File>
+    <File md5="EB15D5D1A4311F7C0A884DCF2F4EEDF3" import="0">Art/Defines/BigBoatThiefDefines.sql</File>
+    <File md5="B06FDC09B2D2FF68E0938E54E64DD8F7" import="0">Art/Defines/CanoeUnitArt.xml</File>
+    <File md5="5DFFB2CCA467960E36AFD0228FDFAA37" import="1">Art/Encampment/iroqueseMarket_cm.dds</File>
+    <File md5="D3CB178C76E0361D4CCD6749B70A10F5" import="1">Art/Encampment/iroqueseWall_cm.dds</File>
+    <File md5="9D74329F2DDCC8B1AF698C632227CC1C" import="1">Art/Encampment/iroqueseWorkshop_cm.dds</File>
+    <File md5="FCA7035B4FF66B0794AC47D0C827D1BF" import="1">Art/Encampment/North American Encampment 1 B.fxsxml</File>
+    <File md5="0492BDE9C6E47F9373EE40F234FFF85E" import="1">Art/Encampment/North American Encampment 1 HB.fxsxml</File>
+    <File md5="2B5558043BF356A5C2B5387DEE6C4EFE" import="1">Art/Encampment/North American Encampment 1 HB.gr2</File>
+    <File md5="74271A6485488C625BABD1B2DC790E15" import="1">Art/Encampment/North American Encampment 1 HBPL.blend</File>
+    <File md5="90389905F0D35D8B5A97321C2D05DFBC" import="1">Art/Encampment/North American Encampment 1 PL.fxsxml</File>
+    <File md5="9A8AF28A7075EDA17051194EE6CC6456" import="1">Art/Encampment/North American Encampment 1 PL.gr2</File>
+    <File md5="FD0FCF42F4708C3CC54DEA3E3BEE4060" import="1">Art/Encampment/North American Encampment 1.blend</File>
+    <File md5="DD4B3B4232452B55506647E3BEDE59C5" import="1">Art/Encampment/North American Encampment 1.gr2</File>
+    <File md5="719C290087D5F8A73D098AF9FBB076D1" import="1">Art/Encampment/sv_CLHuntingGrounds.dds</File>
+    <File md5="EEF60AF9704B40C1F5C30AF5BB34F82A" import="1">Art/Sound/MembertouPeace.mp3</File>
+    <File md5="4D952CED6E7FEFA4444F6A4B93DDA484" import="1">Art/Sound/MembertouWar.mp3</File>
+    <File md5="3ACDEA282B3D7544AC9B6B3EFB430799" import="0">Art/Sound/SoundRig.xml</File>
+    <File md5="F5356C85B65C37DBB7F691FEFCA4A0D4" import="0">Data/BigBoatThief.lua</File>
+    <File md5="35D4AA5210A48D6264D91C7DEFE9E849" import="0">Data/BigBoatThief.sql</File>
+    <File md5="660C98E9C5C32AB2A0A3E7B42F9E5086" import="0">Data/ChildrenTrait.lua</File>
+    <File md5="50D1C033CCF43F25ADBCA429FD3065DC" import="0">Data/ChildrenTrait.sql</File>
+    <File md5="D63F64244B0804B8C808D93542887CFC" import="1">Data/CLMembertou_Scene.xml</File>
+    <File md5="5F374F39FA0AD921351E8F6A759DFA1F" import="0">Data/HuntingGrounds.lua</File>
+    <File md5="8094A8AF0E64AF451D2AB4EC9D7C272B" import="0">Data/HuntingGrounds.sql</File>
+    <File md5="60164816C59D8A25F1F301CEFE10AD1B" import="0">Data/Membertou.sql</File>
+    <File md5="B517D6F339FFC44ECFFE3B43F7E1DC67" import="0">Data/Membertou_Talks.sql</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Data/Sukritact_SaveUtils.lua</File>
+    <File md5="E7F06B37498391A6B63ECE0BC627BC9F" import="0">Data/Wabanaki.sql</File>
+    <File md5="0FFAC6EB55673C0C1DB7057B85A3AB74" import="0">ModSupport/GameText_ModSupport.xml</File>
+    <File md5="838B63882B33ADBEF19E589659E531B2" import="0">ModSupport/ModSupport.sql</File>
+    <File md5="395C03CDCD1FB2C5BC9C240132BD672E" import="1">ModSupport/WabanakiDecisions.lua</File>
+    <File md5="BB98D1A9BA6CC0CF7E60300349CB2FDF" import="0">ModSupport/WabanakiDecisionsInfo.sql</File>
+    <File md5="49D94AAD2507EDEE6D40EFE3B31A28C0" import="0">ModSupport/YnAEMP.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Defines/CanoeUnitArt.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Atlases/AtlasDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Defines/BigBoatThiefDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Art/Defines/EncampmentDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Data/Wabanaki.sql</UpdateDatabase>
+      <UpdateDatabase>Data/Membertou.sql</UpdateDatabase>
+      <UpdateDatabase>Data/Membertou_Talks.sql</UpdateDatabase>
+      <UpdateDatabase>Data/ChildrenTrait.sql</UpdateDatabase>
+      <UpdateDatabase>Data/BigBoatThief.sql</UpdateDatabase>
+      <UpdateDatabase>Data/HuntingGrounds.sql</UpdateDatabase>
+      <UpdateDatabase>Art/Sound/SoundRig.xml</UpdateDatabase>
+      <UpdateDatabase>ModSupport/YnAEMP.xml</UpdateDatabase>
+      <UpdateDatabase>ModSupport/WabanakiDecisionsInfo.sql</UpdateDatabase>
+      <UpdateDatabase>ModSupport/GameText_ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>ModSupport/ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Data/BigBoatThief.lua">
+      <Name>Getanget lua</Name>
+      <Description>lua for Getanget</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Data/ChildrenTrait.lua">
+      <Name>Wab Trait lua</Name>
+      <Description>lua for Trait</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Data/HuntingGrounds.lua">
+      <Name>Hunting Grounds lua</Name>
+      <Description>lua for Hunting Grounds</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/22/2014 2:37:06 PM -->
+<GameData>
+	<Language_FR_FR>
+		<Row Tag="TXT_KEY_GENERIC_AMERICA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos jeans et écoute votre musique rock. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ARABIA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos keffieh et peint des arabesques. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_AZTEC_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people boit désormais votre xocolatl et mange vos tacos. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CHINA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais votre porcelaine et regarde vos films wuxia. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_EGYPT_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos papyrus et vos cosmétiques. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ENGLAND_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people boit désormais votre thé et écoute votre britpop. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_FRANCE_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people mange désormais vos fromages et porte vos parfumes. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GERMANY_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos voitures et boit votre bière. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREECE_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people danse désormais le sirtaki et regarde vos tragédies. La vraie tragédie c''est que le reste du monde succombera aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INDIA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people pratique désormais le yoga et regarde vos films bollywood. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_IROQUOIS_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people joue désormais à la crosse et fume votre tabac. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_JAPAN_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos kimono et regarde vos anime. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_OTTOMAN_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos fez et mange votre kebab. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_PERSIA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos tapis et mange votre riz pilaf. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ROME_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos toges et regarde vos jeux des gladiateurs. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RUSSIA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos poupées russes et boit votre vodka. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SIAM_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos pha-nung et pratique le muay-thaï. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SONGHAI_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos chemises bogolan et joue de la kora. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BABYLON_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people est désormais obsédé par votre astrologie et croit que son destin est écrit dans les étoiles. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MONGOL_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people joue désormais du morin khuur et chante avec sa gorge. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INCA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos vêtements en laine d''alpaga et mâche vos feuilles de coca. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SPAIN_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people danse désormais le flamenco et regarde vos corridas. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_POLYNESIA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos chemises et danse la hula. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_DENMARK_INFLUENTIAL_ON_AI_1">
+			<Text>Nous enfants grandissent désormais avec vos contes de fées et vos briques emboîtables. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_KOREA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos produits électroniques et joue au vos MMORPG. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_AUSTRIA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people mange désormais vos saucisses et boit vos boissons énergisantes. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BYZANTIUM_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people passe désormais ses journées à jouer au backgammon et à faire des mosaïques. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CARTHAGE_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people ne veut dèsormais que de votre pourpre pour ses vêtements. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CELTS_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos kilts et boit votre stout. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ETHIOPIA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people boit désormais vos café et porte des dreadlocks. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HUNS_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people est en train de régresser à votre mode de vie nomade. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MAYA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people a désormais adopté votre calendrier et prédit des catastrophes imminentes. Je prédis que le reste du monde succombera aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_NETHERLANDS_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos tulipes et vos sabots. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SWEDEN_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos meubles et écoute votre death metal. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ASSYRIA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people boit désormais votre arak et danse la khigga. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BRAZIL_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people boit désormais votre caïpirinha et écoute votre bossa nova. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INDONESIA_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos vêtements en batik et écoute votre musique des gamelans. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOROCCO_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people mange désormais vos couscous et regarde vos danseuses du ventre. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_POLAND_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people mange désormais vos pierogi et danse la mazurka. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_PORTUGAL_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos azulejos et écoute votre fado. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHOSHONE_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos coiffes de plumes et consomme peyotl. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VENICE_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos verroteries et vos masques. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ZULU_INFLUENTIAL_ON_AI_1">
+			<Text>Notre people achète désormais vos vuvuzelas et vos boucliers de cérémonie. J''ai bien peur que le reste du monde ne succombe aussi à votre influence culturelle.</Text>
+		</Row>
+	</Language_FR_FR>
+</GameData>

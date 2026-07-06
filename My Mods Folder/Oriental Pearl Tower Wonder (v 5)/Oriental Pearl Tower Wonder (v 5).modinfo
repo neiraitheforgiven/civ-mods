@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b7033572-5293-4d1e-a7d1-576ade8ede7c" version="5">
+  <Properties>
+    <Name>Oriental Pearl Tower Wonder</Name>
+    <Teaser>This mod adds the Oriental Pearl Tower of Shanghai, China to the game as a Wonder,</Teaser>
+    <Description>The Oriental Pearl Tower is a television tower located in Shanghai, China, on the bank of the Huangpu River. It has become an icon of Shanghai and China alike, and is comprised of 11 spheres, two of which have amenities such as observation floors and a rotating restaurant. Construction began in 1990, and took four years to complete. On the seventh of July, 2007 the tower served as the Chinese location for Live Earth, a worldwide Music concert. Ingame, the Oriental Pearl Tower provides +10% Culture and Great Person generation in all cities, and becomes available with Telecommunications</Description>
+    <Authors>Pouakai; Sukritact</Authors>
+    <SpecialThanks>ambrox62, moriboe,</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A0A1220B2056AD0C1ECE94D2A3567565" import="1">Art/pearl_tower_icon128.dds</File>
+    <File md5="7FCF39861BC792232D655C6D9F2FA86B" import="1">Art/pearl_tower_icon256.dds</File>
+    <File md5="27D1D30DAB80726E14A4559579269703" import="1">Art/pearl_tower_icon45.dds</File>
+    <File md5="5204F695CB1BE65D8998C13621A6E331" import="1">Art/pearl_tower_icon64.dds</File>
+    <File md5="601CFAF584A767F2679B578F5F4F068C" import="1">Art/pearl_tower_icon80.dds</File>
+    <File md5="1501E606BEB3B4D83F5F5FF0806EAD80" import="1">Art/pearl_tower_splash.dds</File>
+    <File md5="552C6A60D6F4A89336C07DF014BE367D" import="0">XML/Buildings/Pearl_Tower_BuildingClasses.xml</File>
+    <File md5="A5B8FF89AFB9134DBC746010BE3C6BA6" import="0">XML/Buildings/Pearl_Tower_Buildings.xml</File>
+    <File md5="07D1091BF2E051B234754B2BCE05ACF8" import="0">XML/Civilizations/Pearl_Tower_Civilizations.xml</File>
+    <File md5="EDE8869381B794B3C15B86801337C6AB" import="0">XML/GameInfo/Pearl_Tower_IconTextureAtlases.xml</File>
+    <File md5="61C76FFBFAD6B694392F8AAFD55FF973" import="0">XML/Text/Pearl_Tower_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Pearl_Tower_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Pearl_Tower_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Pearl_Tower_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Pearl_Tower_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Pearl_Tower_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

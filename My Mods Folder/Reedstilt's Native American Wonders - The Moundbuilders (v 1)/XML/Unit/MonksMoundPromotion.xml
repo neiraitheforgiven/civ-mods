@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/19/2015 11:35:16 AM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_MONKSMOUND_TRIBUTE</Type>
+			<Description>TXT_KEY_PROMOTION_MONKSMOUND_TRIBUTE</Description>
+			<Help>TXT_KEY_PROMOTION_MONKSMOUND_TRIBUTE_HELP</Help>
+			<CannotBeChosen>true</CannotBeChosen>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CityAttackPlunderModifier>33</CityAttackPlunderModifier>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MONKSMOUND_TRIBUTE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_MONKSMOUND_TRIBUTE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MONKSMOUND_TRIBUTE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+</GameData>

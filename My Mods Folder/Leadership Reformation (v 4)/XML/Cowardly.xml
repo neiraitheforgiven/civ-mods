@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_COWARDLY_GG</Type>
+			<Description>TXT_KEY_PROMOTION_COWARDLY_GG</Description>
+			<Help>TXT_KEY_PROMOTION_COWARDLY_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COWARDLY_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_COWARDLY_GG2</Type>
+			<Description>TXT_KEY_PROMOTION_COWARDLY_GG2</Description>
+			<Help>TXT_KEY_PROMOTION_COWARDLY_GG2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COWARDLY_GG2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_COWARDLY_GG3</Type>
+			<Description>TXT_KEY_PROMOTION_COWARDLY_GG3</Description>
+			<Help>TXT_KEY_PROMOTION_COWARDLY_GG3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COWARDLY_GG3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_COWARDLY</Type>
+			<Description>TXT_KEY_PROMOTION_COWARDLY</Description>
+			<Help>TXT_KEY_PROMOTION_COWARDLY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>9</PortraitIndex>
+			<ExtraWithdrawal>25</ExtraWithdrawal>
+			<AttackMod>-15</AttackMod>
+			<DefenseMod>-15</DefenseMod>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COWARDLY</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_COWARDLY2</Type>
+			<Description>TXT_KEY_PROMOTION_COWARDLY2</Description>
+			<Help>TXT_KEY_PROMOTION_COWARDLY2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>9</PortraitIndex>
+			<ExtraWithdrawal>25</ExtraWithdrawal>
+			<AttackMod>-5</AttackMod>
+			<DefenseMod>-5</DefenseMod>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COWARDLY2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_COWARDLY3</Type>
+			<Description>TXT_KEY_PROMOTION_COWARDLY3</Description>
+			<Help>TXT_KEY_PROMOTION_COWARDLY3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>9</PortraitIndex>
+			<ExtraWithdrawal>25</ExtraWithdrawal>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COWARDLY3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_COWARDLY_GG">
+			<Text>Cowardly (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COWARDLY_GG_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Unlucky[ENDCOLOR] General has a tendency of having nearby cowardly soldiers inciting others to flee when engaged.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COWARDLY_GG2">
+			<Text>Despaired (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COWARDLY_GG2_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Unlucky[ENDCOLOR], but Experienced General has his or her nearby troops a lack of battle confidence. Replaces [COLOR_NEGATIVE_TEXT]Cowardly[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COWARDLY_GG3">
+			<Text>Strategic Retreat (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COWARDLY_GG3_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Unlucky[ENDCOLOR], but Veteran General uses his or her misfortune to improvise on "strategic retreats". Replaces [COLOR_NEGATIVE_TEXT]Despaired[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COWARDLY">
+			<Text>Cowardly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COWARDLY_HELP">
+			<Text>-15% [ICON_STRENGTH] Attack/Defense. Unit has a 25% to withdraw when faced with melee attack. Chance of withdrawal decreased against fast enemy units or if there are limited open tiles behind the unit. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Cowardly[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COWARDLY2">
+			<Text>Despaired</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COWARDLY2_HELP">
+			<Text>-5% [ICON_STRENGTH] Attack/Defense. Unit has a 25% to withdraw when faced with melee attack. Chance of withdrawal decreased against fast enemy units or if there are limited open tiles behind the unit. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Despaired[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COWARDLY3">
+			<Text>Strategic Retreat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COWARDLY3_HELP">
+			<Text>Unit has a 25% to withdraw when faced with melee attack. Chance of withdrawal decreased against fast enemy units or if there are limited open tiles behind the unit. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Strategic Retreat[ENDCOLOR] trait.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

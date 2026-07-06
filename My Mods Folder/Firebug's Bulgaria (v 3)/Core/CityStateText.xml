@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/20/2016 2:37:28 PM -->
+<GameData>
+	<Language_EN_US>
+	<Row Tag="TXT_KEY_MINOR_CIV_FB_TAKRUR">
+		<Text>Takrur</Text>
+	</Row>
+	<Row Tag="TXT_KEY_MINOR_CIV_FB_TAKRUR_ADJ">
+		<Text>Takruri</Text>
+	</Row>
+	<Row Tag="TXT_KEY_MINOR_CIV_FB_TAKRUR_PEDIA">
+		<Text>Takrur was the name of the capital of the state which flourished on the lower Senegal River. Takruri was a term, like Bilad-ul-Sudan, that was used to refer to all people of West African ancestry. The formation of the state may have taken place as an influx of Fulani from the east settled in the Senegal valley. John Donnelly Fage suggests that Takrur was formed through the interaction of Berbers from the Sahara and "Negro agricultural peoples" who were "essentially Serer".</Text>
+	</Row>
+	</Language_EN_US>
+</GameData>

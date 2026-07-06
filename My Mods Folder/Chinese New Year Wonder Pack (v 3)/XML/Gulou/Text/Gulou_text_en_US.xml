@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_GULOU">
+			<Text>Gulou</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_GULOU_HELP">
+			<Text>[ICON_CULTURE] Culture and gold costs of acquiring new tiles reduced by 20% in every city.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_GULOU_QUOTE">
+			<Text>[NEWLINE]"If you put together all the Christians in the world, with their Emperors and their Kings, the whole of these Christians, - aye, and throw in the Saracens to boot, - would not have such power, or be able to do so much as this Kublai, who is Lord of all the Tartars in the world."[NEWLINE] - Marco Polo[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_GULOU_PEDIA">
+			<Text>Gulou is a drum tower located in Beijing, China. Built during the reign of Kublai Khan in 1272 in the center of the city of Dadu, capital of the Yuan dynasty, it has had several reconstruction efforts, most notably in 1400 when a Ming Dynasty emperor moved the entire tower to the east of where it stood. It was originally built for musical purposes, before later becoming an official time-piece.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

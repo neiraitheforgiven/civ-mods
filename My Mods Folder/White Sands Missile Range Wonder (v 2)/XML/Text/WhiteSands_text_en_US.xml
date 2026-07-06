@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_WHITESANDS">
+			<Text>White Sands Missile Range</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_WHITESANDS_HELP">
+			<Text>Three Guided Missiles appear in the city in which the wonder is built. Operational Range of all Aircraft is increased by 3</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_WHITESANDS_QUOTE">
+			<Text>[NEWLINE]"What is pride? A rocket that emulates the stars"[NEWLINE] - William Wordsworth[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_WHITESANDS_PEDIA">
+			<Text>The White Sands Missile Range is America's largest military installation at almost 8300 square kilometres (3200 square miles) of New Mexico desert. The area was first designated a military site in 1941, when the Alamogordo Army Airfield was established. This site was used for the first Atomic bomb test (The Trinity test) in July 1945, by which time it had been renamed White Sands proving ground. Since then, the site has been heavily involved in experimental projects and test firings of both militaristic and exploratory projects, including captured V-2 ballistic missiles, the Apollo escape system and as a landing strip for the early Space Shuttle tests. It has been designated a National Historic Site for its role in Space Race testing, and continues to have frequent missile tests. </Text>
+		</Row>
+		<!-- Promotion tags -->
+		<Row Tag="TXT_KEY_PROMOTION_WHITESANDS">
+			<Text>White Sands Missile Range</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WHITESANDS_HELP">
+			<Text>+3 Operational Range</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

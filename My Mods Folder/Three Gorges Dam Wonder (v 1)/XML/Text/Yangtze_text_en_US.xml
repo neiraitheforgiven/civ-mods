@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_YANGTZE">
+			<Text>Three Gorges Dam</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_YANGTZE_HELP">
+			<Text>+25% [ICON_PRODUCTION] Production in the city if the Order policy is adopted. Provides a free Hydro Plant in the city in which it is built. City must be built on a river</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_YANGTZE_QUOTE">
+			<Text>
+				[NEWLINE]"The river seeking for the sea confronts the dam and precipice, yet knows it cannot fail or miss"[NEWLINE] - Ella Wheeler Wilcox[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_YANGTZE_PEDIA">
+			<Text>Built across the Yangtze River in the Hubei province of China, the Three Gorges Dam is the largest Hydroelectic powerstation on Earth, in terms of maximum capacity. Construction began in December 1994, and was completed on July 4, 2012, with the exception of the boat lift, which is not excpected to be complete until 2014. The dam has 32 main generators, each with an individual output of 700 mW, combining with other smaller generators for a combined total output of 22,500 mW, an ammount which would be able to power 6,750,000 homes every hour. Following the completion of the reservoir in 2003, the flooding of the area upstream from the dam resulted in the loss of several archaeological and cultural sites in the area, which resulted in harsh criticism from global agencies. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

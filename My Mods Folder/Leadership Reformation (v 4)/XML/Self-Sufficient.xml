@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SUFFICIENT_GG</Type>
+			<Description>TXT_KEY_PROMOTION_SUFFICIENT_GG</Description>
+			<Help>TXT_KEY_PROMOTION_SUFFICIENT_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SUFFICIENT_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SUFFICIENT_GG2</Type>
+			<Description>TXT_KEY_PROMOTION_SUFFICIENT_GG2</Description>
+			<Help>TXT_KEY_PROMOTION_SUFFICIENT_GG2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SUFFICIENT_GG2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SUFFICIENT_GG3</Type>
+			<Description>TXT_KEY_PROMOTION_SUFFICIENT_GG3</Description>
+			<Help>TXT_KEY_PROMOTION_SUFFICIENT_GG3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SUFFICIENT_GG3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SUFFICIENT</Type>
+			<Description>TXT_KEY_PROMOTION_SUFFICIENT</Description>
+			<Help>TXT_KEY_PROMOTION_SUFFICIENT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>31</PortraitIndex>
+			<AlwaysHeal>true</AlwaysHeal>
+			<FriendlyHealChange>10</FriendlyHealChange>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SUFFICIENT</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SUFFICIENT2</Type>
+			<Description>TXT_KEY_PROMOTION_SUFFICIENT2</Description>
+			<Help>TXT_KEY_PROMOTION_SUFFICIENT2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>31</PortraitIndex>
+			<AlwaysHeal>true</AlwaysHeal>
+			<NeutralHealChange>10</NeutralHealChange>
+			<FriendlyHealChange>10</FriendlyHealChange>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SUFFICIENT2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SUFFICIENT3</Type>
+			<Description>TXT_KEY_PROMOTION_SUFFICIENT3</Description>
+			<Help>TXT_KEY_PROMOTION_SUFFICIENT3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>31</PortraitIndex>
+			<AlwaysHeal>true</AlwaysHeal>
+			<EnemyHealChange>10</EnemyHealChange>
+			<NeutralHealChange>10</NeutralHealChange>
+			<FriendlyHealChange>10</FriendlyHealChange>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SUFFICIENT3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_SUFFICIENT_GG">
+			<Text>Resourceful I (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUFFICIENT_GG_HELP">
+			<Text>This [COLOR_POSITIVE_TEXT]Legendary[ENDCOLOR] General is a savant at logistic. Able to manage rations efficiently, his troops are able to survive longer without resupplying.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUFFICIENT_GG2">
+			<Text>Resourceful II (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUFFICIENT_GG2_HELP">
+			<Text>This [COLOR_POSITIVE_TEXT]Legendary[ENDCOLOR] Experienced General has a strange ability of having plentiful supplies nearing the wilderness. Replaces [COLOR_POSITIVE_TEXT]Resourceful I[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUFFICIENT_GG3">
+			<Text>Resourceful III (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUFFICIENT_GG3_HELP">
+			<Text>This [COLOR_POSITIVE_TEXT]Legendary[ENDCOLOR] Veteran General has an uncanny ability to make supplies appear out of nowhere. His troops are well-fed even with the break of supply lines. Replaces [COLOR_POSITIVE_TEXT]Resourceful II[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUFFICIENT">
+			<Text>Resourceful I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUFFICIENT_HELP">
+			<Text>Unit will heal every turn even if it performs an action. +10 additional HP regenerated in friendly territories. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Resourceful I[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUFFICIENT2">
+			<Text>Resourceful II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUFFICIENT2_HELP">
+			<Text>Unit will heal every turn even if it performs an action. +10 additional HP regenerated in friendly and neutral territories. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Resourceful II[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUFFICIENT3">
+			<Text>Resourceful III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUFFICIENT3_HELP">
+			<Text>Unit will heal every turn even if it performs an action. +10 additional HP regenerated in all territories. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Resourceful III[ENDCOLOR] trait.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

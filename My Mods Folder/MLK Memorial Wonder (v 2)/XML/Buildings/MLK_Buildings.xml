@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MLK</Type>
+			<BuildingClass>BUILDINGCLASS_MLK</BuildingClass>
+			<Description>TXT_KEY_BUILDING_MLK</Description>
+			<Help>TXT_KEY_WONDER_MLK_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_MLK_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_MLK_QUOTE</Quote>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<UnmoddedHappiness>5</UnmoddedHappiness>
+			<ConquestProb>100</ConquestProb>
+			<GlobalGreatPeopleRateModifier>10</GlobalGreatPeopleRateModifier>
+			<IconAtlas>BW_ATLAS_MLK</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>MLK_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MLK</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_MLK</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MLK</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

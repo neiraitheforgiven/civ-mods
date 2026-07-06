@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2019 7:11:13 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--TOOLTIPS-->
+		<!--===================================================-->
+		<!--Great Work Slots-->
+		<Replace Tag="TXT_KEY_GREAT_WORK_SLOT_ART_ARTIFACT_BUILDING_TOOLTIP">
+			<Text>[ICON_GREAT_WORK] Art/Artifact Slots: +{1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GREAT_WORK_SLOT_ART_ARTIFACT_SLOTS_TOOLTIP">
+			<Text>[ICON_GREAT_WORK] Art/Artifact slots: {1_NumSlots}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GREAT_WORK_SLOT_JFD_FILM_BUILDING_TOOLTIP">
+			<Text>[ICON_GREAT_WORK] Film Slots: +{1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GREAT_WORK_SLOT_LITERATURE_BUILDING_TOOLTIP">
+			<Text>[ICON_GREAT_WORK] Literature Slots: +{1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GREAT_WORK_SLOT_LITERATURE_SLOTS_TOOLTIP">
+			<Text>[ICON_GREAT_WORK] Literature slots: {1_NumSlots}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GREAT_WORK_SLOT_MUSIC_BUILDING_TOOLTIP">
+			<Text>[ICON_GREAT_WORK] Music Slots: +{1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GREAT_WORK_SLOT_MUSIC_SLOTS_TOOLTIP">
+			<Text>[ICON_GREAT_WORK] Music slots: {1_NumSlots}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GREAT_WORK_SLOT_JFD_RELIC_BUILDING_TOOLTIP">
+			<Text>[ICON_JFD_RELIC] Relic Slots: +{1_Num}</Text>
+		</Replace>
+		<!--===================================================-->
+		<!--STARTUP POPUP-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_GREAT_RELICS_TITLE">
+			<Text>GREAT RELICS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GREAT_RELICS_MESSAGE">
+			<Text>Welcome! This brief summary will seek to explain the new gameplay component: [COLOR_POSITIVE_TEXT]Great Relics[ENDCOLOR].[NEWLINE][NEWLINE]Great Relics are a new type of Great Work that can be acquired by expending a Great Prophet once you have enhanced a Religion. They can only be slotted into the Great Relic Slots provided by the Monastery and Solomon's Temple World Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GREAT_RELICS_BUTTON">
+			<Text>Close</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

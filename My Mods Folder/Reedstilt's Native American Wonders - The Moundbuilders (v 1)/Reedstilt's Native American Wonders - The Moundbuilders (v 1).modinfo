@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5b4d063d-1ee6-4b58-ac3d-a282037e7dc1" version="1">
+  <Properties>
+    <Name>Reedstilt's Native American Wonders - The Moundbuilders</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds five new World Wonders from various mound-building societies from eastern North America.</Teaser>
+    <Description>Adds the following World Wonders:
+
+The Bird Mound - Provides +1 Faith to all Bonus Resources worked by this City.
+
+The Newark Earthworks - Extends land-based Trade Routes by 50% and all Trade Routes increase Tourism by 10%.
+
+The Great Mound of Troyville - Gains +1 Production and +5 Golden Age Length for each adjacent River Tile.
+
+The Monks Mound - Increases Gold from incoming Trade Routes and Melee Units trained in this City generate Gold from attacking Cities.
+
+The Great Serpent Mound - Reveals Deer at every City; Deer, Bison, and Furs worked by this City gain +1 Food.</Description>
+    <Authors>Reedstilt</Authors>
+    <SpecialThanks>Neirai</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="28C14D445E9B9814F501EE9428EDB153" import="1">Art/BirdMound_icon128.dds</File>
+    <File md5="D67CFF8D4990CE6F0861DC100BCAEAB9" import="1">Art/BirdMound_icon256.dds</File>
+    <File md5="02E8C6F020307E239E6E25EAE90943B0" import="1">Art/BirdMound_icon45.dds</File>
+    <File md5="032B62236E0A1E0E16049ABB9EC8C619" import="1">Art/BirdMound_icon64.dds</File>
+    <File md5="B43F54E54C3B7EE36DC0E5B6EE1A35F3" import="1">Art/BirdMound_icon80.dds</File>
+    <File md5="E2B064B8CD7CB79FFFCF4CC67BC37C94" import="1">Art/BirdMound_splash.dds</File>
+    <File md5="733B0916B149A0FEA84BB218D9874847" import="1">Art/GreatMoundTroyville_icon128.dds</File>
+    <File md5="97E17EC4E4F67846D912FE29784D09D1" import="1">Art/GreatMoundTroyville_icon256.dds</File>
+    <File md5="18FE9B75B2B44F5D2420CC0F91604781" import="1">Art/GreatMoundTroyville_icon45.dds</File>
+    <File md5="F15B87FEFB13B88785C914D2A577C016" import="1">Art/GreatMoundTroyville_icon64.dds</File>
+    <File md5="D223340FE14D5FBE8EFCDA193A880E78" import="1">Art/GreatMoundTroyville_icon80.dds</File>
+    <File md5="D0DDE128585CECA3EE0AF3C31AEBF743" import="1">Art/GreatMoundTroyville_splash.dds</File>
+    <File md5="04C8CB1E6CEE3A78C5367D92469E0BB8" import="1">Art/GreatSerpentMound_icon128.dds</File>
+    <File md5="6BEEDEE52925C6A488C6C84FFAA49D52" import="1">Art/GreatSerpentMound_icon256.dds</File>
+    <File md5="6C10A6E4739D93B0AE600305AC374349" import="1">Art/GreatSerpentMound_icon45.dds</File>
+    <File md5="85578C9635F4A4B95112F9B4AA204CAB" import="1">Art/GreatSerpentMound_icon64.dds</File>
+    <File md5="85BB46189836844F096EFD8CAE1F81B8" import="1">Art/GreatSerpentMound_icon80.dds</File>
+    <File md5="0AC6543420CF338C9FF8213BF59BEFE1" import="1">Art/GreatSerpentMound_splash.dds</File>
+    <File md5="C33C15F7287306A13E897DA2971B9EA5" import="1">Art/MonksMound_icon128.dds</File>
+    <File md5="EE76A25A7D4A45C8663383CB37479314" import="1">Art/MonksMound_icon256.dds</File>
+    <File md5="2650BE8000F0622B79619945A7472852" import="1">Art/MonksMound_icon45.dds</File>
+    <File md5="E761B017AB440984EDD5F2223E52A682" import="1">Art/MonksMound_icon64.dds</File>
+    <File md5="7AF6B13A9ADDF4EB79573B7A1808CDC2" import="1">Art/MonksMound_icon80.dds</File>
+    <File md5="B56431E112764482C020444EAA55AAAE" import="1">Art/MonksMound_splash.dds</File>
+    <File md5="B3B156C933D53EC8EB548842E4CC8242" import="1">Art/NewarkEarthworks_icon128.dds</File>
+    <File md5="FE7D6EB824C6EBA68896DC4859EF3F11" import="1">Art/NewarkEarthworks_icon256.dds</File>
+    <File md5="D1CBFF090CFE525E098243E281EAFE76" import="1">Art/NewarkEarthworks_icon45.dds</File>
+    <File md5="813B2BC0AD51470F41B91FEC15C06E5B" import="1">Art/NewarkEarthworks_icon64.dds</File>
+    <File md5="387D3A09ED99BB7DFD2FAB1CB5A19975" import="1">Art/NewarkEarthworks_icon80.dds</File>
+    <File md5="252184A67C2649DBCE00D9514910435E" import="1">Art/NewarkEarthworks_splash.dds</File>
+    <File md5="09AEB7A18FD80CC961AB451090071847" import="0">LUA/NewarkEarthworks_Function.lua</File>
+    <File md5="429FE7B6655481F28272319367054A3F" import="0">LUA/PlaceDeer.lua</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="0">LUA/Sukritact_SaveUtils.lua</File>
+    <File md5="D217B21ED90073D82A7BA41A439A8087" import="0">LUA/Troyville Function.lua</File>
+    <File md5="3F2A636628A2D664248CFD092178684B" import="0">XML/Buildings/MoundBuilders_BuildingClasses.xml</File>
+    <File md5="09C6D228AD058080528FB905DA779466" import="0">XML/Buildings/MoundBuilders_Buildings.xml</File>
+    <File md5="F51FD4E567BC8DFA997DF783787E3241" import="0">XML/Civilizations/MoundBuilders_Civilizations.xml</File>
+    <File md5="6DA6ABC161B4AA19AB3868DE19B7D0B5" import="0">XML/GameInfo/MoundBuilders_IconTextureAtlases.xml</File>
+    <File md5="40112AA85B33F72F04898FE6C98DEE5C" import="0">XML/Policy/NewarkEarthworks_Policy.xml</File>
+    <File md5="6AED65C2A09891305E6A87D43707BA13" import="0">XML/Text/MoundBuilders_text_EN_US.xml</File>
+    <File md5="451C81FC7ECC1BFFA212902BAC6E58D6" import="0">XML/Unit/MonksMoundPromotion.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/MoundBuilders_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/MoundBuilders_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/MoundBuilders_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/MoundBuilders_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Policy/NewarkEarthworks_Policy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/MoundBuilders_text_EN_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/MonksMoundPromotion.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/Sukritact_SaveUtils.lua">
+      <Name>SaveUtil</Name>
+      <Description>Keeps track of things</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/PlaceDeer.lua">
+      <Name>Place Deer</Name>
+      <Description>Places Deer</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/Troyville Function.lua">
+      <Name>Troyville</Name>
+      <Description>Counts Rivers</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/NewarkEarthworks_Function.lua">
+      <Name>Newark Earthworks</Name>
+      <Description>Makes Tourism happen</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

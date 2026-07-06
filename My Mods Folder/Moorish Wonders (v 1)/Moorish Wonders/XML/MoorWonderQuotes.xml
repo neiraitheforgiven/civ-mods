@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_WONDER_SPEECH_MEDINA_AZAHARA</SoundID>
+			<Filename>medinaazaharaquote</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_WONDER_SPEECH_MEZQUITA_CORDOBA</SoundID>
+			<Filename>mezquitacordobaquote</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_WONDER_SPEECH_MEDINA_AZAHARA</ScriptID>
+			<SoundID>SND_WONDER_SPEECH_MEDINA_AZAHARA</SoundID>
+			<SoundType>GAME_MUSIC_STINGS</SoundType>
+			<MinVolume>85</MinVolume>
+			<MaxVolume>85</MaxVolume>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_WONDER_SPEECH_MEZQUITA_CORDOBA</ScriptID>
+			<SoundID>SND_WONDER_SPEECH_MEZQUITA_CORDOBA</SoundID>
+			<SoundType>GAME_MUSIC_STINGS</SoundType>
+			<MinVolume>85</MinVolume>
+			<MaxVolume>85</MaxVolume>
+		</Row>
+	</Audio_2DSounds>
+</GameData>

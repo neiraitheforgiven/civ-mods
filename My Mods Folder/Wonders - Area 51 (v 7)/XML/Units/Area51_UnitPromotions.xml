@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_AREA_51</Type>
+			<Description>TXT_KEY_PROMOTION_AREA_51</Description>
+			<Help>TXT_KEY_PROMOTION_AREA_51_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>			
+			<RangeChange>3</RangeChange>
+			<InterceptionDefenseDamageModifier>-50</InterceptionDefenseDamageModifier>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_AIR</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_AREA_51</PediaEntry>
+		</Row>	
+	</UnitPromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_AREA_51</PromotionType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+		</Row>		
+		<Row>
+			<PromotionType>PROMOTION_AREA_51</PromotionType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_AREA_51">
+			<Text>Black Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AREA_51_HELP">
+			<Text>This aircraft is the product of a "Black Project" conducted at Area 51. +3 operational range. Reduces damage taken from interception by 50%.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

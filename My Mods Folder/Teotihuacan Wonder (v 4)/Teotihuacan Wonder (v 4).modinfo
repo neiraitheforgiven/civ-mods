@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7f713988-bea5-4da2-abb4-b7fad1635931" version="4">
+  <Properties>
+    <Name>Teotihuacan Wonder</Name>
+    <Teaser>Built across three centuries, one BCE and until 200 CE, Teotihuacan was the center of a large Mesoamerican empire of the same na</Teaser>
+    <Description>Built across three centuries, one BCE and until 200 CE, Teotihuacan was the center of a large Mesoamerican empire of the same name, reaching the height of power in the middle of the first millenium. At this peak, thousands of people would have lived in the city, including priests, rulers and traders. The original name is not known, and the name Teotihuacan was given by Aztec residents who found the ruins. In modern times, the name has come to represent three monuments often attributed to the Aztecs - The Pyramid of the Sun, The Pyramid of the Moon and The Avenue of the Dead. Teotihuacan culture has had a profound impact on all whom have seen it, and is heavily incorportated into those of Mayan and Aztec civilizations that would follow. Ingame, Teotihuacan provides 5 [ICON_HAPPINESS_1] Happiness, and provides +3 [ICON_CULTURE] Culture and +1 [ICON_PRODUCTION] Production from every source of [ICON_RES_STONE] Stone and [ICON_RES_MARBLE] Marble worked by the city.</Description>
+    <Authors>Pouakai, Cyon, sukritact</Authors>
+    <SpecialThanks>ambrox62, Moriboe, Mentos</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="16FE950D89DCD728B9739A872400283B" import="1">Art/Teotihuacan_icon128.dds</File>
+    <File md5="C8ABE1C3E4AF7A84BFA2F3B03F980C41" import="1">Art/Teotihuacan_icon256.dds</File>
+    <File md5="AD170B98C62F76BD441626EACBAD4326" import="1">Art/Teotihuacan_icon45.dds</File>
+    <File md5="1E3C1A4F75F223A76EB4AFC838F47687" import="1">Art/Teotihuacan_icon64.dds</File>
+    <File md5="5B02506D3768004E0AB68004EABD26E7" import="1">Art/Teotihuacan_icon80.dds</File>
+    <File md5="D7054332949F699FF4DDFFC492348582" import="1">Art/Teotihuacan_splash.dds</File>
+    <File md5="9B48829844912DCC9D766AEB893ABED7" import="0">XML/Buildings/Teotihuacan_BuildingClasses.xml</File>
+    <File md5="196E9C64B37C9EB9708CC5FBDA6B1E77" import="0">XML/Buildings/Teotihuacan_Buildings.xml</File>
+    <File md5="9BF87E84E566F028B99BD475B6E6B8FE" import="0">XML/Civilizations/Teotihuacan_Civilizations.xml</File>
+    <File md5="96B99191F0CC56FEDBF4ECFD81A6B8C5" import="0">XML/GameInfo/Teotihuacan_IconTextureAtlases.xml</File>
+    <File md5="E3990601CE106E00BC7CBEA9CF6A5EFE" import="0">XML/Text/Teotihuacan_text_EN_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Teotihuacan_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Teotihuacan_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Teotihuacan_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Teotihuacan_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Teotihuacan_text_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

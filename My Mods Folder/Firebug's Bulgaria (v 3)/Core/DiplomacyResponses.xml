@@ -1,0 +1,124 @@
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_RESPONSE_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_ATTACKED_BETRAYED</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_ATTACKED_EXCITED</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEVSKI">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_LEVSKI_ATTACKED_HOSTILE</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<!--General phrases -->
+		<!--Greeting (first time meeting) -->
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_FIRSTGREETING_1">
+			<Text>Welcome to Bulgaria, i am Vasil Levski. We can trade if you wish, or perhaps you are here on less friendly terms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_FIRSTGREETING_2">
+			<Text>Greetings from the Bulgarian people! They do not wish for war, but do not think us easy prey.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_DEFEATED_1">
+			<Text>We have lost much. Take care of my people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_POLITE_HELLO_1">
+			<Text>Welcome back! I hope you'll find Bulgaria to be a land of equal opportunities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_POLITE_HELLO_2">
+			<Text>Welcome back to our pure and sacred land.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_POLITE_HELLO_3">
+			<Text>Welcome back friend! Have you tried our perfume? it requires back-breaking work to produce.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_NEUTRAL_HELLO_1">
+			<Text>My people look forward to the future, do not ruin it for them today.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_NEUTRAL_HELLO_2">
+			<Text>Yes?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_NEUTRAL_HELLO_3">
+			<Text>We have little to talk about. Maybe we can change that today.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_HOSTILE_HELLO_1">
+			<Text>Oh great, its you. Do you come with good news?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_HOSTILE_HELLO_2">
+			<Text>An exam should be passed by every man. Perhaps then, fools like yourself won't be in power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_HOSTILE_HELLO_3">
+			<Text>Arrive with peace, or leave with nothing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_HOSTILE_AGGRESSIVE_MILITARY_WARNING">
+			<Text>It seems we have something to fear. But that is not true.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_EXPANSION_SERIOUS_WARNING">
+			<Text>If you continue to encroach, we will fight back.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_REQUEST">
+			<Text>We are in need of assistance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_LUXURY_TRADE">
+			<Text>It's deeds we need, not words.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_OPEN_BORDERS_EXCHANGE">
+			<Text>Words mean little, but we thank you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_ATTACKED_BETRAYED">
+			<Text>If I win - I win for all my people, if I lose - I lose only myself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_ATTACKED_EXCITED">
+			<Text>It is cruel rulers like yourself that must be brought down by people like me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEVSKI_ATTACKED_HOSTILE">
+			<Text>I've decided that i must take the battle to the oppressor!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

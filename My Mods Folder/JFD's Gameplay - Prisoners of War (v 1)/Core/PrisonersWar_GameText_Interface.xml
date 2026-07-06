@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--END TURN BUTTON-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_END_TURN_JFD_PRISONERS_WAR">
+			<Text>PRISONERS OF WAR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_END_TURN_JFD_PRISONERS_WAR_TT">
+			<Text>You have acquired new [ICON_JFD_PRISONERS_WAR] Prisoners of War and must decide their fate.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--NOTIFICATIONS-->
+		<!--===================================================-->
+		<!--Prisoners of War!-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_SHORT_DESC">
+			<Text>Prisoners of War!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_DESC">
+			<Text>You have acquired new [ICON_JFD_PRISONERS_WAR] Prisoners of War and must decide their fate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_ASSIMILATE_SHORT_DESC">
+			<Text>Prisoners of War Assimilated!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_ASSIMILATE_DESC">
+			<Text>[COLOR_POSITIVE_TEXT]Prisoners of War[ENDCOLOR] captured from our recent combat victory have been assimilated, generating {1_Num} [ICON_CULTURE] Culture for us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_ENSLAVE_SHORT_DESC">
+			<Text>Prisoners of War Enslaved!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_ENSLAVE_DESC">
+			<Text>[COLOR_POSITIVE_TEXT]Prisoners of War[ENDCOLOR] captured from our recent combat victory have been enslaved, generating {1_Num} [ICON_RESEARCH] Science for us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_EXECUTE_SHORT_DESC">
+			<Text>Prisoners of War Executed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_EXECUTE_DESC">
+			<Text>[COLOR_POSITIVE_TEXT]Prisoners of War[ENDCOLOR] captured from our recent combat victory have been executed, generating {1_Num} [ICON_JFD_NATIONALISM] Nationalism for us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_LIBERATE_SHORT_DESC">
+			<Text>Prisoners of War Liberated!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_LIBERATE_DESC">
+			<Text>[COLOR_POSITIVE_TEXT]Prisoners of War[ENDCOLOR] captured from our recent combat victory have been liberated, generating {1_Num} [ICON_GOLDEN_AGE] Golden Age Points for us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_RANSOM_SHORT_DESC">
+			<Text>Prisoners of War Ransomed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_RANSOM_DESC">
+			<Text>[COLOR_POSITIVE_TEXT]Prisoners of War[ENDCOLOR] captured from our recent combat victory have been ransomed, generating {1_Num} [ICON_GOLD] Gold for us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_SACRIFICE_SHORT_DESC">
+			<Text>Prisoners of War Sacrificed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_PRISONERS_WAR_SACRIFICE_DESC">
+			<Text>[COLOR_POSITIVE_TEXT]Prisoners of War[ENDCOLOR] captured from our recent combat victory have been sacrificed, generating {1_Num} [ICON_PEACE] Faith for us!</Text>
+		</Row>
+		<!--World Event!-->
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PRISONERS_WAR_ASSIMILATE_DESC">
+			<Text>{1_Desc} of {2_Desc} has assimilated prisoners from their on-going war with {3_Desc}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PRISONERS_WAR_ASSIMILATE_DESC_HUMAN">
+			<Text>{1_Desc} of {2_Desc} has assimilated prisoners from their on-going war with us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PRISONERS_WAR_ENSLAVE_DESC">
+			<Text>{1_Desc} of {2_Desc} has enslaved prisoners from their on-going war with {3_Desc}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PRISONERS_WAR_ENSLAVE_DESC_HUMAN">
+			<Text>{1_Desc} of {2_Desc} has enslaved prisoners from their on-going war with us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PRISONERS_WAR_EXECUTE_DESC">
+			<Text>{1_Desc} of {2_Desc} has executed prisoners from their on-going war with {3_Desc}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PRISONERS_WAR_EXECUTE_DESC_HUMAN">
+			<Text>{1_Desc} of {2_Desc} has executed prisoners from their on-going war with us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PRISONERS_WAR_LIBERATE_DESC">
+			<Text>{1_Desc} of {2_Desc} has liberated prisoners from their on-going war with {3_Desc}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PRISONERS_WAR_LIBERATE_DESC_HUMAN">
+			<Text>{1_Desc} of {2_Desc} has liberated prisoners from their on-going war with us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PRISONERS_WAR_RANSOM_DESC">
+			<Text>{1_Desc} of {2_Desc} has executed prisoners from their on-going war with {3_Desc}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PRISONERS_WAR_RANSOM_DESC_HUMAN">
+			<Text>{1_Desc} of {2_Desc} has executed prisoners from their on-going war with us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PRISONERS_WAR_SACRIFICE_DESC">
+			<Text>{1_Desc} of {2_Desc} has sacrificed prisoners from their on-going war with {3_Desc}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PRISONERS_WAR_SACRIFICE_DESC_HUMAN">
+			<Text>{1_Desc} of {2_Desc} has sacrificed prisoners from their on-going war with us!</Text>
+		</Row>
+		<!--===================================================-->
+		<!--PRISONERS OF WAR POPUP-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_SUMMARY">
+			<Text>Our recent combat victory against {1_CivDesc} has left us with new war captives - the fate of the captured soldiers now lies in your hands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_SUMMARY_VARIOUS">
+			<Text>Our recent combat victories have left us with new war captives - the fate of the captured soldiers now lies in your hands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_1">
+			<Text>[ICON_PEACE] Sacrifice Them</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_1_DISABLED">
+			<Text>[COLOR_WARNING_TEXT][ICON_PEACE] Sacrifice Them[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_1_HELP">
+			<Text>Receive {1_Num} [ICON_PEACE] Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_1_HELP_DISABLED">
+			<Text>Receive {1_Num} [ICON_PEACE] Faith[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This action can only be taken with the Sacrificial Captives Belief.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_2">
+			<Text>[ICON_RESEARCH] Enslave Them</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_2_HELP">
+			<Text>Receive {1_Num} [ICON_RESEARCH] Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_3">
+			<Text>[ICON_GOLD] Ransom Them</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_3_HELP">
+			<Text>Receive {1_Num} [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_4">
+			<Text>[ICON_CULTURE] Assimilate Them</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_4_HELP">
+			<Text>Receive {1_Num} [ICON_CULTURE] Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_5">
+			<Text>[ICON_GOLDEN_AGE]Liberate Them</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_5_HELP">
+			<Text>Receive {1_Num} [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_6">
+			<Text>[ICON_JFD_NATIONALISM]Execute Them</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_6_HELP">
+			<Text>Receive {1_Num} [ICON_JFD_NATIONALISM] Nationalism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHOICE_6_HELP_DISABLED">
+			<Text>Receive {1_Num} [ICON_JFD_NATIONALISM] Nationalism[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This can only be done if the JFD's Gameplay - Nationalism mod is active.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHANCE">
+			<Text>[ICON_JFD_PRISONERS_WAR] {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_REMEMBER">
+			<Text>Remember This Choice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_REMEMBER_TT">
+			<Text>This action will automatically be taken whenever [ICON_JFD_PRISONERS_WAR] Prisoners of War are captured. You can review this action again when you research a new Technology that increases the chance of capturing [ICON_JFD_PRISONERS_WAR] Prisoners of War.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_CHANCE_TT">
+			<Text>Your chance to capture [ICON_JFD_PRISONERS_WAR] Prisoners of War from each combat victory. Increase this value by researching military Technologies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CONFIRM_PRISONERS_WAR_ACTION">
+			<Text>Are you sure you want to take this action?</Text>
+		</Row>
+		<!--===================================================-->
+		<!--STARTUP POPUP-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_TITLE">
+			<Text>PRISONERS OF WAR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_MESSAGE">
+			<Text>Welcome! This brief summary will seek to explain the new gameplay component: [COLOR_POSITIVE_TEXT]Prisoners of War[ENDCOLOR].[NEWLINE][NEWLINE][ICON_JFD_PRISONERS_WAR] Prisoners of War is a new gameplay mechanic resulting from your combat victories. Successfully defeating an enemy unit now has a chance to leave you with prisoners of war, based on the advancement of your military Technologies. Prisoners of War must be dealt with through one of several actions, each rewarding a different Yield.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_BUTTON">
+			<Text>Close</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

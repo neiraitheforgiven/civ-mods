@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e4f857ba-faef-4c49-a215-2f63a2a116d7" version="3">
+  <Properties>
+    <Name>Chinese New Year Wonder Pack</Name>
+    <Teaser>Gong Xi Fa Cai! Happy Chinese New Year everyone! To celebrate, here are five Chinese wonders to join your game!</Teaser>
+    <Description>Gong Xi Fa Cai! Happy Chinese New Year everyone! To celebrate, here are five Chinese wonders to join your game! Gulou, a Drum Tower buillt in Beijing by during the reign of Kublai Khan; Jiayuguan Fort, the westernmost and Most intact pass of the Great Wall; Shanghai World Financial Center, a marvel of engineering; Xuankong Si, a temple built in the side of a cliff; and the Yellow Crane Tower, one of the four great towers of China.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Moriboe, Ambrox62</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="0DC4E953EA45030F9C5147411D438071" import="1">Art/China_icon128.dds</File>
+    <File md5="363F1AC7A407CDEC10BF366265A47883" import="1">Art/China_icon256.dds</File>
+    <File md5="198921179CAA29DBB3CADACD04F24DB1" import="1">Art/China_icon45.dds</File>
+    <File md5="58B543310541B186CA02C110B793A73B" import="1">Art/China_icon64.dds</File>
+    <File md5="E99FB3CE0F655674572B7556A12BAA6E" import="1">Art/China_icon80.dds</File>
+    <File md5="DF5B6BC089E1478B6866CBAAF9BFCA95" import="1">Art/Gulou_Splash.dds</File>
+    <File md5="6246E20A09E2EBD20551BFD5CEDFC474" import="1">Art/Jiayuguan_Splash.dds</File>
+    <File md5="DD1B4C0ADCBC950A71F06D6202187A9A" import="1">Art/Shanghai_WFC_splash.dds</File>
+    <File md5="0D0A6D9BC745A3FA565C8BC1F7620ED8" import="1">Art/Xuankong_Splash.dds</File>
+    <File md5="8CAAFDB778C5FDDE147F98C7F61F0594" import="1">Art/Yellow_Crane_splash.dds</File>
+    <File md5="422CCEF14BA3A0497D3EB94F17622204" import="0">XML/GameInfo/Chinese_New_Year_IconTextureAtlases.xml</File>
+    <File md5="6A4FAA0D3FC05C0B7D85197D1EC8D28F" import="0">XML/Gulou/Buildings/Gulou_BuildingClasses.xml</File>
+    <File md5="1F42B0B7CE0954B8558A2EEBA5221FD0" import="0">XML/Gulou/Buildings/Gulou_Buildings.xml</File>
+    <File md5="4C6609536C01A5A87125AABFEF265A81" import="0">XML/Gulou/Civilizations/Gulou_Civilizations.xml</File>
+    <File md5="C777730CBDEE25C27EFB5B80DDC9A30E" import="0">XML/Gulou/Text/Gulou_text_en_US.xml</File>
+    <File md5="8443D5D78E085645E77993391C9A3A32" import="0">XML/Jiayuguan Fort/Buildings/Jiayuguan_BuildingClasses.xml</File>
+    <File md5="72B210CFC29C86C535B7D7C9A3C9F585" import="0">XML/Jiayuguan Fort/Buildings/Jiayuguan_Buildings.xml</File>
+    <File md5="2CCF57D338D374414DE64B81EDCBA8BC" import="0">XML/Jiayuguan Fort/Civilizations/Jiayuguan_Civilizations.xml</File>
+    <File md5="5869F340045948A013BECA1914B36F22" import="0">XML/Jiayuguan Fort/Text/Jiayuguan_text_en_US.xml</File>
+    <File md5="240DAC47989298F649D1A089E2B5AAE3" import="0">XML/Shanghai World Financial Center/Buildings/Shanghai_WFC_BuildingClasses.xml</File>
+    <File md5="D7A3262F0D71351C0FEBD36FD1BF34D8" import="0">XML/Shanghai World Financial Center/Buildings/Shanghai_WFC_Buildings.xml</File>
+    <File md5="31FF24E782A7571C1E0913BD93A9DC7C" import="0">XML/Shanghai World Financial Center/Civilizations/Shanghai_WFC_Civilizations.xml</File>
+    <File md5="1B94ECA38D21C7F3FBD97ADA8E0D2BA4" import="0">XML/Shanghai World Financial Center/Text/Shanghai_WFC_text_en_US.xml</File>
+    <File md5="518383AB8E18C2A3AA72725626802270" import="0">XML/Xuankong Si/Buildings/Xuankong_BuildingClasses.xml</File>
+    <File md5="E08362BE481A5E74A923BFAAF11033D7" import="0">XML/Xuankong Si/Buildings/Xuankong_Buildings.xml</File>
+    <File md5="C774F21885DD5E5EF8531B12211CF872" import="0">XML/Xuankong Si/Civilizations/Xuankong_Civilizations.xml</File>
+    <File md5="A7A692E10817DA10A112CF9EAC59C813" import="0">XML/Xuankong Si/Text/Xuankong_text_en_US.xml</File>
+    <File md5="3AE63DB1B236B25B4B09EF8A0A29079B" import="0">XML/Yellow Crane Tower/Buildings/Yellow_Crane_BuildingClasses.xml</File>
+    <File md5="6A7475BFF729119F21D1A762235F2AEF" import="0">XML/Yellow Crane Tower/Buildings/Yellow_Crane_Buildings.xml</File>
+    <File md5="B169C6B879B8194B54DA4D10473AF8C4" import="0">XML/Yellow Crane Tower/Civilizations/Yellow_Crane_Civilizations.xml</File>
+    <File md5="DFC21D642933A1B6EDDBA3F5C85CD3ED" import="0">XML/Yellow Crane Tower/Text/Yellow_Crane_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GameInfo/Chinese_New_Year_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gulou/Buildings/Gulou_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gulou/Buildings/Gulou_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gulou/Civilizations/Gulou_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gulou/Text/Gulou_text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Jiayuguan Fort/Buildings/Jiayuguan_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Jiayuguan Fort/Buildings/Jiayuguan_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Jiayuguan Fort/Civilizations/Jiayuguan_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Jiayuguan Fort/Text/Jiayuguan_text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Shanghai World Financial Center/Buildings/Shanghai_WFC_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Shanghai World Financial Center/Buildings/Shanghai_WFC_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Shanghai World Financial Center/Civilizations/Shanghai_WFC_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Shanghai World Financial Center/Text/Shanghai_WFC_text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Xuankong Si/Buildings/Xuankong_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Xuankong Si/Buildings/Xuankong_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Xuankong Si/Civilizations/Xuankong_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Xuankong Si/Text/Xuankong_text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Yellow Crane Tower/Buildings/Yellow_Crane_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Yellow Crane Tower/Text/Yellow_Crane_text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Yellow Crane Tower/Civilizations/Yellow_Crane_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Yellow Crane Tower/Buildings/Yellow_Crane_Buildings.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

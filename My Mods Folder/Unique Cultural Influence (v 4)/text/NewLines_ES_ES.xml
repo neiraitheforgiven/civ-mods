@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/22/2014 2:36:26 PM -->
+<GameData>
+	<Language_ES_ES>
+		<Row Tag="TXT_KEY_GENERIC_AMERICA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya lleva vuestros vaqueros azules y escucha rock and roll. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ARABIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya viste vuestras palestinas y pinta atauriques. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_AZTEC_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya bebe vuestro xocolatl y come tacos. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CHINA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya compra vuestra porcelana y ve películas de artes marciales. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_EGYPT_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya compra vuestros papiros y lleva vuestro maquillaje. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ENGLAND_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya bebe vuestro té y escucha britpop. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_FRANCE_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya come vuestro queso y se pone vuestros perfumes. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GERMANY_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya compra vuestros coches y bebe vuestra cerveza. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREECE_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya baila el sirtáki y va a ver vuestras tragedias. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INDIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya practica yoga y va a ver películas de Bollywood. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_IROQUOIS_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya juega a lacrosse y fuma vuestro tabaco. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_JAPAN_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya lleva vuestros kimonos y sigue vuestro anime. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_OTTOMAN_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya se pone fez y come vuestro doner kebab. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_PERSIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya come arroz pilaf y compra vuestras alfombras. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ROME_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya lleva vuestras togas y va a ver vuestras luchas de gladiadores. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RUSSIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya juega con vuestras matrioskas y bebe vodka. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SIAM_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya se pone vuestras faldas pha nung y practica muay thai. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SONGHAI_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya viste con vuestras camisas de paño de barro y toca la kora. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BABYLON_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya está obsesionado con vuestra astrología y cree su destino escrito en las estrellas. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MONGOL_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya toca el morin juur y practica vuestro canto difónico. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INCA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya viste con lanas de alpaca y masca vuestras hojas de coca. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SPAIN_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya baila flamenco y va a ver vuestras corridas de toros. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_POLYNESIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya viste con camisas hawaianas y baila el hula. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_DENMARK_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestros infantes ya crecen con vuestros cuentos de hadas y juegan con vuestros ladrillos de plástico. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_KOREA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya compra vuestros electrodomésticos y juega a vuestros MMORPG. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_AUSTRIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya come vuestras salchichas ahumadas y bebe vuestras bebidas energéticas. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BYZANTIUM_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya pasa sus días jugando al backgammon y haciendo mosaicos. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CARTHAGE_INFLUENTIAL_ON_AI_1">
+			<Text>Vuestro púrpura tirio ya es el novamás entre nuestro pueblo. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CELTS_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya lleva kilts y bebe vuestra cerveza negra. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ETHIOPIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya bebe vuestro café y lleva rastas. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HUNS_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya está retrocediendo a vuestro bárbaro nomadismo. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MAYA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya ha adoptado vuestro calendario y profetiza desgracias para el futuro próximo. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_NETHERLANDS_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya cultiva tulipanes y se pone vuestros zuecos. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SWEDEN_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya compra vuestros muebles y escucha death metal. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ASSYRIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya bebe vuestro arak y baila el khigga. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BRAZIL_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya bebe vuestra caipirinha y escucha bossa nova. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INDONESIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya viste con vuestras telas de batik y escucha música de gamelán. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOROCCO_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya come cuscús y va a ver vuestro baile del vientre. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_POLAND_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya come vuestro pierogi y baila la mazurca. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_PORTUGAL_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya compra vuestros azulejos y escucha fados. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHOSHONE_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya se pone vuestros penachos y consume peyote. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VENICE_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya compra vuestra cristalería y se pone vuestras máscaras. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ZULU_INFLUENTIAL_ON_AI_1">
+			<Text>Nuestro pueblo ya usa vuvuzelas y colecciona vuestros escudos ceremoniales. Me preocupa que también el resto del mundo sucumba a vuestra insidiosa cultura.</Text>
+		</Row>
+	</Language_ES_ES>
+</GameData>

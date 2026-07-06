@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_GRIPSHOLM">
+			<Text>Gripsholm Castle</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_GRIPSHOLM_HELP">
+			<Text>+1 [ICON_CITIZEN] Population in each city[NEWLINE]+2 [ICON_FOOD] Food for every lake tile worked by the city[NEWLINE]City must be built near a source of fresh water.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_GRIPSHOLM_QUOTE">
+			<Text>
+				[NEWLINE]"A man who dares to waste one hour of time has not discovered the value of life."[NEWLINE] - Charles Darwin[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_GRIPSHOLM_PEDIA">
+			<Text>Gripsholm Castle is a Renaissance fortress located on the shore of Lake Mälaren, approximately 60 kilometres west of Sweeden's capital, Stockholm. The site had been used as the location for a fortress since the mid 14th century. This fortress was siezed by King Gustav I in 1526, who subsequently tore the old fortress down and rebuilt it in the form of Gripsholm Castle. [NEWLINE][NEWLINE] Over the years, subsequent owners, like many of history's marvels, have added their own touch. King Gustav III added his own theater to the Castle in the years following its decomission as a prison, and in the late 19th century a mass refurbishment was undertaken under the guidance of architect Fredrik Lilljekvist, which involved adding a third floor. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

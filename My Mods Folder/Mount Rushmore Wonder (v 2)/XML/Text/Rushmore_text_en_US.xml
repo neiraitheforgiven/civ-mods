@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_RUSHMORE">
+			<Text>Mount Rushmore</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_RUSHMORE_HELP">
+			<Text>Gold cost of purchasing new tiles reduced by -35%, and -15% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied cities[NEWLINE]City must have a mountain nearby</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_RUSHMORE_QUOTE">
+			<Text>[NEWLINE]"It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood"[NEWLINE] -Theodore Roosevelt[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_RUSHMORE_PEDIA">
+			<Text>Mount Rushmore is the common name for a mountain in the Black Hills of South Dakota, United States of America. It features the faces of four American presidents (George Washington, Thomas Jefferson, Theodore Roosevelt and Abraham Lincoln) carved into the side of the hill, each being approximately 18 metres high. In total, the memorial covers 5.12 square kilometres of space, and was constructed between 1927 and 1941, when a lack of funding casued work to stop. Originally, it had been planned for the upper bodies of all four men to be included as well. [NEWLINE][NEWLINE] The site chosen was very controversial, as it had previously been granted by the United States government to the people of the Lakota tribe, commonly refered to as the Sioux. It was then seized back less than ten years later following 'The Great Sioux War. In 1971 a group of Native American protestors occupied the mountain, renaming it 'Mount Crazy Horse' after one of their greatest warlord heroes. They have since been appeased by the formation of a Crazy Horse memorial elsewhere in the Black Hills which is intended to be larger than Mount Rushmore. [NEWLINE][NEWLINE]The mountain itself has also been a center of many conspiricy theories, from lost cities of gold to White Supremacy theories involving Manifest Destiny, stretching even to the White Supremist group the Ku Klux Klan.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

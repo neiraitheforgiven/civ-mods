@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1dfaa807-83b1-4bca-b133-3f3a5ce6d21b" version="2">
+  <Properties>
+    <Name>Songkran Wonder Pack</Name>
+    <Teaser>Across April 13-15 is a celebration of Songkran in South East Asian countries, especially Thailand. Songkran is traditionally t</Teaser>
+    <Description>Across April 13-15, Songkran is celebrated in South East Asian countries, particularily Thailand. Historically it marked the beginning of the Thai New Year, however in recent times this has changed to be January 1 in line with the rest of the world. Songkran remains a national holiday, and is celebrated in part by water throwing. To celebrate Songkran, we have released a wonder pack comprising of four Thai wonders - Amphawa Floating Market, the Democracy Monument, Khao San Road and Wat Pho. These are all modular, and can be enabled / disabled at any time.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Huehueteotl</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="D5E893E6EA5645FDA843C5AC82A67F7B" import="1">Art/Amphawa_splash.dds</File>
+    <File md5="914EC8D82E691F961278A4629EBB4D1C" import="1">Art/Democracy_Monument_splash.dds</File>
+    <File md5="627A2D7F0C69E973C1A68C0077A5E965" import="1">Art/Khaosan_splash.dds</File>
+    <File md5="5AACC1D3A77D94B7AB13B6A059B56DA9" import="1">Art/Songkran_icon128.dds</File>
+    <File md5="3E2682E82CF5789A7CBA3E437D639AE5" import="1">Art/Songkran_icon256.dds</File>
+    <File md5="412B8B4EF21B0ACF945C0DB7CEF44DD1" import="1">Art/Songkran_icon45.dds</File>
+    <File md5="38DF3345178D3F4FF544ADB4B17DE92B" import="1">Art/Songkran_icon64.dds</File>
+    <File md5="31E74DD1D4CD9D2B2282F04B88B2B97E" import="1">Art/Songkran_icon80.dds</File>
+    <File md5="C495C86321380C4BE58BAFF18284850A" import="1">Art/Wat_Pho_splash.dds</File>
+    <File md5="370595A49963CBE76E3AA1F9A0538477" import="0">XML/Amphawa Floating Market/Buildings/Amphawa_BuildingClasses.xml</File>
+    <File md5="4A2BD529247E4A960951BCD37F32E7ED" import="0">XML/Amphawa Floating Market/Buildings/Amphawa_Buildings.xml</File>
+    <File md5="046BAC2570D296EDF14968416A1C4249" import="0">XML/Amphawa Floating Market/Civilizations/Amphawa_Civilizations.xml</File>
+    <File md5="3388713091744E1D79CBE7952469E98D" import="0">XML/Amphawa Floating Market/Text/Amphawa_text_en_US.xml</File>
+    <File md5="39DC0A79B74EC698BC24F10FF0EBAC18" import="0">XML/Democracy Monument/Buildings/Democracy_Monument_BuildingClasses.xml</File>
+    <File md5="8731842AD9B5086A95F023687323B5FB" import="0">XML/Democracy Monument/Buildings/Democracy_Monument_Buildings.xml</File>
+    <File md5="74625A574A7A6C84B4BBABF13475EE81" import="0">XML/Democracy Monument/Civilizations/Democracy_Monument_Civilizations.xml</File>
+    <File md5="C528F6C80AD68FB5CB4E9C1654F4E57D" import="0">XML/Democracy Monument/GameInfo/Democracy_Monument_Policies.xml</File>
+    <File md5="8B105C08FD989A5DDE071B675F5F610C" import="0">XML/Democracy Monument/Text/Democracy_Monument_text_en_US.xml</File>
+    <File md5="6BCA529BC16287AF4E4FC56E5542846D" import="0">XML/GameInfo/Songkran_IconTextureAtlases.xml</File>
+    <File md5="40C0C7BFBB613B3FA6E73A9C05209AE0" import="0">XML/Khao San Road/Buildings/Khaosan_BuildingClasses.xml</File>
+    <File md5="C99031299BEB95F703C48599C2580466" import="0">XML/Khao San Road/Buildings/Khaosan_Buildings.xml</File>
+    <File md5="F6FAD7D20665619BD8563B410612FEC5" import="0">XML/Khao San Road/Civilizations/Khaosan_Civilizations.xml</File>
+    <File md5="4BDCDE5DC202F86828017E8622D5184E" import="0">XML/Khao San Road/Text/Khaosan_text_en_US.xml</File>
+    <File md5="F55BD44B0570BB161C3CE3D632D98028" import="0">XML/Wat Pho/Buildings/Wat_Pho_BuildingClasses.xml</File>
+    <File md5="5919827479C766DD16FA1D1F022D42DE" import="0">XML/Wat Pho/Buildings/Wat_Pho_Buildings.xml</File>
+    <File md5="479B8E4C665D75DD49CF83AD168B36B7" import="0">XML/Wat Pho/Civilizations/Wat_Pho_Civilizations.xml</File>
+    <File md5="CDB7A3CB35B5114BB8001A9D11D7B331" import="0">XML/Wat Pho/Text/Wat_Pho_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Amphawa Floating Market/Buildings/Amphawa_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Amphawa Floating Market/Buildings/Amphawa_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Amphawa Floating Market/Civilizations/Amphawa_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Amphawa Floating Market/Text/Amphawa_text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Democracy Monument/Buildings/Democracy_Monument_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Democracy Monument/Buildings/Democracy_Monument_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Democracy Monument/Civilizations/Democracy_Monument_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Democracy Monument/GameInfo/Democracy_Monument_Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Democracy Monument/Text/Democracy_Monument_text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Songkran_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Khao San Road/Buildings/Khaosan_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Khao San Road/Buildings/Khaosan_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Khao San Road/Civilizations/Khaosan_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Khao San Road/Text/Khaosan_text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Wat Pho/Buildings/Wat_Pho_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Wat Pho/Buildings/Wat_Pho_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Wat Pho/Civilizations/Wat_Pho_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Wat Pho/Text/Wat_Pho_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

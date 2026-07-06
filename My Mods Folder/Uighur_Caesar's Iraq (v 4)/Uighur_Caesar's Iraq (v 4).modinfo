@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d88530fb-23f5-4059-b42a-385bcd3969d4" version="4">
+  <Properties>
+    <Name>Uighur_Caesar's Iraq</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Kingdom of  Iraq under Faisal I  to the game.</Teaser>
+    <Description>Adds the Kingdom of  Iraq under Faisal I  to the game.</Description>
+    <Authors>Uighur_Caesar</Authors>
+    <SpecialThanks>DoctorMcGann, DarkScythe, Lawrence of Arabia, DarthStarKiller, DJSHenniger, Urdnot_Scott, kul, Civitar</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events and Decisions" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD'S Rise to Power" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD'S Cultural Diversity" />
+    <Mod id="YNAEMP" minversion="0" maxversion="999" title="36e88483-48fe-4545-b85f-bafc50dde315" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="0128B0D7721651ABA1FA61ED103646BD" import="1">ART/aragw1.blend</File>
+    <File md5="F300F9B16034F4F70400992664DCEA6C" import="1">ART/aragw1.dds</File>
+    <File md5="64F2B44057A1E8AA6D63DBC3D1F774D6" import="1">ART/aragw1.fbx</File>
+    <File md5="5F7BEEDC31FF596B16A442F90973D2DF" import="1">ART/aragw1.fxsxml</File>
+    <File md5="9341A3EA92B5F4BAD415CAA3660184F4" import="1">ART/aragw1.gr2</File>
+    <File md5="EEF7D0A67382DC7C365DAD3DD414BF3B" import="1">ART/AssyrianLevy.dds</File>
+    <File md5="55D2543045F90CC7A6D5939A9B619FDB" import="1">ART/FaisalDOM.dds</File>
+    <File md5="3113AC3311FE31085E746753B98CB8D1" import="1">ART/FaisalLS.dds</File>
+    <File md5="FF50E7ED6E2A912F8879AE5ED8897152" import="1">ART/FaisalWar.mp3</File>
+    <File md5="EA75216CB92FE038A2BE9CA475FE6282" import="1">ART/FaisalPeace.mp3</File>
+    <File md5="04603C2F8025C4EC9838931AE43835A3" import="1">ART/Iraq128.dds</File>
+    <File md5="908AB09F9F8FC1895A17A0A2CA3E9AFE" import="1">ART/Iraq256.dds</File>
+    <File md5="8CEC6502C734BFEBD9443546FB4A1D6D" import="1">ART/Iraq32.dds</File>
+    <File md5="1C5C310019F87033CEC21E09DA4FA6E7" import="1">ART/Iraq45.dds</File>
+    <File md5="3CE11F1F65A5E82CFBC39CD454D86939" import="1">ART/Iraq64.dds</File>
+    <File md5="41CA8031C083B8473F2CFB5D502DC811" import="1">ART/Iraq80.dds</File>
+    <File md5="4B3D4BCC9BDFE8E989BE3CFE3E5E52F7" import="1">ART/IraqAlpha128.dds</File>
+    <File md5="C45C0EEDE58F82F2F858766357CB4B58" import="1">ART/IraqAlpha16.dds</File>
+    <File md5="EDE8B2CE7CD846D36905C54516AC3429" import="1">ART/IraqAlpha24.dds</File>
+    <File md5="E1438F53B685B10E5FC089C16C2B3E66" import="1">ART/IraqAlpha32.dds</File>
+    <File md5="8855CBE78F481A911376B4C1CF83E887" import="0">ART/IraqAlpha45.dds</File>
+    <File md5="588FFBA13CBB2B3EE6911437BD036BBD" import="1">ART/IraqAlpha48.dds</File>
+    <File md5="52269F3C3045A181FB9E2B0477011400" import="1">ART/IraqAlpha64.dds</File>
+    <File md5="734556F951414C3E78399C1FA3676E3F" import="0">ART/IraqAlpha80.dds</File>
+    <File md5="F300CB2554FAC97F588E0D3779BD6CC1" import="1">ART/Iraqmap.dds</File>
+    <File md5="499375E08736BCE24450D7CD16F81088" import="1">ART/Iraq_final.dds</File>
+    <File md5="6301EDD8330D37F082B1FDD6AFC32362" import="1">ART/Sharifianflag.dds</File>
+    <File md5="D1F4EC6E11FE97B516D8FE25D1B7A6BC" import="1">ART/u_slovakian_dobrovolnik.fxsxml</File>
+    <File md5="D69DA1E77F995568924B5FFCBBF9E430" import="1">ART/u_slovakian_dobrovolnik.gr2</File>
+    <File md5="7862569FA0B02606940122CF58F0AB87" import="1">ART/u_slovakian_dobrovolnik_diff.dds</File>
+    <File md5="706E8378C48B8B426ACEFE8C470F4B25" import="1">ART/u_slovakian_dobrovolnik_sref.dds</File>
+    <File md5="11643CCA17E4E72D194D56016A6FE5D7" import="0">Compatibility/Policy.xml</File>
+    <File md5="B70EAA56CBDD6B361D0923BB0E9D7439" import="1">Compatibility/IraqDecisions.lua</File>
+    <File md5="F9B9C7BC8D582C0F0D9A45BBB2431BF4" import="0">Compatibility/Support.sql</File>
+    <File md5="D4D8AC8287269BF866EEC632EE3D1E57" import="0">Compatibility/Sov.xml</File>
+    <File md5="BE7366AADFB866E8D0B51D2AE5A8F9C6" import="0">Lua/HOWScience.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="BF1522F756994E0D8FF629FAFB723551" import="0">Text/Game_Text.xml</File>
+    <File md5="A40BDE2F627D507A6690A46AC9CDC7ED" import="0">XML/Faisal.xml</File>
+    <File md5="7FB8CE08A9CF41548BAB6D6118BB5187" import="0">XML/Buildings.xml</File>
+    <File md5="541DB3198AC8EE11C8E9AD3C7825CA39" import="1">XML/FaisalScene.xml</File>
+    <File md5="27B597D26B96B90FE671C2B87C7D6B02" import="0">XML/Art_Defines.sql</File>
+    <File md5="597D6330C663294DA376D78F6429B0DD" import="0">XML/Promotions.xml</File>
+    <File md5="B3E02CA905D5ACD68F3A81BE652DF168" import="0">XML/Sounds.xml</File>
+    <File md5="419DB10E0A97FE1F9042294494F79B36" import="1">XML/Iraq Atlas.xml</File>
+    <File md5="94FDB8AB97537CFC80FF0B6598B254D8" import="0">XML/Units.xml</File>
+    <File md5="031608C39D2592F5690779217BC1B2E1" import="0">XML/Iraq_Trait.xml</File>
+    <File md5="704C18B7256DFBBC7286FD4FD809ECD7" import="0">XML/Iraq.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Faisal.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Iraq.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Iraq_Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Iraq Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>Text/Game_Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art_Defines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>Compatibility/Support.sql</UpdateDatabase>
+      <UpdateDatabase>Compatibility/Policy.xml</UpdateDatabase>
+      <UpdateDatabase>Compatibility/Sov.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/HOWScience.lua">
+      <Name>Building</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/PlotIterators.lua">
+      <Name>fafffaf</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

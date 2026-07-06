@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="650fe2a0-224b-4f61-8989-bcfe6528fd6e" version="1">
+  <Properties>
+    <Name>Smithsonian Institution</Name>
+    <Teaser>Known the world over as the pinnacle for the field, the Smithsonian institiution is a series of</Teaser>
+    <Description>Known the world over as the pinnacle for the field, the Smithsonian institiution is a series of museums and intellectual establishments founded 'for the increase and diffusion of knowledge'. Since then, it has spread to dozens of separate establishments, including the National Air and Space Museum and the Natural History Museum, both based in Washington, D.C.. The Smithsonian has become known for the unique nature of their exhibitions, with the items on display including Charles Lindbergh's record-breaking Spirit of St. Louis and the Hope Diamond. Ingame, the Smithsonian Institute has four slots for Great Works of Art, which when filled with four Artifacts from different civilizations yield a theming bonus. The wonder requires Biology.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="77CBEF3F8D44342FD7DA8F17E891C55A" import="1">Art/Smithsonian_128.dds</File>
+    <File md5="486C1576CD03ADA0D24761B4C5CE51FF" import="1">Art/Smithsonian_256.dds</File>
+    <File md5="23F041602F4436B0E3E90A50D16CF586" import="1">Art/Smithsonian_45.dds</File>
+    <File md5="E522BB06B7196C09FEB40271DCB42F53" import="1">Art/Smithsonian_64.dds</File>
+    <File md5="F7A58C870D5F87A984DEBD5929026416" import="1">Art/Smithsonian_80.dds</File>
+    <File md5="F2C71619278BE0854D5C9AA0D4500F1F" import="1">Art/Smithsonian_splash.dds</File>
+    <File md5="D97A27C508C25AB93EA50A59779F15E3" import="0">XML/Buildings/Smithsonian_BuildingClasses.xml</File>
+    <File md5="77D40AA952289BD11076B04DFA2DA26D" import="0">XML/Buildings/Smithsonian_Buildings.xml</File>
+    <File md5="4DBA25594BE85601C757EFE5F9A25259" import="0">XML/Civilizations/Smithsonian_Civilizations.xml</File>
+    <File md5="7A07E3EBA0247370D09BDBCB635DDE24" import="0">XML/GameInfo/Smithsonian_IconTextureAtlases.xml</File>
+    <File md5="DD58BAA75628E67A883FE3B2AE1A18C5" import="0">XML/Text/Smithsonian_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Smithsonian_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Smithsonian_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Smithsonian_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Smithsonian_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Smithsonian_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

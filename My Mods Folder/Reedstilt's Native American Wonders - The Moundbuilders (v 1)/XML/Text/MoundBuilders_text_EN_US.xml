@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_BIRDMOUND">
+			<Text>Bird Mound</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREATMOUNDTROYVILLE">
+			<Text>Great Mound of Troyville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TROYVILLEHAPPINESS">
+			<Text>Troyville Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREATSERPENTMOUND">
+			<Text>Great Serpent Mound</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MONKSMOUND">
+			<Text>Monks Mound</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NEWARKEARTHWORKS">
+			<Text>Newark Earthworks</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_BIRDMOUND_HELP">
+			<Text>Adds +1 [ICON_PEACE] Faith to all Bonus Resources worked by this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GREATMOUNDTROYVILLE_HELP">
+			<Text>Gains +1 [ICON_PRODUCTION] Production  and +5% [ICON_GOLDEN_AGE] Golden Age length for each adjacent River. Requires a River.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GREATSERPENTMOUND_HELP">
+			<Text>All Cities will reveal 1 nearby source of [ICON_RES_DEER] Deer. All [ICON_RES_DEER] Deer, [ICON_RES_FUR] Furs, and [ICON_RES_BISON] Bison worked by this City provide +1 [ICON_FOOD] Food. Must be built on a Hill.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MONKSMOUND_HELP">
+			<Text>Incoming trade routes generate +4 [ICON_GOLD] Gold for the City owner and +2 [ICON_GOLD] Gold for the Trade Route owner. Melee Land Units trained in this city generate [ICON_GOLD] Gold equal to 33% of the Damage they inflict on Cities. Requires a River.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_NEWARKEARTHWORKS_HELP">
+			<Text>Extends Land-based [ICON_INTERNATIONAL_TRADE] Trade Routes by 50%. [ICON_INTERNATIONAL_TRADE] Trade Routes increase [ICON_TOURISM] Tourism by 10%. Provides 2 [ICON_TOURISM] Tourism with Philosophy. Cannot be built on a hill.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_BIRDMOUND_QUOTE">
+			<Text>
+				[NEWLINE]"We have a promise from the sun. As long as there is the sun, there will be Indian people here."[NEWLINE]- Joseph Pierite.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GREATMOUNDTROYVILLE_QUOTE">
+			<Text>
+				[NEWLINE]"When you put your hand in a flowing stream, you touch the last that has gone before and the first of what is still to come."[NEWLINE]- Leonardo Da Vinci.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GREATSERPENTMOUND_QUOTE">
+			<Text>
+				[NEWLINE]"The stranger stood up, and it was Asga'ya Gi'gagei - the Red Man of the Lightning. He said to the hunter: 'You have helped me, now I will reward you, and give you a medicine so that you can always find game.'"[NEWLINE]- "The Red Man and the Uktena".
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MONKSMOUND_QUOTE">
+			<Text>
+				[NEWLINE]"With respect to the rest, the cacique was not accustomed to visit anyone. On the contrary, all of whom he had knowledge visited him and served him and obeyed him and paid him tribute, either by force or by their own volition."[NEWLINE]- The Gentleman of Elvas.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_NEWARKEARTHWORKS_QUOTE">
+			<Text>[NEWLINE]"My friend, this is a wide world,[NEWLINE]We're traveling over,[NEWLINE]Walking in the moonlight."[NEWLINE]- Omaha Song.</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_BIRDMOUND_PEDIA">
+			<Text>The Bird Mound, erroneously named because of its vaguely bird-like shape and known to archaeologists more formally as Mound A, is the largest single structure at Poverty Point in northeast Louisiana. Standing at the cosmological center of the site, it was the monumental hub of the earliest largest scale sedentary society in North America, with a history predating the Olmec of Mesoamerica by two centuries. The Bird Mound itself was built sometime after 1450 BC, and despite its massive size, took only a few months to complete. At 238,000 cubic meters, it was the largest earthen pyramid in North America until Monks Mound was constructed nearly 2500 years later. After a thousand years of dominating the lower Mississippi culturally, economically, and ceremonially, Poverty Point went into decline around 700 BC, but its legacy of monumental construction would live in among later mound-building societies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GREATMOUNDTROYVILLE_PEDIA">
+			<Text>When the Hopewell Interaction Sphere collapsed around AD 400, most societies throughout the Eastern Woodlands ceased constructing elaborate earthworks as previous generations did. The Troyville Culture in the lower Mississippi is a notable exception. They not only continued to build earthworks, but at the eponymous Troyville site, they constructed what would be the tallest man-made structure in the region for centuries. At 25 meters tall, the Great Mound of Troyville towered over all other earthen pyramids in its day and would not be surpassed until the construction of Monks Mound. It consisted of two flat tiers topped with a steep conical mound. Its internal structure was also unique, employing reed mats to prevent slumping. Unfortunately, the Great Mound. Throughout the 1800s, the Great Mound was continually demolished to build rifle pits during the Civil War and to level the terrain as the town of Jonesville grew up around the site. Today, the Great Mound has been reduced to a mere meter in height.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GREATSERPENTMOUND_PEDIA">
+			<Text>Located in southwestern Ohio, the Great Serpent Mound is one of the most famous earthworks in North America. At 411m (1,348 feet) long, it is the largest serpent effigy in the world. In form, the Great Serpent Mound was perhaps inspired by the constellation recognized by Europeans as Draco, and its coils align with the rising of the stars of Draco just as the setting of the sun on the summer solstice aligns with the egg the serpent is swallowing. To its builders, the Serpent Mound likely represented the Horned Serpent, a ubiquitious figure in the mythos of the Eastern Woodlands. The Horned Serpents are chaotic beings from the Below World and guardians of powerful medicine that provide foresight and success in hunting.[NEWLINE][NEWLINE] The Great Serpent Mound is thought to have been built around AD 1070 by the people of the Fort Ancient Tradition, the ancestors of the Shawnee among others. More recently it has been argued that the Fort Ancient people restored the Serpent Mound at this time, and that it had originally been built a thousand years earlier by the Adena, whose conical burial mounds stand on a nearby hillside.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MONKSMOUND_PEDIA">
+			<Text>Standing 30 meters tall and having a volume of 720,000 cubic meters, Monks Mound at Cahokia dwarfs all other earthen pyramids built in the Eastern Woodlands, with a footprint equivalent to that of the Great Pyramid of Giza. Around AD 1050, Cahokia transformed itself from a large, but not particularly unique, village into the largest city the Eastern Woodlands had seen. Looming over the Grand Plaza, Monks Mound was a potent symbol of Cahokia’s might and ability to galvanize its populace. Standing at the crossroads of the continent’s great rivers, Cahokia drew in trade routes from far and wide. Like other Mississippian chiefdoms, it likely demanded tribute from lesser polities such as Kincaid along the Ohio River. Monks Mound got its name from a group of Jesuit monks who lived in the region during the colonial era, and today Cahokia is a UNESCO World Heritage Site.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_NEWARKEARTHWORKS_PEDIA">
+			<Text>The Newark Earthworks in Newark, Ohio, consists of two sections of preserved earthworks: the Great Circle Earthworks and the Octagon Earthworks / Observatory Circle, built by the Scioto Hopewell around AD 250. Together the Octagon Earthworks and Observatory Circle form an enormous lunar observatory, aligned with the 18.6 year cycle of lunar standstills. The Great Circle likely hosted elaborate ceremonies that drew in participants from throughout the vast Hopewell Interaction Sphere, a ceremonial and trading network that extended over the whole of eastern North America. Originally, this complex contained the largest earthen enclosures in the world, extending over 3,000 acres. Today, the preserved site covers only 206 acres, and is operated as a state park by the Ohio Historical Society. It has been designated a National Historic Landmark. In 2006, Newark Earthworks was also designated as the "official prehistoric monument of the State of Ohio."</Text>
+		</Row>
+		<!-- Promotion tags -->
+		<Row Tag="TXT_KEY_PROMOTION_MONKSMOUND_TRIBUTE">
+			<Text>Monks Mound</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MONKSMOUND_TRIBUTE_HELP">
+			<Text>Units with this Promotion generate [ICON_GOLD] Gold equal to 33% of the damage they inflict on Cities.</Text>
+		</Row>
+		<!-- Policy tags -->
+		<Row Tag="TXT_KEY_POLICY_NEWARKEARTHWORKS_CULTURE">
+			<Text>Newark Earthworks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_POLICY_NEWARKEARTHWORKS_CULTURE_TEXT">
+			This policy is granted by the Newark Earthworks.
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NEWARKEARTHWORKS_CULTURE_HELP">
+			<Text>+10% [ICON_TOURISM] Tourism from [ICON_INTERNATIONAL_TRADE] Trade Routes.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

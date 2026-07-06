@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2e9875c2-6b29-4ccb-acea-399aebf202e5" version="2">
+  <Properties>
+    <Name>MLK Memorial Wonder</Name>
+    <Teaser>Situated at 1964 Independence Avenue, Washington DC, the Martin Luther King Memorial was constructed in 2011, and inspired</Teaser>
+    <Description>Situated at 1964 Independence Avenue, Washington DC, the Martin Luther King Memorial was constructed in 2011, and inspired by the quote "Out of a Mountain of Despair, a stone of hope", taken from Martin Luther King's famous "I have a dream" speech. It was built to honour the iconic Civil Rights activist, and the address signifies the year in which he led  thousands in a Civl Rights demonstation during what came to be called the 'March on Washington', and the year in which the Civil Rights act was passed. Ingame, the MLK Memorial provides a +10% boost to global Great Person generation, +5 :c5happy: Happiness with Freedom, and requires Computers.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Huehueteotl</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="8045460EE8546C66CA9D3CA5337FAEA3" import="1">Art/MLK_icon128.dds</File>
+    <File md5="BE36939843907E88FE2AAE1CEA2DCDF8" import="1">Art/MLK_icon256.dds</File>
+    <File md5="6CDE52EA3483D6F9EB107EDD8DAE507F" import="1">Art/MLK_icon45.dds</File>
+    <File md5="72168C10EA0A5454A12770506F4FBD8D" import="1">Art/MLK_icon64.dds</File>
+    <File md5="4E33D937B1D5682EB7812A3962EA25A0" import="1">Art/MLK_icon80.dds</File>
+    <File md5="42EA4EB75475871F10545F2DE89E323D" import="1">Art/MLK_Splash.dds</File>
+    <File md5="A8105089C3C60BD2E6A669D0D0A8F73D" import="0">XML/Buildings/MLK_BuildingClasses.xml</File>
+    <File md5="B86EA5A36A626B20FA83510B548864F5" import="0">XML/Buildings/MLK_Buildings.xml</File>
+    <File md5="2BEE16CAA13C9210E98DE2F4E82E1044" import="0">XML/Civilizations/MLK_Civilizations.xml</File>
+    <File md5="1F8E2BA6C31E6AA4F41DA5BF3848FBAF" import="0">XML/GameInfo/MLK_IconTextureAtlases.xml</File>
+    <File md5="7941BCDA7BDBC46A87E76EAB9E9384FC" import="0">XML/GameInfo/MLK_Policies.xml</File>
+    <File md5="F3C07BF61FA8232402B9D2BA317FF308" import="0">XML/Text/MLK_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/MLK_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/MLK_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/MLK_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/MLK_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/MLK_Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/MLK_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

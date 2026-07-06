@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a9efbd84-c934-4e58-acb2-717a4cd70b93" version="2">
+  <Properties>
+    <Name>Gripsholm Wonder</Name>
+    <Teaser>Gripsholm Castle is a fortress located on the shore of Lake Mälaren, near the town of Mariefred, Sweden.</Teaser>
+    <Description>Gripsholm Castle is a fortress located on the shore of Lake Mälaren, near the town of Mariefred, Sweden. It was built during the 16th century on the site of a medieval fortress, and served as the residence for the Swedish royal family throughout much of the following centuries. Gripsholm has also functioned as a prison and a museum during its lifetime. Ingame, Gripsholm provides +1 [ICON_CITIZEN] Population in every city, +2 [ICON_FOOD] food for every lake tile worked by the city, requires Printing Press and a fresh water source adjacent to the city.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Mentos, moriboe, Ambrox62, Onacadarfi XXVI</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="D957F7A84E57E70052C4EB07C7C7BC6D" import="1">Art/Gripsholm_icon128.dds</File>
+    <File md5="03E9F26331872C8B8E2939260A931255" import="1">Art/Gripsholm_icon256.dds</File>
+    <File md5="9BCB48E4EF78055D18DD3541A25B2296" import="1">Art/Gripsholm_icon45.dds</File>
+    <File md5="B5CD7C623B8561D30B32E1491A0BFA74" import="1">Art/Gripsholm_icon64.dds</File>
+    <File md5="FBCC01F9BC7631474B17F0BF951D00B3" import="1">Art/Gripsholm_icon80.dds</File>
+    <File md5="1EF22C207F2CE35277FF27F79FE676B3" import="1">Art/Gripsholm_splash.dds</File>
+    <File md5="12DE5743E8DB0D5CE26E8925B8326E52" import="0">XML/Buildings/Gripsholm_BuildingClasses.xml</File>
+    <File md5="DA2A8E4E935317808AA8CB4601E0B471" import="0">XML/Buildings/Gripsholm_Buildings.xml</File>
+    <File md5="30E35231A1CCBD8B174199E9942F6978" import="0">XML/Civilizations/Gripsholm_Civilizations.xml</File>
+    <File md5="710561BE6E9AB1176854A87E8DF39227" import="0">XML/GameInfo/Gripsholm_IconTextureAtlases.xml</File>
+    <File md5="80EC27B2E1653783EF5BCE7DE4CD172E" import="0">XML/Text/Gripsholm_text_EN_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Gripsholm_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Gripsholm_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Gripsholm_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Gripsholm_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Gripsholm_text_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

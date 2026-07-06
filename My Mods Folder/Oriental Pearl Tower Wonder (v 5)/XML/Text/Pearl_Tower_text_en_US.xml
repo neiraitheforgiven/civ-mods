@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_PEARL_TOWER">
+			<Text>Oriental Pearl Tower</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_PEARL_TOWER_HELP">
+			<Text>+10% [ICON_CULTURE] Culture in all cities.[NEWLINE]Also, +10% Generation of [ICON_GREAT_PEOPLE] Great people in all cities.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_PEARL_TOWER_QUOTE">
+			<Text>
+				[NEWLINE]"I am not afraid of tomorrow, for I have seen yesterday and I love today."[NEWLINE] - William Allen White[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_PEARL_TOWER_PEDIA">
+			<Text>The Oriental Pearl Tower is a TV tower located in Shanghai, China, on the bank of the Huangpu River. Completed in 1994, it remained the tallest structure in China for 14 years, being surpassed in 2007. The main design is of 11 spheres connected by shafts. The two largest spheres are along the main structure of the tower, and serve as commercial floors. On July 7, 2007 the Oriental Pearl Tower was the venue for the Chinese concert of Live Aid. There are fifteen observation decks on the tower.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

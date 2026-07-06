@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai -->
+<GameData>
+	<Language_en_US>
+		<!--=============================================================-->
+		<!-- Unique Unit - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_UNIT_MC_NTF_NEZ_PERCE_APPALOOSA_RIDER">
+			<Text>Appaloosa Rider</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_NTF_NEZ_PERCE_APPALOOSA_RIDER_HELP">
+			<Text>Lancer replacement unique to the Nez Perce. Unlike the Lancer, is a ranged attacker that can move after attacking and trades the Formation promotion for the Accuracy I promotion. When trained, generates a burst of [ICON_GOLDEN_AGE] Golden Age points based on the number of [ICON_RES_HORSE] Horses you are importing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_NTF_NEZ_PERCE_APPALOOSA_RIDER_STRATEGY">
+			<Text>Appaloosa Riders are good at harrying enemy positions due to their powerful ranged attacks. However, the more important part of their strategy is non-combatant. With no Horse requirement, you can build as many of them as possible in order to gain golden ages and, late in the game, bonus tourism, as once you research Ecology, every two mounted units you have ever built counts as a Great Work in terms of tourism and culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_NTF_NEZ_PERCE_APPALOOSA_RIDER_PEDIA">
+			<Text>When the Nez Perce first acquired Horses from the south, they quickly went to work selectively breeding the traits they most valued; strength for working, a smooth gait when running, and distinctive metallic coats with leopard-like spots. The Nez Perce would carefully trade for horses featuring these traits, and would geld or trade away inferior horses to prevent them from tainting their herds. These horses, the Appaloosa, were highly valued for their strength and war capabilities -- their gait was so smooth that archers could shoot accurately from their backs. After the Americans forced the Nez Perce onto reservations, they took away the ability to breed Appaloosa and so the modern breed no longer represents the original values of the Nez Perce. In recent years, the Nez Perce have begun a campaign to re-breed the original Appaloosa traits, resulting in a separate breed known as the "Nez Perce Horse".</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Unique Building - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_BUILDING_NTF_NEZ_PERCE_CONSERVATION_CENTER">
+			<Text>Conservation Center</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NTF_NEZ_PERCE_CONSERVATION_CENTER_HELP">
+			<Text>Unlike the Research Lab it replaces, produces +1 [ICON_SCIENCE] Science and [ICON_CULTURE] Culture for each Camp and Pasture in the city (instead of base +4 Science) and causes [ICON_RES_MC_SALMON] Salmon to appear along rivers. (These Salmon can be worked by Camps.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NTF_NEZ_PERCE_CONSERVATION_CENTER_STRATEGY">
+			<Text>To make the most of the Conservation Center, ensure that you seek out locations rich with luxuries that can be improved by Camps and Pastures. In addition, leave some unimproved tiles next to rivers; Salmon can appear in hexes next to cities with no resources or other improvements, but never next to other Salmon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NTF_NEZ_PERCE_CONSERVATION_CENTER_PEDIA">
+			<Text>The Nez Perce have focused a lot of effort on conserving the land, water, and words of their past. Through conservation efforts, the Nez Perce have been able to bring species of Salmon in their area back from the brink of extinction and help to return the State of Idaho back to the condition it was before colonialism took place.</Text>
+		</Row>
+		<!--Dummy Buildings-->
+		<Row Tag="TXT_KEY_BUILDING_NTF_WIDGETS">
+			<Text>Dummy: Nez Perce Tourism</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Unique Ability  - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_TRAIT_NTF_THUNDER_TO_GREAT_HEIGHTS_SHORT">
+			<Text>Thunder Rolling to Great Heights</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_NTF_THUNDER_TO_GREAT_HEIGHTS">
+			<Text>While a city is training a mounted unit, it gains the effects of a [ICON_GOLDEN_AGE] Golden Age. After researching Ecology, gain +1 [ICON_CULTURE] Culture and +1 [ICON_TOURISM] Tourism for each mounted unit you constructed during the game.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Unit Promotions - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_PROMOTION_NTF_NEZ_PERCEKEEPER1">
+			<Text>Battle Keepers 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NTF_NEZ_PERCEKEEPER1_HELP">
+			<Text>Deal an addition 5% damage when attacking, doubled when adjacent to a friendly unit.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Mod Support - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<!--Unique Cultural Influence-->
+		<Row Tag="TXT_KEY_GENERIC_NTF_NEZ_PERCE_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are planting Corn, Squash, and Beans with each other and enlisting in the military -- I, uh, suppose that's not a bad thing, but I fear the rest of the world may succumb to your influence.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Misc Civ Text - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<!--Denonyms-->
+		<Row Tag="TXT_KEY_NTF_NEZ_PERCE">
+			<Text>The Nez Perce</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_NTF_NEZ_PERCE_DESC">
+			<Text>The Nez Perce Tribe</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_NTF_NEZ_PERCE_SHORT_DESC">
+			<Text>Nez Perce</Text>
+		</Row>-->
+		<Row Tag="TXT_KEY_NTF_NEZ_PERCE_ADJECTIVE">
+			<Text>Nez Perce</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Dawn of Man - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_NTF_NEZ_PERCE_TEXT">
+			<Text>Blessings, Chief Joseph, leader of the Nez Perce! Your people, who call themselves the Nimiipuu, live mainly in the State of Idaho in the U.S. A hard-working people, with a knack for cultivating and conserving nature, you made a name for yourselves during the birth of the United States. When the Americans drove you from your lands, you showed that your principles of loyalty and dignity were unshakable even in the most desperate and unfair of times.[NEWLINE][NEWLINE]Now again, Chief Joseph, we look to you. Lead our people through uncertain and unknown lands. Show the strength of our principles, as we renew our people again. Guide us as we in turn guide our people, who will stand the test of time.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Diplomacy Lines - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_FIRSTGREETING_1">
+			<Text>Greetings. I am Chief Joseph of the Nez Perce. Let us enjoy the food and fish of my people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_FIRSTGREETING_2">
+			<Text>Welcome, stranger. These are the lands where we have always lived and subsisted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_DEFEATED_1">
+			<Text>I am tired of fighting. Our chiefs are killed.  The old men are all dead. It is the young men who say no.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_REPEAT_TOO_MUCH_1">
+			<Text>Many false words do not suddenly make truth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>You will take everything we have if I give in to your requests.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_DENOUNCE_1">
+			<Text>For a short time we lived quietly. But this cannot last. Your day will come.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_DEC_FRIENDSHIP_1">
+			<Text>It does not require many words to speak the truth. You speak the truth. Join me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_ATTACKED_HOSTILE_1">
+			<Text>You might as well expect rivers to run backwards as me to keel over so easily for you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_BAD_1">
+			<Text>Never.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_GOOD_1">
+			<Text>Yes.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Spy Names - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_SPY_NAME_NTF_NEZ_PERCE_0">
+			<Text>Twisted Hair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NTF_NEZ_PERCE_1">
+			<Text>Looking Glass</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NTF_NEZ_PERCE_2">
+			<Text>White Bird</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NTF_NEZ_PERCE_3">
+			<Text>Ollokot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NTF_NEZ_PERCE_4">
+			<Text>Lean Elk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NTF_NEZ_PERCE_5">
+			<Text>Eagle from the Light</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NTF_NEZ_PERCE_6">
+			<Text>Five Wounds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NTF_NEZ_PERCE_7">
+			<Text>Claudia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NTF_NEZ_PERCE_8">
+			<Text>Sundown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NTF_NEZ_PERCE_9">
+			<Text>Elaine</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Civilopedias  - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<!--Civilisation Pedia-->
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_TITLE">
+			<Text>The Nez Perce</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_TEXT_1">
+			<Text>The Nez Perce are an Indigenous people of the Plateau who are presumed to have lived on the Columbia River Plateau in the Pacific Northwest region for at least 11,500 years, covering parts of present-day Washington, Oregon, Montana, and Idaho. Prior to first contact with Western civilization the Nimiipuu were economically and culturally influential in trade and war, interacting with other indigenous nations in a vast network from the western shores of Oregon and Washington, the high plains of Montana, and the northern Great Basin in southern Idaho and northern Nevada.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_HEADING_2">
+			<Text>What's in a Name, What's in a Word</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_TEXT_2">
+			<Text>Their name for themselves is Nimiipuu, meaning the people, in their language, part of the Sahaptin family. Nez Perce is an exonym given by French Canadian fur traders who visited the area regularly in the late 18th century, meaning literally pierced nose. English-speaking traders and settlers adopted the name in turn. The Nez Perce language, or Niimiipuutimt, is a Sahaptian language related to the several dialects of Sahaptin. The Sahaptian sub-family is one of the branches of the Plateau Penutian family, which in turn may be related to a larger Penutian grouping.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_HEADING_3">
+			<Text>Fish and Food</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_TEXT_3">
+			<Text>The semi-sedentary Nez Perce were Hunter-gatherer without agriculture living in a society in which most or all food is obtained by foraging. They depended on hunting, fishing, and the gathering of wild roots and berries. Nez Perce people historically depended on various Pacific salmon and Pacific trout for their food: Chinook salmon or nacoox were eaten the most, but other species such as Pacific lamprey and chiselmouth were eaten too. Prior to contact with Europeans, the Nez Perce's traditional hunting and fishing areas spanned from the Cascade Range in the west to the Bitterroot Mountains in the east. Historically, in late May and early June, Nez Perce villagers crowded to communal fishing sites to trap eels, steelhead, and chinook salmon, or haul in fish with large dip nets. Fishing took place throughout the summer and fall, first on the lower streams and then on the higher tributaries, and catches also included salmon, sturgeon, whitefish, suckers, and varieties of trout. Most of the supplies for winter use came from a second run in the fall, when large numbers of Sockeye salmon, silver, and dog salmon appeared in the rivers. Fishing is traditionally an important ceremonial and commercial activity for the Nez Perce tribe. Today Nez Perce fishers participate in tribal fisheries in the mainstream Columbia River between Bonneville and McNary dams. The Nez Perce also fish for spring and summer Chinook salmon and Rainbow trout/steelhead in the Snake River and its tributaries. The Nez Perce tribe runs the Nez Perce Tribal Hatchery on the Clearwater River, as well as several satellite hatchery programs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_HEADING_4">
+			<Text>Seekers of the Mountains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_TEXT_4">
+			<Text>The Nez Perce believed in spirits called weyekins which would, they thought, offer a link to the invisible world of spiritual power. The weyekin would protect one from harm and become a personal guardian spirit. To receive a weyekin, a seeker would go to the mountains alone on a vision quest. This included fasting and meditation over several days. While on the quest, the individual may receive a vision of a spirit, which would take the form of a mammal or bird. This vision could appear physically or in a dream or trance. The weyekin was to bestow the animal's powers on its bearer; for example, a deer might give its bearer swiftness. A person's weyekin was very personal. It was rarely shared with anyone and was contemplated in private. The weyekin stayed with the person until death.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_HEADING_5">
+			<Text>European Contact</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_TEXT_5">
+			<Text>In 1805 William Clark was the first known Euro-American to meet any of the tribe, excluding the aforementioned French Canadian traders. While he, Meriwether Lewis and their men were crossing the Bitterroot Mountains, they ran low of food, and Clark took six hunters and hurried ahead to hunt. On September 20, 1805, near the western end of the Lolo Trail, he found a small camp at the edge of the camas-digging ground, which is now called Weippe Prairie. The explorers were favorably impressed by the Nez Perce whom they met. On their return trip they arrived at the Nez Perce encampment the following spring, again hungry and exhausted. The tribe constructed a large tent for them and again fed them. Desiring fresh red meat, the party offered an exchange for a Nez Perce horse.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_HEADING_6">
+			<Text>Nez Perce War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_TEXT_6">
+			<Text>The Nez Perce were one of the tribal nations at the Walla Walla Council in 1855, which signed the Treaty of Walla Walla. Under pressure from the European Americans, in the late 19th century the Nez Perce split into two groups: one side accepted the coerced relocation to a reservation and the other refused to give up their fertile land in Washington and Oregon. Those willing to go to a reservation made a treaty in 1877. The flight of the non-treaty Nez Perce began on June 15, 1877, with Chief Joseph, Looking Glass, White Bird, Ollokot, Lean Elk and Toohoolhoolzote leading 750 men, women and children in an attempt to reach a peaceful sanctuary. reach a peaceful sanctuary. They intended to seek shelter with their allies the Crow but, upon the Crow's refusal to offer help, the Nez Perce tried to reach the camp in Canada of Lakota Chief Sitting Bull. He had migrated there instead of surrendering after the Indian victory at the Battle of the Little Bighorn. The Nez Perce were pursued by over 2,000 soldiers of the U.S. Army on an flight of more than 1,170 miles across four states and multiple mountain ranges. The 250 Nez Perce warriors defeated or held off the pursuing troops in 18 battles, skirmishes, and engagements. A majority of the surviving Nez Perce were finally forced to surrender on October 5, 1877, after the Battle of the Bear Paw Mountains in Montana.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_HEADING_7">
+			<Text>Modern Day</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_TEXT_7">
+			<Text>The current tribal lands consist of a reservation in North Central Idaho. Due to tribal loss of lands, the population on the reservation is predominantly white. Similar to the opening of Native American lands in Oklahoma by allowing acquisition of surplus by non-natives after households received plots, the U.S. government opened the Nez Perce reservation for general settlement on November 18, 1895. The proclamation had been signed less than two weeks earlier by President Grover Cleveland. Thousands rushed to grab land on the reservation, staking out their claims even on land owned by Nez Perce families. In 1994 the Nez Perce tribe began a breeding program, based on crossbreeding the Appaloosa and a Central Asian breed called Akhal-Teke, to produce what they called the Nez Perce Horse. They wanted to restore part of their traditional horse culture, where they had conducted selective breeding of their horses, long considered a marker of wealth and status, and trained their members in a high quality of horsemanship. The 20th-century breeding program was financed by the United States Department of Health and Human Services, the Nez Perce tribe, and the nonprofit called the First Nations Development Institute. The Nez Perce Horse breed is noted for its speed.</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_FACTOID_HEADING">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_NTF_NEZ_PERCE_FACTOID_TEXT ">
+			<Text>Placeholder</Text>
+		</Row>-->
+		<!--Leader Civilopedia-->
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_DESC">
+			<Text>Joseph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_LIVED">
+			<Text>1840 - 1904</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_NAME">
+			<Text>Joseph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_SUBTITLE">
+			<Text>Chief of the Nez Perce</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_TITLES_1">
+			<Text>Hin-mah-too-yah-lat-kekt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_TITLES_2">
+			<Text>Joseph the Younger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_TITLES_3">
+			<Text>Young Joseph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_TEXT_1">
+			<Text>Chief Joseph, known by his native tongue name Hin-mah-too-yah-lat-kekt, or by Joseph the Younger, was a leader of the Wal-lam-wat-kain band of Nez Perce, a Native American tribe of the interior Pacific Northwest region of the United States, in the latter half of the 19th century. He succeeded his father Tuekakas, known as Joseph the Elder. He led his band of Nez Perce during the most tumultuous period in their history, when they were forcibly removed by the United States federal government from their ancestral lands in the Wallowa Valley of northeastern Oregon onto a significantly reduced reservation in the Idaho Territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_HEADING_2">
+			<Text>Young Joseph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_TEXT_2">
+			<Text>Chief Joseph was born Hinmuuttu-yalatlat, Nez Perce for Thunder Rolling Down the Mountain, in the Wallowa Valley of northeastern Oregon. He was known as Young Joseph during his youth because his father, Tuekakas, was baptized with the same Christian name. While initially hospitable to the region's white settlers, Joseph the Elder grew wary when they demanded more Indian lands. Tensions grew as the settlers appropriated traditional Indian lands for farming and livestock. Joseph the Elder and the other Nez Perce chiefs signed the Treaty of Walla Walla, with the United States establishing a Nez Perce reservation encompassing 7,700,000 acres in present-day Idaho, Oregon, and Washington. The 1855 reservation maintained much of the traditional Nez Perce lands, including Joseph's Wallowa Valley.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_HEADING_3">
+			<Text>Chief and Responsibilities to the Father</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_TEXT_3">
+			<Text>Cornplanter was first noticed by European chroniclers for his participation in Seneca wars efforts against the British as part of the French and Indian Wars. He was present for Braddock's Defeat, a seminal battle between trained, professional British soldiers and Seneca, French, and other allied Native forces. Braddock's forces outmanned their enemies, but were subject to hundreds of losses while the French and Indians lost mere dozens. These experiences helped Cornplanter to establish himself as a respected warrior, but also made him cautious of the death toll involved in white men's warfare.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_HEADING_4">
+			<Text>Negotiations and Betrayals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_TEXT_4">
+			<Text>In 1873, Joseph negotiated with the federal government to ensure his people could stay on their land in the Wallowa Valley. But in 1877, the government reversed its policy, and Army General Oliver O. Howard threatened to attack if the Wallowa band did not relocate to the Idaho reservation with the other Nez Perce. Joseph reluctantly agreed. Before the outbreak of hostilities, General Howard held a council at Fort Lapwai to try to convince Joseph and his people to relocate. The day following the council, Joseph, White Bird, and Looking Glass all accompanied Howard to examine different areas within the reservation. Howard offered them a plot of land that was inhabited by whites and Native Americans, promising to clear out the current residents. Joseph and his chieftains refused, adhering to their tribal tradition of not taking what did not belong to them. Unable to find any suitable uninhabited land on the reservation, Howard informed Joseph that his people had 30 days to collect their livestock and move to the reservation. Joseph pleaded for more time, but Howard told him he would consider their presence in the Wallowa Valley beyond the 30-day mark an act of war.</Text>
+		</Row>
+			<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_HEADING_5">
+			<Text>More Councils and War Councils</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_TEXT_5">
+			<Text>Returning home, Joseph called a council among his people. At the council, he spoke on behalf of peace, preferring to abandon his father's grave over war. Toohoolhoolzote, insulted by his incarceration, advocated war. In June 1877, the Wallowa band began making preparations for the long journey to the reservation, meeting first with other bands at Rocky Canyon. At this council, too, many leaders urged war, while Joseph continued to argue in favor of peace. While the council was underway, a young man whose father had been killed rode up and announced that he and several other young men had retaliated by killing four white settlers. Still hoping to avoid further bloodshed, Joseph and other non-treaty Nez Perce leaders began moving people away from Idaho.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_HEADING_6">
+			<Text>The Nez Perce War Begins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_TEXT_6">
+			<Text>The U.S. Army's pursuit of about 750 Nez Perce and a small allied band of the Palouse tribe, led by Chief Joseph and others, as they attempted to escape from Idaho became known as the Nez Perce War. Initially they had hoped to take refuge with the Crow Nation in the Montana Territory, but when the Crow refused to grant them aid, the Nez Perce went north in an attempt to obtain asylum with the Lakota band led by Sitting Bull, who had fled to Canada following the Great Sioux War in 1876. For over three months, the Nez Perce deftly outmaneuvered and battled their pursuers, traveling more than 1,170 miles across present-day Oregon, Washington, Idaho, Wyoming, and Montana. The Nez Perce continued to repel the Army's advances, eventually reaching the Clearwater River, where they united with another Nez Perce chief, Looking Glass, and his group, bringing the size of their party to 740, though only 200 of these were warriors. The final battle of the Nez Perce War occurred approximately 40 miles south of the Canadian border where the Nez Perce were camped on Snake Creek near the Bears Paw Mountains, close to present-day Chinook in Blaine County, Montana.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_HEADING_7">
+			<Text>Outnumbered Surrender</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_TEXT_7">
+			<Text>General Howard arrived on October 3, leading the opposing cavalry, and was impressed with the skill with which the Nez Perce fought, using advance and rear guards, skirmish lines, and field fortifications. Following a devastating five-day siege during freezing weather, with no food or blankets and the major war leaders dead, Chief Joseph formally surrendered to General Miles on the afternoon of October 5, 1877. The battle is remembered in popular history by the words attributed to Joseph at the formal surrender, which was later found to be a forgery. Although Joseph was not technically a war chief and probably did not command the retreat, many of the chiefs who did had died. His speech brought attention, and therefore credit, his way. He earned the praise of General William Tecumseh Sherman and became known in the press as the Red Napoleon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_HEADING_8">
+			<Text>Aftermath and Further Plight</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_TEXT_8">
+			<Text>By the time Joseph had surrendered, 150 of his followers had been killed or wounded. Their plight, however, did not end. Although Joseph had negotiated with Miles and Howard for a safe return home for his people, General Sherman overruled this decision and forced Joseph and 400 followers to be taken on unheated rail cars to Fort Leavenworth, in eastern Kansas, where they were held in a prisoner of war campsite for eight months. Toward the end of the following summer, the surviving Nez Perce were taken by rail to a reservation in the Indian Territory; they lived there for seven years. Many of them died of epidemic diseases while there. In 1879, Chief Joseph went to Washington, D.C. to meet with President Rutherford B. Hayes and plead his people's case. Although Joseph was respected as a spokesman, opposition in Idaho prevented the U.S. government from granting his petition to return to the Pacific Northwest. Finally, in 1885, Chief Joseph and his followers were granted permission to return to the Pacific Northwest to settle on the reservation around Kooskia, Idaho. Instead, Joseph and others were taken to the Colville Indian Reservation in Nespelem, Washington, far from both their homeland in the Wallowa Valley and the rest of their people in Idaho.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_HEADING_9">
+			<Text>Later Years</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_TEXT_9">
+			<Text>Joseph continued to lead his Wallowa band on the Colville Reservation, at times coming into conflict with the leaders of the 11 other unrelated tribes also living on the reservation. In his last years, Joseph spoke eloquently against the injustice of United States policy toward his people and held out the hope that America's promise of freedom and equality might one day be fulfilled for Native Americans as well. In 1897, he visited Washington, D.C. again to plead his case. In 1903, Chief Joseph visited Seattle, a booming young town, where he stayed in the Lincoln Hotel as guest to Edmond Meany, a history professor at the University of Washington. It was there that he also befriended Edward Curtis, the photographer, who took one of his most memorable and well-known photographs. Joseph also visited President Theodore Roosevelt in Washington, D.C. the same year. Everywhere he went, it was to make a plea for what remained of his people to be returned to their home in the Wallowa Valley, but it never happened. Chief Joseph died on September 21, 1904.</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_FACTOID_HEADING">
+			<Text>Joseph Factoid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NTF_JOSEF_FACTOID_TEXT">
+			<Text>Placeholder</Text>
+		</Row>-->
+		<!--=============================================================-->
+		<!-- City List - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_KAMIAH">
+			<Text>Kamiah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_ALLPAWAWAII">
+			<Text>Al''pawawaii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_WALLOWA">
+			<Text>Wallowa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_SAHATP">
+			<Text>Sáhatp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_TUCANNON">
+			<Text>Tucannon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_WILLIWEWIX">
+			<Text>Williwewix</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_NACOXKUUS">
+			<Text>Naco''x Kuus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_WAWAWIH">
+			<Text>Wawáwih</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_SILAYLOO">
+			<Text>Silayloo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_WEYIKESPE">
+			<Text>Weyikespe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_XUYELP">
+			<Text>Xuyelp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_PINAWAWI">
+			<Text>Pinăwăwi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_SHIMINEKEM">
+			<Text>Shimínĕkĕm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_AHSAHKA">
+			<Text>Ahsahka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_KAMIAHP">
+			<Text>Kămiăhp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_LAMTAMA">
+			<Text>Lamtáma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_LEEPWEY">
+			<Text>Léepwey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_SAKAN">
+			<Text>Sakán</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_IWASNIMA">
+			<Text>Iyăsnimă</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_YAKTOIN">
+			<Text>Yaktōin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_IWATOIN">
+			<Text>Iwatōin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_TUNEHE">
+			<Text>Tunĕhĕ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_PALOT">
+			<Text>Palót</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_HASUTIN">
+			<Text>Hasutin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_HASEIWAWIH">
+			<Text>Hăsweiwăwih</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_ANATOIN">
+			<Text>Ánatōin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_HINSEPU">
+			<Text>Hinsepu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_PIPUINIMU">
+			<Text>Pipu''inimu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_KUSEYNEISEKIT">
+			<Text>Kuseyneisekit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NTF_NEZ_PERCE_UMATILLA">
+			<Text>Umatilla</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

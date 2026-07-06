@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="56c0ea0c-bf73-4509-a0f8-215b589d1053" version="2">
+  <Properties>
+    <Name>Escadaria Selaron Wonder</Name>
+    <Teaser>Escadaria Selaron is an iconic stairway mosaic located in Rio de Janiero, Brazil. It is the brainchild of a Chilean-born artist</Teaser>
+    <Description>Escadaria Selaron is an iconic stairway mosaic located in Rio de Janiero, Brazil. It is the brainchild of Chilean-born artist Jorge Selarón, who began renovating the stairs in 1990. The stairs are now a world icon, having featured in music videos, magazines and movies. The tiles have been collected and donated from a variety of sources across 60 countries, and are now donated by visitors to the stairs. Ingame, Escadaria Selarón provides +3 [ICON_GOLD] Gold from Artistic specialists, as well as +4 [ICON_HAPPINESS_1] Happiness and 6 Tourism, while it requires Replaceable Parts.</Description>
+    <Authors>Pouakai, jpbar81</Authors>
+    <SpecialThanks>sukritact, Ambrox62, chrisifniotis</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="231B8CD48FF2F88C658D4C591FC3EC82" import="1">Art/Selaron_128.dds</File>
+    <File md5="E337A9E7CF6C9C000779679B8F0095CF" import="1">Art/Selaron_256.dds</File>
+    <File md5="3A4C88ABEEBF2B58143C15129E0E1631" import="1">Art/Selaron_45.dds</File>
+    <File md5="09D457559F28B5C629DAF695FF7A76FA" import="1">Art/Selaron_64.dds</File>
+    <File md5="50C6B5DD45A4C83E9C8AEB0A1DAE60F8" import="1">Art/Selaron_Splash.dds</File>
+    <File md5="63E93436BCDB8184AA1C719CD3C3D40C" import="0">XML/Buildings/Selaron_BuildingClasses.xml</File>
+    <File md5="99E8DCAD54D4D2B8756D9064B83EE5C4" import="0">XML/Buildings/Selaron_Buildings.xml</File>
+    <File md5="23CC70872EA65F67B2A2306AE49B2507" import="0">XML/Civilizations/Selaron_Civilizations.xml</File>
+    <File md5="5E33656BF89DB0F51040255D099DFE12" import="0">XML/GameInfo/Selaron_IconTextureAtlases.xml</File>
+    <File md5="59779939B6AB78E2CEF929D6FA0708ED" import="0">XML/Text/Selaron_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Selaron_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Selaron_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Selaron_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Selaron_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Selaron_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_SIGIRIYA</Type>
+			<DefaultBuilding>BUILDING_SIGIRIYA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SIGIRIYA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_SIGIRIYA_ELEPHANT</Type>
+			<DefaultBuilding>BUILDING_SIGIRIYA_ELEPHANT</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+</GameData>

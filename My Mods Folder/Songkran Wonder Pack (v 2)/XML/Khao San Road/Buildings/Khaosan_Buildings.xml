@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_KHAOSAN</Type>
+			<BuildingClass>BUILDINGCLASS_KHAOSAN</BuildingClass>
+			<Description>TXT_KEY_BUILDING_KHAOSAN</Description>
+			<Help>TXT_KEY_WONDER_KHAOSAN_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_KHAOSAN_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_KHAOSAN_QUOTE</Quote>
+			<Cost>750</Cost>
+			<PrereqTech>TECH_FLIGHT</PrereqTech>
+			<MaxStartEra>ERA_MODERN</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<UnmoddedHappiness>8</UnmoddedHappiness>
+			<Gold>250</Gold>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_SONGKRAN</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<WonderSplashImage>KHAOSAN_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_KHAOSAN</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_KHAOSAN</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KHAOSAN</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

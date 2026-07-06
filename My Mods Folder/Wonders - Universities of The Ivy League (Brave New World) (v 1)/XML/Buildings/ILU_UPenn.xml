@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</Type>
+			<BuildingClass>BUILDINGCLASS_UNIVERSITY_OF_PENNSYLVANIA</BuildingClass>
+			<Cost>1060</Cost>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_UNIVERSITY_OF_PENNSYLVANIA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_UNIVERSITY_OF_PENNSYLVANIA</Description>
+			<Strategy>TXT_KEY_BUILDING_UNIVERSITY_OF_PENNSYLVANIA_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_BUILDING_UNIVERSITY_OF_PENNSYLVANIA_PEDIA</Civilopedia>			
+			<Quote>TXT_KEY_BUILDING_UNIVERSITY_OF_PENNSYLVANIA_QUOTE</Quote>
+			<ArtDefineTag>ART_DEF_BUILDING_OXFORD_UNIVERSITY</ArtDefineTag>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<River>true</River>
+			<NukeImmune>true</NukeImmune>			
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+			<CityConnectionTradeRouteModifier>10</CityConnectionTradeRouteModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>IVY_LEAGUE_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<WonderSplashImage>UPenn1.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+	</Building_Flavors>	
+	<Building_LockedBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HARVARD_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_YALE_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PRINCETON_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_COLUMBIA_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BROWN_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_DARTMOUTH_COLLEGE</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CORNELL_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Building_LockedBuildingClasses>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_OF_PENNSYLVANIA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_OF_PENNSYLVANIA">
+			<Text>University of Pennsylvania</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_OF_PENNSYLVANIA_HELP">
+			<Text>+1 [ICON_GOLD] Gold from every University. +10% [ICON_GOLD] Gold from [ICON_CONNECTED] Trade Routes. +25% [ICON_GREAT_PEOPLE] Great People generation in this City.[NEWLINE][NEWLINE]City must be built next to a river. City must have a University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_OF_PENNSYLVANIA_STRATEGY">
+			<Text>The University of Pennsylvania, renknowned for their exceptional business school Wharton, acts as an elite business school. This University provides +3 [ICON_GOLD] Gold, and establishes business schools in all traditional Universities, granting every University +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The University of Pennsylvania cannot be constructed in a City that already has an Ivy League University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_OF_PENNSYLVANIA_QUOTE">
+			<Text>[NEWLINE]Leges sine moribus vanae[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_OF_PENNSYLVANIA_PEDIA">
+			<Text>The University of Pennsylvania (commonly referred to as Penn or UPenn) is an American private Ivy League research university located in Philadelphia, Pennsylvania, United States. Penn considers itself the fourth-oldest institution of higher education in the United States, as well as the first university in the United States with both undergraduate and graduate studies. It is also one of the Colonial Colleges. Incorporated as The Trustees of the University of Pennsylvania, Penn is one of 14 founding members of the Association of American Universities.[NEWLINE][NEWLINE]Benjamin Franklin, Penn's founder, advocated an educational program that focused as much on practical education for commerce and public service as on the classics and theology. Penn was one of the first academic institutions to follow a multidisciplinary model pioneered by several European universities, concentrating multiple "faculties" (e.g., theology, classics, medicine) into one institution. It was also home to many other educational innovations. The first school of medicine in North America (Perelman School of Medicine, 1765), the first collegiate business school (Wharton, 1881) and the first student union (Houston Hall, 1896), were all born at Penn.[NEWLINE][NEWLINE]Penn offers a broad range of academic departments, an extensive research enterprise and a number of community outreach and public service programs. It is particularly well known for its medical school, dental school, school of business, law school, communications school, nursing school, veterinary school, its social sciences and humanities programs, as well as its biomedical teaching and research capabilities. Its undergraduate programs are also among the most selective in the country (12.3% acceptance rate). One of Penn's most well known academic qualities is its emphasis on interdisciplinary education, which it promotes through numerous joint degree programs, research centers and professorships, a unified campus, and the ability for students to take classes from any of Penn's schools (the "One University Policy").[NEWLINE][NEWLINE]All of Penn's schools, alone or jointly, exhibit very high research activity. Penn is consistently included among the top five research universities in the United States, and among the top research universities in the world, both in terms of quality and quantity of research. In fiscal year 2011, Penn topped the Ivy League in academic research spending with an $814 million budget, involving some 4,000 faculty, 1,100 postdoctoral fellows and 5,400 support staff/graduate assistants. As one of the most active and prolific research institutions, Penn is associated with several important innovations and discoveries in many fields of science and the humanities. Among them are the first general purpose electronic computer (ENIAC), the Rubella and Hepatitis B vaccines, Retin-A, cognitive therapy, conjoint analysis and others.[NEWLINE][NEWLINE]Penn's academic and research programs are led by a large and highly productive faculty. In the last ten years alone 9 Penn faculty members or graduates have won a Nobel Prize. Over its long history the university has also produced many distinguished alumni. These include 12 heads of state (including one U.S. President), 3 United States Supreme Court justices, and supreme court justices of other states, founders of technology companies, international law firms, and global financial institutions, university presidents and 18 living billionaires.[NEWLINE][NEWLINE]Notable alumni of the University of Pennsylvania include William Henry Harrison, Elizabeth Banks, Candice Bergen, I.M. Pei, Elon Musk, Steve Wynn, Arlen Specter, Warren Buffett, and Donald Trump.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/University_of_Pennsylvania</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

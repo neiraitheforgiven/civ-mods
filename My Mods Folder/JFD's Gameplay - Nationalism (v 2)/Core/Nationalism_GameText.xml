@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CONCEPTS-->
+		<!--===================================================-->
+		<!--Nationalism-->
+		<Row Tag="TXT_KEY_JFD_NATIONALISM_HEADING1_TITLE">
+			<Text>Nationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NATIONALISM_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR] is a new yield that can be expended to duplicate Social Policies that you have already adopted. Nationalism is generated from your Culture Per Turn; the amount of Culture Per Turn contributing to Nationalism instead of Culture is determined by a slider in the Social Policy screen. When you have enough Nationalism, it can then be spent to re-adopt Social Policies.[NEWLINE][NEWLINE]The amount of Culture Per Turn you can devote to Nationalism increases with certain Technologies.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--IDEOLOGICAL TENETS-->
+		<!--===================================================-->
+		<!--Civic Nationalism-->
+		<Row Tag="TXT_KEY_POLICY_JFD_CIVIC_NATIONALISM">
+			<Text>Civic Nationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CIVIC_NATIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Civic Nationalism[ENDCOLOR][NEWLINE]+10% [ICON_CULTURE] Culture Per Turn added to [ICON_JFD_NATIONALISM] Nationalism without diverting from Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CIVIC_NATIONALISM_TEXT">
+			<Text>Civic nationalism, also known as liberal nationalism, is a form of nationalism identified by political philosophers who believe in an inclusive form of nationalism that adheres with traditional liberal values of freedom, tolerance, equality, and individual rights. Civic nationalists often defend the value of national identity by saying that individuals need a national identity in order to lead meaningful, autonomous lives and that democratic polities need national identity in order to function properly. Civic nationalism is frequently contrasted with ethnic nationalism.</Text>
+		</Row>
+		<!--Economic Nationalism-->
+		<Row Tag="TXT_KEY_POLICY_JFD_ECONOMIC_NATIONALISM">
+			<Text>Economic Nationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_ECONOMIC_NATIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Economic Nationalism[ENDCOLOR][NEWLINE][ICON_JFD_NATIONALISM] Nationalism costs are 20% cheaper.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_ECONOMIC_NATIONALISM_TEXT">
+			<Text>Economic nationalism, or economic patriotism, economic populism, refers to an ideology that favors state interventionism over other market mechanisms, with policies such as domestic control of the economy, labor, and capital formation, even if this requires the imposition of tariffs and other restrictions on the movement of labor, goods and capital. In many cases, economic nationalists oppose globalization or at least question the benefits of unrestricted free trade. Economic nationalism is disputed as the doctrine of mercantilism, and as such favors protectionism. </Text>
+		</Row>
+		<!--Ethnic Nationalism-->
+		<Row Tag="TXT_KEY_POLICY_JFD_ETHNIC_NATIONALISM">
+			<Text>Ethnic Nationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_ETHNIC_NATIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Ethnic Nationalism[ENDCOLOR][NEWLINE]Max 100% [ICON_CULTURE] Culture Per Turn to [ICON_JFD_NATIONALISM] Nationalism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_ETHNIC_NATIONALISM_TEXT">
+			<Text>Ethnic nationalism, also known as ethno-nationalism, is a form of nationalism wherein the nation is defined in terms of ethnicity. The central theme of ethnic nationalists is that "nations are defined by a shared heritage, which usually includes a common language, a common faith, and a common ethnic ancestry". It also includes ideas of a culture shared between members of the group, and with their ancestors. While some types of ethnic nationalism are firmly rooted in the idea of ethnicity (or race) as an immutable inherited characteristic (for example white nationalism), often ethnic nationalism also manifests in the assimilation of minority ethnic groups into the dominant group (for example as with Italianisation).</Text>
+		</Row>
+		<!--===================================================-->
+		<!--TECHS-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_TECH_NATIONALISM_INCREASE_10">
+			<Text>Increases max conversion of [ICON_CULTURE] Culture Per Turn to [ICON_JFD_NATIONALISM] Nationalism by 10%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TECH_NATIONALISM_INCREASE_30">
+			<Text>Increases max conversion of [ICON_CULTURE] Culture Per Turn to [ICON_JFD_NATIONALISM] Nationalism by 30%.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

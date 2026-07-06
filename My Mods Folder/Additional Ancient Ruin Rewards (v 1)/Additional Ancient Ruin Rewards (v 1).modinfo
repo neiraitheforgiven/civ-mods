@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b40b94fe-89db-4dd3-bb44-ef922e09f8dd" version="1">
+  <Properties>
+    <Name>Additional Ancient Ruin Rewards</Name>
+    <Teaser>Adds new Ancient Ruin rewards.</Teaser>
+    <Description>[NEWLINE]This is a minor XML mod which activates several Ancient Ruin (Goody Hut) rewards programmed into the files but disabled in the standard game.
+[NEWLINE]
+[NEWLINE]It adds:
+[NEWLINE]
+[NEWLINE]- Reveals a nearby Strategic Resource 
+[NEWLINE]- Grants your Unit +10 XP
+[NEWLINE]- Heals your Unit (Unit must have at least 50% damage)
+[NEWLINE]- Grants a Warrior (Emperor difficulty and lower)
+[NEWLINE]- Grants a Scout (Prince difficulty and lower)
+[NEWLINE]- Spawns a Barbarian (Prince difficulty and higher; can only be triggered by non-Scout units)
+[NEWLINE]
+[NEWLINE]As all the tags exist in Vanilla through BNW, I assume this mod will work with any version of civ. However, it was only tested in BNW. All of the bonuses appear to trigger (some more frequently than others) and are compatible with the Pathfinder’s ability. 
+[NEWLINE]
+[NEWLINE]I also made some minor adjustments and copy-editing to the included text.</Description>
+    <Authors>Tomatekh</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="3F82049C8B2868E3C0E625E32E6CC062" import="0">XML/Goody Hut Handicap Mod.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Goody Hut Handicap Mod.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

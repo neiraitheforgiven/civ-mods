@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_APOLLO">
+			<Text>The Apollo Program</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_APOLLO_HELP">
+			<Text>Two free technologies.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_APOLLO_QUOTE">
+			<Text>[NEWLINE]"Houston, tranquility base here. The Eagle has landed."[NEWLINE] - Neil Armstrong[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_APOLLO_PEDIA">
+			<Text>The Apollo Program was a United States initiative to put the first human being on the moon. Conceived in the 1950s, the program began in full earnest in 1961 under President John F. Kennedy. Within a decade, on July 20, 1969, Americans Neil Armstrong and Buzz Aldrin landed on the moon, arguably the single greatest feat of engineering in human history. The Apollo Program was hugely expensive, but the advances it brought in technology and science have changed the world forever. [NEWLINE][NEWLINE] Across the course of the program's lifetime, it sent twelve men to the moon, who spent a total of approximately 161 hours on the surface. It was intended to send an extra three missions for longer stays on the moon (Up to three days in some cases) However these were cancelled by President Richard Nixon as a result of budget cuts.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,52 @@
+===========================================================================
+== Credits
+===========================================================================
+-- JakeWalrusWhale
+----------------
+Art (Map; UB Icons)
+Text (Diplomacy Lines)
+Code
+Design
+Research
+
+----------------
+-- Engima_Conundrum
+----------------
+Research
+Text (City List; Spy Names)
+
+----------------
+-- RawSasquatch
+----------------
+Art (Leaderscene; Leader Icon)
+
+----------------
+-- Arilasqueto
+----------------
+Art (Civ Icon)
+
+----------------
+-- Zharques
+----------------
+Text (DoM; Pedias)
+
+----------------
+-- DarthKyofu
+----------------
+Text (Religion Pedia)
+TSL
+
+----------------
+-- DuskJockey
+----------------
+Text (Sweat Lodge Pedia)
+
+----------------
+-- "Comanche Riding Song" by Randy Granger
+----------------
+Music (Peace Theme)
+
+----------------
+-- "Comanche Spring (Part 5 of 6)"
+----------------
+Music (War Theme)

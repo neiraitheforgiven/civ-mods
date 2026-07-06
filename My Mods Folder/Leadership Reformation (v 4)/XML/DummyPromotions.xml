@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_FOOD_ADDER</Type>
+			<Description>TXT_KEY_PROMOTION_FOOD_ADDER</Description>
+			<Help>TXT_KEY_PROMOTION_FOOD_ADDER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>56</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FOOD_ADDER</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_PRODUCTION_ADDER</Type>
+			<Description>TXT_KEY_PROMOTION_PRODUCTION_ADDER</Description>
+			<Help>TXT_KEY_PROMOTION_PRODUCTION_ADDER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>56</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_PRODUCTION_ADDER</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_CULTURE_ADDER</Type>
+			<Description>TXT_KEY_PROMOTION_CULTURE_ADDER</Description>
+			<Help>TXT_KEY_PROMOTION_CULTURE_ADDER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>56</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_CULTURE_ADDER</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_GOLD_ADDER</Type>
+			<Description>TXT_KEY_PROMOTION_GOLD_ADDER</Description>
+			<Help>TXT_KEY_PROMOTION_GOLD_ADDER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>56</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_GOLD_ADDER</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FAITH_ADDER</Type>
+			<Description>TXT_KEY_PROMOTION_FAITH_ADDER</Description>
+			<Help>TXT_KEY_PROMOTION_FAITH_ADDER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>56</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FAITH_ADDER</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SCIENCE_ADDER</Type>
+			<Description>TXT_KEY_PROMOTION_SCIENCE_ADDER</Description>
+			<Help>TXT_KEY_PROMOTION_SCIENCE_ADDER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>56</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SCIENCE_ADDER</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_MILITARY_ADDER</Type>
+			<Description>TXT_KEY_PROMOTION_MILITARY_ADDER</Description>
+			<Help>TXT_KEY_PROMOTION_MILITARY_ADDER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>56</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MILITARY_ADDER</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_FOOD_ADDER">
+			<Text>Subsistence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOOD_ADDER_HELP">
+			<Text>During peacetime, all cities receive +1 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRODUCTION_ADDER">
+			<Text>Productive</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRODUCTION_ADDER_HELP">
+			<Text>During peacetime, all cities receive +1 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GOLD_ADDER">
+			<Text>Commercial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GOLD_ADDER_HELP">
+			<Text>During peacetime, all cities receive +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FAITH_ADDER">
+			<Text>Devout</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FAITH_ADDER_HELP">
+			<Text>During peacetime, all cities receive +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MILITARY_ADDER">
+			<Text>Teacher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MILITARY_ADDER_HELP">
+			<Text>During peacetime, all cities grant +2 XP to all units trained.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCIENCE_ADDER">
+			<Text>Innovative</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCIENCE_ADDER_HELP">
+			<Text>During peacetime, all cities receive +1 [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CULTURE_ADDER">
+			<Text>Creative</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CULTURE_ADDER_HELP">
+			<Text>During peacetime, all cities receive +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

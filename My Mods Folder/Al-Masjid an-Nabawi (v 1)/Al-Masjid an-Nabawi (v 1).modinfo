@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1efb6bcd-8369-484d-8025-fecf8e39677c" version="1">
+  <Properties>
+    <Name>Al-Masjid an-Nabawi</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Al-Masjid al-Nabawi, often called the Prophet's Mosque, is a mosque built by the Islamic Prophet Muhammad situated in the city</Teaser>
+    <Description>Al-Masjid al-Nabawi, often called the Prophet's Mosque, is a mosque built by the Islamic Prophet Muhammad situated in the city of Medina. It is the second holiest site in Islam.
+
+Gives a free mosque, 1 free social policy, 1 slot for a great work of writing
+
+leave suggestions for more wonders</Description>
+    <Authors>Walid</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="D846F676D168105A8EF9E3900E297ABF" import="1">Art/masjidnabawi_splash.dds</File>
+    <File md5="A3BCD034E232C2CC8B22A3A3E0796CA8" import="1">Art/nabwi128.dds</File>
+    <File md5="D52547617D00AE0EBFCFC71B559228B8" import="1">Art/nabwi256.dds</File>
+    <File md5="C5E5CD25C40915841B085711689C02A5" import="1">Art/nabwi45.dds</File>
+    <File md5="585D2A95409A1A7D5EC12E2CD768B4A7" import="1">Art/nabwi64.dds</File>
+    <File md5="C378DC8A5DCFD9580523ECC13C7941DC" import="1">Art/nabwi80.dds</File>
+    <File md5="1889D7DFC7276C00DC45831B6FAAB012" import="0">XML/Building.xml</File>
+    <File md5="949D04D8ADBB6676497E9E8170EC64CF" import="0">XML/IconAtlas.xml</File>
+    <File md5="5495A9B803F502BFBBDCBAC9D5CDDD9E" import="0">XML/Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

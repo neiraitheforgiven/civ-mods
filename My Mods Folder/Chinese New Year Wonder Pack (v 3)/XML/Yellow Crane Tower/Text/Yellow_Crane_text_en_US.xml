@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_YELLOW_CRANE">
+			<Text>Yellow Crane Tower</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_YELLOW_CRANE_HELP">
+			<Text>A free Great Person of your choice appears near the capital. </Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_YELLOW_CRANE_QUOTE">
+			<Text>
+				[NEWLINE]"Long ago a man rode off on a yellow crane, all that remains here is Yellow Crane Tower. Once the yellow crane left it never returned, for one thousand years the clouds wandered without care".[NEWLINE] - Cui Hao[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_YELLOW_CRANE_PEDIA">
+			<Text>The Yellow Crane Tower is a large tower located on the bank of the Yangtze river in the Hubei province of China. Originally constructed in 223 AD, the tower underwent a restoration project in 1981, which among other things added an elevator to the structure. According to legend, the tower is built on the site where an immortal being known as Wang Zi'an left on the back of a Yellow crane from the spot, and that the temple was built in commemoration. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e0c4da71-b371-4979-8c19-9b885efdbc14" version="1">
+  <Properties>
+    <Name>Bellagio</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Bellagio is a luxury hotel and casino on the Las Vegas Strip in Paradise, Nevada. It is owned by MGM Resorts International and</Teaser>
+    <Description>Bellagio is a luxury hotel and casino on the Las Vegas Strip in Paradise, Nevada. It is owned by MGM Resorts International and was built on the site of the demolished Dunes hotel and casino.
+
+increases tourism, gives a free hotel, and 2 great merchants and gives a new luxury: Poker Chips
+
+report bugs and leave suggestions or you loose the next poker game</Description>
+    <Authors>Walid</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="94E02DA97EC77D423A8F505B224CF712" import="1">Art/bellagio128.dds</File>
+    <File md5="B793C045A87B4AC83CCE759C4D68FB96" import="1">Art/bellagio256.dds</File>
+    <File md5="BFD3F5969CE0A28B0ECE539A1B5302F0" import="1">Art/bellagio45.dds</File>
+    <File md5="26C3BCD022415AC2E3D4927EFEB8EF56" import="1">Art/bellagio64.dds</File>
+    <File md5="1B04F548E68345BC92B2E8CD41B16927" import="1">Art/bellagio80.dds</File>
+    <File md5="C81A5DB4BE6B954EE400BE352F6CA9DA" import="1">Art/bellagio_splash.dds</File>
+    <File md5="4C24A1DE5028F983E156DE4FF227131E" import="1">Art/poker256.dds</File>
+    <File md5="80071E408BE71238108DF4D4CFBFE4B5" import="1">Art/poker45.dds</File>
+    <File md5="EED0148516D5194FAA78452A527E16C1" import="1">Art/poker64.dds</File>
+    <File md5="C186EB0229FC419C99CDB0C7FE7E7290" import="1">Art/poker80.dds</File>
+    <File md5="DA51A764CBEC8B61512691F46B04D7FE" import="1">Font Icon/poker_fonticons.dds</File>
+    <File md5="823BA3D00AA821EAC3D7D2D6DE617E97" import="1">Font Icon/poker_fonticons.ggxml</File>
+    <File md5="33E0A14FFC7F83F072F962ADD9EAC86D" import="0">Font Icon/poker_fonticons.xml</File>
+    <File md5="8241D82252B11B0C3A278285F17B258E" import="0">XML/Building.xml</File>
+    <File md5="10A976FA39496126F648E90DC0DC2C2E" import="0">XML/IconAtlas.xml</File>
+    <File md5="18EC4E3E42063964D1EFDBDBAA3776F7" import="0">XML/Poker.xml</File>
+    <File md5="059B8629E236222E08F380CD51684FDD" import="0">XML/Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Font Icon/poker_fonticons.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Poker.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

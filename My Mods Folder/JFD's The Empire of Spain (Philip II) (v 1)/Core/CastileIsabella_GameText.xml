@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--UNITED KINGDOM-->
+		<Row Tag="TXT_KEY_CIV_JFD_CASTILE_SHORT_DESC">
+			<Text>Castile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_CASTILE_DESC">
+			<Text>Castilian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_CASTILE_ADJECTIVE">
+			<Text>Castilian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_CASTILE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_CASTILE_TEXT_1">
+			<Text>The Kingdom of Castile was a large and powerful state on the Iberian Peninsula during the Middle Ages. Its name comes from the host of castles constructed in the region. It began as the County of Castile (Condado de Castilla), an eastern frontier lordship of the Kingdom of León in the 9th century. During the 10th century its counts increased their autonomy, but it was not until 1065 that it was separated from León and became a kingdom in its own right. Between 1072 and 1157 it was again united with León, and after 1230 this union became permanent. Throughout this period the Castilian kings made extensive conquests in the southern Iberia at the expense of the Islamic principalities. Castile and León, with their southern acquisitions, came to be known collectively as the Crown of Castile, a term that also came to encompass overseas expansion.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_1">
+			<Text>Toledo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_2">
+			<Text>Leon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_3">
+			<Text>Valladolid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_4">
+			<Text>Burgos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_5">
+			<Text>Oviedo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_6">
+			<Text>Madrid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_7">
+			<Text>Santiago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_8">
+			<Text>Segovia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_9">
+			<Text>Avila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_10">
+			<Text>Bilbao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_11">
+			<Text>Salamanca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_12">
+			<Text>Santander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_13">
+			<Text>Soria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_14">
+			<Text>Badajoz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_15">
+			<Text>Tordesillas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_16">
+			<Text>Finisterre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_17">
+			<Text>Calatrava</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_18">
+			<Text>Aguilar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_19">
+			<Text>Zamora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_20">
+			<Text>Cuenca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_21">
+			<Text>Corunna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_22">
+			<Text>Las Navas de Tolosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_23">
+			<Text>Murcia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_24">
+			<Text>Cartagena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_25">
+			<Text>Merida</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_26">
+			<Text>Toro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_27">
+			<Text>Cordoba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_28">
+			<Text>Seville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_29">
+			<Text>Cadiz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_30">
+			<Text>Alicante</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_31">
+			<Text>Ciudad Real</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_32">
+			<Text>Gijon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_33">
+			<Text>Jaen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_34">
+			<Text>Plasencia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_35">
+			<Text>Camora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_36">
+			<Text>Penafiel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_37">
+			<Text>Caceres</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_38">
+			<Text>Siguenza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_39">
+			<Text>Albacete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_CASTILE_40">
+			<Text>Almagro</Text>
+		</Row>
+		<!--ISABELLA-->
+		<Row Tag="TXT_KEY_CIV5_DAWN_JFD_CASTILE_TEXT">
+			<Text>Blessed Isabella, Servant of God, Holy Queen of Castile and León, your people greet and welcome you! You are the ruler of Spain, a beautiful and ancient country at the crossroads of the world between Europe and Africa, one shore on the Mediterranean and the other on the mighty Atlantic Ocean. The Spanish are a multicultural people, with roots in the Muslim and Christian world. A seafaring race, Spanish explorers found and conquered much of the New World, and for many centuries its gold and silver brought Spain unrivaled wealth and power, making the Spanish court the envy of the world.[NEWLINE][NEWLINE]O fair and virtuous Isabella, will you rebuild the Spanish Empire and show the world again the greatness of your people?  Will you take up the mantle of the holy monarchy and vanquish your foes under Heaven's watchful eyes?  Your adoring subjects await your command. Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--RECONQUISTA-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_CASTILE_SHORT">
+			<Text>Reconquista</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_CASTILE">
+			<Text>Conquering cities of a foreign religion awards [ICON_PEACE] Faith and [ICON_GOLD] Gold. Conquered cities begin with your main religion and cannot lose this religion whilst under your control.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CASTILE">
+			<Text>JFD: Castile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CASTILE_HELP">
+			<Text>Religion marker.</Text>
+		</Row>
+		<!--JINETE-->
+		<Row Tag="TXT_KEY_UNIT_JFD_JINETES">
+			<Text>Jinete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_JINETES">
+			<Text>Early Mounted Unit that is deadliest when flanking. Restores Hit Points and 2 [ICON_MOVES] Movement after capturing a city following a different religion, and attacks cities more effectively. Only Castile may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_JINETES_STRATEGY">
+			<Text>The Jinete is the unique Horseman for Castile. The Jinete, unlike the Horseman, receives a smaller penalty when attacking cities and restores Hit Points and Movement whenever it captures a city following a different religion. They are also more effective at performing flank attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_JINETES_TEXT">
+			<Text>As a military term, jinete means a Spanish light horseman armed with a javelin, sword and a shield, a troop type developed in the early Middle Ages in response to the massed light cavalry of the Moors. Often fielded in significant numbers by the Spanish, and at times the most numerous of the Spanish mounted troops, they played an important role in Spanish mounted warfare throughout the Reconquista until the sixteenth century. They were to serve successfully in the Italian Wars under Gonzalo de Córdoba and Ramón de Cardona.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_JINETES">
+			<Text>Enhanced Flank Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_JINETES_HELP">
+			<Text>Flank attack bonus increased by 15%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_JINETES_HEAL">
+			<Text>Reconquista</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_JINETES_HEAL_HELP">
+			<Text>Restores Hit Points and 2 [ICON_MOVES] Movement after capturing a city following a different religion.</Text>
+		</Row>
+		<!--CONQUISTADOR-->
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_CONQUISTADOR">
+			<Text>Medieval Era unit that specializes in scouting and colonizing overseas. When trained, produces a free Naval Unit. Only Castile may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_CONQUISTADOR_STRATEGY">
+			<Text>The Conquistador is a multi-purpose unit that is strong both on land and at sea. Replacing the Knight, it is an exceptional scout on land with extra visibility. It also has the ability to found new cities, but only on a foreign continent that does not contain the Castilian capital. In the water, the Conquistador has the defensive embarkation promotion that allows it to defend itself against naval units. It also suffers no penalty when attacking cities, unlike the Knight.</Text>
+		</Row>
+		<!--Unique Names-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_1">
+			<Text>Hernan Cortes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_2">
+			<Text>Francisco Pizzaro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_3">
+			<Text>Francisco Coronado</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_4">
+			<Text>Hernando de Soto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_5">
+			<Text>Pánfilo de Narváez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_6">
+			<Text>Francisco de Orellana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_7">
+			<Text>Lucas Vázquez de Ayllón</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_8">
+			<Text>Vasco Nuñez de Balboa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_9">
+			<Text>Álvar Nuñez Cabeza de Vaca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_10">
+			<Text>Luis de Moscoso Alvarado</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_11">
+			<Text>Juan Ponce de Leon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_12">
+			<Text>Juan Pardo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_13">
+			<Text>Juan de Oñate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_14">
+			<Text>Gonzalo Jiménez de Quesada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_15">
+			<Text>Nuño de Guzmán</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_16">
+			<Text>Bernal Díaz del Castillo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_17">
+			<Text>Inés de Suárez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_18">
+			<Text>María de Estrada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_19">
+			<Text>Pedro de Alvarado y Contreras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_20">
+			<Text>Alonso Fernández de Lugo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_21">
+			<Text>Miguel López de Legazpi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_22">
+			<Text>Bartolomeo Columbus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_23">
+			<Text>Pedro Gutiérrez de Valdivia </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_24">
+			<Text>Álvaro de Mendaña y Neira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_CASTILE_CONQUISTADOR_25">
+			<Text>Isabel Barreto</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

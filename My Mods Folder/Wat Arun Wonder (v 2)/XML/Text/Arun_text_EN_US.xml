@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_ARUN">
+			<Text>Wat Arun</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_ARUN_HELP">
+			<Text>+1 [ICON_PEACE] Faith from River tiles. City must be built on a river</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_ARUN_QUOTE">
+			<Text>
+				[NEWLINE]"Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment"[NEWLINE] - Buddha[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_ARUN_PEDIA">
+			<Text>Wat Arun, also known as the Temple of the Dawn, is a large temple located in central Bangkok, Thailand, on the bank of the Chao Phraya River. The main part of the temple consists of five prang - one large, central one said to represent the mythical Mount Meru, as well as four smaller ones. The exact date of construction is not known, although it is widely believed that the construction was in Siam around the mid to late 18th century. [NEWLINE][NEWLINE] Although it now resides in the Wat Phra Kaew, another Bangkok temple, Wat Arun once was host to a magnificent carving of Buddha, made out of green jadeite with gold clothing. According to legend, the Emerald Buddha, as it is known, was constructed in 43 BC in India, eventually arriving in Thailand some 14 centuries later. Today, however, the temple no longer hosts the statue, and rather plays host to many other religious icons.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

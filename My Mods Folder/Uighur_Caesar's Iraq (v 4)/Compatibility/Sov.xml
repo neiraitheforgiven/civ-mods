@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 02/14/16 9:44:35 AM -->
+<GameData>
+	<Language_en_US>
+		<!--JFD SOVEREIGNTY-->
+		<Row Tag="TXT_KEY_JFD_LEGISLATURE_NAME_CIVILIZATION_IRAQ">
+			<Text>Council of Representatives</Text>
+		</Row>
+		<!--Political Parties-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CONSERVATIVE_IRAQ">
+			<Text>State of Law Coalition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERAL_IRAQ">
+			<Text>Assembly of Independent Democrats</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_FASCIST_IRAQ">
+			<Text>Hizb ut-Tahrir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REVOLUTIONARY_IRAQ">
+			<Text>Daesh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_COMMUNIST_IRAQ">
+			<Text>Iraqi People's Union</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_SOCIALIST_IRAQ">
+			<Text>Arab Socialist Ba'ath Party</Text>
+		</Row>
+		<!--Titles-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_TITLE_LEADER_IRAQ">
+			<Text>Prime Minster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PRINCIPALITY_TITLE_LEADER_IRAQ">
+			<Text>Sultan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PRINCIPALITY_TITLE_GOVERNMENT_IRAQ">
+			<Text>Sultanate of {1_CivName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_TITLE_LEADER_IRAQ">
+			<Text>Malik</Text>
+		</Row>
+		<!--Heads of Govt.-->
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ">
+			<Text>Prime Minister</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_1">
+			<Text>Abd Al-Rahman Al-Gillani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_2">
+			<Text>Saddam Hussein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_3">
+			<Text>Abd al-Muhsin as-Sa'dun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_4">
+			<Text>Jafar al-Askari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_5">
+			<Text>Yasin al-Hashimi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_6">
+			<Text>Tawfiq al-Suwaidi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_7">
+			<Text>Naji al-Suwaidi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_8">
+			<Text>Nuri as-Said</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_9">
+			<Text>Rashid Ali al-Gaylani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_10">
+			<Text>Abd al-Karim Qasim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_11">
+			<Text>Jamil al-Midfai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_12">
+			<Text>Ali Jawdat al-Aiyubi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_13">
+			<Text>Hikmat Sulayman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_14">
+			<Text>Taha al-Hashimi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_15">
+			<Text>Hamdi al-Pachachi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_16">
+			<Text>Arshad al-Umari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_17">
+			<Text>Sayyid Salih Jabr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_18">
+			<Text>Sayyid Muhammad as-Sadr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_19">
+			<Text>Mustafa Mahmud al-Umari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_20">
+			<Text>Muhammad Fadhel al-Jamali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_21">
+			<Text>Abdul-Wahab Mirjan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_22">
+			<Text>Ahmad Mukhtar Baban</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_23">
+			<Text>Abdul Salam Arif</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_24">
+			<Text>Abdul Rahman Arif</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_IRAQ_25">
+			<Text>Ahmed Hassan al-Bakr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_IRAQ_MAKTAB">
+			<Text>Develop Maktabs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_IRAQ_MAKTAB_DESC">
+			<Text>
+				In order to continue to improving the education of our citizens, we will develop Maktabs, elementary schools, around our universities.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Iraq
+				[NEWLINE][ICON_BULLET]Must be in at least the Renaissance Era
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE][ICON_BULLET]May have at least 3 Nezamiyyehs
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science from Nezamiyyehs and Academies
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_IRAQ_MAKTAB_ENACTED_DESC">
+			<Text>
+				In order to continue to improving the education of our citizens, we will develop Maktabs, elementary schools, around our universities.[NEWLINE]
+				[NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science from Nezamiyyehs and Academies
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_IRAQ_OIL">
+			<Text>Nationalize the Oil Industry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_IRAQ_OIL_DESC">
+			<Text>
+				With the recent discovery of oil in our lands, we must nationalize the industry to ensure maximum revenue and efficiency.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Iraq
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE][ICON_BULLET]Must have at least 6 sources of [ICON_RES_OIL] Oil
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE][ICON_BULLET]300 [ICON_CULTURE] Culture
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production from improved sources of [ICON_RES_OIL] Oil
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold (increases with number of [ICON_RES_OIL] Oil)
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_IRAQ_OIL_ENACTED_DESC">
+			<Text>
+				With the recent discovery of oil in our lands, we must nationalize the industry to ensure maximum revenue and efficiency.[NEWLINE]
+				[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production from improved sources of [ICON_RES_OIL] Oil
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold (increases with number of [ICON_RES_OIL] Oil)
+			</Text>
+		</Row>
+
+	</Language_en_US>
+  
+</GameData>

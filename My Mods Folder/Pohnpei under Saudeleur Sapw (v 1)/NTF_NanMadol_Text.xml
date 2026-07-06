@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Language_en_US>
+        <Row Tag="TXT_KEY_LEADER_NTF_SAPW_DESC" Text="Saudeleur Sapw" />
+        <Row Tag="TXT_KEY_NTF_POHNPEI" Text="Pohnpei" />
+        <Row Tag="TXT_KEY_LEADER_NTF_SAPW_SHORT_DESC" Text="Sapw" />
+        <Row Tag="TXT_KEY_LEADER_NTF_SAPW_TITLE" Text="Saudeleur" />
+        <Row Tag="TXT_KEY_TRAIT_NTF_SORCERERS_CITY_SHORT" Text="City of the Sorcerers" />
+        <Row Tag="TXT_KEY_TRAIT_NTF_SORCERERS_CITY"
+            Text="Founding your first coastal city founds Nan Madol in adjacent waters. Completing World Wonders in Nan Madol creates Tomb of the Saudeleurs improvements that give +1 to all World Wonder yields in Nan Madol." />
+        <Row Tag="TXT_KEY_BUILDING_NTF_TEMPLEOFTHEEEL" Text="Temple of the Eel" />
+        <Row Tag="TXT_KEY_BUILDING_NTF_TEMPLEOFTHEEEL_HELP"
+            Text="Unique building that replaces the Temple. Provides +2 [ICON_FAITH] Faith but -10% Wonder [ICON_PRODUCTION] Production and [ICON_FOOD] Food. Gives +2% [ICON_PRODUCTION] Production and [ICON_GOLD] in Nan Madol. Cannot be constructed in Nan Madol." />
+        <Row Tag="TXT_KEY_BUILDING_EELPOWER" Text="Secrets of the Saudeleur" />
+        <Row Tag="TXT_KEY_BUILDING_NTF_TEMPLEOFTHEEEL_STRATEGY"
+            Text="Build Temples of the Eel not for the good of the cities that they are housed in, but for the good of Nan Madol. The more Temples of the Eel you construct, the more World Wonders Nan Madol can build, thus reaping exponential rewards." />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_KOLONIA" Text="Kolonia" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_MADOL" Text="Nan Madol" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_PALIKIR" Text="Palikir" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_WALLOWA" Text="Wallowa" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_SAHATP" Text="Sahatp" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_TUCANNON" Text="Tucannon" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_WILLIWEWIX" Text="Williwewix" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_NACOXKUUS" Text="Nacoxkuus" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_WAWAWIH" Text="Wawawih" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_SILAYLOO" Text="Silayloo" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_WEYIKESPE" Text="Weyikespe" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_XUYELP" Text="Xuyelp" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_PINAWAWI" Text="Pinawawi" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_SHIMINEKEM" Text="Shiminekeme" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_AHSAHKA" Text="Ahsahka" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_KAMIAHP" Text="Kamiahp" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_LAMTAMA" Text="Lamtama" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_LEEPWEY" Text="Leepwey" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_SAKAN" Text="Sakan" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_IWASNIMA" Text="Iwasnima" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_YAKTOIN" Text="Yaktoin" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_IWATOIN" Text="Iwatoin" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_TUNEHE" Text="Tunehe" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_PALOT" Text="Palot" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_HASUTIN" Text="Hasutin" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_HASEIWAWIH" Text="Haseiwawih" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_ANATOIN" Text="Anatoin" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_HINSEPU" Text="Hinsepu" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_PIPUINIMU" Text="Pipuinimu" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_KUSEYNEISEKIT" Text="Kuseyneiseki" />
+        <Row Tag="TXT_KEY_CITY_NAME_NTF_POHNPEI_UMATILLA" Text="Umatilla" />
+        <Row Tag="TXT_KEY_UNIT_NTF_SOUNPEI" Text="Sounpei" />
+        <Row Tag="TXT_KEY_UNIT_NTF_SOUNPEI_HELP"
+            Text="Unique unit that replaces the Horseman. Slower than a Horseman, but gains the Amphibious promotion and does not cost [ICON_HORSE] Horses. Can withdraw from combat once, and then will rally and drive back opponents." />
+    </Language_en_US>
+</GameData>

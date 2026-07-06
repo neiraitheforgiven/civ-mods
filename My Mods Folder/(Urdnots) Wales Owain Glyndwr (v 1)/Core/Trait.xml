@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/31/2015 3:12:07 AM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_US_WALES</Type>
+			<Description>TXT_KEY_TRAIT_US_WALES</Description>
+			<ShortDescription>TXT_KEY_TRAIT_US_WALES_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Policies>
+		<Row>
+			<Type>POLICY_US_WELSH_LAW</Type>
+			<Description>TXT_KEY_POLICY_US_WELSH_LAW</Description>
+			<Civilopedia>TXT_KEY_POLICY_US_WELSH_LAW</Civilopedia>
+			<Help>TXT_KEY_POLICY_US_WELSH_LAW</Help>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+</GameData>

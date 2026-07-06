@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ba57b38a-e66d-4bcc-91f4-94a1d73f2a62" version="4">
+  <Properties>
+    <Name>Tectonic Map Script</Name>
+    <Teaser>An extremely random map based on global tectonics.</Teaser>
+    <Description>Generates a map based on global tectonics. Maps are similar to a combination of Fractal, Small Continents, Archipelago, with added tectonic elements like mountain belts and rift zones. Works best on relatively large maps (Map size options are equivalent to Terra maps).[NEWLINE][NEWLINE]Custom options:[NEWLINE]Plate Motion options will change the prominence of mountain belts and rifts. Faster plate motion means higher mountain ranges and deeper rifts.[NEWLINE]Continents options will change the shape of of the continental land masses to have more or less lakes and inlets.[NEWLINE]Land options will change amount of land on the map by decreasing the number of oceanic plates, whereas sea-level options change the height of the water rather than the amount of ocean.[NEWLINE]Plates options change the number of tectonic plates used in map generation. More plates will cause smaller land masses and more intricate structures.[NEWLINE][NEWLINE]Update v3:[NEWLINE]Better balance between land, sea and island chains, less predictable plate boundaries and much faster map generation.[NEWLINE][NEWLINE]Update v4:[NEWLINE]Fixed multiplayer issues.[NEWLINE][NEWLINE]A (very) small part of the code is based on Small Continents Deluxe (v 100) by James Barrows.</Description>
+    <Authors>Haftetavenscrap</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="F32263C3A650AD7E5167B608919FD1BB" import="1">Tectonic.lua</File>
+    <File md5="1D75C7DD1D3FA36843AE383AD5E1FFBE" import="0">Tectonic.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Tectonic.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="MapScript" file="Tectonic.lua">
+      <Name>Tectonic</Name>
+      <Description>An extremely random map based on global tectonics.</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

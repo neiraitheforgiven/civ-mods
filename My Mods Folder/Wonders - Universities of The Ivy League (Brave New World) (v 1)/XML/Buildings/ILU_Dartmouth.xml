@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DARTMOUTH_COLLEGE</Type>
+			<BuildingClass>BUILDINGCLASS_DARTMOUTH_COLLEGE</BuildingClass>
+			<Cost>1060</Cost>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_DARTMOUTH_COLLEGE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_DARTMOUTH_COLLEGE</Description>
+			<Strategy>TXT_KEY_BUILDING_DARTMOUTH_COLLEGE_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_BUILDING_DARTMOUTH_COLLEGE_PEDIA</Civilopedia>			
+			<Quote>TXT_KEY_BUILDING_DARTMOUTH_COLLEGE_QUOTE</Quote>
+			<ArtDefineTag>ART_DEF_BUILDING_OXFORD_UNIVERSITY</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>			
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+			<GlobalCultureRateModifier>15</GlobalCultureRateModifier>
+			<GlobalPlotCultureCostModifier>-10</GlobalPlotCultureCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>IVY_LEAGUE_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<WonderSplashImage>Dartmouth1.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_LockedBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HARVARD_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_YALE_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY_OF_PENNSYLVANIA</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PRINCETON_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_COLUMBIA_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BROWN_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CORNELL_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Building_LockedBuildingClasses>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DARTMOUTH_COLLEGE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_DARTMOUTH_COLLEGE">
+			<Text>Dartmouth College</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DARTMOUTH_COLLEGE_HELP">
+			<Text>+15% [ICON_CULTURE] Culture in all Cities. [ICON_CULTURE] Culture costs of acquiring new tiles reduced by 10% in every City. +25% [ICON_GREAT_PEOPLE] Great People generation in this City.[NEWLINE][NEWLINE]City must have a University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DARTMOUTH_COLLEGE_STRATEGY">
+			<Text>Darmouth College provides +1 [ICON_PEACE] Faith for being founded with religious affiliations.[NEWLINE][NEWLINE]Darmouth College cannot be constructed in a City that already has an Ivy League University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DARTMOUTH_COLLEGE_QUOTE">
+			<Text>[NEWLINE]Vox clamantis in deserto[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DARTMOUTH_COLLEGE_PEDIA">
+			<Text>Dartmouth College (commonly referred to as Dartmouth (pron.: /ˈdɑrtməθ/ dart-məth) is a private Ivy League research university located in Hanover, New Hampshire, United States. The institution consists of a liberal arts college, the Geisel School of Medicine, the Thayer School of Engineering, and the Tuck School of Business, as well as 19 graduate programs in the arts and sciences. Incorporated as "the Trustees of Dartmouth College," it is one of the nine Colonial Colleges founded before the American Revolution. With an undergraduate enrollment of 4,194 and a total student enrollment of 6,144, Dartmouth is the smallest school in the Ivy League.[NEWLINE][NEWLINE]Dartmouth College was established in 1769 by Congregational minister Eleazar Wheelock. After a long period of financial and political struggles, Dartmouth emerged in the early 20th century from relative obscurity. Dartmouth alumni, from Daniel Webster to the many donors in the 19th and 20th centuries, have been famously involved in their college.[NEWLINE][NEWLINE]Dartmouth is located on a rural 269 acres (1.09 km2) campus in the Upper Valley region of New Hampshire. The campus is isolated, and participation in athletics and the school's Greek system is strong. Dartmouth's 34 varsity sports teams compete in the Ivy League conference of the NCAA Division I. Students are well known for preserving a variety of strong campus traditions.[NEWLINE][NEWLINE]Notable alumni from Dartmouth College include Nelson A. Rockefeller, John Donahoe, Paul Tsongas, Joseph Campbell, Theodor Suess Geisel, Rachel Dratch, and Shonda Rhimes.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Dartmouth_College</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_SKYTREE">
+			<Text>Tokyo Sky Tree</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_SKYTREE_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_CULTURE] Culture from every Broadcast Tower</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_SKYTREE_QUOTE">
+			<Text>
+				[NEWLINE]"In the sky, there is no distinction of east and west; people create distinctions out of their own minds and then believe them to be true."[NEWLINE] - Buddha[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_SKYTREE_PEDIA">
+			<Text>Built near the Sumida river in central Tokyo, the Tokyo Sky Tree is a large broadcasting and observation tower visible from most of the city. Construction began on July 14 2008 and lasted until 29 February 2012. At a total height of 634 metres (A height chosen to represent the name Musashi, a former name for the area where the Sky Tree is located) the Tokyo Sky Tree is the tallest tower in the world, and is second only to Dubai's Burj Khalifa in total height of a man-made structure. Such a height was necissary in order for the function of the tower as a broadcasting tower to be possible. The previous version, Tokyo Tower, faced issues with its height and the height of surrounding Skyscrapers resulting in intermittent coverage. The design of the tower is symbolic of both Japan's past and its future, and is well known throughout Japan as a symbol of the achievements of the country. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

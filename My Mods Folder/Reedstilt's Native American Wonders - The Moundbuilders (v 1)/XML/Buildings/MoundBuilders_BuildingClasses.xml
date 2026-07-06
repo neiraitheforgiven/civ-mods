@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_BIRDMOUND</Type>
+			<DefaultBuilding>BUILDING_BIRDMOUND</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BIRDMOUND</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_GREATMOUNDTROYVILLE</Type>
+			<DefaultBuilding>BUILDING_GREATMOUNDTROYVILLE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GREATMOUNDTROYVILLE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TROYVILLEHAPPINESS</Type>
+			<DefaultBuilding>BUILDING_TROYVILLEHAPPINESS_1</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_GREATSERPENTMOUND</Type>
+			<DefaultBuilding>BUILDING_GREATSERPENTMOUND</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GREATSERPENTMOUND</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MONKSMOUND</Type>
+			<DefaultBuilding>BUILDING_MONKSMOUND</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MONKSMOUND</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_NEWARKEARTHWORKS</Type>
+			<DefaultBuilding>BUILDING_NEWARKEARTHWORKS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_NEWARKEARTHWORKS</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+</GameData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_GOLDEN_PAVILION">
+			<Text>Pabellón Dorado</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_GOLDEN_PAVILION_HELP">
+			<Text>+1 [ICON_GOLD] oro por cada 2 [ICON_CITIZEN] ciudadanos en esta ciudad.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_GOLDEN_PAVILION_QUOTE">
+			<Text>[NEWLINE]"Un libro guarda una casa de Oro"[NEWLINE] - Proverbio Chino[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_GOLDEN_PAVILION_PEDIA">
+			<Text>El Templo del Pabellón Dorado (Kinkaku-ji en japonés) es un templo budista de Kyoto, Japón. Concebido originalmente como una mansión personal en fechas desconocidas, fue comprado por el shogun Ashikaga Yoshimitsu en 1397, que convirtió la mansión en el complejo del Kinkaku-ji. Tras su muerte, fue convertido en un templo Zen por su hijo. [NEWLINE][NEWLINE] En julio de 1950 fue incendiado por un monje mentalmente perturbado, por lo que se puso en marcha un proyecto de renovación masivo. La reconstrucción tardó 5 años en completarse. El exterior de los dos pisos superiores fue recubierto con hojas de oro puro, de ahí su nombre informal “Pabellón Dorado”. Sin embargo no está claro si las hojas de oro estaban presentes en la versión anterior a 1950.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

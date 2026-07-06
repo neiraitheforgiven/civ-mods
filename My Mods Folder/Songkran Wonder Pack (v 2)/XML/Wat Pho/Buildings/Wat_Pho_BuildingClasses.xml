@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_WAT_PHO</Type>
+			<DefaultBuilding>BUILDING_WAT_PHO</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_WAT_PHO</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+</GameData>

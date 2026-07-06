@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5d2fd8dd-1184-45db-94f0-2e389ba350a7" version="2">
+  <Properties>
+    <Name>Santa Maria delle Grazie Wonder</Name>
+    <Teaser>Santa Maria delle Grazie is a Dominican convent located in the Italian city of Milan. It was constructed during the 15th century</Teaser>
+    <Description>Santa Maria delle Grazie is a Dominican convent located in the Italian city of Milan.  It was constructed during the second half of the fifteenth century as a church in addition to the convent. It it most known for Leonardo da Vinci's mural, The Last Supper, which is housed within the convent. The mural survived Allied bombing raids during World War Two as it had been protected following the outbreak of war. Ingame, Santa Maria delle Grazie provides +5 [ICON_HAPPINESS_1] Happiness, +2 [ICON_PEACE] Faith and an Artist specialist slot, while it requires Printing Press.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Mentos, Moriboe, Ambrox62</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="37F26D7CCF9E21C8D22450B39AD80A37" import="1">Art/Maria_icon128.dds</File>
+    <File md5="2E9DFCC464A42E6ED373E9EAEBC905EB" import="1">Art/Maria_icon256.dds</File>
+    <File md5="FF6F68D58A06950A53BE79FB38EACBA9" import="1">Art/Maria_icon45.dds</File>
+    <File md5="21E888E9DFD51227620CC68756674D84" import="1">Art/Maria_icon64.dds</File>
+    <File md5="62870FA54DA6FE6936C1C468352AD883" import="1">Art/Maria_icon80.dds</File>
+    <File md5="C22EF06E433D420EAB6A209D5375A8E1" import="1">Art/Maria_splash.dds</File>
+    <File md5="6B8B938224E2A52E584D60354E5C3797" import="0">XML/Buildings/Maria_BuildingClasses.xml</File>
+    <File md5="3CCDC4A81C0229628416568128D06E1A" import="0">XML/Buildings/Maria_Buildings.xml</File>
+    <File md5="46E172EE4F8085F894E6839AEE453D95" import="0">XML/Civilizations/Maria_Civilizations.xml</File>
+    <File md5="D05C2E4B25F808CA5E36FB4DEECCA684" import="0">XML/GameInfo/Maria_IconTextureAtlases.xml</File>
+    <File md5="97C20193E80FD3ABEDA71656F45723E6" import="0">XML/Text/Maria_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Maria_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Maria_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Maria_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Maria_text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Maria_Buildings.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

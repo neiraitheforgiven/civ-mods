@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="68d046ab-3bc1-448f-8a9c-ee94cd48837f" version="1">
+  <Properties>
+    <Name>City Population Floating Text</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Creates floating text to indicate population increases and decreases when cities change size.</Teaser>
+    <Description>Creates floating text to indicate population increases and decreases when cities change size.
+
+By default, display of increases are turned off, but this setting can be flipped in the lua file.</Description>
+    <Authors>Charsi</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="432C23D24BF8EA0B10900C44AE93C75C" import="1">lua/CityPopulation.lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="lua/CityPopulation.lua">
+      <Name>CityPopulation.lua</Name>
+      <Description>City Population Floating Text</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

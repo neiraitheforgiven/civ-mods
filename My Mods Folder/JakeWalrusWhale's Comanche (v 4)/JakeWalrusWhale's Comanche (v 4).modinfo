@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2bd3e11e-6012-4228-83df-9598c9b97b16" version="4">
+  <Properties>
+    <Name>JakeWalrusWhale's Comanche</Name>
+    <Teaser>Adds the [COLOR_SELECTED_TEXT]Comanche[ENDCOLOR] under Iron Jacket.</Teaser>
+    <Description>The Comanche under Iron Jacket[NEWLINE][NEWLINE]
+
+UA: Empire of the Summer Moon[NEWLINE]
+Razing cities grant gold per turn, and faith to nearby cities if at peace with the original owner. Horse units can enter foreign territory, and pillage while at peace in foreign territory at the cost of faith.
+[NEWLINE][NEWLINE]
+UU: Quickstinger (Calvary)[NEWLINE]
+Declaring war grants this unit +50% Combat strength permanently. Each turn while at war, lose 1 Combat strength for each player you are at war with until at original combat strength.
+[NEWLINE][NEWLINE]
+UB: Half-Moon Church (Temple)[NEWLINE]
+During peace, trains units in this city faster depending on the faith output of the city. When making peace, spawn a missionary that can spread religion only once.
+[NEWLINE][NEWLINE][NEWLINE]
+Shoshone Change:[NEWLINE]
+UB: Sweat Lodge (Garden)[NEWLINE]
+Does not need to border a river or lake. +50% Settler Production in this city. +2 Happiness.</Description>
+    <Authors>JakeWalrusWhale</Authors>
+    <SpecialThanks>Enigma, RawSasquatch, Arilasqueto, Zharques</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Traits" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="CBP" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="CulDiv" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="Mercenaries" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="Rise to Power" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D." />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+  </References>
+  <Blocks>
+    <Mod id="28985e68-f13e-46d5-8316-c1e4406815bd" minversion="0" maxversion="999" title="MayorS's Comanche" />
+  </Blocks>
+  <Files>
+    <File md5="F19BC44A19607A665E0D80B984EA5810" import="1">Art/Atlas/JWWComancheIconAtlas128.dds</File>
+    <File md5="B34718824EF67D17C3B62159A79C0725" import="1">Art/Atlas/JWWComancheIconAtlas24.dds</File>
+    <File md5="F3E41D74E8834910E9C27C882CB75550" import="1">Art/Atlas/JWWComancheIconAtlas256.dds</File>
+    <File md5="BB9B1735CF5CEF4DE526C43075C6CB7F" import="1">Art/Atlas/JWWComancheIconAtlas32.dds</File>
+    <File md5="2104DB29BF37842860A788E1EE136AE4" import="1">Art/Atlas/JWWComancheIconAtlas45.dds</File>
+    <File md5="474CAEFBAB5512CCE885F3A2092C2BF6" import="1">Art/Atlas/JWWComancheIconAtlas48.dds</File>
+    <File md5="49CC0544B208E14BA990A7D502CCFB45" import="1">Art/Atlas/JWWComancheIconAtlas64.dds</File>
+    <File md5="8C338C84B8D4FC62F4273F71F3AB1A4B" import="1">Art/Atlas/JWWComancheIconAtlas80.dds</File>
+    <File md5="E6F1D8E1C3A944E8F2A36D702D6730BE" import="1">Art/Atlas/JWWComanchePillageAtlas45.dds</File>
+    <File md5="C7C7D0E89740EBC8E522A228F5F602A1" import="1">Art/Atlas/JWWComanchePillageAtlas64.dds</File>
+    <File md5="A2F510CFACAE7ED0F045865F887390E8" import="1">Art/Atlas/JWWPeyotismAlpha128.dds</File>
+    <File md5="F75E5C66F132505CE87BC432DF352A84" import="1">Art/Atlas/JWWPeyotismAlpha16.dds</File>
+    <File md5="5A7BC29AB7C7AF4D3122A3926790257E" import="1">Art/Atlas/JWWPeyotismAlpha24.dds</File>
+    <File md5="93A609C52F8911105C79B57565C4A2AE" import="1">Art/Atlas/JWWPeyotismAlpha32.dds</File>
+    <File md5="058102006A25EA13F2983ECF632A9965" import="1">Art/Atlas/JWWPeyotismAlpha48.dds</File>
+    <File md5="058102006A25EA13F2983ECF632A9965" import="1">Art/Atlas/JWWPeyotismAlpha64.dds</File>
+    <File md5="7650ECF1EBDD26DDFB3333B996CB57C6" import="1">Art/Atlas/JWWPeyotismAlpha80.dds</File>
+    <File md5="FC595F96CCF41D2FAE78AD6CDC7EF4DA" import="1">Art/Font Icon/JWWPeyotismFontIcon22.dds</File>
+    <File md5="7DAAA53AB47A3FBB5058D9AE0BEBD1F8" import="1">Art/Font Icon/JWWPeyotismFontIcon22.ggxml</File>
+    <File md5="E185BF7A4E2EEF86E12BF21FE3E594A5" import="1">Art/IronJacketDOM.dds</File>
+    <File md5="AD760B28F12036F4E83A3F01ACE2828D" import="1">Art/IronJacketScene.dds</File>
+    <File md5="7B0EFDBCD10409889E398A1D068A7F31" import="1">Art/JWWComancheMap.dds</File>
+    <File md5="5C8DBFC4D373168E0BB5AE85D0833AE0" import="1">Code/Database/IronJacketScene.xml</File>
+    <File md5="97563B77E33AF68CC7396A5AC8F18109" import="0">Code/Database/JWWComancheArtDefines.sql</File>
+    <File md5="8D7ABC767E6C371CB80042D3247A7F37" import="0">Code/Database/JWWComancheGameDefines.sql</File>
+    <File md5="7E131ACD00A221865C02068B67341148" import="0">Code/Database/JWWComancheText.xml</File>
+    <File md5="91025D686C2349E3D17399F34D0DDEC2" import="0">Code/Database/JWWComancheModSupport.sql</File>
+    <File md5="1C765C714AE37CDAC6294BD035E2A1AD" import="0">Code/Lua/JWWComancheFunctions.lua</File>
+    <File md5="05D3C4FF82F5ACDADC7691EC7B204AF0" import="0">Code/Lua/JWWComancheFunctions.xml</File>
+    <File md5="17A79FA2CF6209E3966E7BEEAE6116DC" import="0">Code/Lua/JWWComancheMCIS.lua</File>
+    <File md5="E38F10910F14D0B1F7CF33A63DD6D014" import="0">Code/Lua/JWWComancheMCIS.xml</File>
+    <File md5="64DF635BD57CDEB13DC1038934568A7E" import="0">Code/Lua/Utilities/CityInfoStack.lua</File>
+    <File md5="120EB71025973A8A48B38314241DD0B3" import="0">Code/Lua/Utilities/CityInfoStack.xml</File>
+    <File md5="3F051222164BD0E9540DAE35FCB668B0" import="0">Credits.txt</File>
+    <File md5="76FE3ECFA73E918FA34B7142DDB35DEB" import="1">Audio/JWWComanche_Peace.mp3</File>
+    <File md5="6B9A5138817EF91A6ABF0352FF858CB5" import="1">Audio/JWWComanche_War.mp3</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/Database/JWWComancheArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/Database/JWWComancheGameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/Database/JWWComancheModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Code/Database/JWWComancheText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Code/Lua/JWWComancheFunctions.lua">
+      <Name>COmanche functiosn</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Code/Lua/JWWComancheMCIS.lua">
+      <Name>MCIS Main</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Code/Lua/Utilities/CityInfoStack.lua">
+      <Name>MCIS Utilities</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

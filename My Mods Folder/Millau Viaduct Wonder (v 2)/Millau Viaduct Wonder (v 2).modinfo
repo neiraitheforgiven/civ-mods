@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6252402d-647e-44fc-a7bc-db3d2ad1f5e0" version="2">
+  <Properties>
+    <Name>Millau Viaduct Wonder</Name>
+    <Teaser>Spanning more than two and a half kilometres across the Valley of the River Tarn, the Millau Viaduct is an engineering marvel.</Teaser>
+    <Description>Spanning more than two and a half kilometres across the Valley of the River Tarn, the Millau Viaduct is an engineering marvel. It is the tallest bridge in the world, with a height of over three hundred metres from the top of the tower to the base, which also makes it the tallest man-made structure in France. Often the bridge is surrounded by clouds which gather in the valley. Ingame, the Millau Viaduct provides +1  Movement point to all land military units, and becomes available with Ecology.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Ambrox62</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="B426125A44D2EE76D5FAE0E5223E3A98" import="1">Art/Millau_128.dds</File>
+    <File md5="D0ED2E885B67915C09FE5059839C5C29" import="1">Art/Millau_256.dds</File>
+    <File md5="561468C77E26FF672B3E0D0F0186DA33" import="1">Art/Millau_45.dds</File>
+    <File md5="9FA707674C5154CED0CA388EA860C398" import="1">Art/Millau_64.dds</File>
+    <File md5="829C4BC6190889AC437BA220D3AD4221" import="1">Art/Millau_80.dds</File>
+    <File md5="4AD3CB701F1F2116277D989263B6C1E1" import="1">Art/Millau_splash.dds</File>
+    <File md5="F908D2E2C68BDEDF934DFD8D4A3D4647" import="0">XML/Buildings/Millau_BuildingClasses.xml</File>
+    <File md5="658BCCE01095840EFAD31A27644B4125" import="0">XML/Buildings/Millau_Buildings.xml</File>
+    <File md5="3A534B6A2BE372D481903495B2EB6742" import="0">XML/Civilizations/Millau_Civilizations.xml</File>
+    <File md5="E9AA64C3A632834C590806FED87BB756" import="0">XML/GameInfo/Millau_IconTextureAtlases.xml</File>
+    <File md5="EC7E70B631C56BA16A3F38641B4C8A0C" import="0">XML/Text/Millau_text_EN_US.xml</File>
+    <File md5="10348541652767517CE8BD6B6F1D81E2" import="0">XML/Units/Millau_UnitPromotions.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Millau_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Millau_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Millau_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Millau_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Millau_UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Millau_text_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

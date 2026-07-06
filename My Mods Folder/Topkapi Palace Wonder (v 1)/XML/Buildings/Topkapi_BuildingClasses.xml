@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TOPKAPI</Type>
+			<DefaultBuilding>BUILDING_TOPKAPI</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TOPKAPI</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+</GameData>

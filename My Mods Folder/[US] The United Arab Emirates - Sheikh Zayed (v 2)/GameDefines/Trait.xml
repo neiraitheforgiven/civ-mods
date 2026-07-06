@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/31/2015 3:12:07 AM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_YALLAH_HABIBI</Type>
+			<Description>TXT_KEY_TRAIT_YALLAH_HABIBI</Description>
+			<ShortDescription>TXT_KEY_TRAIT_YALLAH_HABIBI_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Policies>
+		<Row>
+		<Type>POLICY_UAE</Type>
+		<Description>TXT_KEY_POLICY_UAE</Description>
+		<Civilopedia>TXT_KEY_POLICY_UAE</Civilopedia>
+		<Help>TXT_KEY_POLICY_UAE</Help>
+		<PortraitIndex>24</PortraitIndex>
+		<IconAtlas>POLICY_ATLAS</IconAtlas>
+		<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<Type>POLICY_DUBAI_CORP</Type>
+			<Description>TXT_KEY_POLICY_DUBAI_CORP</Description>
+			<Civilopedia>TXT_KEY_POLICY_DUBAI_CORP</Civilopedia>
+			<Help>TXT_KEY_POLICY_DUBAI_CORP</Help>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<Type>POLICY_UAE_FUND</Type>
+			<Description>TXT_KEY_POLICY_UAE_FUND</Description>
+			<Civilopedia>TXT_KEY_POLICY_UAE_FUND</Civilopedia>
+			<Help>TXT_KEY_POLICY_UAE_FUND</Help>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	<Policy_BuildingClassTourismModifiers>
+		<Row>
+			<PolicyType>POLICY_UAE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UAE_UA_5</BuildingClassType>
+			<TourismModifier>5</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UAE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UAE_UA_10</BuildingClassType>
+			<TourismModifier>10</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UAE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UAE_UA_15</BuildingClassType>
+			<TourismModifier>15</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UAE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UAE_UA_20</BuildingClassType>
+			<TourismModifier>20</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UAE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UAE_UA_25</BuildingClassType>
+			<TourismModifier>25</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UAE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UAE_UA_30</BuildingClassType>
+			<TourismModifier>30</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UAE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UAE_UA_35</BuildingClassType>
+			<TourismModifier>35</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UAE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UAE_UA_40</BuildingClassType>
+			<TourismModifier>40</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UAE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UAE_UA_45</BuildingClassType>
+			<TourismModifier>45</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UAE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UAE_UA_50</BuildingClassType>
+			<TourismModifier>50</TourismModifier>
+		</Row>
+	</Policy_BuildingClassTourismModifiers>
+
+	<!-- Trait_ExtraYieldThresholds -->
+	<!-- Trait_YieldChanges -->
+	<!-- Trait_YieldChangesStrategicResources -->
+	<!-- Trait_YieldChangesNaturalWonder -->
+	<!-- Trait_YieldModifiers -->
+	<!-- Trait_FreePromotions -->
+	<!-- Trait_FreePromotionUnitCombats -->
+	<!-- Trait_MovesChangeUnitCombats -->
+	<!-- Trait_Terrains -->
+	<!-- Trait_ResourceQuantityModifiers -->
+	<!-- Trait_FreeResourceFirstXCities -->
+	<!-- Trait_ImprovementYieldChanges -->
+	<!-- Trait_SpecialistYieldChanges -->
+	<!-- Trait_UnimprovedFeatureYieldChanges -->
+</GameData>

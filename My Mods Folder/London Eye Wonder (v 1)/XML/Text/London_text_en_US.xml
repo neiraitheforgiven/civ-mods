@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_LONDON">
+			<Text>London Eye</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_LONDON_HELP">
+			<Text>+1 [ICON_GOLD] Gold for every [ICON_CITIZEN] Citizen in this city</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_LONDON_QUOTE">
+			<Text>[NEWLINE]"As I came down the Highgate Hill, I met the sun's bravado, and saw below me, fold on fold, grey to pearl and pearl to gold, this London like a land of old, the land of El Dorado"[NEWLINE] - Henry Howarth Bashford[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_LONDON_PEDIA">
+			<Text>Adorning the bank of the River Thames, the London Eye is the most famous Ferris wheel in modern history. The wheel reachs a height of 443 feet and diameter spans 394 feet wide. A team of architects constructed the wheel; Frank Anatole, Steve Chilton, Julia Barfield and David Marks to name a few. The Eye began construction in late 1998 and tooks just over a year to complete; on New Years Eve 1999 Tony Blair, Prime Minister of England, inaugurated London Eye and opened it to the public. For this reason it was then originally known as the Millenium Wheel; unfortunately the wheel experienced technical problems resulting in the actual opening of the Eye in March 9 2000. Since then however London Eye has become one of the biggest icons of the city of London, generating tourism as an engineering landmark and attraction as one of the highest points to see the London cityspace.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

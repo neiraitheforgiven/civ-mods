@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_TEOTIHUACAN">
+			<Text>Teotihuacan</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_TEOTIHUACAN_HELP">
+			<Text>[NEWLINE] +3 [ICON_CULTURE] Culture and +1 [ICON_PRODUCTION] Production from every source of [ICON_RES_STONE] Stone and [ICON_RES_MARBLE] Marble within the workable distance of the city.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_TEOTIHUACAN_QUOTE">
+			<Text>
+				[NEWLINE]"The educated differ from the uneducated as much as the living from the dead"[NEWLINE] - Aristotle[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_TEOTIHUACAN_PEDIA">
+			<Text>Teotihuacan is the name given to a vast Toltec complex in central Mexico. It is most famous for the Pyramid of the Sun, the Pyramid of the Moon, and the Avenue of the Dead, three regions of the complex. However, Teotihuacan is also known for a series of colourful murals, and a type of pottery made in the complex which spread throughout Mesoamerica. Teotihuacan reached it's height at circa. 400 CE, before declining and dying out long before the Spanish arrival.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

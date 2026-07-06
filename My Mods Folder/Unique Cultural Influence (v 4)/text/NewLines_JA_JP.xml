@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/22/2014 2:37:34 PM -->
+<GameData>
+	<Language_JA_JP>
+		<Row Tag="TXT_KEY_GENERIC_AMERICA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のジーンズを買い、流行りの歌を聴いている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ARABIA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のクーフィーヤを買い、アラベスクを描いている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_AZTEC_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のショコラートルを飲み、タコスを食べている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CHINA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国の磁器を買い、武侠映画を観ている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_EGYPT_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のパピルスを買い、エジプト風の化粧を施している。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ENGLAND_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国の紅茶を飲み、ブリットポップを聴いている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_FRANCE_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のチーズを食べ、香水を身にまとっている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GERMANY_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国の車を買い、ビールを飲んでいる。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREECE_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のシルタキを踊り、ギリシャ悲劇を観ている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INDIA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のヨガを練習し、インド映画を観ている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_IROQUOIS_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のラクロスを楽しみ、タバコを吸っている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_JAPAN_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国の着物を買い、アニメを観ている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_OTTOMAN_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のトルコ帽を買い、ドネルケバブを食べている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_PERSIA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のピラフを食べ、絨毯を買っている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ROME_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のトーガを買い、剣闘士ゲームを楽しんでいる。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RUSSIA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のマトリョーシカを買い、ウォッカを飲んでいる。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SIAM_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のパーヌンを買い、ムエタイを練習している。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SONGHAI_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のボゴラン布を買い、コラを演奏している。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BABYLON_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国の占星術に心を奪われ、星々が示す運命を信じている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MONGOL_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国の馬頭琴を演奏し、ホーミーを歌っている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INCA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のアルパカを買い、コカの葉を噛んでいる。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SPAIN_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のフラメンコを踊り、闘牛を観戦している。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_POLYNESIA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のアロハシャツを買い、フラダンスを踊っている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_DENMARK_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の子供は貴国のおとぎ話を聞き、レゴで遊びながら育ってゆく。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_KOREA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国の電子機器を買い、MMO RPGを楽しんでいる。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_AUSTRIA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のウインナ・シュニッツェルを食べ、レッドブルを飲んでいる。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BYZANTIUM_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のバックギャモンで遊び、モザイク画を作りながら日々を暮らしている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CARTHAGE_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民の間では貴国のティルス紫が新たな黒として用いられている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CELTS_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のキルトを買い、スタウトを飲んでいる。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ETHIOPIA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のコーヒーを飲み、ドレッドヘアをしている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HUNS_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国の未開な遊牧生活に逆戻りしつつある。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MAYA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国の暦を取り入れ、近い将来に破滅が訪れることを予言している。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_NETHERLANDS_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のチューリップを買い、木靴を履いている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SWEDEN_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国の家具を買い、デスメタルを聴いている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ASSYRIA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のアラックを飲み、キッガを踊っている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BRAZIL_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のカイピリーニャをのみ、ボサノヴァを聴いている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INDONESIA_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のバティック服を買い、ガムラン音楽を聴いている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOROCCO_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のクスクスを食し、ベリーダンスを眺めている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_POLAND_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のピエロギを食べ、マズルカを踊っている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_PORTUGAL_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のアズレージョを買い、ファドを聴いている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHOSHONE_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国の羽飾りを買い、ペヨーテを摂取している。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VENICE_INFLUENTIAL_ON_AI_1">
+			<Text>我が国の民は貴国のガラス製品と仮面を買っている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ZULU_INFLUENTIAL_ON_AI_1">
+			<Text>。我が国の民は貴国のブブゼラと儀式用の盾を買っている。他の国々も知らず知らずのうちにこのような文化に毒されてしまうのだろうか？</Text>
+		</Row>
+	</Language_JA_JP>
+</GameData>

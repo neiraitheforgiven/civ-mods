@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b2a699c1-f4e5-432b-ab54-f11abd11dee3" version="3">
+  <Properties>
+    <Name>Kronborg Wonder</Name>
+    <Teaser>The Danish Star Fortress of Kronborg (Constructed during the reign of King Frederick II, and is a magnificent rennaisance castle</Teaser>
+    <Description>The Danish Star Fortress of Kronborg (Constructed during the reign of King Frederick II) Is a magnificent rennaisance castle built on the Northern tip of the island of Zealand. The fortress was built to control access to the Baltic Sea at the narrowest point of one of the exits. The castle was used by Danish royalty to extract tribute from Merchants, if they refused they were fired upon. Ingame, Kronborg provides +15% Gold from Trade Routes, gives a Free Caravel and +9 Defense in the city. It requires Astronomy and Chivalry, and can only be built in a coastal city.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Mentos, Moriboe, Ambrox62</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="2ddb65d1-deb8-4202-a28b-911f3da8aab8" minversion="0" maxversion="999" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="B720FF014A8066C62E13BEA2E47EDC73" import="1">Art/kronborg_icon128.dds</File>
+    <File md5="93F2994BC70D59ADA24A3DFD1946A1A2" import="1">Art/kronborg_icon256.dds</File>
+    <File md5="64803BFD8729E2C52BBFAFAA77A99EF2" import="1">Art/kronborg_icon45.dds</File>
+    <File md5="3603D704189562F679F1A5CA0B5D857E" import="1">Art/kronborg_icon64.dds</File>
+    <File md5="8EDE76858723FACE2BF24EAE9EA14F83" import="1">Art/kronborg_icon80.dds</File>
+    <File md5="EB6269E2FEB7F0F9999F16B97AE29AFB" import="1">Art/Kronborg_splash.dds</File>
+    <File md5="A84B08C4AAC5AB359A95F2B9261EC61F" import="1">Art/Kronborg_splash_a.dds</File>
+    <File md5="88D1719C83294A55B83AE963A2C0ECFD" import="0">readme.txt</File>
+    <File md5="4637FB10B2967C539BE4F15F8C450667" import="0">XML/Buildings/Kronborg_BuildingClasses.xml</File>
+    <File md5="5766419D3527AD387D7A1124FF3A74EA" import="0">XML/Buildings/Kronborg_Buildings.xml</File>
+    <File md5="D78D3BD41B7048E4333402906C5121AB" import="0">XML/Buildings/Kronborg_Splashes.xml</File>
+    <File md5="8D5BE4DB63CFD03A9E6EE3E1168D7552" import="0">XML/Civilizations/Kronborg_Civilizations.xml</File>
+    <File md5="A0BF4A0A58E056FA7E35DFD187CCBC52" import="0">XML/GameInfo/Kronborg_IconTextureAtlases.xml</File>
+    <File md5="1A2E42FBA15B14B75D2933B766B98669" import="0">XML/Text/Kronborg_text_EN_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Kronborg_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Kronborg_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Kronborg_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Kronborg_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Kronborg_text_EN_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Kronborg_Splashes.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

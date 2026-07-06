@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_XUANKONG">
+			<Text>Xuankong Si</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_XUANKONG_HELP">
+			<Text>City must be built next to a mountain</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_XUANKONG_QUOTE">
+			<Text>
+				[NEWLINE]"All difficult things have their origin in that which is easy, and great things in that which is small."[NEWLINE] - Lao Tzu[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_XUANKONG_PEDIA">
+			<Text>Xuankong Si, also known as the Hanging Temple, is a temple carved into and built on a cliff face 1275 metres above sea level. According to legend construction began around 1600 years ago by a single monk known as Liao Ran. Xuankong Si is unique largely due to the fact that instead of a single religious focus the temple has elements of Taoism, Buddhism and Confucianism.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

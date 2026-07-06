@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_TEMPLE_OF_HEAVEN">
+			<Text>Temple of Heaven</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_TEMPLE_OF_HEAVEN_HELP">
+			<Text>1 free Social Policy.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_TEMPLE_OF_HEAVEN_QUOTE">
+			<Text>
+				[NEWLINE]"Death and life have their determined appointments; riches and honors depend upon heaven."[NEWLINE] - Confucius[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_TEMPLE_OF_HEAVEN_PEDIA">
+			<Text>The Temple of Heaven is a large temple complex located in Beijing, China. It was built by command of the Yongle Emperor, from 1406 to 1420. During the 16th century the temple was expanded and given its current name. In its history it has been used to practice Heaven Worship, Taoism and Confucisism. During the Second Opium War (1856 - 1860) The temple was occupied by the Anglo-French alliance, and during the 1900 Boxer Rebellion, it was occupied by the Eight-Nation Alliance. Both these occupations lead to the Temple falling into disrepair, and rumors of vandalism and theft by the occupiers.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

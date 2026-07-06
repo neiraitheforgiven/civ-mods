@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="69d732aa-bc75-40d7-95d1-cd53c93cde95" version="2">
+  <Properties>
+    <Name>Haji Ali Dargah Wonder</Name>
+    <Teaser>Located in the Arabian Sea just off the coast of Mumbai, India, Haji Ali Dargah is an iconic Mosque and Tomb.</Teaser>
+    <Description>Haji Ali Dargah is a Mosque and Tomb built on an islet in the Arabian Sea, off the coast of Mumbai, India. It is connected to the mainland via a narrow causeway, which floods in high tide. Despite this, an average of 80,000 people visit the Mosque every week, 40,000 each on Thursdays and Fridays. Ingame, Haji Ali Dargah provides +20% Gold from  Trade Routes and +2  Gold from every sea tile. It becomes available with Navigation.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Moriboe, Ambrox62</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="8272EAB72F2D2D94047CE922515B6072" import="1">Art/Haji_Ali_Dargah_icon128.dds</File>
+    <File md5="8313CCA1DFA284F4C369810FDE1A6343" import="1">Art/Haji_Ali_Dargah_icon256.dds</File>
+    <File md5="1F62F2D47B344A5C09F52E7BF88E7156" import="1">Art/Haji_Ali_Dargah_icon45.dds</File>
+    <File md5="8F5A58E3A0F5DA1DA90B8C99FAEF4A08" import="1">Art/Haji_Ali_Dargah_icon64.dds</File>
+    <File md5="DC942052D3B6718585A617F276ADF07D" import="1">Art/Haji_Ali_Dargah_icon80.dds</File>
+    <File md5="65C6DFE693592FF9BB570BBABA8B79D0" import="1">Art/Haji_Ali_Dargah_splash.dds</File>
+    <File md5="28E3A9E121D778B5A929F4F6643BB13A" import="0">XML/Buildings/Haji_Ali_Dargah_BuildingClasses.xml</File>
+    <File md5="450041F3F666FBAA2CD7107DBBA6216A" import="0">XML/Buildings/Haji_Ali_Dargah_Buildings.xml</File>
+    <File md5="174FF764EF06A3EBCEAABFACA243E346" import="0">XML/Civilizations/Haji_Ali_Dargah_Civilizations.xml</File>
+    <File md5="3DE9E88BE4A41A619BC2DE7921ED2D47" import="0">XML/GameInfo/Haji_Ali_Dargah_IconTextureAtlases.xml</File>
+    <File md5="ABC5FE04AD7EF7E54BA4F6B89EF01DEF" import="0">XML/Text/Haji_Ali_Dargah_text_EN_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Haji_Ali_Dargah_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Haji_Ali_Dargah_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Haji_Ali_Dargah_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Haji_Ali_Dargah_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Haji_Ali_Dargah_text_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

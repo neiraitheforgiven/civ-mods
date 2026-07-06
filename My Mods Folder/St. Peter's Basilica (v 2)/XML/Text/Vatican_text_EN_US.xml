@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_VATICAN">
+			<Text>St. Peter's Basilica</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_VATICAN_HELP">
+			<Text>+2 [ICON_PEACE] Faith in the city with every policy from the Piety tree adopted. Provides a free Cathedral in the city in which it is built. </Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_VATICAN_QUOTE">
+			<Text>[NEWLINE]"A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral"[NEWLINE] - Antoine de Saint-Exupery[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_VATICAN_PEDIA">
+			<Text>Basilica Papale di San Pietro in Vaticano, better known as St. Peter's Basilica, is a late Renaissance church in Vatican City, with the largest interior of any Christian church in the world. The supposed burial site of the apostle Peter in 64 AD, some years later a shrine was constructed there. Replacing the shrine, construction of "old" St. Peter's was begun by the Emperor Constantine between 319 and 333 AD. Having fallen into serious disrepair over the centuries, Pope Julius II in 1505 determined to demolish the old church and replace it with a monumental structure, a construction project that spanned the next 120 years under a succession of popes and architects. To finance the colossal project, a number of popes authorized the wholesale selling of indulgences, a practice that led in part to Martin Luther's protestant movement. With work by some of the Renaissance's leading figures - Michelangelo, Raphael, Bramante, Bernini and others - the church now stands as one of the great treasures of Western civilization.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

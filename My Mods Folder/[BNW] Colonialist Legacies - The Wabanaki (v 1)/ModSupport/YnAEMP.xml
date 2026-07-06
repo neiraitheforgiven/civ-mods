@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/25/2014 7:54:11 AM -->
+<GameData>
+	<Civilizations_YagemStartPosition>
+		<Row>
+			<Type>CIVILIZATION_CLWABANAKI</Type>
+			<X>162</X>
+			<Y>68</Y>
+		</Row>
+	</Civilizations_YagemStartPosition>
+	<!-- +++++++++++++++++++++++++++++ -->
+	<!-- Earth Huge map start position -->
+	<!-- +++++++++++++++++++++++++++++ -->
+	<Civilizations_YahemStartPosition>
+		<Row>
+			<Type>CIVILIZATION_CLWABANAKI</Type>
+			<X>35</X>
+			<Y>57</Y>
+		</Row>
+	</Civilizations_YahemStartPosition>
+	<!-- ++++++++++++++++++++++++++++++++++ -->
+	<!-- Earth Cordiform map start position -->
+	<!-- ++++++++++++++++++++++++++++++++++ -->
+	<Civilizations_CordiformStartPosition>
+		<Row>
+			<Type>CIVILIZATION_CLWABANAKI</Type>
+			<X>17</X>
+			<Y>34</Y>
+		</Row>
+	</Civilizations_CordiformStartPosition>
+	<!-- +++++++++++++++++++++++ -->
+	<!-- Americas start position -->
+	<!-- +++++++++++++++++++++++ -->
+	<Civilizations_AmericasStartPosition>
+		<Row>
+			<Type>CIVILIZATION_CLWABANAKI</Type>
+			<X>52</X>
+			<Y>58</Y>
+		</Row>
+	</Civilizations_AmericasStartPosition>
+	<!-- +++++++++++++++++++++++++++++ -->
+	<!-- North Atlantic start position -->
+	<!-- +++++++++++++++++++++++++++++ -->
+	<Civilizations_NorthAtlanticStartPosition>
+		<Row>
+			<Type>CIVILIZATION_CLWABANAKI</Type>
+			<X>25</X>
+			<Y>38</Y>
+		</Row>
+	</Civilizations_NorthAtlanticStartPosition>
+</GameData>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/22/2014 2:12:30 PM -->
+<GameData>
+	<Language_IT_IT>
+		<Row Tag="TXT_KEY_GENERIC_AMERICA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri blue-jeans e ascoltando il vostro rock and roll. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ARABIA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando le vostre kefiah e dipingendo arabeschi. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_AZTEC_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta bevondo il vostro xocolatl e mangiando i vostri taco. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CHINA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando le vostre porcellane e guardando i vostri film wuxia. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_EGYPT_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri papiri e i vostri cosmetici. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ENGLAND_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta bevendo il vostro tè e ascoltando il vostro Britpop. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_FRANCE_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta mangiando i vostri formaggi e comprando i vostri profumi. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GERMANY_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando le vostre auto e bevendo la vostra birra. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREECE_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta danzando il Sirtaki e guardando le vostre tragedie. La vera tragedia è che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INDIA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente ora pratica lo Yoga e guarda i vostri film di Bollywood. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_IROQUOIS_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta giocando a Lacrosse e fumando il vostro tabacco. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_JAPAN_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri kimono e guardando i vostri anime. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_OTTOMAN_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri fez e mangiando i vostri kebab. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_PERSIA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri tappeti e mangiando riso pilaf. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ROME_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando le vostre toghe e guardando i vostri giochi gladiatori. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RUSSIA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando le vostre matrioske e bevendo la vostra vodka. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SIAM_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri pha nung e praticando il Muay Thai. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SONGHAI_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando le vostre camicie bogolanfini e suonando la kora. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BABYLON_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente è ossessionata dalla vostra astrologia e ritiene che il proprio destino dipenda dagli astri. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MONGOL_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente ora suona il Morin Khuur e canta con la gola. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INCA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri vestiti in lana d''alpaca e masticando le vostre foglie di coca. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SPAIN_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta ballando il Flamenco e guardando le vostre corride. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_POLYNESIA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando le vostre camicie e danzando la Hula. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_DENMARK_INFLUENTIAL_ON_AI_1">
+			<Text>I nostri bambini stanno crescendo con le vostre fiabe e giocando con i vostri mattoncini di plastica. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_KOREA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri prodotti tecnologici e giocando con i vostri MMORPGs. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_AUSTRIA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta mangiando i vostri Wurstel e bevendo i vostri energy drink. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BYZANTIUM_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente passa il tempo a giocare a Backgammon e a comporre mosaici. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CARTHAGE_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente veste solo di porpora ormai. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CELTS_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri kilt e bevendo la vostra birra scura. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ETHIOPIA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente ora compra il vostro caffé e si fa i dreadlocks. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HUNS_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta regredendo verso il vostro barbarico stile di vita nomade. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MAYA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente ha adottato il vostro calendario e predice catastrofi imminenti. Predico che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_NETHERLANDS_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri tulipani e i vostri zoccoli di legno. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SWEDEN_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri mobili e ascoltando il vostro Death Metal. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ASSYRIA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta bevendo il vostro Arak e ballando la Khigga. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BRAZIL_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta bevendo la vostra Caipirinha e ascoltando la vostra Bossa Nova. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INDONESIA_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri vestiti Batik e ascoltando le vostre orchestre gamelan. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOROCCO_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta mangiando il vostro cuscus e guardando le vostre danzatrici del ventre. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_POLAND_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta mangiando i vostri pierogi e ballando la Mazurka. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_PORTUGAL_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri azulejos e ascoltando il vostro fado. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHOSHONE_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri copricapo piumati e consumando peyote. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VENICE_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando i vostri gingilli di vetro e le vostre maschere. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ZULU_INFLUENTIAL_ON_AI_1">
+			<Text>La nostra gente sta comprando le vostre vuvuzela e i vostri scudi ornamentali. Temo che anche il resto del mondo non resisterà al richiamo della vostra cultura.</Text>
+		</Row>
+	</Language_IT_IT>
+</GameData>
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/30/2013 3:07:59 PM -->
+<GameData>
+	<Language_en_US>
+		<!--Resource tags-->
+		<Row Tag="TXT_KEY_RESOURCE_POKER">
+			<Text>Poker Chips</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_POKER_TEXT">
+			<Text>Casino Token (also known as casino or gaming chips, checks, or cheques) are small discs used in lieu of currency in casinos. Colored metal, injection-molded plastic or compression molded clay tokens of various denominations are used primarily in table games, as opposed to metal token coins, used primarily in slot machines. Casino tokens are also widely used as play money in casual or tournament games.</Text>
+		</Row>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_BELLAGIO">
+			<Text>Bellagio</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_BELLAGIO_HELP">
+			<Text>Provides +3 [ICON_RES_POKER] Poker Chips.  Gives a free hotel and 2 Great Merchants appear.+4 [ICON_TOURISM] tourism after globalization has been researched.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_BELLAGIO_QUOTE">
+			<Text>[NEWLINE]"Luck is what happens when preparation meets opportunity."[NEWLINE] - Seneca[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_BELLAGIO_PEDIA">
+			<Text>Bellagio was conceived by Steve Wynn and built by his company, Mirage Resorts, Inc. following the purchase and demolition of the legendary Dunes hotel and casino in October 27, 1993 after the Grand Opening of Luxor Las Vegas. Bellagio was designed by DeRuyter Butler and Atlandia Design. Construction on the Bellagio began in May 1996. Bellagio had an original construction cost of US$1.6 billion.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

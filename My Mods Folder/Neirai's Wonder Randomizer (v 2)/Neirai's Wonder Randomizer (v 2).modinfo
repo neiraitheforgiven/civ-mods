@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c098645f-acc3-4d96-b070-cbb067806a88" version="2">
+  <Properties>
+    <Name>Neirai's Wonder Randomizer</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>There are many fantastic Wonders available for download from Steam. But once you download them, you will have more Wonders to b</Teaser>
+    <Description>There are many fantastic Wonders available for download from Steam. But once you download them, you will have more Wonders to build than bog-standard buildings!
+
+This mod seeks to limit the number of Wonders to the number found in a standard game, while presenting you with a random selection to build with.
+
+Features:
+ - Maintains the number of Wonders per age, to ensure that the Wonder race is still a thing.
+ - Keeps the Wonders that unlock with social policies intact.</Description>
+    <Authors>Neirai the Forgiven</Authors>
+    <SpecialThanks>Teddyk (LastSword)</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Sukritact_SaveUtils.lua</File>
+    <File md5="4D84AB92F11BB3CE86A368F456B05FA6" import="0">WonderRandomizer.lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="WonderRandomizer.lua">
+      <Name>WonderRandomizer</Name>
+      <Description>Randomly chooses Wonders until a limit is reached.</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

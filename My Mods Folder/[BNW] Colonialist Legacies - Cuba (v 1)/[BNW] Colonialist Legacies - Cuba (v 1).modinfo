@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7e0bcb39-55ed-4863-9d1a-6e47da170bd6" version="1">
+  <Properties>
+    <Name>[BNW] Colonialist Legacies - Cuba</Name>
+    <Teaser>Adds the Republic of Cuba under Fidel Castro to the game.</Teaser>
+    <Description>Adds the Republic of Cuba under Fidel Castro to the game.</Description>
+    <Authors>TPangolin, Uighur_Caesar, Neirai</Authors>
+    <SpecialThanks>Senshidenshi, RawSasquatch, DJSHenniger, Ekmek</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="JFD’s Sovereignty" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp; Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD’s and Pouakai’s Mercenaries" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD’s Claims, Colonies, and Crimes" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="FC40D6F348B1F5AA2067D505B373605B" import="1">Art/CLCubaAlpha_128.dds</File>
+    <File md5="49554CD32DE84F08FA281A0DAC521199" import="1">Art/CLCubaAlpha_16.dds</File>
+    <File md5="42A3BD2169413535089B52A8A7A45BC4" import="1">Art/CLCubaAlpha_24.dds</File>
+    <File md5="0E77C9D6294A7CD193CBDB69C4C4A630" import="1">Art/CLCubaAlpha_32.dds</File>
+    <File md5="9C8731CE13FC98017B1061C0BFF31AC6" import="1">Art/CLCubaAlpha_45.dds</File>
+    <File md5="657B936635A5EE92D86C5C5969530B2B" import="1">Art/CLCubaAlpha_48.dds</File>
+    <File md5="8E017904B9ABC33B545A19CC591EEBD6" import="1">Art/CLCubaAlpha_64.dds</File>
+    <File md5="BF02F2B916173786778CA8833179F56E" import="1">Art/CLCubaAlpha_80.dds</File>
+    <File md5="E170BE65EB6B3151110C330FA6485378" import="1">Art/CLCubaAtlas128.dds</File>
+    <File md5="8190426F5714EB37E371D99203D365CA" import="1">Art/CLCubaAtlas256.dds</File>
+    <File md5="8575349ACFF0A1408C183E602F5BCE9E" import="1">Art/CLCubaAtlas32.dds</File>
+    <File md5="5C45ADB6AC315E4FA797DE4B3AFD02CC" import="1">Art/CLCubaAtlas45.dds</File>
+    <File md5="606F512DAF4252A991E5F892296D0D0F" import="1">Art/CLCubaAtlas64.dds</File>
+    <File md5="D94A0BDE8BED106ACE12124FB1ED1EEA" import="1">Art/CLCubaAtlas80.dds</File>
+    <File md5="5BD162D402E1063D001A87279C9C3D88" import="1">Art/CLGuerrilleroFlag.dds</File>
+    <File md5="7128AF737890A3D8861FEA82D8BAA24B" import="1">Art/CubaMap.dds</File>
+    <File md5="9F993901E9D96FF3B26260725D702C22" import="1">Art/CubaRebelCamp256.dds</File>
+    <File md5="A718847DDBB0D51672EC1529F3208740" import="1">Art/CubaRebelCamp45.dds</File>
+    <File md5="12AF949F04BD3463EE3DF75ADBAB725C" import="1">Art/CubaRebelCamp64.dds</File>
+    <File md5="3E6852A29339E05ACA9BB4A39CB62FC3" import="1">Art/Fidel.dds</File>
+    <File md5="DDDA9B1F76501DB43A8409711B1CED21" import="1">Art/FidelDom.dds</File>
+    <File md5="20307FA78E6E3CC316DF92EC628BE303" import="1">Art/FidelPeace.mp3</File>
+    <File md5="9E6C280B3CF01C857E67B69DD0B0ABE3" import="1">Art/FidelWar.mp3</File>
+    <File md5="2399E8114ED675EFED5D66067995AEBA" import="1">Art/sv_CLguerrillero.dds</File>
+    <File md5="FC209A5458563DBA33D66F3CACC6ECC5" import="1">Guerrillero/GB_diff.dds</File>
+    <File md5="6267B752AF021B0D90BAAAF6318678B6" import="1">Guerrillero/greenberet.fxsxml</File>
+    <File md5="F7981F3BB7922E204DCD3784B961E08B" import="1">Guerrillero/GreenBeret.gr2</File>
+    <File md5="E3E4FEB13482ADC5C394308E40C9F32E" import="0">Guerrillero/Paratrooper.xml</File>
+    <File md5="D75C9D6D0FC83612F1091A2493785826" import="0">Lua/CubanLua.lua</File>
+    <File md5="BBE4BB99B61A3EA14A5111877FFA8B17" import="1">Lua/CubanDecisions.lua</File>
+    <File md5="AB378B533AD33120C6029BEB9280BD9F" import="0">Lua/CubanDecisionSupport.sql</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Lua/Sukritact_SaveUtils.lua</File>
+    <File md5="A2E64D8045AF926CFD356AA0C5346805" import="1">RebelCamp/debotrebuilt_Kopie.dds</File>
+    <File md5="9E554465DD1B35A2B14F0FD1E82AA0B1" import="1">RebelCamp/debotruined_Kopie.dds</File>
+    <File md5="709257FE852E18ACE1D0DC1E84EE8ADC" import="1">RebelCamp/Depot_Postapocalyptic.blend</File>
+    <File md5="16C314E3FB15EB2C762493178FB59E3F" import="1">RebelCamp/Depot_Postapocalyptic.gr2</File>
+    <File md5="5F6E9B9D8C2C3DC317649370198EE0CD" import="1">RebelCamp/Depot_Postapocalyptic.png</File>
+    <File md5="8472EC3053E2D5826401882BE9CD360D" import="1">RebelCamp/Depot_Postapocalyptic_B.fxsxml</File>
+    <File md5="6A5BBF31A4111C7083CEAF0564B5C5D5" import="1">RebelCamp/Depot_Postapocalyptic_HB.blend</File>
+    <File md5="06386040F918DAC77FA699DC57AC3745" import="1">RebelCamp/Depot_Postapocalyptic_HB.fxsxml</File>
+    <File md5="81308EBB317B38FF2CA515445D0DE176" import="1">RebelCamp/Depot_Postapocalyptic_HB.gr2</File>
+    <File md5="B19155CD1FED7890743991CE1F512E09" import="1">RebelCamp/Depot_Postapocalyptic_Icon.png</File>
+    <File md5="24CCECCFB253BE1B6179026B4F5F9EC4" import="1">RebelCamp/Depot_Postapocalyptic_PL.blend</File>
+    <File md5="44E076E76C131E5294077A82E7C32058" import="1">RebelCamp/Depot_Postapocalyptic_PL.fxsxml</File>
+    <File md5="EAE2F343E3018507031AE0EB5153EEA8" import="1">RebelCamp/Depot_Postapocalyptic_PL.gr2</File>
+    <File md5="A15A7B616195C2BE32918A860CD2EA3B" import="1">RebelCamp/Depot_rebuiltshadow Kopie.dds</File>
+    <File md5="C94A850D5AB0EF4E80377574821FA663" import="1">RebelCamp/depot_ruined Kopie.dds</File>
+    <File md5="0CA26BA16F16DBE52AF37C0B0F1EB21B" import="0">RebelCamp/Improvement.xml</File>
+    <File md5="3FC9BEE5763E675C27163855C10B1CE2" import="1">RebelCamp/RebelCampSV.dds</File>
+    <File md5="0D76ABFAF563D9C98BC7B178ED8E470C" import="0">Text/Diplomacy.sql</File>
+    <File md5="9292DC61CA0370EAFD15583352648918" import="0">Text/Diplomacy.xml</File>
+    <File md5="20D559311ACE74E6105356BB89C85E87" import="0">Text/Text.xml</File>
+    <File md5="E0E942D71BA03259A027A9A7CF9CCE22" import="0">XML/Buildings.xml</File>
+    <File md5="7FDDC9129B8816A4BDD8BEEA44EB4563" import="0">XML/Civilizations.xml</File>
+    <File md5="247A43EFAA2A3CCF3617FDD03B42F11A" import="0">XML/CubaAtlas.xml</File>
+    <File md5="19A5B416AB1724901EE24A387BC8C63B" import="0">XML/CubaUCI.xml</File>
+    <File md5="8C10760860D5853D9F3D898A16B40585" import="1">XML/FidelScene.xml</File>
+    <File md5="5FEC26DEB470448ACD5D7B8AB8F792A0" import="0">XML/Neirai_Prefers_.sql</File>
+    <File md5="CB1B10918074367AAEF4E0BE36D74EC8" import="0">XML/Leaders.xml</File>
+    <File md5="6C5C7E1E243AB00C8E083A0376F1C8CC" import="0">XML/ModSupport.sql</File>
+    <File md5="CADA74447655FEEF82DD9F1ED0E3F62C" import="0">XML/Promotion.xml</File>
+    <File md5="AE07CC90202CB1DAF7CBF283E2CC694B" import="0">XML/Trait.xml</File>
+    <File md5="FAEA8FF2377512F61A28EFB0B1F86006" import="0">XML/Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Lua/CubanDecisionSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Text/Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CubaAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Text/Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Text/Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Promotion.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Neirai_Prefers_.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>XML/CubaUCI.xml</UpdateDatabase>
+      <UpdateDatabase>Guerrillero/Paratrooper.xml</UpdateDatabase>
+      <UpdateDatabase>RebelCamp/Improvement.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/CubanLua.lua">
+      <Name>CubanLua</Name>
+      <Description>Cuban Lua</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

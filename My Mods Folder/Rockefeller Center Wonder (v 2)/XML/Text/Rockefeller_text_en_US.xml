@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_ROCKEFELLER">
+			<Text>Rockefeller Center</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_ROCKEFELLER_HELP">
+			<Text>Current [ICON_INFLUENCE] influence with all City states doubled. +5 [ICON_HAPPINESS_1] Happiness with Commerce, and +20 [ICON_GOLD] Gold with Freedom.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_ROCKEFELLER_QUOTE">
+			<Text>
+				[NEWLINE]"Don't be afraid to give up the good to go for the great"[NEWLINE] - John D. Rockefeller[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_ROCKEFELLER_PEDIA">
+			<Text>The Rockefeller Center is a complex of fourteen buildings in New York City. It is named after the entrepreneur John D. Rockefeller, who bought the land in 1928 and began to develop it in 1930 as the sole financeur of a project which was to cost $250,000,000 at the time, as a result of the Great Depression. The construction took the entire 1930's to build, and during which time workers on the site did not have safety harnesses, and so were subject to narrow steel girders with a large fall below. It is here that Charles Ebbet's iconic photograph of eleven men eating lunch on a girder overlooking Manhattan was taken. [NEWLINE][NEWLINE] The Rockefeller center is home to several iconic New York scenes. Radio City Music Hall was completed in the complex in December of 1932, and at the time was the largest theatre on Earth, larger even than those on Broadway. The name is homage to the nickname of the NBC studios, which were also located within the complex. The Rockefeller Center is also home to what has been refered to as the fourth most famous statue in America. The gilded Bronze statue of the Hellenistic titan, Prometheus, adorns the lower plaza of the Rockefeller center, adjacent to what becomes an ice rink in winter months, again a famous scene.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

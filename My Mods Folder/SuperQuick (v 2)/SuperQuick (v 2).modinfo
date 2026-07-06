@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e3699836-4ca9-405b-8b20-232a05ea8bf6" version="2">
+  <Properties>
+    <Name>SuperQuick</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Superfast gameplay for those who don't have the time for a full game</Teaser>
+    <Description>Twice as fast as quick. Three times as fast as standard.</Description>
+    <Authors>russthebus</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="31D05CA233BE3B5A937DB2D43307D5D8" import="0">IncreasedMovement.xml</File>
+    <File md5="3163B0FF64D61D73EE7497199C79E88F" import="0">LightningFastEditor.xml</File>
+    <File md5="59B13CA349DBC84EA950F010AC418FC4" import="0">QuickModEditor.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>QuickModEditor.xml</UpdateDatabase>
+      <UpdateDatabase>LightningFastEditor.xml</UpdateDatabase>
+      <UpdateDatabase>IncreasedMovement.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_FORCED_GG</Type>
+			<Description>TXT_KEY_PROMOTION_FORCED_GG</Description>
+			<Help>TXT_KEY_PROMOTION_FORCED_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FORCED_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FORCED_GG2</Type>
+			<Description>TXT_KEY_PROMOTION_FORCED_GG2</Description>
+			<Help>TXT_KEY_PROMOTION_FORCED_GG2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FORCED_GG2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FORCED_GG3</Type>
+			<Description>TXT_KEY_PROMOTION_FORCED_GG3</Description>
+			<Help>TXT_KEY_PROMOTION_FORCED_GG3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FORCED_GG3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FORCED</Type>
+			<Description>TXT_KEY_PROMOTION_FORCED</Description>
+			<Help>TXT_KEY_PROMOTION_FORCED_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>17</PortraitIndex>
+			<MovesChange>1</MovesChange>
+			<EnemyDamageChance>100</EnemyDamageChance>
+			<EnemyDamage>5</EnemyDamage>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FORCED</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FORCED2</Type>
+			<Description>TXT_KEY_PROMOTION_FORCED2</Description>
+			<Help>TXT_KEY_PROMOTION_FORCED2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>17</PortraitIndex>
+			<MovesChange>1</MovesChange>
+			<EnemyDamageChance>50</EnemyDamageChance>
+			<EnemyDamage>5</EnemyDamage>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FORCED2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FORCED3</Type>
+			<Description>TXT_KEY_PROMOTION_FORCED3</Description>
+			<Help>TXT_KEY_PROMOTION_FORCED3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>17</PortraitIndex>
+			<MovesChange>1</MovesChange>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FORCED3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED_GG">
+			<Text>Forced March I (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED_GG_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Brutal[ENDCOLOR] General has a tendency of marching his troops to the ground for efficiency.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED_GG2">
+			<Text>Forced March II (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED_GG2_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Brutal[ENDCOLOR], but Experienced General has a leninent tendency of marching his troops for efficiency. Replaces [COLOR_NEGATIVE_TEXT]Forced March I[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED_GG3">
+			<Text>Forced March III (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED_GG3_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Brutal[ENDCOLOR], but Veteran General employs only soldiers of sturdiness for his or her army. Replaces [COLOR_NEGATIVE_TEXT]Forced March II[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED">
+			<Text>Forced March I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED_HELP">
+			<Text>+1 [ICON_MOVES] Movement. Takes damage upon ending in enemy territories. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Forced March I[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED2">
+			<Text>Forced March II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED2_HELP">
+			<Text>+1 [ICON_MOVES] Movement. Chance to take damage upon ending in enemy territories. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Forced March II[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED3">
+			<Text>Forced March III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED3_HELP">
+			<Text>+1 [ICON_MOVES] Movement. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Forced March III[ENDCOLOR] trait.</Text>
+		</Row>
+</GameData>

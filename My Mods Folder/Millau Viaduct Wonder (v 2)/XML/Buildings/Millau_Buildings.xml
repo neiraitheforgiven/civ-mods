@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MILLAU</Type>
+			<BuildingClass>BUILDINGCLASS_MILLAU</BuildingClass>
+			<Description>TXT_KEY_BUILDING_MILLAU</Description>
+			<Help>TXT_KEY_WONDER_MILLAU_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_MILLAU_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_MILLAU_QUOTE</Quote>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<Hill>true</Hill>
+			<FreePromotion>PROMOTION_MILLAU</FreePromotion>
+			<IconAtlas>BW_ATLAS_MILLAU</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>MILLAU_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MILLAU</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_MILLAU</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

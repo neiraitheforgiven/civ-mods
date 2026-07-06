@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CORNELL_UNIVERSITY</Type>
+			<BuildingClass>BUILDINGCLASS_CORNELL_UNIVERSITY</BuildingClass>
+			<Cost>1060</Cost>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_CORNELL_UNIVERSITY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CORNELL_UNIVERSITY</Description>
+			<Strategy>TXT_KEY_BUILDING_CORNELL_UNIVERSITY_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_BUILDING_CORNELL_UNIVERSITY_PEDIA</Civilopedia>		
+			<Quote>TXT_KEY_BUILDING_CORNELL_UNIVERSITY_QUOTE</Quote>
+			<ArtDefineTag>ART_DEF_BUILDING_OXFORD_UNIVERSITY</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<hill>true</hill>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+			<GlobalSpaceProductionModifier>10</GlobalSpaceProductionModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>IVY_LEAGUE_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<WonderSplashImage>Cornell1.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+	</Building_Flavors>	
+	<Building_LockedBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HARVARD_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_YALE_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY_OF_PENNSYLVANIA</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PRINCETON_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_COLUMBIA_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BROWN_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_DARTMOUTH_COLLEGE</BuildingClassType>
+		</Row>
+	</Building_LockedBuildingClasses>	
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CORNELL_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CORNELL_UNIVERSITY">
+			<Text>Cornell University</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CORNELL_UNIVERSITY_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production from every University. +10% [ICON_PRODUCTION] Production when building Spaceship Parts in all Cities. +25% [ICON_GREAT_PEOPLE] Great People generation in this City.[NEWLINE][NEWLINE]City must be built on a hill. City must have a University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CORNELL_UNIVERSITY_STRATEGY">
+			<Text>Cornell University, a top ten school for engineering, acts as an elite engineering school. This University provides +3 [ICON_PRODUCTION] Production, and establishes engineering schools in all traditional Universities, granting every University +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Cornell University cannot be constructed in a City that already has an Ivy League University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CORNELL_UNIVERSITY_QUOTE">
+			<Text>[NEWLINE]"I would found an institution where any person can find instruction in any study."[NEWLINE]- Ezra Cornell[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CORNELL_UNIVERSITY_PEDIA">
+			<Text>Cornell University (pron.: /kɔrˈnɛl/ kor-nel) is an American private Ivy League research university located in Ithaca, New York, United States. Founded in 1865 by Ezra Cornell and Andrew Dickson White, the university was intended to teach and make contributions in all fields of knowledge — from the classics to the sciences, and from the theoretical to the applied. These ideals, unconventional for the time, are captured in Cornell's motto, a popular 1865 Ezra Cornell quotation: "I would found an institution where any person can find instruction in any study."[NEWLINE][NEWLINE]The university is broadly organized into seven undergraduate colleges and seven graduate divisions at its main Ithaca campus, with each college and division defining its own admission standards and academic programs in near autonomy. The university also administers two satellite medical campuses, one in New York City and one in Education City, Qatar. Cornell is one of two private land grant universities. Of its seven undergraduate colleges, three are state-supported statutory or contract colleges. As a land grant college, it operates a cooperative extension outreach program in every county of New York and receives annual funding from the State of New York for certain educational missions.[NEWLINE][NEWLINE]Since its founding, Cornell has been a co-educational, non-sectarian institution where admission is offered irrespective of religion or race. Cornell counts more than 245,000 living alumni, 31 Marshall Scholars, 28 Rhodes Scholars and 41 Nobel laureates as affiliated with the university. The student body consists of nearly 14,000 undergraduate and 7,000 graduate students from all 50 states and 122 countries.[NEWLINE][NEWLINE]Notable alumni of Cornell University include Janet Reno, Robert Atkins, Henry Heimlich, Bill Nye, E.B. White, Bill Maher, Keith Olbermann, Christopher Reeve, Frank Morgan, Jimmy Smits, Ed Marinaro, and Gerald Lee.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Cornell_University</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

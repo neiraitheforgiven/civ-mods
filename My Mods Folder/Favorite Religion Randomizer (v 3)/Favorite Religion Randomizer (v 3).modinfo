@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5c503633-2b9c-4ab0-ba44-ef95d971c07f" version="3">
+  <Properties>
+    <Name>Favorite Religion Randomizer</Name>
+    <Teaser>Favorite Religion Randomizer</Teaser>
+    <Description>A mod that randomly assigns to any civilizations (including civilizations from mods) any from the religions available (including religions from mods).[NEWLINE][NEWLINE]Whenever possible the same religion will not be assigned twice to different civilizations, so to ensure the best performance make sure that there are more religions than civilizations (the total number counts, not just those participating in a given game), or at least a very good amount of those.[NEWLINE][NEWLINE]The randomness is ensured only regarding the civilizations's first pick. If someone else got it (including the human player) this mod has no effect whatsoever on what will be chosen instead (which is usually selected from a predefined list starting with Buddhims followed by Christianity etc etc).</Description>
+    <Authors>Ryoga</Authors>
+    <SpecialThanks>Nutty</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8c101299-95c5-4b28-b7ed-4e0f774857ef" minversion="0" maxversion="999" title="Historical Religion Mod" />
+    <Mod id="59a97415-76c7-47e8-8f69-d268dccd9535" minversion="0" maxversion="999" title="Buddhist Denominations" />
+    <Mod id="6c52be67-b7da-4768-9873-1a9ce5011e8e" minversion="0" maxversion="999" title="Christian Denominations" />
+    <Mod id="2f0b6cd7-3bf5-4197-96f6-96c00787ef18" minversion="0" maxversion="999" title="Christianity Merge" />
+    <Mod id="1b456011-7882-4f02-8184-5421e6a2b3fb" minversion="0" maxversion="999" title="Egyptian Denominations" />
+    <Mod id="a8a3f188-f98e-4ba2-91bf-76af49cb0a6d" minversion="0" maxversion="999" title="Greco-Roman Denominations" />
+    <Mod id="cda9bfce-2abf-4b10-b0be-514f850d95cb" minversion="0" maxversion="999" title="Indu Denominations" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="6bc3cb6e-a697-491e-9347-5e3e02640f00" minversion="0" maxversion="999" title="Historical Religions Edit" />
+    <Mod id="524fba76-d0be-447f-9c89-fc56462f9f63" minversion="0" maxversion="999" title="Islamic Denominations" />
+    <Mod id="20dd5230-df95-4722-9043-385fe8b90de6" minversion="0" maxversion="999" title="Medieval Heresies" />
+    <Mod id="5139dcb2-e318-4fe7-a58c-68a59b8339db" minversion="0" maxversion="999" title="Mesopotamian Denominations" />
+    <Mod id="d60c32bd-6826-4ca3-8161-2e37ebab5883" minversion="0" maxversion="999" title="Protestant Denominations" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="23C0B3F213D28E15C53BF91BA66E26E5" import="0">FavoriteReligionRandomizer.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>FavoriteReligionRandomizer.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

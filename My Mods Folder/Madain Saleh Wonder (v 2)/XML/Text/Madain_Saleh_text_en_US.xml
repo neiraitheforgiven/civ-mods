@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MADAIN_SALEH">
+			<Text>Mada'in Saleh</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_MADAIN_SALEH_HELP">
+			<Text>+1 [ICON_CULTURE] Culture from Desert tiles. Oasis tiles produce an additional 2 [ICON_PRODUCTION] Production and 1 [ICON_GOLD] Gold. City must be be built on or next to a desert tile and be built on a hill. </Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_MADAIN_SALEH_QUOTE">
+			<Text>
+				[NEWLINE]"Each of us is carving a stone, erecting a column, or cutting a piece of stained glass in the construction of something much bigger than ourselves.[NEWLINE] - Adrienne Clarkson[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_MADAIN_SALEH_PEDIA">
+			<Text> Mada'in Saleh (Also known as Hegra or Al-Hijr) is the southernmost city of the Nabataean kingdom of the first century CE. Located in Saudi Arabia, it is also the largest of the Nabataean cities outside of Petra, and also features the stone-cut buildings. The main feature of the site is approximately 130 tombs cut from the rock face surrounding the area. Some of these tombs have had most of the cliffs around them weathered away, and so remain as a monumental solitary rock featuring a beautifully preserved tomb. The site was originally settled by Lihyanite people around 7 centuries prior to the Nabataens, although sources within the Qu'ran, the Islamic holy book, tell of an older civilization that inhabited the area 3000 years before this. In the year 106, the area was conquered by Roman armies, whom annexed it into the Roman provence of Arabia. [NEWLINE][NEWLINE] For years the site of Mada'in Saleh has had little disturbance by travellers. This is due to a passage in the Qu'ran in which the non-believers that were in the site were killed by lightning and an earthquake. This resulted in Islamic merchants spreading word of a curse at the site, which for centuries scared travellers enough to stay away from the site. As a result, the area remains in a near pristine condition to this day.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

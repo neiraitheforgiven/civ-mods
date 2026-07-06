@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_SHANGHAI_WFC</Type>
+			<BuildingClass>BUILDINGCLASS_SHANGHAI_WFC</BuildingClass>
+			<Description>TXT_KEY_BUILDING_SHANGHAI_WFC</Description>
+			<Help>TXT_KEY_WONDER_SHANGHAI_WFC_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_SHANGHAI_WFC_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_SHANGHAI_WFC_QUOTE</Quote>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<Gold>1500</Gold>
+			<SpecialistCount>2</SpecialistCount>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_CHINESE_NEW_YEAR</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<WonderSplashImage>SHANGHAI_WFC_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,T</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SHANGHAI_WHC</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_SHANGHAI_WFC</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHANGHAI_WFC</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

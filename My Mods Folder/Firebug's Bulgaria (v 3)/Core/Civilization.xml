@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Civilizations>
+    <Row>
+      <Type>CIVILIZATION_FB_BULGARIA</Type>
+      <Description>TXT_KEY_CIV_FB_BULGARIA_DESC</Description>
+      <Civilopedia></Civilopedia>
+      <CivilopediaTag>TXT_KEY_CIV5_UNUSEDBULGARIA</CivilopediaTag>
+      <Strategy></Strategy>
+      <Playable>1</Playable>
+      <AIPlayable>1</AIPlayable>
+      <ShortDescription>TXT_KEY_CIV_FB_BULGARIA_SHORT_DESC</ShortDescription>
+      <Adjective>TXT_KEY_CIV_FB_BULGARIA_ADJECTIVE</Adjective>
+      <DefaultPlayerColor>PLAYERCOLOR_FB_BULGARIA</DefaultPlayerColor>
+      <ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+      <ArtStyleSuffix>_EURO</ArtStyleSuffix>
+      <ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+      <DerivativeCiv></DerivativeCiv>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>BULGARIA_ATLAS</IconAtlas>
+      <AlphaIconAtlas>BULGARIA_ALPHA</AlphaIconAtlas>
+      <MapImage>BulgariaMap.dds</MapImage>
+      <DawnOfManQuote>TXT_KEY_CIV5_DAWN_UNUSEDBULGARIA_TEXT</DawnOfManQuote>
+      <DawnOfManImage>LevskiDOM.dds</DawnOfManImage>
+      <SoundtrackTag></SoundtrackTag>
+    </Row>
+  </Civilizations>
+
+  <!-- Civilization_BuildingClassOverrides -->
+  <Civilization_CityNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_0</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_1</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_2</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_3</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_4</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_5</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_6</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_7</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_8</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_9</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_10</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_11</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_12</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_13</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_14</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_15</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_16</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_17</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_18</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_19</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_20</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_21</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_22</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_23</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_24</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_25</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_26</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_27</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_28</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_29</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_30</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_31</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_32</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_33</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_34</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_35</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_36</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_37</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_38</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_39</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_40</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_41</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_42</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_43</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_44</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_45</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_46</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_47</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_48</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_49</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_50</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_51</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_52</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_53</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_54</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_55</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_56</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FB_BULGARIA_57</CityName>
+    </Row>
+  </Civilization_CityNames>
+  <!-- Civilization_DisableTechs -->
+  <Civilization_FreeBuildingClasses>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+    </Row>
+  </Civilization_FreeBuildingClasses>
+  <Civilization_FreeTechs>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <TechType>TECH_AGRICULTURE</TechType>
+    </Row>
+  </Civilization_FreeTechs>
+  <Civilization_FreeUnits>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+      <UnitAIType>UNITAI_SETTLE</UnitAIType>
+      <Count>1</Count>
+    </Row>
+  </Civilization_FreeUnits>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+			<RegionType>REGION_GRASS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+  <Civilization_Leaders>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <LeaderheadType>LEADER_LEVSKI</LeaderheadType>
+    </Row>
+  </Civilization_Leaders>
+  <Civilization_Religions>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+    </Row>
+  </Civilization_Religions>
+  <Civilization_SpyNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_FB_BULGARIA_0</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_FB_BULGARIA_1</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_FB_BULGARIA_2</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_FB_BULGARIA_3</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_FB_BULGARIA_4</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_FB_BULGARIA_5</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_FB_BULGARIA_6</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_FB_BULGARIA_7</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_FB_BULGARIA_8</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_FB_BULGARIA_9</SpyName>
+    </Row>
+  </Civilization_SpyNames>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_FB_BULGARIA</CivilizationType>
+      <UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+      <UnitType>UNIT_OPALCHENTSI</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <!-- Civilization_Start_Along_Ocean -->
+  <!-- Civilization_Start_Along_River -->
+  <!-- Civilization_Start_Region_Priority -->
+  <!-- Civilization_Start_Region_Avoid -->
+  <!-- Civilization_Start_Place_First_Along_Ocean -->
+
+  <PlayerColors>
+    <Row>
+      <Type>PLAYERCOLOR_FB_BULGARIA</Type>
+      <PrimaryColor>COLOR_PLAYER_FB_BULGARIA_ICON</PrimaryColor>
+      <SecondaryColor>COLOR_PLAYER_FB_BULGARIA_BACKGROUND</SecondaryColor>
+      <TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+    </Row>
+  </PlayerColors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_FB_BULGARIA_ICON</Type>
+      <Red>0.917</Red>
+      <Green>0.411</Green>
+      <Blue>0.843</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_FB_BULGARIA_BACKGROUND</Type>
+      <Red>0</Red>
+      <Green>0.427</Green>
+      <Blue>0.313</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_CIV_FB_BULGARIA_DESC">
+      <Text>Bulgarian Empire</Text>
+      <Gender>neuter:an</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_FACTOID_HEADING">
+      <Text>United States Factoid</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_FACTOID_TEXT">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_1">
+      <Text>History</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_10">
+      <Text>The BULGARIAn Civil War</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_11">
+      <Text>Westward Ho</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_12">
+      <Text>The Early 20th Century - The World Intrudes</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_13">
+      <Text>The Great Depression</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_14">
+      <Text>The Second World War</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_15">
+      <Text>The US at War</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_16">
+      <Text>BULGARIA in the Second Half of the 20th Century</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_17">
+      <Text>The Cold War</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_18">
+      <Text>The War Against Terrorism</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_19">
+      <Text>The US in the Future</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_2">
+      <Text>Geography and Climate</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_3">
+      <Text>The Native BULGARIAns</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_4">
+      <Text>Enter the Europeans</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_5">
+      <Text>The BULGARIAn Revolution</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_6">
+      <Text>George Washington</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_7">
+      <Text>The Louisiana Purchase</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_8">
+      <Text>The War of 1812</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_HEADING_9">
+      <Text>The Mexican-BULGARIAn War</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_1">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_10">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_11">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_12">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_13">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_14">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_15">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_16">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_17">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_18">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_19">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_2">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_3">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_4">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_5">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_6">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_7">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_8">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TEXT_9">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_UNUSEDBULGARIA_TITLE">
+		<Text>Bulgaria</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_FB_BULGARIA_SHORT_DESC">
+      <Text>Bulgaria</Text>
+      <Gender>neuter:an</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_FB_BULGARIA_ADJECTIVE">
+      <Text>Bulgarian</Text>
+      <Gender>neuter:an</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_DAWN_UNUSEDBULGARIA_TEXT">
+      <Text>Welcome, Vasil Ivanov Kunchev, Bulgarian Revolutionary and National Hero. Inspired by revolutionary ideas you joined the Bulgarian Legion in Serbia to help overthrow Ottoman rule. Tensions were eventually solved diplomatically and the legion was disbanded, but your courage in training and fighting earned you the Nickname 'Lionlike' or Levski in Bulgarian. You later joined a second band of revolutionaries and the Serbian government favoured it's aspirations and allowed the Second Bulgarian Legion to be setup in Belgrade. shortly after, the Legion once again disbanded under diplomatic pressure from the Ottomans. Still determined, and sensing a need for a change of strategy, you began spreading internal propoganda in Bulgaria to spur a revolution. Eventually, you established the Internal Revolutionary Committee. An authorised robbery by a your assistant, despite being successful, eventually led to the capture of the perpetrators who then gave away your leading role in the revolution. This betrayal led to your capture and on the 18th February 1873 you were executed. The IRO disintigrated after your death but nevertheless, after the Russo-Turkish War of 1877–1878, Bulgaria was granted indepedence 5 years after your death.[NEWLINE][NEWLINE]Despite your death and the collapse of the IRO, the Bulgarian people still remember you, Levski. They call you the Apostle of Freedom and your courage, determination and loyalty has left you a National Hero in the eyes of your country. Now you return to create your vision of a "pure and sacred" Bulgaria. A land of ethnic and religious equality, just as you had envisioned. Can your courage once more lead your people? Can you build a civilization that will stand the test of time?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_0">
+      <Text>Sofia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_1">
+      <Text>Plovdiv</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_2">
+      <Text>Varna</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_3">
+      <Text>Burgas</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_4">
+      <Text>Ruse</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_5">
+      <Text>Stara Zagora</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_6">
+      <Text>Pleven</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_7">
+      <Text>Sliven</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_8">
+      <Text>Dobrich</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_9">
+      <Text>Shumen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_10">
+      <Text>Pernik</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_11">
+      <Text>Haskovo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_12">
+      <Text>Yambol</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_13">
+      <Text>Pazardzhik</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_14">
+      <Text>Blagoevgrad</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_15">
+      <Text>Veliko Tarnovo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_16">
+      <Text>Vratsa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_17">
+      <Text>Gabrovo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_18">
+      <Text>Asenovgrad</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_19">
+      <Text>Vidin</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_20">
+      <Text>Kazanlak</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_21">
+      <Text>Kyustendil</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_22">
+      <Text>Kardzhali</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_23">
+      <Text>Montana</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_24">
+      <Text>Dimitrovgrad</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_25">
+      <Text>Targovishte</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_26">
+      <Text>Lovech</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_27">
+      <Text>Silistra</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_28">
+      <Text>Dupnitsa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_29">
+      <Text>Svishtov</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_30">
+      <Text>Razgrad</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_31">
+      <Text>Gorna Oryahovitsa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_32">
+      <Text>Smolyan</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_33">
+      <Text>Petrich</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_34">
+      <Text>Sandanski</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_35">
+      <Text>Samokov</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_36">
+      <Text>Sevlievo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_37">
+      <Text>Lom</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_38">
+      <Text>Karlovo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_39">
+      <Text>Velingrad</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_40">
+      <Text>Nova Zagora</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_41">
+      <Text>Troyan</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_42">
+      <Text>Aytos</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_43">
+      <Text>Botevgrad</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_44">
+      <Text>Gotse Delchev</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_45">
+      <Text>Peshtera</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_46">
+      <Text>Harmanli</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_47">
+      <Text>Karnobat</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_48">
+      <Text>Svilengrad</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_49">
+      <Text>Panagyurishte</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_50">
+      <Text>Chirpan</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_51">
+      <Text>Popovo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_52">
+      <Text>Rakovski</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_53">
+      <Text>Radomir</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_54">
+      <Text>Novi Iskar</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_55">
+      <Text>Kozloduy</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_56">
+      <Text>Parvomay</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FB_BULGARIA_57">
+      <Text>Berkovitsa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_FB_BULGARIA_0">
+      <Text>Bryag</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_FB_BULGARIA_1">
+      <Text>Aleksandrov</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_FB_BULGARIA_2">
+      <Text>Benkovski</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_FB_BULGARIA_3">
+      <Text>Gruev</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_FB_BULGARIA_4">
+      <Text>Delchev</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_FB_BULGARIA_5">
+      <Text>Tsanko</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_FB_BULGARIA_6">
+      <Text>Mara</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_FB_BULGARIA_7">
+      <Text>Tonka</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_FB_BULGARIA_8">
+      <Text>Ana</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_FB_BULGARIA_9">
+      <Text>Anka</Text>
+      <Gender>feminine</Gender>
+    </Row>
+  </Language_en_US>
+</GameData>

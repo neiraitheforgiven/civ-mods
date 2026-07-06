@@ -1,0 +1,51 @@
+-- Credits
+-- Author: JFD
+-- DateCreated: 1/6/2018 1:43:31 PM
+----------------
+JFD: 
+----------------
+	Author
+	Coding 
+	Design 
+	Research 
+	Writing
+----------------
+DarthKyofu: 
+----------------
+	Art (Civ Icon)
+----------------
+Janboruta: 
+----------------
+	Art (Unique Icons)
+----------------
+TarcisioCM: 
+----------------
+	Art (Leaderscene; Map)
+----------------
+Whoward:
+----------------
+	Utilities (PlotIterators.lua)
+	https://forums.civfanatics.com/threads/border-and-area-plot-iterators.474634/
+----------------
+Jeff van Dyck: 
+----------------
+	Music (War)
+	https://youtu.be/pwYX7Neu69U?list=PL60EA75B9FA0CD1F8
+----------------
+The Persian Cataphract: 
+----------------
+	Music (Peace)
+	https://youtu.be/ZcLjdSdvnoM?list=PLnOSH5j1sQh8CB9XcTrm7VD8gYFyZ4lrB
+----------------
+Encyclopedia.com: 
+----------------
+	Pedias (Leader)
+	https://www.encyclopedia.com/people/history/spanish-and-portuguese-history-biographies/alfonso-i-portugal
+----------------
+Wikipedia.com: 
+----------------
+	Pedias (Uniques)
+	https://en.wikipedia.org/wiki/Convent
+	https://en.wikipedia.org/wiki/Order_of_Aviz
+--------------------------------------------------------------
+--------------------------------------------------------------

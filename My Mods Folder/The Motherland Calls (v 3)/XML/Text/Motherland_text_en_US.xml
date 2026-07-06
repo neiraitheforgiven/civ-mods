@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MOTHERLAND">
+			<Text>The Motherland Calls</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_HELP">
+			<Text>A free Great General appears near the city where the wonder was built. +10 [ICON_HAPPINESS_1] Happiness and +10 [ICON_PRODUCTION] Production upon adopting the Communism Social Policy</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_QUOTE">
+			<Text>
+				[NEWLINE]"Everyone imposes his own system as far as his army can reach"[NEWLINE] - Joseph Stalin[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_PEDIA">
+			<Text>The Motherland Calls is an enormous statue located near the city of Volograd, in Russia. It was constructed in 1967 to commemorate the fallen Soviet soldiers that took place in the Battle of Stalingrad during World War 2. At the time of construction, it was declared as the tallest statue in the world, at 91 metres to the tip of the sword. Despite the larger statues, the nature of the posture of the statue required significantly more engineering techniques, with the large 33-metre sword rising well above the main body. Pressed concrete and wire ropes were used to achieve the shape. [NEWLINE][NEWLINE] On the path leading up the hill towards the statue are two hundred stairs, each one representing one day of the Battle of Stalingrad.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

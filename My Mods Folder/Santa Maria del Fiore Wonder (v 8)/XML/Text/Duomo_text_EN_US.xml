@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_DUOMO">
+			<Text>Santa Maria del Fiore</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_DUOMO_HELP">
+			<Text>+1 [ICON_CULTURE] Culture for every two [ICON_CITIZEN] Citizens in this city. Specialists provide +1 [ICON_PEACE] Faith. </Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_DUOMO_QUOTE">
+			<Text>
+				[NEWLINE]"Life well spent is long"[NEWLINE] - Leonardo da Vinci[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_DUOMO_PEDIA">
+			<Text>Basilica di Santa Maria del Fiore (Basilica of Saint Mary of the Flower), known commonly in English as the Florence Cathedral, is a large Catholic Cathedral which dominates the city of Florence, Italy. Construction began in 1296 and took 140 years to complete, during which time the style of construction differed from the original Gothic towards the classical Mediterranean style seen throughout the Rennaisance. The most iconic feature of the cathedral is the large dome, which was not begun until almost one hundred years after construction began, and was an engineering achievement which is believed to have ignited the Italian Rennaisance. The engineers of the project drew inspiration from the Pantheon in Rome for how to complete the dome, however the immense size and scale meant such methods were impossible to complete. Despite being 'finished' in 1469, the fascade of the structure was not actually completed until the 19th century, when a competition was held to win the honour of having the design used as the fascade.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

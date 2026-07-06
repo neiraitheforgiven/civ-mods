@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_INSPIRED_HOMEGUARD_GG</Type>
+			<Description>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG</Description>
+			<Help>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+        <Row>
+            <Type>PROMOTION_INSPIRED_HOMEGUARD_GG2</Type>
+            <Description>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG2</Description>
+            <Help>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG2_HELP</Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PortraitIndex>1</PortraitIndex>
+            <IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+            <PediaType>PEDIA_SHARED</PediaType>
+            <PediaEntry>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG2</PediaEntry>
+            <CannotBeChosen>true</CannotBeChosen>
+        </Row>
+        <Row>
+            <Type>PROMOTION_INSPIRED_HOMEGUARD_GG3</Type>
+            <Description>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG3</Description>
+            <Help>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG3_HELP</Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PortraitIndex>2</PortraitIndex>
+            <IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+            <PediaType>PEDIA_SHARED</PediaType>
+            <PediaEntry>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG3</PediaEntry>
+            <CannotBeChosen>true</CannotBeChosen>
+        </Row>
+		<Row>
+			<Type>PROMOTION_INSPIRED_HOMEGUARD</Type>
+			<Description>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD</Description>
+			<Help>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>40</PortraitIndex>
+			<CapitalDefenseModifier>30</CapitalDefenseModifier>
+			<CapitalDefenseFalloff>-1</CapitalDefenseFalloff>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+        <Row>
+            <Type>PROMOTION_INSPIRED_HOMEGUARD_2</Type>
+            <Description>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_2</Description>
+            <Help>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD2_HELP</Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PortraitIndex>41</PortraitIndex>
+            <CapitalDefenseModifier>38</CapitalDefenseModifier>
+            <CapitalDefenseFalloff>-1</CapitalDefenseFalloff>
+            <IconAtlas>PROMOTION_ATLAS</IconAtlas>
+            <PediaType>PEDIA_SHARED</PediaType>
+            <PediaEntry>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_2</PediaEntry>
+            <CannotBeChosen>true</CannotBeChosen>
+        </Row>
+        <Row>
+            <Type>PROMOTION_INSPIRED_HOMEGUARD_3</Type>
+            <Description>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_3</Description>
+            <Help>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD3_HELP</Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PortraitIndex>42</PortraitIndex>
+            <CapitalDefenseModifier>45</CapitalDefenseModifier>
+            <CapitalDefenseFalloff>-1</CapitalDefenseFalloff>
+            <IconAtlas>PROMOTION_ATLAS</IconAtlas>
+            <PediaType>PEDIA_SHARED</PediaType>
+            <PediaEntry>TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_3</PediaEntry>
+            <CannotBeChosen>true</CannotBeChosen>
+        </Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG">
+			<Text>Inspired Conscript (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG_HELP">
+			<Text>This [COLOR_POSITIVE_TEXT]Legendary[ENDCOLOR] General/Admiral possess characteristics that attracts nearby conscripts to the military, increasing the strength of the army the closer the capital is to their proxmity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG2">
+			<Text>Inspired Milita (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG2_HELP">
+			<Text>This [COLOR_POSITIVE_TEXT]Legendary[ENDCOLOR] Experienced General/Admiral possess characteristics that attracts nearby militas to the military, increasing the strength of the army the closer the capital is to their proximity. Replaces [COLOR_POSITIVE_TEXT]Inspired Conscript[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG3">
+			<Text>Inspired Homeguard (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_GG3_HELP">
+			<Text>This [COLOR_POSITIVE_TEXT]Legendary[ENDCOLOR] Veteran General/Admiral possess characteristics that seems to attract the populace toward the military, increasing the strength of the army the closer the capital is to their proximity. Replaces [COLOR_POSITIVE_TEXT]Inspired Milita[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD">
+			<Text>Inspired Conscript</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_HELP">
+			<Text>+30% [ICON_STRENGTH] Combat Strength that decays based on the proximity of the capital and unit by -1% per tile distance. Acquired when starting the turn near a Great General/Admiral with the [COLOR_POSITIVE_TEXT]Inspired Conscript[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_2">
+			<Text>Inspired Milita</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD2_HELP">
+			<Text>+38% [ICON_STRENGTH] Combat Strength that decays based on the proximity of the capital and unit by -1% per tile distance. Acquired when starting the turn near a Great General/Admiral with the [COLOR_POSITIVE_TEXT]Inspired Milita[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD_3">
+			<Text>Inspired Homeguard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_HOMEGUARD3_HELP">
+			<Text>+45% [ICON_STRENGTH] Combat Strength that decays based on the proximity of the capital and unit by -1% per tile distance. Acquired when starting the turn near a Great General/Admiral with the [COLOR_POSITIVE_TEXT]Inspired Homeguard III[ENDCOLOR] trait.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/22/2014 2:35:32 PM -->
+<GameData>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_GENERIC_AMERICA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Blue Jeans und hört Euren Rock and Roll. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ARABIA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Euer Kufiya und malt Arabesken. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_AZTEC_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk trinkt nun Euer Xocolatl und isst Eure Tacos. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CHINA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Euer Porzellan und schaut Eure Wuxia-Filme. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_EGYPT_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Euer Papyrus und trägt Eure Schminke. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ENGLAND_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Euren Tee und hört Eure Popmusik. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_FRANCE_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk isst nun Euren Käse und nutzt Euer Parfüm. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GERMANY_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Autos und trinkt Euer Bier. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREECE_INFLUENTIAL_ON_AI_1">
+			<Text>User Volk tanzt nun den Sirtaki und schaut eure Tragödien. Die wahre Tragödie ist, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INDIA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk übt nun Yoga aus und schaut Eure Bollywood-Filme. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_IROQUOIS_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk spielt nun Lacrosse und raucht Euren Tabak. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_JAPAN_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Kimono und schaut Eure Animes. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_OTTOMAN_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Fez und isst eure Döner. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_PERSIA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk isst nun Euren Pilaw und kauft Eure Teppiche. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ROME_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Togen und schaut eure Gladiatorenspiele. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RUSSIA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Matrioshkapuppen und trinkt Euren Vodka. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SIAM_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Euren Pha Nung und übt Thaiboxen aus. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SONGHAI_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Schlammtücher und Spielt auf der Kora. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BABYLON_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk ist nun von Eurer Astrologie besessen und glaubt daran, dass deren Schicksal in den Sternen geschrieben steht. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MONGOL_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk spielt nun die Pferdekopfgeige während es lauthals singt. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INCA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Alpakakleidung und kaut Eure Kokablätter. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SPAIN_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk tanzt nun den Flamenco und schaut eure Stierkämpfe. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_POLYNESIA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Shirts und tanzt den Hula. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_DENMARK_INFLUENTIAL_ON_AI_1">
+			<Text>Unsere Kinder wachsen nun mit Euren Märchen auf und spielen mit Euren Plastiksteinen. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_KOREA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Elektronik und spielt Eure Online-Spiele. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_AUSTRIA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Wiener Würstchen und trinkt Eure Energydrinks. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BYZANTIUM_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk verbringt die Tage mit dem Spielen von Backgammon und macht Mosaike. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CARTHAGE_INFLUENTIAL_ON_AI_1">
+			<Text>"Euer tyrisches Violett ist nun das neue Schwarz unter meinem Volk. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CELTS_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun eure Kilts und trinkt Euren Stout. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ETHIOPIA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk trinkt nun Euren Kaffee und macht sich Filzlocken. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HUNS_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk macht nun einen Rückschritt zu Eurer barbarischen und nomadischen Lebensweise. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer ''Kultur'' hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MAYA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk hat nun Euren Kalender angenommen und sieht Katastrophen in der nahen Zukunft voraus. Ich sehe voraus, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_NETHERLANDS_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volkt kauft nun Eure Tulpen und eure Clogs. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SWEDEN_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Möbel und hört Euren Death-Metal. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ASSYRIA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk trinkt nun Euren Anisschnaps und tanzt den Halay. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BRAZIL_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk trinkt nun Euren Caipirinha und hört Euren Bossa Nova. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INDONESIA_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Batik-kleidung und hört Euren Gamelan. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOROCCO_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk isst nun Eure Kuskus und schaut Euren Bauchtänzern zu. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_POLAND_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk isst nun Eure Piroggen und tanzt den Mazurka. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_PORTUGAL_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Azulejo und hört euren Fado. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHOSHONE_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure befiederten Kriegsmützen und kaut Peyote. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VENICE_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Euren Glasschmuck und eure Masken. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ZULU_INFLUENTIAL_ON_AI_1">
+			<Text>Unser Volk kauft nun Eure Vuvuzelas und eure Zeremonienschilder. Ich mache mir Sorgen, dass sich der Rest der Welt auch dem Einfluss Eurer Kultur hingeben wird.</Text>
+		</Row>
+	</Language_DE_DE>
+</GameData>

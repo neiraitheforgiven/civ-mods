@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_ZANBIL">
+			<Text>Chogha Zanbil</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_ZANBIL_HELP">
+			<Text>Provides a free temple in the city in which it is built</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_ZANBIL_QUOTE">
+			<Text>
+				[NEWLINE]"He looked at the walls, awed at the heights his people had achieved, and for a moment - just a moment - all that lay behind him, passed from view."[NEWLINE] - The Epic of Gilgamesh[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_ZANBIL_PEDIA">
+			<Text>Chogha Zanbil, also known as Dur Untash, is a large Ziggurat located in the Iranian province of Khuzestan. It was constructed in approximately 1250 BCE by a king of Elam in an attempt to appease the Elamite deity of Inshushinak, and is one of the few known Ziggurat to have been built outside of Mesopotamia. It is also one of the most intact surviving Ziggurat, with the majority of damage being done in the year 640 BCE by the invading armies of the Assyrian king Ashurbanipal. While the main Ziggurat is dedicated to Inshushinak, the complex included an estimated eleven more temples to other gods in the Pantheon, with more temples planned prior to the death of the king which commissioned the project. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

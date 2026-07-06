@@ -1,0 +1,51 @@
+<GameData>
+	<Audio_Sounds>
+
+		<!--FB_BULGARIA Music-->
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_LEVSKI_PEACE</SoundID>
+			<Filename>BulgariaPeace</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_LEVSKI_WAR</SoundID>
+			<Filename>BulgariaWar</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_AMBIENCE_LEADER_LEVSKI_AMBIENCE</SoundID>
+			<Filename>LevskiAmbient</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<!--FB_BULGARIA Music For Audio Scripts-->
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_LEVSKI_PEACE</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_LEVSKI_PEACE</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>120</MinVolume>
+			<MaxVolume>120</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_LEVSKI_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_LEVSKI_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>80</MinVolume>
+			<MaxVolume>80</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_AMBIENCE_LEADER_LEVSKI_AMBIENCE</ScriptID>
+			<SoundID>SND_AMBIENCE_LEADER_LEVSKI_AMBIENCE</SoundID>
+			<SoundType>GAME_SFX</SoundType>
+			<Looping>true</Looping>
+			<MinVolume>60</MinVolume>
+			<MaxVolume>60</MaxVolume>
+		</Row>
+		<!--FB_BULGARIA Music-->
+	</Audio_2DSounds>
+
+
+</GameData>

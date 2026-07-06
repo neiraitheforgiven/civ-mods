@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_LA_MAESTRANZA">
+			<Text>La Maestranza</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_LA_MAESTRANZA_HELP">
+			<Text>+4 [ICON_CULTURE] Culture from each source of Cattle worked by the city</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_LA_MAESTRANZA_QUOTE">
+			<Text>
+				[NEWLINE]"Bullfighting is the only art in which the artist is in danger of death and in which the degree of brilliance in the performance is left to the fighter's honor."[NEWLINE] - Ernest Hemingway[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_LA_MAESTRANZA_PEDIA">
+			<Text>La Maestranza (Full name Plaza de toros de la Real Maestranza de Caballería de Sevilla, meaning 'Plaza of bulls of the Royal Cavalry Armoury of Seville) is a large bullring located in Seville, Spain. It is the oldest bullring in Spain, at 132 years of age. Construction began in 1749, and took over 100 years. This was largely due to King Carlos III prohibiting bullfighting, the primary reason for the construction, in 1786. It is unknown when construction resumed. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

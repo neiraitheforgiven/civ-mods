@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d5a0617c-0b60-437a-8c29-1eeba24f98df" version="1">
+  <Properties>
+    <Name>(Urdnots) Wales Owain Glyndwr</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Adds the Welsh civilisation under rebel hero Owain Glyndwr to the game. As one of the last refuges of the original celtic peopl</Teaser>
+    <Description>Adds the Welsh civilisation under rebel hero Owain Glyndwr to the game. As one of the last refuges of the original celtic peoples of England, Wales developed a distinct culture from her larger Germanic neighbour. Like her celtic bretheren in Ireland and Scotland, Welsh culture thrived on bardic poetry and tales of epic fantasy. Welsh bowmen were some of the greatest in the world and served as a serious thorn in the side of the invading English and, one integrated into the English armies, became the bane of great Kingdoms like France.</Description>
+    <Authors>Urdnot_Scott</Authors>
+    <SpecialThanks>Gpuzzle, COF, JFD, Janbouruta and generally all the great guys at CFC.</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="culdiv" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="EnD" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="1507E48ABE7CDA4D9EDD4B21FB6BB493" import="0">Art/Atlas/AtlasDefines.xml</File>
+    <File md5="AF6C4FF3AD5BCA1F095CC9B484A2981D" import="1">Art/Atlas/Saethwyr_Atlas.dds</File>
+    <File md5="F8AB331CDE5E13E7CF5B41A5959FE379" import="1">Art/Atlas/Urdnot_WalesAtlas_128.dds</File>
+    <File md5="C32F3F59CA3F69F32E5C628C16E720E8" import="1">Art/Atlas/Urdnot_WalesAtlas_256.dds</File>
+    <File md5="8C7EFA564E1651685355786D2E7FAAB5" import="1">Art/Atlas/Urdnot_WalesAtlas_32.dds</File>
+    <File md5="FCC2591F7F32957DC72F7D5447B81C33" import="1">Art/Atlas/Urdnot_WalesAtlas_45.dds</File>
+    <File md5="C5A71CF704CBAA59DC57A28174E81E7E" import="1">Art/Atlas/Urdnot_WalesAtlas_64.dds</File>
+    <File md5="B37AA82B77C0D51A8EE6245A9DD42827" import="1">Art/Atlas/Urdnot_WalesAtlas_80.dds</File>
+    <File md5="3ADE04E0660AED64DBE52BC8B681B840" import="1">Art/Atlas/WalesAlpha128.dds</File>
+    <File md5="5B8698CD0D22F8533F5D10A37ECE6491" import="1">Art/Atlas/WalesAlpha16.dds</File>
+    <File md5="2455C1B025EE7A3C54B65FAF01335572" import="1">Art/Atlas/WalesAlpha24.dds</File>
+    <File md5="4FC4D9CB2F44ED5C9DC8777D2307F6E3" import="1">Art/Atlas/WalesAlpha256.dds</File>
+    <File md5="D1E72ACF7B3A77D552DB93EC25B65882" import="1">Art/Atlas/WalesAlpha32.dds</File>
+    <File md5="0A34A224B0C52B8478A362B03C240407" import="1">Art/Atlas/WalesAlpha45.dds</File>
+    <File md5="9567B2A9C06744CD5C9A20C47FCDDAF4" import="1">Art/Atlas/WalesAlpha48.dds</File>
+    <File md5="9293131967F8F4513CFFBBF4E19B8456" import="1">Art/Atlas/WalesAlpha64.dds</File>
+    <File md5="2EE97BBDF6D37BC2A107059AEC4A9336" import="1">Art/Atlas/WalesAlpha80.dds</File>
+    <File md5="104CD7546DAF45913B2B09172DFCCFB1" import="0">Art/Audio/US_Wales_audio.sql</File>
+    <File md5="CF91E2D674B54C6B78DD9144CC108B20" import="1">Art/Audio/Wales_Peace.mp3</File>
+    <File md5="1E0CF11E3885245787C291DF10F7E627" import="1">Art/Audio/Wales_War.mp3</File>
+    <File md5="CC14F1B7A2A18CA908AAFF077FDA03E8" import="1">Art/Unit/Composite_Bowman_England.dds</File>
+    <File md5="53BA336488FE46EBC443F737422D520E" import="1">Art/Unit/Composite_Bowman_England.fxsxml</File>
+    <File md5="EA7A7F831C57D9127EA8E7D441DCEC87" import="1">Art/Unit/Composite_Bowman_England.gr2</File>
+    <File md5="27E8E1EA863C36919CE4F517B897F6B6" import="1">Art/Unit/Composite_Bowman_England_gloss.dds</File>
+    <File md5="BF5318D4A212D55CD898F81055AED400" import="0">Art/Unit/US_Longbowman.sql</File>
+    <File md5="100777C43395B191C13CA1B94535A6B8" import="1">Art/Urdnot_Wales_Diplo.dds</File>
+    <File md5="AD3E0157A07CE42019642F8C581B2B84" import="1">Art/Urdnot_Wales_DOM.dds</File>
+    <File md5="5FB760C28A7E8B89E572BCEE1B5E0C44" import="1">Art/Urdnot_Wales_Map.dds</File>
+    <File md5="48E90EB0FBDA93D222F98591A28AE441" import="1">Art/Wales_diplo.xml</File>
+    <File md5="E946E24AA1F9CFF5215267808285E1D7" import="0">Core/Diplomacy.sql</File>
+    <File md5="406EA4B6E31A53D714BD8141B8A89AEC" import="0">Core/Diplomacy_Text.xml</File>
+    <File md5="59FB487A994518411114347455F644B7" import="0">Core/Modded_WonderDummies.xml</File>
+    <File md5="8F3BC4475F8DCFC16FA8BE7D4FFD0B5D" import="0">Core/ModSupport.SQL</File>
+    <File md5="B4E81D2D2D04D131F755A6463FE0C829" import="0">Core/Trait.xml</File>
+    <File md5="4B0568CDE0A4FF736A52A959CFDE548F" import="0">Core/Wales_BuildingClasses.xml</File>
+    <File md5="340DFAC0C01EF026382FFD73BDE882F5" import="0">Core/Wales_Buildings.xml</File>
+    <File md5="C15032E3097303EBCF05639ACA558FC2" import="0">Core/Wales_Civilizations.xml</File>
+    <File md5="924A8BD890CCF87139294670F636F8FE" import="0">Core/Wales_Leader.xml</File>
+    <File md5="B3264A373C97D6E1750360F22B726CF6" import="0">Core/Wales_Text.xml</File>
+    <File md5="E2D9A8B4C6C4DB2811389EE264996579" import="0">Core/Wales_Units.xml</File>
+    <File md5="BB375E23782BB9EB1C8A437E2A26B01A" import="0">Core/Wales_WonderDummies.xml</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">LUA/Plotiterators.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">LUA/SaveUtils.lua</File>
+    <File md5="03A3483F4662B1C6CA6C7E2E5B6F4386" import="1">LUA/WelshDecisions.lua</File>
+    <File md5="A1FC9E0C80F0A662153D918BCF522433" import="0">LUA/WelshFunctions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Atlas/AtlasDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Audio/US_Wales_audio.sql</UpdateDatabase>
+      <UpdateDatabase>Art/Unit/US_Longbowman.sql</UpdateDatabase>
+      <UpdateDatabase>Art/Wales_diplo.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Diplomacy_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Modded_WonderDummies.xml</UpdateDatabase>
+      <UpdateDatabase>Core/ModSupport.SQL</UpdateDatabase>
+      <UpdateDatabase>Core/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Wales_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Wales_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Wales_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Wales_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Wales_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Wales_Units.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Wales_WonderDummies.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/SaveUtils.lua">
+      <Name>dr my utils need saving</Name>
+      <Description>do something</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/WelshFunctions.lua">
+      <Name>funkytions</Name>
+      <Description>damn they so funky</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

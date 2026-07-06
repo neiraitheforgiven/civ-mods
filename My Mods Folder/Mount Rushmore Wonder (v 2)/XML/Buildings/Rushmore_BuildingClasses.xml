@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_RUSHMORE</Type>
+			<DefaultBuilding>BUILDING_RUSHMORE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_RUSHMORE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+</GameData>

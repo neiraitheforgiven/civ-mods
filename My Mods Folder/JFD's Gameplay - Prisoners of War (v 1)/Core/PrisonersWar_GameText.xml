@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CONCEPTS-->
+		<!--===================================================-->
+		<!--Prisoners of War-->
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_HEADING1_TITLE">
+			<Text>Prisoners of War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRISONERS_WAR_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Prisoners of War[ENDCOLOR] is a new gameplay mechanic resulting from your combat victories. Successfully defeating an enemy unit now has a chance to leave you with prisoners of war, based on the advancement of your military Technologies. Prisoners of War must be dealt with through one of several actions, each rewarding a different Yield.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--BELIEFS-->
+		<!--===================================================-->
+		<!--Sacrificial Captives-->
+		<Row Tag="TXT_KEY_BELIEF_JFD_SACRIFICIAL_CAPTIVES_SHORT">
+			<Text>Sacrificial Captives</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JFD_SACRIFICIAL_CAPTIVES">
+			<Text>Can sacrifice [ICON_JFD_PRISONERS_WAR] Prisoners of War for [ICON_PEACE] Faith</Text>
+		</Row>
+		<!--===================================================-->
+		<!--TECHS-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_10_PRISONER_WAR_CHANCE" >
+			<Text>Increases chance to capture [ICON_JFD_PRISONERS_WAR] Prisoners of War from combat (10%).</Text>
+		</Row>
+		<!--===================================================-->
+		<!--TRAITS-->
+		<!--===================================================-->
+		<!--Aztecs-->
+		<Row Tag="TXT_KEY_TRAIT_AZTECS_JFD_PRISONERS_WAR">
+			<Text>Gains [ICON_CULTURE] Culture from each enemy unit killed. Can always choose to sacrifice [ICON_JFD_PRISONERS_WAR] Prisoners of War for [ICON_PEACE] Faith and has +15% chance in capturing them.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--WORLD WONDERS-->
+		<!--===================================================-->
+		<!--Statue of Zeus-->
+		<Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP_JFD_PRISONERS_WAR">
+			<Text>Requires Honor. All units gain +15% [ICON_STRENGTH] combat strength when attacking cities. +20% chance to capture [ICON_JFD_PRISONERS_WAR] Prisoners of War.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

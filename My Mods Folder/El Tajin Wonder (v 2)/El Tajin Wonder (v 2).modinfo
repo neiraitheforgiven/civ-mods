@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="011e0e30-9928-4f1b-9722-4b843f59bc87" version="2">
+  <Properties>
+    <Name>El Tajin Wonder</Name>
+    <Teaser>El Tajín is a large Pre-Columbian city located in the state of Veracruz, Mexico. It is not clear what culture constructed it.</Teaser>
+    <Description>El Tajín is a large Pre-Columbian city located in the state of Veracruz, Mexico. It is not clear what culture constructed the site, although the city is believed to have had over 50 different ethnicities at it's height. It is believed the city was first founded in the first century CE, from which point it steadily rose through trade until reaching its height from 600-1200 CE, at which point it was a proseperous city state with advanced farms and beliefs. Ingame, El Tajín provides +3 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold, while it requires Drama and Poetry.</Description>
+    <Authors>Pouakai, sukritact, chrisifniotis</Authors>
+    <SpecialThanks>Ambrox62</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="AF8173788532C91FDB64A9892A4803DB" import="1">Art/Tajin_128.dds</File>
+    <File md5="22C82F9BE935B4E2C43A47033CD46F74" import="1">Art/Tajin_256.dds</File>
+    <File md5="D9B1801B27B47948D67FE863B0705A21" import="1">Art/Tajin_45.dds</File>
+    <File md5="43CEC2C4A759D58EE994DC7A82E797E6" import="1">Art/Tajin_64.dds</File>
+    <File md5="FB4EABC7A480F322F30CE6B424E8F0AD" import="1">Art/Tajin_80.dds</File>
+    <File md5="3AFEBF3CA979EAA4DC74B6FC34564793" import="1">Art/Tajin_splash.dds</File>
+    <File md5="D031A5535006F414DB05E958F22D19CD" import="0">XML/Buildings/Tajin_BuildingClasses.xml</File>
+    <File md5="1AAE322077F99DB467752D6D39B0C383" import="0">XML/Buildings/Tajin_Buildings.xml</File>
+    <File md5="38CF7EB717DE8FA0546D708CBCAC407D" import="0">XML/Civilizations/Tajin_Civilizations.xml</File>
+    <File md5="D9EF25CB3040244F5EEECD1FCDAA0DDD" import="0">XML/GameInfo/Tajin_IconTextureAtlases.xml</File>
+    <File md5="7A3597E481092C087CF2DF086B86E92F" import="0">XML/Text/Tajin_text_EN_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Tajin_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Tajin_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Tajin_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Tajin_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Tajin_text_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_BANZAI_GG</Type>
+			<Description>TXT_KEY_PROMOTION_BANZAI_GG</Description>
+			<Help>TXT_KEY_PROMOTION_BANZAI_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BANZAI_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BANZAI_GG2</Type>
+			<Description>TXT_KEY_PROMOTION_BANZAI_GG2</Description>
+			<Help>TXT_KEY_PROMOTION_BANZAI_GG2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BANZAI_GG2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BANZAI_GG3</Type>
+			<Description>TXT_KEY_PROMOTION_BANZAI_GG3</Description>
+			<Help>TXT_KEY_PROMOTION_BANZAI_GG3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BANZAI_GG3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BANZAI</Type>
+			<Description>TXT_KEY_PROMOTION_BANZAI</Description>
+			<Help>TXT_KEY_PROMOTION_BANZAI_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>24</PortraitIndex>
+			<AttackMod>15</AttackMod>
+			<DefenseMod>-15</DefenseMod>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BANZAI</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BANZAI2</Type>
+			<Description>TXT_KEY_PROMOTION_BANZAI2</Description>
+			<Help>TXT_KEY_PROMOTION_BANZAI2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>24</PortraitIndex>
+			<AttackMod>20</AttackMod>
+			<DefenseMod>-15</DefenseMod>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BANZAI2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BANZAI3</Type>
+			<Description>TXT_KEY_PROMOTION_BANZAI3</Description>
+			<Help>TXT_KEY_PROMOTION_BANZAI3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>25</PortraitIndex>
+			<AttackMod>25</AttackMod>
+			<DefenseMod>-15</DefenseMod>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BANZAI3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_BANZAI_GG">
+			<Text>Banzai I (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BANZAI_GG_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Brutal[ENDCOLOR] General/Admiral has a tendency of having soldiers charge toward the battlefield without explanation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BANZAI_GG2">
+			<Text>Despaired (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BANZAI_GG2_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Brutal[ENDCOLOR], but Experienced General/Admiral has a tactical expertise with the wastefulness of soldiers. Replaces [COLOR_NEGATIVE_TEXT]Banzai I[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BANZAI_GG3">
+			<Text>Banzai III (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BANZAI_GG3_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Brutal[ENDCOLOR], but Veteran General/Admiral uses powerful wave tactics to strike fear into the enemy at the cost of morale. Replaces [COLOR_NEGATIVE_TEXT]Banzai II[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BANZAI">
+			<Text>Banzai I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BANZAI_HELP">
+			<Text>+15% [ICON_STRENGTH] Attack. -15% [ICON_STRENGTH] Defense. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Banzai I[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BANZAI2">
+			<Text>Banzai II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BANZAI2_HELP">
+			<Text>+20% [ICON_STRENGTH] Attack. -15% [ICON_STRENGTH] Defense. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Banzai II[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BANZAI3">
+			<Text>Banzai III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BANZAI3_HELP">
+			<Text>+25% [ICON_STRENGTH] Attack. -15% [ICON_STRENGTH] Defense.Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Banzai III[ENDCOLOR] trait.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

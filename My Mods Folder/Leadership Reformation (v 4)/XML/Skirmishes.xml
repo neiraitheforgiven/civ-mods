@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SKIRMISH_GG</Type>
+			<Description>TXT_KEY_PROMOTION_SKIRMISH_GG</Description>
+			<Help>TXT_KEY_PROMOTION_SKIRMISH_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SKIRMISH_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SKIRMISH_GG2</Type>
+			<Description>TXT_KEY_PROMOTION_SKIRMISH_GG2</Description>
+			<Help>TXT_KEY_PROMOTION_SKIRMISH_GG2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SKIRMISH_GG2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SKIRMISH_GG3</Type>
+			<Description>TXT_KEY_PROMOTION_SKIRMISH_GG3</Description>
+			<Help>TXT_KEY_PROMOTION_SKIRMISH_GG3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SKIRMISH_GG3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SKIRMISH</Type>
+			<Description>TXT_KEY_PROMOTION_SKIRMISH</Description>
+			<Help>TXT_KEY_PROMOTION_SKIRMISH_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>16</PortraitIndex>
+			<OpenAttack>-20</OpenAttack>
+			<OpenDefense>-20</OpenDefense>
+			<RoughAttack>20</RoughAttack>
+			<RoughDefense>20</RoughDefense>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SKIRMISH</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SKIRMISH2</Type>
+			<Description>TXT_KEY_PROMOTION_SKIRMISH2</Description>
+			<Help>TXT_KEY_PROMOTION_SKIRMISH2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>16</PortraitIndex>
+			<OpenAttack>-15</OpenAttack>
+			<OpenDefense>-15</OpenDefense>
+			<RoughAttack>20</RoughAttack>
+			<RoughDefense>20</RoughDefense>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SKIRMISH2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SKIRMISH3</Type>
+			<Description>TXT_KEY_PROMOTION_SKIRMISH3</Description>
+			<Help>TXT_KEY_PROMOTION_SKIRMISH3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>16</PortraitIndex>
+			<OpenAttack>-10</OpenAttack>
+			<OpenDefense>-10</OpenDefense>
+			<RoughAttack>20</RoughAttack>
+			<RoughDefense>20</RoughDefense>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SKIRMISH3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISH_GG">
+			<Text>Skirmish I (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISH_GG_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Incompetent[ENDCOLOR] General has a tendency of only accepting to fight among the dense forest and hilled areas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISH_GG2">
+			<Text>Skirmish II (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISH_GG2_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Incompetent[ENDCOLOR], but Experienced General has a tendency of rarely accepting to fight among the open terrain only by some experience. Replaces [COLOR_NEGATIVE_TEXT]Skirmish I[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISH_GG3">
+			<Text>Skirmish III (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISH_GG3_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Incompetent[ENDCOLOR], but Veteran General would avoid fights on open terrain. Replaces [COLOR_NEGATIVE_TEXT]Skirmish II[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISH">
+			<Text>Skirmish I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISH_HELP">
+			<Text>+20% [ICON_STRENGTH] Strength on [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] terrain. -20% [ICON_STRENGTH] on [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] terrain. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Skirmish I[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISH2">
+			<Text>Skirmish II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISH2_HELP">
+			<Text>+20% [ICON_STRENGTH] Strength on [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] terrain. -15% [ICON_STRENGTH] on [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] terrain. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Skirmish II[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISH3">
+			<Text>Skirmish III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISH3_HELP">
+			<Text>+20% [ICON_STRENGTH] Strength on [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] terrain. -10% [ICON_STRENGTH] on [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] terrain. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Skirmish III[ENDCOLOR] trait.</Text>
+		</Row>
+</GameData>

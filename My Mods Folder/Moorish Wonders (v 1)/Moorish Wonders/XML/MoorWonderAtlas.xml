@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/30/2014 12:32:46 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>MOOR_WONDER_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>moorishwonder256.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOOR_WONDER_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>moorishwonder128.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOOR_WONDER_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>moorishwonder64.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOOR_WONDER_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>moorishwonder80.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOOR_WONDER_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>moorishwonder45.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!--Resource tags-->
+		<Row Tag="TXT_KEY_RESOURCE_TEA">
+			<Text>Tea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_TEA_TEXT">
+			<Text>Tea is a beverage made most commonly from the leaves of the Camellia sinensis plant and hot water, among other ingredients. It has been long drunk in east Asian countries such as China, but became popular in the west and particularily Britain during the period in which they had control of the Indian subcontinent. Many tea plantations begun by the british are still in operation today, primarily in the Himalayan foothills around Darjeeling and on the island of Sri Lanka (formerly Ceylon) and remains to this day a favourite beverage of many.</Text>
+		</Row>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_DARJEELING">
+			<Text>Darjeeling Himalayan Railway</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_DARJEELING_HELP">
+			<Text>Provides +3 [ICON_RES_TEA] Tea resources. City must be built on a hill. </Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_DARJEELING_QUOTE">
+			<Text>
+				[NEWLINE]"There are many paths to the top of the mountain, but the view is always the same"[NEWLINE] - Chinese Proverb[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_DARJEELING_PEDIA">
+			<Text>The Darjeeling Himalayan Railway is a narrow-gauge railway that operates between the Indian cities of Siliguri and Darjeeling, in the North-East of the country. It features a vertical ascent of approximately 2,100 metres along the 78 kilometre track, and was built during the British Raj period of the colonialism of the country in order to provide railroad access to the area, which was perfect for Tea plantations. It is often referred to as the 'Toy train' due to the small size of the train and tracks, a design which was deliberate to allow the train to handle the steep ascent to Darjeeling. The railway was closed for a brief period in the late 1980's during a violent Gorkhaland movement, in which residents of the area campaigned for a seperate state within India to recognise their ethnic heritage of Gorkhas. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

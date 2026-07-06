@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d613c0e4-106f-4957-8cb7-0958ea99e1f3" version="1">
+  <Properties>
+    <Name>Mesa Verde Wonder</Name>
+    <Teaser>Mesa Verde is a large Pueblo settlement located in the modern American state of Colorado. It is most famous for the Cliff Palace</Teaser>
+    <Description>Mesa Verde is a large Pueblo settlement located in the modern American state of Colorado. It is most famous for the Cliff Palace, the largest known cliff dwelling in North America, but there are several more buildings within the area, including resevoirs and defensive towers. Mesa Verde was most active during the 12th century, before overpopulation and climate change led to a quick decline a century later. The site was declared a natural park by US President Theodore Roosevelt in 1906 to, in his words, 'Preserve the works of man". Ingame, Mesa Verde provides +1 food from desert tiles, and +50% Great Person generation in the city in which it is built, while it must be built in a city on or next to a desert and requires Trapping.</Description>
+    <Authors>Pouakai, Janboruta</Authors>
+    <SpecialThanks>Sukritact</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="B50C391CEB3C95B099BC70D8116F220B" import="1">Art/MesaVerde_128.dds</File>
+    <File md5="42B027FFF9BBCC71E4788E784F35D035" import="1">Art/MesaVerde_256.dds</File>
+    <File md5="86F00642B194E688A9BE8DADCDCF6D5A" import="1">Art/MesaVerde_45.dds</File>
+    <File md5="FBD3C484BF97CD298D35D257F63CD97C" import="1">Art/MesaVerde_64.dds</File>
+    <File md5="BF2ECFDED0A51BDEB6CC33FA14FE40CD" import="1">Art/MesaVerde_80.dds</File>
+    <File md5="C81F652028B4BC1FDCC03A8707D82DDB" import="1">Art/MesaVerde_splash.dds</File>
+    <File md5="942742AB76BD13090EC2A1A149200C95" import="0">XML/Buildings/MesaVerde_BuildingClasses.xml</File>
+    <File md5="992E7C5EB92654C2EB70FF6D8EF67173" import="0">XML/Buildings/MesaVerde_Buildings.xml</File>
+    <File md5="67B09597DFA0AF1E71E3A4171D3C632D" import="0">XML/Civilizations/MesaVerde_Civilizations.xml</File>
+    <File md5="6F9518583AFB6136D7FD333449342081" import="0">XML/GameInfo/MesaVerde_IconTextureAtlases.xml</File>
+    <File md5="08A4C5BA9B915DEA2AA4C44AAD1E7316" import="0">XML/Text/MesaVerde_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/MesaVerde_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/MesaVerde_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/MesaVerde_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/MesaVerde_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/MesaVerde_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

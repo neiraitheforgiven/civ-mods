@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_TAJIN">
+			<Text>El Tajín</Text>
+		</Row>
+		<!-- Help tags -->
+		<!--<Row Tag="TXT_KEY_WONDER_TAJIN_HELP">
+			<Text></Text>
+		</Row>-->
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_TAJIN_QUOTE">
+			<Text>
+				[NEWLINE]"I was like a fledgling swallow living high up in a niche in the eaves, who from time to time peeps out over the top of its nest"[NEWLINE]- Pierre Loti</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_TAJIN_PEDIA">
+			<Text>El Tajín is one of the largest and most important pre-Colombian cities in Classical Mesoamerica. From as far back as at least 5600 BC, nomadic hunters and gatherers became farmers to create the complex societies of a civilization. While the city's rise in both prominence and progression hastened during the rise of the Olmec, c. 1150 BC, it is still not entirely clear who did build the city, though mounting evidence suggests the Huastec culture.[NEWLINE][NEWLINE]Monumental construction began at about the first century CE, and from this by 600 El Tajín was a city. The city's position over the Mesoamerican trade routes is largely due to its rise; the city was able to control the flow of the import and export of commodites. One of its major trade partners of its time was Teotihuacan.[NEWLINE][NEWLINE]The most noted feature of the site is the Pyramid of Niches. This structure has seven stories, each of which consist of a sloping base and a vertical wall. These features are common in Mesoamerican architecture, but the pyramid also contains uncommon designs, mainly decorative niches. The original design of this pyramid was ritual; the niches imitate caves, these were considered to be underground passages to the underworld, where a number of the gods lived.[NEWLINE][NEWLINE]El Tajín lasted up to the thirteenth century when it caught on fire, it is assumed that the invading Chichimecas at the time are to blame. The jungle took over the site and it rested dormant for more than half a millenium, until 1785; a chance discovery by Diego Ruiz stumbled upon the Pyramid of Niches. At the time Ruiz was searching for clandestine tobacco plantations that breached the royal monopoly.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

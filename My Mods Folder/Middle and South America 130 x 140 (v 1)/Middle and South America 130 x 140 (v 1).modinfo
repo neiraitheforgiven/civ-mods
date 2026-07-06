@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b79500bb-1de7-4cd3-af80-45c1170b869b" version="1">
+  <Properties>
+    <Name>Middle and South America 130 x 140</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Map of middle and south America, size 130 x 140</Teaser>
+    <Description>Map of middle and south America, size 130 x 140.
+
+Does not include any resources or starting locations (all on random).</Description>
+    <Authors>Imperator</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="7E90DBBFE587F31F07A9BBE01D94F74A" import="0">Middle and South America 130 x 140.Civ5Map</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="Map" file="Middle and South America 130 x 140.Civ5Map">
+      <Name>Middle and South America 130 x 140</Name>
+      <Description>Map of middle and south America, size 130 x 140.</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

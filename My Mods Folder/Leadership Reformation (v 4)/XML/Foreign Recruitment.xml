@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_FOREIGN_GG</Type>
+			<Description>TXT_KEY_PROMOTION_FOREIGN_GG</Description>
+			<Help>TXT_KEY_PROMOTION_FOREIGN_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FOREIGN_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FOREIGN_GG2</Type>
+			<Description>TXT_KEY_PROMOTION_FOREIGN_GG2</Description>
+			<Help>TXT_KEY_PROMOTION_FOREIGN_GG2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FOREIGN_GG2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FOREIGN_GG3</Type>
+			<Description>TXT_KEY_PROMOTION_FOREIGN_GG3</Description>
+			<Help>TXT_KEY_PROMOTION_FOREIGN_GG3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FOREIGN_GG3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FOREIGN</Type>
+			<Description>TXT_KEY_PROMOTION_FOREIGN</Description>
+			<Help>TXT_KEY_PROMOTION_FOREIGN_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>12</PortraitIndex>
+			<CaptureDefeatedEnemy>true</CaptureDefeatedEnemy>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FOREIGN</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FOREIGN2</Type>
+			<Description>TXT_KEY_PROMOTION_FOREIGN2</Description>
+			<Help>TXT_KEY_PROMOTION_FOREIGN2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>12</PortraitIndex>
+			<CaptureDefeatedEnemy>true</CaptureDefeatedEnemy>
+			<HPHealedIfDestroyEnemy>5</HPHealedIfDestroyEnemy>
+			<HealIfDestroyExcludesBarbarians>true</HealIfDestroyExcludesBarbarians>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FOREIGN2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FOREIGN3</Type>
+			<Description>TXT_KEY_PROMOTION_FOREIGN3</Description>
+			<Help>TXT_KEY_PROMOTION_FOREIGN3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>12</PortraitIndex>
+			<CaptureDefeatedEnemy>true</CaptureDefeatedEnemy>
+			<HPHealedIfDestroyEnemy>10</HPHealedIfDestroyEnemy>
+			<HealIfDestroyExcludesBarbarians>true</HealIfDestroyExcludesBarbarians>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FOREIGN3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN_GG">
+			<Text>Foreign Recruitment I (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN_GG_HELP">
+			<Text>This Great General is a general who would often recruit foreigners into his or her armies. Cannot earn experience, if the enemy is captured!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN_GG2">
+			<Text>Foreign Recruitment II (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN_GG2_HELP">
+			<Text>This Great Experienced General is a general who persuades foreigners into his or her armies using his or her words. Cannot earn experience, if the enemy is captured! Replaces [COLOR_POSITIVE_TEXT]Foreign Recruitment I[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN_GG3">
+			<Text>Foreign Recruitment III (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN_GG3_HELP">
+			<Text>This Great Veteran General is although successful, his or her ability to even recruit enemies seems to raise suspicion. Replaces [COLOR_POSITIVE_TEXT]Foreign Recruitment III[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN">
+			<Text>Foreign Recruitment I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN_HELP">
+			<Text>Chance to captured defeated enemies. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Foreign Recruitment I[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN2">
+			<Text>Foreign Recruitment II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN2_HELP">
+			<Text>Chance to captured defeated enemies. +5 HP regenerated upon killing an enemy. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Foreign Recruitment II[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN3">
+			<Text>Foreign Recruitment III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN3_HELP">
+			<Text>Chance to captured defeated enemies. +10 HP regenerated upon killing an enemy. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Foreign Recruitment III[ENDCOLOR] trait.</Text>
+		</Row>
+</GameData>

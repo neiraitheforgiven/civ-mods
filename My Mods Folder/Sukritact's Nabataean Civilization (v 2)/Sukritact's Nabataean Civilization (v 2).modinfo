@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e3b13846-bc62-49bc-aacd-dce7119d4e01" version="2">
+  <Properties>
+    <Name>Sukritact's Nabataean Civilization</Name>
+    <Teaser>Nabataea: Builders of Petra</Teaser>
+    <Description>The Nabataeans were an Arab people who inhabited northern Arabia and the Southern Levant, and whose settlements, most prominently Petra, are famed throughout the world.</Description>
+    <Authors>Sukritact, JanBoruta, Regalman</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp; Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD's Cities in Development" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD's and Pouakai's Mercenaries" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions" />
+    <Mod id="be2d13ee-d18d-410e-8f04-7cd19cd99a98" minversion="0" maxversion="999" title="More Luxuries" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD's Rise to Power" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="38EB4D657F6DAD48DE79EA93C3568C96" import="1">Art/Atlas/MC_Nabatea_128.dds</File>
+    <File md5="ED103EDE5179607C91761D2878AD3B1F" import="1">Art/Atlas/MC_Nabatea_16.dds</File>
+    <File md5="37DC7B529AEACA0E0FA1391DE9E895B2" import="1">Art/Atlas/MC_Nabatea_24.dds</File>
+    <File md5="E89689C27938C79E43DEA0A717E3BE1C" import="1">Art/Atlas/MC_Nabatea_256.dds</File>
+    <File md5="0D8E9FCE21FC0E8D8C208B7A83F430DF" import="1">Art/Atlas/MC_Nabatea_32.dds</File>
+    <File md5="8D88DC5DEFC8D2121DE5557A7C7CD455" import="1">Art/Atlas/MC_Nabatea_45.dds</File>
+    <File md5="AAB2863AC1455BCF8F62BE922A1464B9" import="1">Art/Atlas/MC_Nabatea_48.dds</File>
+    <File md5="6669F93FB9A4E1EC45E957C0E0A77A3F" import="1">Art/Atlas/MC_Nabatea_64.dds</File>
+    <File md5="209C102941D797814B8F7E03DA86AEB9" import="1">Art/Atlas/MC_Nabatea_80.dds</File>
+    <File md5="02A44246461B6DE422DBF1E29CB98281" import="1">Art/Atlas/MC_Nabatea_Alpha_128.dds</File>
+    <File md5="F9CA95651DE975A02287D5D9B0F91216" import="1">Art/Atlas/MC_Nabatea_Alpha_16.dds</File>
+    <File md5="2E288B477D791DFCAF062BAF2D86D3F4" import="1">Art/Atlas/MC_Nabatea_Alpha_24.dds</File>
+    <File md5="D899A526332A435C6F653DA5B01B84B8" import="1">Art/Atlas/MC_Nabatea_Alpha_256.dds</File>
+    <File md5="4F0323B952E484849D492FEC91D54A7E" import="1">Art/Atlas/MC_Nabatea_Alpha_32.dds</File>
+    <File md5="43A9DBDE2D16B1A55141E8EBF040737D" import="1">Art/Atlas/MC_Nabatea_Alpha_45.dds</File>
+    <File md5="1715F0DFCBC6608D11EC8660080E5BC5" import="1">Art/Atlas/MC_Nabatea_Alpha_48.dds</File>
+    <File md5="B99E13DF9EC167D87BCECE1D901D9C20" import="1">Art/Atlas/MC_Nabatea_Alpha_64.dds</File>
+    <File md5="23F7385B99FBA2C5084AEC8B2253C758" import="1">Art/Atlas/MC_Nabatea_Alpha_80.dds</File>
+    <File md5="BEE58F26395C4D53995EC5BA67462D6B" import="1">Art/Audio/Nabatea_UA.wav</File>
+    <File md5="E8DC1094822FCC75A20D47D5DB980E87" import="1">Art/Audio/Nabatea_War.mp3</File>
+    <File md5="609DCFD4B06119FBAF7501BD43366279" import="1">Art/Audio/Nabatea_Peace.mp3</File>
+    <File md5="7F70111B04E8A7A8964348BA314723D8" import="1">Art/Diplo/Diplo_Aretas.dds</File>
+    <File md5="0421757A9F063BE6D2B59EB124DD93A3" import="1">Art/Diplo/DOM_Aretas.dds</File>
+    <File md5="4BF6D72EDA3B13643C7CAF0C808A4B8A" import="1">Art/Diplo/Aretas_Scene.xml</File>
+    <File md5="6135B3CE19D9556537ACAB91B807ABA5" import="1">Art/Diplo/NabateaMap512.dds</File>
+    <File md5="5C07377E7C4D50BF6DB9C997E1B8F328" import="1">Art/Graphics/MC_Zabonah_32.dds</File>
+    <File md5="A23C893E611F3D350B43F743EEFD370F" import="1">Art/Graphics/sv_Zabonah.dds</File>
+    <File md5="3FE2E54D87DED2F16314928857530856" import="1">Core/Decisions Support/MC_Nabatea_Decisions.lua</File>
+    <File md5="2788E13D2D88AAF89DBAC37561334AB1" import="0">Core/Decisions Support/MC_Nabatea_Decisions.sql</File>
+    <File md5="76F183A35E43A9F33535753F64F97B32" import="0">Core/MC_Nabatea_Diplomacy.sql</File>
+    <File md5="A292F3CEDEA1FCFD28636CDD8BDE620C" import="0">Core/MC_Nabatea_Civilization.sql</File>
+    <File md5="BFE1A5D78F0AEB1B883C50AAC46804CE" import="0">Core/MC_Nabatea_Buildings.sql</File>
+    <File md5="4606B7B1048DECDEE85E538D7399469F" import="0">Core/MC_Nabatea_GameText.sql</File>
+    <File md5="2DD1FBED9E57109034200144BAACCA34" import="0">Core/MC_Nabatea_Leaderhead.sql</File>
+    <File md5="B98877B47308AEFAAF68C25E6BD5315F" import="0">Core/MC_Nabatea_PlayerColours.sql</File>
+    <File md5="ABCC269882473FD756EA3A54E095DF8F" import="0">Core/MC_Nabatea_Traits.sql</File>
+    <File md5="C8607640D128F16BF6A86829226B47D7" import="0">Core/MC_Nabatea_Units.sql</File>
+    <File md5="2FEB7CFF2689B2F15CF2DB776B218275" import="0">Core/MC_Nabatea_ArtDefines.sql</File>
+    <File md5="0123D7EC4225B9626ED960AAA42A95B5" import="0">Core/MC_Nabatea_ModSupport.sql</File>
+    <File md5="796808CCB270E74AB4B0C912FFEB7372" import="0">Lua/MC_Zabonah_Functions.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="BA20A070A4ABC4B64A4C8731A92E59EA" import="0">Lua/UI/MC_NabateaAddin.lua</File>
+    <File md5="98353F635757F0308FBB6EBA561D82F3" import="0">Lua/UI/MC_NabateaAddin.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/MC_Nabatea_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Nabatea_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Nabatea_Civilization.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Nabatea_GameText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Nabatea_Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Nabatea_PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Nabatea_Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Nabatea_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Decisions Support/MC_Nabatea_Decisions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Nabatea_ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/MC_Zabonah_Functions.lua">
+      <Name>MC_Zabonah_Functions.lua</Name>
+      <Description>MC_Zabonah_Functions.lua</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/UI/MC_NabateaAddin.lua">
+      <Name>Lua/UI/MC_NabateaAddin.lua</Name>
+      <Description>Lua/UI/MC_NabateaAddin.lua</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

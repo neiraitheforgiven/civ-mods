@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_EMPIRE">
+			<Text>Empire State Building</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_EMPIRE_HELP">
+			<Text>+35% [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections.[NEWLINE] +8 [ICON_GOLD] Gold upon discovering Flight.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_EMPIRE_QUOTE">
+			<Text>[NEWLINE]"“One belongs to New York instantly, one belongs to it as much in five minutes as in five years”[NEWLINE] - Thomas Wolfe[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_EMPIRE_PEDIA">
+			<Text>The Empire State Building is New York's tallest Skyscraper. It was constructed during the Great Depression in a competition between two other New York buildings (The Chrysler Building and 40 Wall Street) to be the tallest in New York, America and the World at the time. Each held the title briefly, but the Empire State Building is the tallest, holding the title since 1930, when it was completed. It was surpassed by the construction of the World Trade Center towers, but is now the tallest again following the events of September 11, 2001. Upon construction of the 443 metre tall building, the top was originally hoped to be an Airship terminal for New York City, transporting passengers to the ground via two elevators. This, however, was deemed to risky due to updrafts caused by the size of the building. Along with the Chrysler Building, the Empire State Building is a prime example of Art Deco architecture which was prominent during the Depression years of 1929-1932, and continued into World War 2. [NEWLINE] The Empire State Building is one of the most iconic buildings on earth, and is a landmark of New York City. The top possesses three layers of lights, which illuminate different colours to support different events - Red, White and Blue for Independance Day, and completely Blue to honour Frank Sinatra upon his death. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

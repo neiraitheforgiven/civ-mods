@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PEARL_TOWER</Type>
+			<BuildingClass>BUILDINGCLASS_PEARL_TOWER</BuildingClass>
+			<Description>TXT_KEY_BUILDING_PEARL_TOWER</Description>
+			<Help>TXT_KEY_WONDER_PEARL_TOWER_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_PEARL_TOWER_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_PEARL_TOWER_QUOTE</Quote>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<!--<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>-->
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<GlobalGreatPeopleRateModifier>10</GlobalGreatPeopleRateModifier>
+			<GlobalCultureRateModifier>10</GlobalCultureRateModifier>
+			<IconAtlas>BW_ATLAS_PEARL_TOWER</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>PEARL_TOWER_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PEARL_TOWER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_PEARL_TOWER</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PEARL_TOWER</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

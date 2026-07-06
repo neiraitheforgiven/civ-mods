@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="01c131ef-2162-4a7b-b845-763a4e675940" version="4">
+  <Properties>
+    <Name>Unique Cultural Influence</Name>
+    <Teaser>Unique Cultural Influence</Teaser>
+    <Description>Each culture is unique, and their influence on other cultures is also unique.[NEWLINE][NEWLINE]If you think Arabia, Japan and Zulu aren't supposed to sell blue jeans and pop music, then this mod is for you.[NEWLINE][NEWLINE]All that this mod do is, however, just changing a line of text.</Description>
+    <Authors>Ryoga</Authors>
+    <SpecialThanks>JFD, civfanatics, reddit/r/civ, Aendaeron Bluescale, ffdeke, *****</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="4B9B8959AA47A4ADD94398663A1C54FE" import="1">lua/UniqueCulturalInfluence.lua</File>
+    <File md5="2CD534AD13AAF1F65E5EC9CF70B35100" import="0">text/NewLines_DE_DE.xml</File>
+    <File md5="F1FD487061BF461CA68AB07A84DB6C2B" import="0">text/NewLines_en_US.xml</File>
+    <File md5="F423BFA7FA02AB8991E69CA081BEF910" import="0">text/NewLines_ES_ES.xml</File>
+    <File md5="2CEC4CA820C86E7B95DB9C1362C45799" import="0">text/NewLines_FR_FR.xml</File>
+    <File md5="C69DA8AF3CC0E6611E68183346583601" import="0">text/NewLines_IT_IT.xml</File>
+    <File md5="297EA53FB8797B4285A57326043304DC" import="0">text/NewLines_JA_JP.xml</File>
+    <File md5="BE16449C86470971DC568443623CF364" import="0">text/NewLines_KO_KR.xml</File>
+    <File md5="CDEB84963ED67E7CB7FBED33F30693FF" import="0">text/NewLines_PL_PL.xml</File>
+    <File md5="00749820775BC18DBBF055C9B95E297A" import="0">text/NewLines_RU_RU.xml</File>
+    <File md5="1F535F53CD1421E714FDEB4A26D688F9" import="0">text/NewLines_ZH_Hant_HK.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>text/NewLines_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>text/NewLines_DE_DE.xml</UpdateDatabase>
+      <UpdateDatabase>text/NewLines_ES_ES.xml</UpdateDatabase>
+      <UpdateDatabase>text/NewLines_FR_FR.xml</UpdateDatabase>
+      <UpdateDatabase>text/NewLines_IT_IT.xml</UpdateDatabase>
+      <UpdateDatabase>text/NewLines_JA_JP.xml</UpdateDatabase>
+      <UpdateDatabase>text/NewLines_KO_KR.xml</UpdateDatabase>
+      <UpdateDatabase>text/NewLines_PL_PL.xml</UpdateDatabase>
+      <UpdateDatabase>text/NewLines_RU_RU.xml</UpdateDatabase>
+      <UpdateDatabase>text/NewLines_ZH_Hant_HK.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="lua/UniqueCulturalInfluence.lua">
+      <Name>Unique Cultural Influence</Name>
+      <Description>Changes text response for becoming Influential on a Civ based on the unique culture of your Civ.</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

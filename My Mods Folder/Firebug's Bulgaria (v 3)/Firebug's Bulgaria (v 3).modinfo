@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c52a0ce4-c9c1-4f1b-b480-5b06d4af1ab4" version="3">
+  <Properties>
+    <Name>Firebug's Bulgaria</Name>
+    <Teaser>Mod that adds Bulgaria led by Vasil Levski.</Teaser>
+    <Description>[b]Mod that adds Bulgaria led by revolutionary hero Vasil Levski.[/b]
+
+
+[IMG]http://i.imgur.com/TII0LD8.png[/IMG]
+
+
+(UA) Unity Makes Strength: 20% less unhappiness from number of cities during each 'We Love the King Day'
+
+(UU) Opalchents: Gains combat strength equal to a third of your excess happiness.
+
+(UI) Rose Field: For every 4 Rose Field improvements in the empire gain a copy of the Rose Otto luxury resource. Yields +2 gold and +1 culture, doubled during WLTKDs
+
+- Credits - 
+[List]
+[*]Coding and Art - Firebug
+[*]Leaderscreen touch-ups - TPangolin
+[*]Opalchentsi unitart - Civitar
+[*]Opalchentsi icon - davey_henninger
+[*]Rose Field model - Barathor
+[*]General help, ideas and coding - bouncymischa, whoward69, LastSword, LeeS, ryanjames, DJSHenninger, calcul8or, Enginseer, Agressivewimp
+[*]Motivational speech that made me continue making this mod - davey_henninger
+[/list]
+
+------------------------------------------------------------------------------------------------------------------
+
+Compatibilities
+[List]
+[*]Gedemon's YnAEMP (Earth Large, Huge, Greatest and Cordiform. Europe Large)
+[*]Ethnic Units 
+[*]Ryoga's Unique Cultural Influence 
+[*]Bingles' Civ IV Leader Traits in Civ V 
+[*]hazel16's Map Labels 
+[*]JFD's Piety and Prestige 
+[*]JFD's Cultural Diversity 
+[*]JFD's Exploration Continued Expanded 
+[*]LeeS/IShipp's Civilization Appropriate Great General and Admiral Names 
+[*]JFD's True Alternative Leaders 
+[*]JFD's &amp;amp;amp; Pouakai's Mercenaries 
+[*]JFD's Cities in Development
+[/List]</Description>
+    <Authors>Firebug</Authors>
+    <SpecialThanks>Civitar, DJSHenninger, RyanJames, Barathor</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="Piety and Prestige" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact's Events &amp;amp; Decisions" />
+    <Mod id="43868e8d-de88-48a1-a8d9-ce144e07f5e0" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="JFD's Sovereignty" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD's and Pouakai's Mercenaries" />
+    <Mod id="fe245559-0525-41bb-9e1c-b281e018b5fc" minversion="0" maxversion="999" title="Civilization Appropriate Great General and Admiral Names" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD's Cities in Development" />
+    <Mod id="34c6919a-fcb5-44cf-8a76-78380dbc39ab" minversion="0" maxversion="999" title="JFD's Chartered Ventures" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="8226B603778ED023EA7BAB9FBE7713F8" import="1">Art/BulgariaAlpha128.dds</File>
+    <File md5="EDDD409054A7C46B801072F70461A706" import="1">Art/BulgariaAlpha16.dds</File>
+    <File md5="A79D3AD34F8B92BE9C4DA39EC5FE4B3B" import="1">Art/BulgariaAlpha24.dds</File>
+    <File md5="2B55739096A783772D0B163CEF9E0F39" import="1">Art/BulgariaAlpha32.dds</File>
+    <File md5="F73B38396CC32208F5DAB195F2FDC8B9" import="1">Art/BulgariaAlpha48.dds</File>
+    <File md5="D3FCB9D201A77643D604EAB2C6B5C673" import="1">Art/BulgariaAlpha64.dds</File>
+    <File md5="A504DA0D4A8ED276E1FB846E06143FB9" import="1">Art/BulgariaAlpha80.dds</File>
+    <File md5="F6410533FEF6E17E324B8DB6B33BA1A7" import="1">Art/BulgariaAtlas128.dds</File>
+    <File md5="C2E4C4192D1AEA7C414CA01010C772F7" import="1">Art/BulgariaAtlas16.dds</File>
+    <File md5="5D93DCB04088FF57D5BFB1B11B9E9895" import="1">Art/BulgariaAtlas24.dds</File>
+    <File md5="D0FC7B2CAD792F926C4E6A8DBEEC1E86" import="1">Art/BulgariaAtlas256.dds</File>
+    <File md5="F5A7009A7F1A49EC858FD4A61D92070E" import="1">Art/BulgariaAtlas32.dds</File>
+    <File md5="542BE36442CE82B45FB9C78BE5703D3F" import="1">Art/BulgariaAtlas45.dds</File>
+    <File md5="A07D312B91B1A36631C60FF49D26A777" import="1">Art/BulgariaAtlas48.dds</File>
+    <File md5="C007EF2CCBD13947A07CBB68FFCC1A21" import="1">Art/BulgariaAtlas64.dds</File>
+    <File md5="F546D6AA09183C40915C87FAC62BA1FA" import="1">Art/BulgariaAtlas80.dds</File>
+    <File md5="66536743772BCE69FF8DD681B4A5BE92" import="1">Art/BulgariaMap.dds</File>
+    <File md5="0520D81FA7A2C39C50F8C5AA03CA9802" import="1">Art/fonticons_bulg_rose.dds</File>
+    <File md5="C3DF42EC4BB1DA713B4CBDA7F4F3790C" import="1">Art/fonticons_bulg_rose.ggxml</File>
+    <File md5="26997E4F12287B6B70FA45CC579152F5" import="1">Art/Leaderscreen/Levski_Scene.xml</File>
+    <File md5="52F6387634388EDD5DD6466C3FF87652" import="1">Art/Leaderscreen/LevskiDOM.dds</File>
+    <File md5="DE9659B295FA7B9FCB9960626FD6BAED" import="1">Art/Leaderscreen/Levski_Scene.dds</File>
+    <File md5="9664DA2EF48D6B7799B0DA1DFA0A09A8" import="1">Art/opalchentsiflag.dds</File>
+    <File md5="15676F2A519FB447E2E9A496AA1514A9" import="1">Art/RoseOtto45.dds</File>
+    <File md5="D281D463925CB10817ECE33915C682B4" import="1">Art/RoseOtto64.dds</File>
+    <File md5="32B2B84204A9127D8283A42ED432D2BC" import="1">Art/SV_Opalchentsi.dds</File>
+    <File md5="E94FAD5F72F64AF87C94572D88B2318A" import="0">BulgariaRoseUI/ArtDefines.sql</File>
+    <File md5="C1C25B2D79ED038F54737A9AF68896A2" import="0">Compatibilities/BulgariaCompatibility.sql</File>
+    <File md5="BF76E126539F5C9CAA82F9FCA638EFCE" import="0">Compatibilities/uniqueinfluence.xml</File>
+    <File md5="0FCDDBCF2F41A7A4C3673C040C0A03C3" import="0">Core/BulgariaAtlases.xml</File>
+    <File md5="2E7656BD19F827B0E939EAC9E5496DFD" import="0">Core/CityStateText.xml</File>
+    <File md5="57FB439AABC9230D0A6E0F6A5328618A" import="0">Core/Civilization.xml</File>
+    <File md5="5D2C93507706A7005F485C38CDC04058" import="0">Core/DiplomacyResponses.xml</File>
+    <File md5="5605DE4B208EEBD682933E51BE1A5E33" import="0">Core/DummyRose.xml</File>
+    <File md5="69C97E23C8E2ABAB0CD2ABC3620D64CA" import="0">Core/Leader.xml</File>
+    <File md5="A28E7479D3AB91FD38D40AAC59F18F0A" import="0">Core/LuxuryOtto.xml</File>
+    <File md5="61FF3E27EA56B2836681933F21977102" import="0">Core/NewCityState.sql</File>
+    <File md5="E5972D0AEEB999527FE7AA3A4DB1FC19" import="0">Core/Rose Fields.xml</File>
+    <File md5="EC816DEA86C1EEAF8A33B61B6452F0B1" import="0">Core/Trait.xml</File>
+    <File md5="E57E84C1DE615B628E4174930DBB70AF" import="0">Core/Traitbuilding.xml</File>
+    <File md5="CECE42DC5A0E1D1545F036275CCED604" import="0">Core/Units.xml</File>
+    <File md5="BC111C1F1D90F4BF048B8623BEE031D9" import="0">Lua/BulgTrait.lua</File>
+    <File md5="1890B9DB576C52687CD3CA802CAE799B" import="1">BulgariaRoseUI/hb_plantation_ind_perfume.fxsxml</File>
+    <File md5="A448CD7AEDA45D05AD6DE50F2952224B" import="1">BulgariaRoseUI/hb_plantation_ind_perfume.gr2</File>
+    <File md5="DF4AE5E65461576302A8CA242640A071" import="1">BulgariaRoseUI/hb_plantation_mid_perfume.fxsxml</File>
+    <File md5="AAE0FCB7F2B034F4D5689B274745B127" import="1">BulgariaRoseUI/hb_plantation_mid_perfume.gr2</File>
+    <File md5="4B13C59F695EDF6D32D282B13AC1F99C" import="1">BulgariaRoseUI/perfume_diff.dds</File>
+    <File md5="EA56313C5E929369A92D9BE47358D33A" import="1">BulgariaRoseUI/plantation_ind_perfume.fxsxml</File>
+    <File md5="BE0419D45DAFF82493F37F0B122F4BFA" import="1">BulgariaRoseUI/plantation_ind_perfume.gr2</File>
+    <File md5="3FCEA66078F55EC8FA94B918E7753154" import="1">BulgariaRoseUI/plantation_mid_perfume.fxsxml</File>
+    <File md5="3311513849E40FA45B6944D1789D38D6" import="1">BulgariaRoseUI/plantation_mid_perfume.gr2</File>
+    <File md5="B5C82F8EC3DA23A98E0711B292750366" import="1">BulgariaRoseUI/pl_perfume_diff.dds</File>
+    <File md5="08776CDAF12A1094038F87C765B5CFA2" import="1">BulgariaRoseUI/pl_plantation_ind_perfume.fxsxml</File>
+    <File md5="F4D9EF3D17984446690F21AFDA389D32" import="1">BulgariaRoseUI/pl_plantation_ind_perfume.gr2</File>
+    <File md5="270F33DD0A246A73CD1E8DEA1B2D54AD" import="1">BulgariaRoseUI/pl_plantation_mid_perfume.fxsxml</File>
+    <File md5="21A9E591CCC236D33782A18FD44A271F" import="1">BulgariaRoseUI/pl_plantation_mid_perfume.gr2</File>
+    <File md5="33B0DDBC3C7D9D47A9A950478F20A1AE" import="1">BulgariaRoseUI/resource_perfume.fxsxml</File>
+    <File md5="C3F98D8414EA21AC60E73866686A8276" import="1">BulgariaRoseUI/resource_perfume.gr2</File>
+    <File md5="6192AC182719E4DA1AE6E45FF331524A" import="1">BulgariaRoseUI/sv_perfume.dds</File>
+    <File md5="006233154215CA7B342B69E84864DC7A" import="0">Lua/LuxuryImprovement.lua</File>
+    <File md5="5CA7510DABCCBEC9F25A87366A7F9C87" import="0">Lua/OpalchentsiLua.lua</File>
+    <File md5="D8B377567E5342AFFF62EFFA7FB509E4" import="0">Lua/RoseImprovement.lua</File>
+    <File md5="C4837073C2F1D09D9FB666E419E0BC9A" import="1">Music/BulgariaPeace.mp3</File>
+    <File md5="DB065272FEB21DF21EE381679A65F532" import="1">Music/BulgariaWar.mp3</File>
+    <File md5="88B5B7660D5A96E6C4600CB2921A48B8" import="1">Music/LevskiAmbient.mp3</File>
+    <File md5="A11B8AAA000D9A54137EBFD61901E959" import="1">Music/Music.xml</File>
+    <File md5="4C26BCC0BF7EA7FBE7E3B1DA055415E1" import="1">UnitArt/bulgarianartdefine.xml</File>
+    <File md5="860D26739CEDAB7965178F8CF7B07FBF" import="1">UnitArt/u_bulgarian_opalchentsi.fxsxml</File>
+    <File md5="8CF856E085F478F50EC83738E3D0E772" import="1">UnitArt/u_bulgarian_opalchentsi.gr2</File>
+    <File md5="8CA1D433A8B22F1B74E47C96DB8954F6" import="1">UnitArt/u_bulgarian_opalchentsi_diff.dds</File>
+    <File md5="5343A3E8E11CC1529D82FC50632F7B77" import="1">UnitArt/u_bulgarian_opalchentsi_sref.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>UnitArt/bulgarianartdefine.xml</UpdateDatabase>
+      <UpdateDatabase>BulgariaRoseUI/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Compatibilities/BulgariaCompatibility.sql</UpdateDatabase>
+      <UpdateDatabase>Compatibilities/uniqueinfluence.xml</UpdateDatabase>
+      <UpdateDatabase>Core/BulgariaAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>Core/DummyRose.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Core/LuxuryOtto.xml</UpdateDatabase>
+      <UpdateDatabase>Core/NewCityState.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Rose Fields.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Traitbuilding.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Core/CityStateText.xml</UpdateDatabase>
+      <UpdateDatabase>Music/Music.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/BulgTrait.lua">
+      <Name>BulgTrait</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/RoseImprovement.lua">
+      <Name>Rose Improvement</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/OpalchentsiLua.lua">
+      <Name>Opalchentsi</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/LuxuryImprovement.lua">
+      <Name>luxury</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

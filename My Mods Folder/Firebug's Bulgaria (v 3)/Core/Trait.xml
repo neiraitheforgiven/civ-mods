@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Traits>
+    <Row>
+      <Type>TRAIT_UNITY</Type>
+      <Description>TXT_KEY_TRAIT_UNITY</Description>
+      <ShortDescription>TXT_KEY_TRAIT_UNITY_SHORT</ShortDescription>
+    </Row>
+  </Traits>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_TRAIT_UNITY">
+		<Text>20% less[ICON_HAPPINESS_4] Unhappiness from number of cities during each 'We Love The King Day'.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_UNITY_SHORT">
+      <Text>Unity Makes Strength</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

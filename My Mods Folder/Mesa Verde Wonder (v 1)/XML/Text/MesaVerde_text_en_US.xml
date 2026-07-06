@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MESAVERDE">
+			<Text>Mesa Verde</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_MESAVERDE_HELP">
+			<Text>+1 [ICON_FOOD] Food from desert tiles. +50% [ICON_GREAT_PEOPLE] Great People generation in this City. City must be built on or next to a desert. </Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_MESAVERDE_QUOTE">
+			<Text>[NEWLINE]"The city is a fact in nature, like a cave, a run of mackerel or an ant-heap. But it is also a conscious work of art, and it holds within its communal framework many simpler and more personal forms of art. Mind takes form in the city; and in turn, urban forms condition mind."[NEWLINE] - Lewis Mumford[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_MESAVERDE_PEDIA">
+			<Text>Mesa Verde (Spanish for 'Green table') is the name given to a large area of what is now part of the American state of Colorado but was once a large settlement of the Pueblo (Anasazi) civilization of Native Americans. The area is believed to have been first settled c.400 CE, reaching its peak around the 12th-13th centuries before declining in the 1200's as a result of climate change and an increased population. One of the most iconic sites of Mesa Verde is the cliff palace, a large arrangement of buildings constructed under a rocky outcrop at the site which is believed to have been brightly painted during the peak of the Pueblo culture. Other than the cliff palace there are several more major Pueblo constructions within the area, including defensive towers and reservoirs, indicating that this site was once a thriving settlement.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

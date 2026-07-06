@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_IMPRESSMENT_GG</Type>
+			<Description>TXT_KEY_PROMOTION_IMPRESSMENT_GG</Description>
+			<Help>TXT_KEY_PROMOTION_IMPRESSMENT_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_IMPRESSMENT_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_IMPRESSMENT_GG2</Type>
+			<Description>TXT_KEY_PROMOTION_IMPRESSMENT_GG2</Description>
+			<Help>TXT_KEY_PROMOTION_IMPRESSMENT_GG2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_IMPRESSMENT_GG2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_IMPRESSMENT_GG3</Type>
+			<Description>TXT_KEY_PROMOTION_IMPRESSMENT_GG3</Description>
+			<Help>TXT_KEY_PROMOTION_IMPRESSMENT_GG3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_IMPRESSMENT_GG3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_IMPRESSMENT</Type>
+			<Description>TXT_KEY_PROMOTION_IMPRESSMENT</Description>
+			<Help>TXT_KEY_PROMOTION_IMPRESSMENT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>18</PortraitIndex>
+			<CaptureDefeatedEnemy>true</CaptureDefeatedEnemy>
+			<NearbyEnemyCombatMod>-5</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_IMPRESSMENT</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_IMPRESSMENT2</Type>
+			<Description>TXT_KEY_PROMOTION_IMPRESSMENT2</Description>
+			<Help>TXT_KEY_PROMOTION_IMPRESSMENT2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>18</PortraitIndex>
+			<CaptureDefeatedEnemy>true</CaptureDefeatedEnemy>
+			<NearbyEnemyCombatMod>-10</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_IMPRESSMENT2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_IMPRESSMENT3</Type>
+			<Description>TXT_KEY_PROMOTION_IMPRESSMENT3</Description>
+			<Help>TXT_KEY_PROMOTION_IMPRESSMENT3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>18</PortraitIndex>
+			<RivalTerritory>true</RivalTerritory>
+			<CaptureDefeatedEnemy>true</CaptureDefeatedEnemy>
+			<NearbyEnemyCombatMod>-15</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_IMPRESSMENT3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_IMPRESSMENT_GG">
+			<Text>Impressment I (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPRESSMENT_GG_HELP">
+			<Text>This [COLOR_POSITIVE_TEXT]Legendary[ENDCOLOR] Admiral would often "impress" foreign sailors into his or fleet. Cannot earn experience, if the enemy is captured!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPRESSMENT_GG2">
+			<Text>Impressment II (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPRESSMENT_GG2_HELP">
+			<Text>This [COLOR_POSITIVE_TEXT]Legendary[ENDCOLOR] Experienced Admiral has great successes indoctrinating foreign sailors. Cannot earn experience, if the enemy is captured! Replaces [COLOR_POSITIVE_TEXT]Impressment I[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPRESSMENT_GG3">
+			<Text>Impressment III (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPRESSMENT_GG3_HELP">
+			<Text>This [COLOR_POSITIVE_TEXT]Legendary[ENDCOLOR] Veteran Admiral has a record of impressing sailors, inciting fears among enemy sailors and nations alike. Cannot earn experience, if the enemy is captured! Replaces [COLOR_POSITIVE_TEXT]Impressment II[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPRESSMENT">
+			<Text>Impressment I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPRESSMENT_HELP">
+			<Text>-5% [ICON_STRENGTH] Combat Strength toward [COLOR_NEGATIVE_TEXT]Hostile[ENDCOLOR] units. Chance to capture defeated ships. Acquired when starting the turn near a Great Admiral with the [COLOR_POSITIVE_TEXT]Impressment I[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPRESSMENT2">
+			<Text>Impressment II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPRESSMENT2_HELP">
+			<Text>-10% [ICON_STRENGTH] Combat Strength toward [COLOR_NEGATIVE_TEXT]Hostile[ENDCOLOR] units. Chance to capture defeated ships. Acquired when starting the turn near a Great Admiral with the [COLOR_POSITIVE_TEXT]Impressment II[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPRESSMENT3">
+			<Text>Impressment III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPRESSMENT3_HELP">
+			<Text>-15% [ICON_STRENGTH] Combat Strength toward [COLOR_NEGATIVE_TEXT]Hostile[ENDCOLOR] units. Chance to capture defeated ships. Can enter rival territory without an open border agreement. Acquired when starting the turn near a Great Admiral with the [COLOR_POSITIVE_TEXT]Impressment III[ENDCOLOR] trait.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

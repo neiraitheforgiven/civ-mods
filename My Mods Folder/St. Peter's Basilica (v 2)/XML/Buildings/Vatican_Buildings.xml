@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_VATICAN</Type>
+			<BuildingClass>BUILDINGCLASS_VATICAN</BuildingClass>
+			<Description>TXT_KEY_BUILDING_VATICAN</Description>
+			<Help>TXT_KEY_WONDER_VATICAN_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_VATICAN_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_VATICAN_QUOTE</Quote>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_CATHEDRAL</FreeBuildingThisCity>
+			<IconAtlas>EXPANSION_SCEN_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<WonderSplashImage>VATICAN_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_VATICAN</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>8</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_VATICAN</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VATICAN</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

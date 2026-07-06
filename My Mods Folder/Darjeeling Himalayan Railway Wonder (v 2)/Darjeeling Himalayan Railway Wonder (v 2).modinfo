@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6c1422af-1255-4d89-92c3-cfb2be977c13" version="2">
+  <Properties>
+    <Name>Darjeeling Himalayan Railway Wonder</Name>
+    <Teaser>The Darjeeling Himalayan Railway is the most famous of the railways featured in the 'Mountain Railways of India' UNESCO World H</Teaser>
+    <Description>The Darjeeling Himalayan Railway is the most famous of the railways featured in the 'Mountain Railways of India' UNESCO World Hertiage site. It was built during the British Raj period of Indian colonisation in order to provide access to the mountain city of Darjeeling and the rich tea plantations which surround it. It is widely known as the 'Toy Train', as it is a very small train with only a two-foot gauge of railroad track. Ingame, the Darjeeling Himalayan Railway provides 3 sources of the Tea resource and an additional +3 Happiness, while it requires Railroad and must be built in a city on a hill tile.</Description>
+    <Authors>Pouakai, janboruta, sukritact</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="31AB2A992441D025AFBC2DCFD50434D0" import="1">Art/Darjeeling_128.dds</File>
+    <File md5="BA9FC2ABF3404451496C00FD148D5981" import="1">Art/Darjeeling_256.dds</File>
+    <File md5="D7E5F34075C8DC7957172F1A348F1BD5" import="1">Art/Darjeeling_45.dds</File>
+    <File md5="0710F516680194A7169CC1BF54F3548A" import="1">Art/Darjeeling_64.dds</File>
+    <File md5="7B529F1B70EB045BA9F84C5C81075866" import="1">Art/Darjeeling_80.dds</File>
+    <File md5="C40E4CD32D15EFCEDF4F43F3BFF537D2" import="1">Art/Darjeeling_Splash.dds</File>
+    <File md5="645993DA634EDB8310D80A93191A330E" import="1">Art/Tea_256.dds</File>
+    <File md5="CA837F4500BDF24B3D86DF8737DD0520" import="1">Art/Tea_45.dds</File>
+    <File md5="BB15227098A7D1BB684FF4840613FE99" import="1">Art/Tea_64.dds</File>
+    <File md5="775BE2E4483B28CE9D18938511FC2F77" import="1">Art/Tea_80.dds</File>
+    <File md5="95F7D3F6DB0CBC94582BFB01D630FCA1" import="0">Font Icon/Tea_Fonticon.xml</File>
+    <File md5="6ED1B737B65B6A9069A6FF20283EB028" import="1">Font Icon/Tea_fonticons.ggxml</File>
+    <File md5="CFAAB4F7A1B91F48A3D4E5F6FDDB6331" import="1">Font Icon/Tea_fonticons.dds</File>
+    <File md5="A832087AAF6A1AD5AA606CD4AF6B1B09" import="0">XML/Buildings/Darjeeling_BuildingClasses.xml</File>
+    <File md5="0FA37EA8EA393AABA3864C37DF9B1884" import="0">XML/Buildings/Darjeeling_Buildings.xml</File>
+    <File md5="F280BC5583EAC950EC8BD8CFB7337FFF" import="0">XML/Civilizations/Darjeeling_Civilizations.xml</File>
+    <File md5="55D8A173168D4AFE1640F64A9ECE8558" import="0">XML/GameInfo/Darjeeling_IconTextureAtlases.xml</File>
+    <File md5="86C109764A8E21ED4F3036DA5768A336" import="0">XML/Terrain/Tea.xml</File>
+    <File md5="D6DED8D2D8B43882F8F2ECAB0ABEF345" import="0">XML/Text/Darjeeling_text_EN_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Font Icon/Tea_Fonticon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Darjeeling_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Darjeeling_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Darjeeling_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Darjeeling_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Tea.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Darjeeling_text_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_HOLLYWOOD">
+			<Text>Hollywood</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_HOLLYWOOD_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness from every Theatre in the empire.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_HOLLYWOOD_QUOTE">
+			<Text>
+				[NEWLINE]"Hollywood is a place where they'll pay you a thousand dollars for a kiss and fifty cents for your soul."[NEWLINE] - Marilyn Monroe[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_HOLLYWOOD_PEDIA">
+			<Text>Hollywood is a district of Los Angeles, USA, famous for it's film industry. The area started life as a idealistic 'suburban America', however it quickly grew from 1909, when film-makers started to arrive, and is now synonomous with the American Film Industry. [NEWLINE][NEWLINE] Today, Hollywood is glamourised for being the land of the rich and famous, where dreams are made and wishes come true. It is home to several iconic buildings, including the Hollywood Bowl and Grauman's Chinese Theatre. However, when most people think of Hollywood, they think of the large sign atop the Hollywood hills. This sign started life as a billboard for the suburban settlement, then named "Hollywoodland". In 1949, the "Land" was removed as part of a renovation contract.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

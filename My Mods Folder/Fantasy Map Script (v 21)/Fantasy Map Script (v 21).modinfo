@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fee2e969-5f1b-4b85-ad17-bc9a191440ef" version="21">
+  <Properties>
+    <Name>Fantasy Map Script</Name>
+    <Stability>Beta</Stability>
+    <Teaser>A flexible map script that creates a map of distinct regions, like those in fantasy books. By default, latitude has no bearing o</Teaser>
+    <Description>A flexible map script that creates a map of distinct regions, like those in fantasy books. By default, latitude has no bearing on terrain--snowy wasteland could be at the equator, and jungle could be at the poles. Mountains occur in ranges along (some of) the borders of regions. 
+
+Custom Options: 
+- Scope: World and Realistic World wrap east/west. Realm and Realistic Realm do not wrap. Realistic types have cold terrain at the poles and hot terrain at the equator.
+- World Age: controls amount of mountains &amp;amp; hills. has three more options than usual. 
+- Region Size: size of the blobs of similar terrain within each continent. 
+- Continent Size: how big are the major landmasses?
+- Continent Shape: snakey to blobby. "Extra Snakey" can result in 1-tile-wide spaghetti. "Total Blobs" tend to be wide and round. 
+- Island Amount: How much of the land is in masses smaller than 11 hexes. "Few" is 3% of land area, "Tons" is 50% of land area. 
+- Ocean Size: "Waterworld" to "Almost Entrirely Land." All options result in navegable ocean poles except for "Channels" 
+- Coast Width: "Thin" removes all coastal tiles but those directly adjacent to land. "Normal" uses Civ V's standard algorithm. "Wide" and "Really Wide" expand the standard algorithm. 
+- Temperature &amp;amp; Rainfall: If one of these is set to "Random", it will just pick one out of the three. If both are set to "Random", an entirely randomized climate is generated. 
+- Mountain Clumpiness: "Epic Clumps" results in a small number of dense mountain ranges, whereas "Completely Scattered" distributes the mountains in a fairly uniform manner.</Description>
+    <Authors>zoggop</Authors>
+    <SpecialThanks>numaru7</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="7A57D93BAFCB8CE1EE9B3014BDA7C9EC" import="1">Fantasy.lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="MapScript" file="Fantasy.lua">
+      <Name>Fantasy</Name>
+      <Description>A map of distinct regions.</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

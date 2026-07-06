@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MARIA">
+			<Text>Santa Maria delle Grazie</Text>
+		</Row>
+		<!-- Help tags -->
+		<!--<Row Tag="TXT_KEY_WONDER_MARIA_HELP">
+			<Text></Text>
+		</Row> -->
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_MARIA_QUOTE">
+			<Text>
+				[NEWLINE]"No failure, whether of love or money, is ever simple; it is always a kind of betrayal, of a mass of shadowy, shared hopes."[NEWLINE] - Greil Marcus[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_MARIA_PEDIA">
+			<Text>Santa Maria delle Grazie (Italian for Holy Mary of Grace) is a Dominican Covenant in Milan, Italy. It is most famous for its housing of Leonardo da Vinci's painting, the Last Supper. It was constructed in the 15th century, during the rennaisance. [NEWLINE][NEWLINE] During World War Two, Milan was bombed as part of trying to subdue Benito Mussolini. The bombs severely damaged the church, however the Last Supper was intact. This is due to the preservation methods taken out by the keepers of the church beforehand to sandbag the paining wall to protect it.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

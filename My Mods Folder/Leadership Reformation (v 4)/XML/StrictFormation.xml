@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_STRICT_GG</Type>
+			<Description>TXT_KEY_PROMOTION_STRICT_GG</Description>
+			<Help>TXT_KEY_PROMOTION_STRICT_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_STRICT_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_STRICT_GG2</Type>
+			<Description>TXT_KEY_PROMOTION_STRICT_GG2</Description>
+			<Help>TXT_KEY_PROMOTION_STRICT_GG2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_STRICT_GG2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_STRICT_GG3</Type>
+			<Description>TXT_KEY_PROMOTION_STRICT_GG3</Description>
+			<Help>TXT_KEY_PROMOTION_STRICT_GG3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_STRICT_GG3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_STRICT</Type>
+			<Description>TXT_KEY_PROMOTION_STRICT</Description>
+			<Help>TXT_KEY_PROMOTION_STRICT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>15</PortraitIndex>
+			<OpenAttack>20</OpenAttack>
+			<OpenDefense>20</OpenDefense>
+			<RoughAttack>-20</RoughAttack>
+			<RoughDefense>-20</RoughDefense>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_STRICT</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_STRICT2</Type>
+			<Description>TXT_KEY_PROMOTION_STRICT2</Description>
+			<Help>TXT_KEY_PROMOTION_STRICT2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>15</PortraitIndex>
+			<OpenAttack>20</OpenAttack>
+			<OpenDefense>20</OpenDefense>
+			<RoughAttack>-15</RoughAttack>
+			<RoughDefense>-15</RoughDefense>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_STRICT2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_STRICT3</Type>
+			<Description>TXT_KEY_PROMOTION_STRICT3</Description>
+			<Help>TXT_KEY_PROMOTION_STRICT3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>15</PortraitIndex>
+			<OpenAttack>20</OpenAttack>
+			<OpenDefense>20</OpenDefense>
+			<RoughAttack>-10</RoughAttack>
+			<RoughDefense>-10</RoughDefense>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_STRICT3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_STRICT_GG">
+			<Text>Strict Formation I (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRICT_GG_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Incompetent[ENDCOLOR] General has a tendency of only accepting to fight among the open plains.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRICT_GG2">
+			<Text>Strict Formation II (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRICT_GG2_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Incompetent[ENDCOLOR], but Experienced General has a tendency of rarely accepting to fight among the rough terrain only by some experience. Replaces [COLOR_NEGATIVE_TEXT]Strict Formation I[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRICT_GG3">
+			<Text>Strict Formation III (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRICT_GG3_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Incompetent[ENDCOLOR], but Veteran General would avoid fights on rough terrain. Replaces [COLOR_NEGATIVE_TEXT]Strict Formation II[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRICT">
+			<Text>Strict Formation I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRICT_HELP">
+			<Text>+20% [ICON_STRENGTH] Strength on [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] terrain. -20% [ICON_STRENGTH] on [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] terrain. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Strict Formation I[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRICT2">
+			<Text>Strict Formation II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRICT2_HELP">
+			<Text>+20% [ICON_STRENGTH] Strength on [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] terrain. -15% [ICON_STRENGTH] on [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] terrain. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Strict Formation II[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRICT3">
+			<Text>Strict Formation III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRICT3_HELP">
+			<Text>+20% [ICON_STRENGTH] Strength on [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] terrain. -10% [ICON_STRENGTH] on [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] terrain. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Strict Formation III[ENDCOLOR] trait.</Text>
+		</Row>
+</GameData>

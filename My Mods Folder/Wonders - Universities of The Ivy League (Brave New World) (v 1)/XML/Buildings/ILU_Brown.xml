@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_BROWN_UNIVERSITY</Type>
+			<BuildingClass>BUILDINGCLASS_BROWN_UNIVERSITY</BuildingClass>
+			<Cost>1060</Cost>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_BROWN_UNIVERSITY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_BROWN_UNIVERSITY</Description>
+			<Strategy>TXT_KEY_BUILDING_BROWN_UNIVERSITY_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_BUILDING_BROWN_UNIVERSITY_PEDIA</Civilopedia>			
+			<Quote>TXT_KEY_BUILDING_BROWN_UNIVERSITY_QUOTE</Quote>
+			<ArtDefineTag>ART_DEF_BUILDING_OXFORD_UNIVERSITY</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<Hill>true</Hill>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>		
+			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+			<FreePolicies>1</FreePolicies>
+			<PolicyCostModifier>-10</PolicyCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>IVY_LEAGUE_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<WonderSplashImage>Brown2.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_LockedBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HARVARD_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_YALE_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY_OF_PENNSYLVANIA</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PRINCETON_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_COLUMBIA_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_DARTMOUTH_COLLEGE</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CORNELL_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Building_LockedBuildingClasses>	
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROWN_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_BROWN_UNIVERSITY">
+			<Text>Brown University</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BROWN_UNIVERSITY_HELP">
+			<Text>1 Free Social Policy. [ICON_CULTURE] Culture cost of adopting new Policies reduced by 10%. +25% [ICON_GREAT_PEOPLE] Great People generation in this City.[NEWLINE][NEWLINE]City must be built on a hill. City must have a University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BROWN_UNIVERSITY_STRATEGY">
+			<Text>Brown University provides +1 [ICON_PEACE] Faith for being founded with religious affiliations.[NEWLINE][NEWLINE]Brown University cannot be constructed in a City that already has an Ivy League University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BROWN_UNIVERSITY_QUOTE">
+			<Text>[NEWLINE]In deo speramus[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BROWN_UNIVERSITY_PEDIA">
+			<Text>Brown University is an American private Ivy League research university located in Providence, Rhode Island, United States. Founded in 1764 prior to American independence from the British Empire as the College in the English Colony of Rhode Island and Providence Plantations early in the reign of King George III (1760–1820), Brown is the third oldest institution of higher education in New England and seventh oldest in the United States. The university consists of The College, Graduate School, Alpert Medical School, and the School of Engineering.[NEWLINE][NEWLINE]Brown, known for its academic selectivity and emphasis on social sciences and humanities, was the first college in the nation to accept students regardless of religious affiliation. Brown accepts 8.9% of undergraduate applicants, placing it among the world's most selective universities.[7] Brown's international programs are organized through the Watson Institute for International Studies. The New Curriculum, instituted in 1969, eliminated distribution requirements and allows any course to be taken on a satisfactory/no credit basis. In addition, there are no pluses or minuses in the letter grading system. The school has the oldest undergraduate engineering program in the Ivy League (1847). Pembroke College, Brown's women's college, merged with the university in 1971. While Brown is considered a small research university with 682 full-time faculty and 1,919 graduate students, five of its professors and two of its alumni have been honored as Nobel Laureates. The faculty added 100 new professors in the past 10 years under the Boldly Brown campaign.[NEWLINE][NEWLINE]Completed concentrations of undergraduates by area are Social Sciences (42%), Humanities (26%), Life Sciences (17%), and the Physical Sciences (14%).[8] Brown's main campus is located on College Hill on the East Side of Providence. Several of the buildings on the Brown campus from its founding 18th century period through the 20th century offer fine representation of the Georgian style of American colonial era architecture. The university's 37 varsity athletic teams are known as the Brown Bears. The school colors are seal brown, cardinal red, and white. Brown's mascot is the bear, which dates back to 1904. The costumed mascot named "Bruno" frequently makes appearances at athletic games. People associated with the University are known as Brunonians.[NEWLINE][NEWLINE]Notable alumni of Brown University include Horace Mann, John D. Rockefeller Jr., John Hay, Thomas Watson Jr., Ted Turner, Andy Hertzfeld, John Sculley, Laura Linney, John Krasinski, Lisa Loeb, Emma Watson, Chris Berman, Joe Paterno, John W. Heisman, and Andrew Schulak.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Brown_University</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

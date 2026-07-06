@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3f95e675-ed87-4fe0-bf3a-580a8f7588a5" version="1">
+  <Properties>
+    <Name>Lungora's East Canada Map</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Hockey Hockey Maple Syrup Looney Tooney eh?
+^Canadian for "This map is hilariously huge."
+
+Eastern Canada and some USA, as a</Teaser>
+    <Description>Hockey Hockey Maple Syrup Looney Tooney eh?
+^Canadian for "This map is hilariously huge."
+
+Eastern Canada and some USA, as a Giant map. Complain about the small rivers being inaccurate below if you want. Those things are goddamn hard k?
+
+In the collection is a fix if the normal process of subscribing and enabling doesn't work.
+
+Enjoy.</Description>
+    <Authors>Lungora</Authors>
+    <SpecialThanks>Bing maps, Patience, Kesler</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="7DE656A357178899F3617922191FB289" import="0">lungeastcanada.Civ5Map</File>
+  </Files>
+</Mod>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_AMPHAWA">
+			<Text>Amphawa Floating Market</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_AMPHAWA_HELP">
+			<Text>+2 [ICON_GOLD] Gold from every resource worked by the city. City must be built on the coast.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_AMPHAWA_QUOTE">
+			<Text>[NEWLINE]"Ideas, like large rivers, never have just one source."[NEWLINE] - Willy Ley[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_AMPHAWA_PEDIA">
+			<Text>The Amphawa Floating Market is a market located in the Amphawa district of Bangkok. It is famous worldwide for it's excellent portrayal of the Floating market which is seen across South-East Asia. It is one of Bangkok's most famous floating markets, and is seen by thousands of merchants and visitors monthly.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

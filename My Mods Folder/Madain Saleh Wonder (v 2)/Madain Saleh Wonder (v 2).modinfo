@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f09bd1ca-646e-49dc-81e1-ae0555460081" version="2">
+  <Properties>
+    <Name>Madain Saleh Wonder</Name>
+    <Teaser>Built by the legendary Nabataeans, Mada'in Saleh is their largest city aside from Petra. It is carved entirely out of rock,</Teaser>
+    <Description>Built by the legendary Nabataeans, Mada'in Saleh is their largest city aside from Petra. It is carved entirely out of rock, and was known to them by the name Hegra. The area has seen several different inhabitants over the centuries, from desert bedouins to Roman legions, but to this day remains in a near pristine condition, partially due to a curse said to smite non-believers in the region. Ingame, Mada'in Saleh provides +1  Culture from Desert tiles, as well as giving Oasis tiles near the city +2  Production and +1  Gold, while it requires Construction.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Ambrox62, Moriboe</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="49194D57C605CD59D5DCA74AACD636CF" import="1">Art/Madain_Saleh_icon128.dds</File>
+    <File md5="2B4F8D72104953725A65C2C8760A2135" import="1">Art/Madain_Saleh_icon256.dds</File>
+    <File md5="60193DB8800CA7B71E77ECEE0172F20F" import="1">Art/Madain_Saleh_icon45.dds</File>
+    <File md5="1955018E76270361D246444BA2095119" import="1">Art/Madain_Saleh_icon64.dds</File>
+    <File md5="E0DB74433B305767C53EC3CB9687DB59" import="1">Art/Madain_Saleh_icon80.dds</File>
+    <File md5="CD550A4B1BABCB9D31BE13832145F2AC" import="1">Art/Madain_saleh_splash.dds</File>
+    <File md5="AC8565CB4BF557F71237406A43175D6F" import="0">XML/Buildings/Madain_Saleh_BuildingClasses.xml</File>
+    <File md5="895114DD145A516D243B81475A0A5DA9" import="0">XML/Buildings/Madain_Saleh_Buildings.xml</File>
+    <File md5="69A413388999B951702C497B6D8A381B" import="0">XML/Civilizations/Madain_Saleh_Civilizations.xml</File>
+    <File md5="3CCF9D057C73830A1F9F621A774A67B6" import="0">XML/GameInfo/Madain_Saleh_IconTextureAtlases.xml</File>
+    <File md5="FD4B498A0A5DCEB1AA4C81B095A0758B" import="0">XML/Text/Madain_Saleh_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Madain_Saleh_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Madain_Saleh_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Madain_Saleh_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Madain_Saleh_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Madain_Saleh_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

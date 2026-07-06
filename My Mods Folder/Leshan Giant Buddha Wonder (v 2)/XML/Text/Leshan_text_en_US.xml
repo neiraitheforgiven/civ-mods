@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_LESHAN">
+			<Text>Leshan Giant Buddha</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_LESHAN_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness from every 3 Policies. City must be built on a river</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_LESHAN_QUOTE">
+			<Text>[NEWLINE]"However many holy words you read, however many you speak, what good will they do you if you do not act on upon them?"[NEWLINE] - Buddha[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_LESHAN_PEDIA">
+			<Text>The Giant Buddha of Leshan is a 71 metre tall representation of a Maitreya Buddha located near the Chinese town of Leshan. It was constructed during the Tang Dynasty, which reigned from 618 to 907 CE. However, construction of the Buddha did not begin until circa 713, and was not finished until 803 CE. This still makes the statue the world's largest constructed in pre-modern times. [NEWLINE][NEWLINE]The construction was ordered by a monk at a nearby monastery, who wanted a statue to calm the violent currents of the Min and Dadu rivers, which combine at the base of the statue, to make the area safer for merchants and other watergoing craft. As a result of the construction, the currents were altered and the area became safer for boats. While some maintain it was the aura of the statue, it has been determined that the currents changed as a result of the ammount of stone removed from the mountain during construction.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

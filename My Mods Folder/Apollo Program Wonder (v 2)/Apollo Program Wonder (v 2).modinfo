@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a96feeea-26f7-4aab-a17e-b98ac3eea8c3" version="2">
+  <Properties>
+    <Name>Apollo Program Wonder</Name>
+    <Teaser>On July 20, 1969, Neil Armstrong and Edwin "Buzz" Aldrin became first two people ever to set foot on the surface of the moon</Teaser>
+    <Description>On July 20, 1969, Neil Armstrong and Edwin "Buzz" Aldrin became the first men to ever set foot upon another world, as part of the Apollo program. They spent over 21 hours on the surface, in which time they paved the way for another 140 hours by 10 more individuals. The Apollo Program and Neil Armstrong's momentus first steps were watched by millions worldwide, creating a generation of budding Astronauts and winning America the Space Race. The Apollo Program as it existed ingame is replaced with Project Longshot, a hypothetical spacecraft to Alpha Centauri. The Apollo Program Wonder provides +2 free technologies, +10 [ICON_SCIENCE] Science and provides +3 Scientist slots, making it a beneficial wonder for a Science victory.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Moriboe</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="23704C894069B2DBD80238260839FF28" import="1">Art/Apollo_Splash.dds</File>
+    <File md5="E5B7E17CF1319A404E4B5E0F0B69B874" import="1">Art/Longshot_icon128.dds</File>
+    <File md5="EF56848C45815EBEDEDA6A9D8137A40E" import="1">Art/Longshot_icon256.dds</File>
+    <File md5="0910C1309AA28DF6BB9A4DE361693243" import="1">Art/Longshot_icon45.dds</File>
+    <File md5="10A6EC906E2F0AFB0C3C399CB3397128" import="1">Art/Longshot_icon64.dds</File>
+    <File md5="BFE8AD0B8A14235F01400013CD5ED968" import="1">Art/Longshot_icon80.dds</File>
+    <File md5="82BE5A785107C3E889DBBB630EECD478" import="0">XML/Buildings/Apollo_BuildingClasses.xml</File>
+    <File md5="98E38B4B088437A0D2C40580347F3454" import="0">XML/Buildings/Apollo_Buildings.xml</File>
+    <File md5="519C793E104776FC4553B90E95A801A9" import="0">XML/Civilizations/Apollo_Civilizations.xml</File>
+    <File md5="E049D34DE03BAEC922EBEC45331E1832" import="0">XML/GameInfo/Longshot_IconTextureAtlases.xml</File>
+    <File md5="845259AC4CBDA71AF14E612973FF966F" import="0">XML/GameInfo/Longshot_ProjectUpdate.xml</File>
+    <File md5="61C640EF506C4D3F902343E8E09848F3" import="0">XML/Text/Apollo_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Apollo_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Apollo_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Apollo_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Longshot_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Longshot_ProjectUpdate.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Apollo_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

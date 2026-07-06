@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/26/2011 8:41:05 AM -->
+<GameData>
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_FREEDOM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_DEMOCRACY_MONUMENT</BuildingClassType>
+			<Happiness>5</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_ORDER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_DEMOCRACY_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>25</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	<Policy_BuildingClassCultureChanges>
+		<Row>
+			<PolicyType>POLICY_AUTOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_DEMOCRACY_MONUMENT</BuildingClassType>
+			<CultureChange>6</CultureChange>
+		</Row>
+	</Policy_BuildingClassCultureChanges>
+</GameData>

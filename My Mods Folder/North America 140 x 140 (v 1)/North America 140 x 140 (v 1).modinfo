@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="85a721a0-c3fa-48c9-895f-540739fde1d1" version="1">
+  <Properties>
+    <Name>North America 140 x 140</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Map of North America, size 140 x 140.</Teaser>
+    <Description>Map of North America, size 140 x 140.
+
+Does not include any resources or starting locations (all on random).</Description>
+    <Authors>Imperator</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="2D4EE9B52FAEA36909E7E05F8D730E31" import="0">North America 140 x 140.Civ5Map</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="Map" file="North America 140 x 140.Civ5Map">
+      <Name>North America 140 x 140</Name>
+      <Description>Map of North America, size 140 x 140.</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

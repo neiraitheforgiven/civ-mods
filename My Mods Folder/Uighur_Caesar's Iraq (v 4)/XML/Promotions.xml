@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 05/14/15 6:28:50 PM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_UC_ASSYRIAN_LEVY</Type>
+			<Description>TXT_KEY_PROMOTION_UC_ASSYRIAN_LEVY</Description>
+			<Help>TXT_KEY_PROMOTION_UC_ASSYRIAN_LEVY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<River>true</River>
+			<PortraitIndex>20</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_UC_ASSYRIAN_LEVY_HELP</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_UC_ASSYRIAN_LEVY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUNPOWDER</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+	
+	
+  
+</GameData>

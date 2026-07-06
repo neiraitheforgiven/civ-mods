@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_DEMOCRACY_MONUMENT">
+			<Text>Democracy Monument</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_DEMOCRACY_MONUMENT_HELP">
+			<Text>+5 [ICON_HAPPINESS_1] Happiness upon adopting Freedom.[NEWLINE]+25% [ICON_PRODUCTION] Production in the city upon adopting Order[NEWLINE]+6 [ICON_CULTURE] Upon adopting Autocracy</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_DEMOCRACY_MONUMENT_QUOTE">
+			<Text>[NEWLINE]"The spirit of democracy is not a mechanical thing to be adjusted by abolition of forms.  It requires change of heart."[NEWLINE] - Mahatma Gandhi[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_DEMOCRACY_MONUMENT_PEDIA">
+			<Text>The Democracy Monument is a large monument located in Bangkok, Thailand. It was constructed in 1939 following the 1932 Coup d'etat in what was then Siam, where the military forced the monarcy to abolish absolutism and adopt a constitution. The four columns of the monument represent the four branches of the military. The monument was meant to be part of a westernised Bangkok, in which it would represent the Arc Du Triomphe.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

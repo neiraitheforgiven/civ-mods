@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="84dc210e-0bdd-440a-b1cd-a0a886064863" version="1">
+  <Properties>
+    <Name>(BNW) Leugi's Barbarian Inmersion Enhancements</Name>
+    <Teaser>Changes the name of the Barbarians depending on the Era. Also adds Barbarian Great Generals and other bonuses.</Teaser>
+    <Description>Changes the name of the Barbarians depending on the Era human player is at. Also adds Barbarian Great Generals and other bonuses depending on the era (optional).
+
+The names and bonuses are:
+
+Ancient/Classical: Barbarian: No bonuses:
+Medieval: Brigand: Ignores Terrain Cost and Withdraws
+Renassaince: Pirate: May embark and receives naval bonuses.
+Industrial/Modern: Rebel: May embark, can capture enemy units to their side and may move after pillaging.
+Postmodern/Future: Terrorist: May embark. May move after pillaging and has increased attack against cities.
+
+The names, promotions and the Great General may be disabled through the Leugi_Barbarian_Settings.lua file</Description>
+    <Authors>Leugi</Authors>
+    <SpecialThanks>Gedemon, JFD</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="12D8054377AD3967BBC5F9CD579DAC5B" import="1">Art/BarbarianTopPopupIcon.dds</File>
+    <File md5="85116DA197103BD8204507E19F708C3F" import="1">Art/notificationbarbarian.dds</File>
+    <File md5="6B601102A85642121FA7EF392799BF94" import="1">Art/notificationbarbarianglow.dds</File>
+    <File md5="044CC5E46CF2716205866C1DE7D2FFB0" import="1">Leugi_Barbarian_Settings.lua</File>
+    <File md5="C10545E7A6C6F5F83B23B8F85D680E92" import="0">Core/BarbarianGeneral.xml</File>
+    <File md5="22592735152C22E0509474FFAFA1DDFA" import="0">Core/EraPromotions.xml</File>
+    <File md5="7A26E789208C82D1A5B5AAB051C7C468" import="0">Core/TextUpdates.xml</File>
+    <File md5="D05A16D6A44512BE0A59070FA1A78E2D" import="1">Lua/BarbarianEraScripts.lua</File>
+    <File md5="036D502A39CDF3FF33E70D18EFF20A26" import="1">Lua/BarbarianGGScripts.lua</File>
+    <File md5="A77D8B35CE59E18F172FCF4DEA636BB5" import="0">Lua/BarbarianUnhappiness.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">Lua/SaveUtils.lua</File>
+    <File md5="3D42708A92877156AB5972AF2CDC39D2" import="1">Lua/UI/BarbarianCampPopup.lua</File>
+    <File md5="115714D94C33DA129641C0F8D21154C0" import="1">Lua/UI/BarbarianCampPopup.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/BarbarianGeneral.xml</UpdateDatabase>
+      <UpdateDatabase>Core/EraPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>Core/TextUpdates.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/BarbarianUnhappiness.lua">
+      <Name>Barbarian Unhappiness</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

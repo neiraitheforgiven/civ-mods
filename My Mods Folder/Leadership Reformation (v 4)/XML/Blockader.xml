@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_BLOCKADER_GG</Type>
+			<Description>TXT_KEY_PROMOTION_BLOCKADER_GG</Description>
+			<Help>TXT_KEY_PROMOTION_BLOCKADER_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BLOCKADER_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BLOCKADER_GG2</Type>
+			<Description>TXT_KEY_PROMOTION_BLOCKADER_GG2</Description>
+			<Help>TXT_KEY_PROMOTION_BLOCKADER_GG2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BLOCKADER_GG2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BLOCKADER_GG3</Type>
+			<Description>TXT_KEY_PROMOTION_BLOCKADER_GG3</Description>
+			<Help>TXT_KEY_PROMOTION_BLOCKADER_GG3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BLOCKADER_GG3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BLOCKADER</Type>
+			<Description>TXT_KEY_PROMOTION_BLOCKADER</Description>
+			<Help>TXT_KEY_PROMOTION_BLOCKADER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>40</PortraitIndex>
+			<CityAttack>20</CityAttack>
+			<Sapper>true</Sapper>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BLOCKADER</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BLOCKADER2</Type>
+			<Description>TXT_KEY_PROMOTION_BLOCKADER2</Description>
+			<Help>TXT_KEY_PROMOTION_BLOCKADER2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>41</PortraitIndex>
+			<CityAttack>30</CityAttack> 
+			<Sapper>true</Sapper>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BLOCKADER2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BLOCKADER3</Type>
+			<Description>TXT_KEY_PROMOTION_BLOCKADER3</Description>
+			<Help>TXT_KEY_PROMOTION_BLOCKADER3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>42</PortraitIndex>
+			<CityAttack>40</CityAttack>
+			<Sapper>true</Sapper>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BLOCKADER3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_BLOCKADER_GG">
+			<Text>Blockader I (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLOCKADER_GG_HELP">
+			<Text>This Regular Admiral is experienced in destroying cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLOCKADER_GG2">
+			<Text>Blockader II (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLOCKADER_GG2_HELP">
+			<Text>This Regular Experienced Admiral aids other combatants in taking over cities. Replaces [COLOR_POSITIVE_TEXT]Blockader I[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLOCKADER_GG3">
+			<Text>Blockader III (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLOCKADER_GG3_HELP">
+			<Text>This Regular Veteran Admiral is very experienced and powerful in maintaining permanent embargos on cities. Replaces [COLOR_POSITIVE_TEXT]Blockader II[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLOCKADER">
+			<Text>Blockader I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLOCKADER_HELP">
+			<Text>+20% [ICON_STRENGTH] vs Cities. When next to an enemy city, other units within 2 tiles get a combat bonus when attacking the city. Acquired when starting the turn near a Great Admiral with the [COLOR_POSITIVE_TEXT]Blockader I[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLOCKADER2">
+			<Text>Blockader II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLOCKADER2_HELP">
+			<Text>+30% [ICON_STRENGTH] vs Cities. When next to an enemy city, other units within 2 tiles get a combat bonus when attacking the city. Acquired when starting the turn near a Great Admiral with the [COLOR_POSITIVE_TEXT]Blockader II[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLOCKADER3">
+			<Text>Blockader III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLOCKADER3_HELP">
+			<Text>+40% [ICON_STRENGTH] vs Cities. When next to an enemy city, other units within 2 tiles get a combat bonus when attacking the city. Acquired when starting the turn near a Great Admiral with the [COLOR_POSITIVE_TEXT]Blockader III[ENDCOLOR] trait.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

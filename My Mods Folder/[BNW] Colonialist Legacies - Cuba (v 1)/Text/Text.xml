@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 06/03/15 1:37:35 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_CL_UC_GUERRILLERO">
+			<Text>Guerrillero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CL_UC_GUERRILLERO">
+			<Text>Replacing the Great War Infantry, the Guerrillero can be expended to create a "Rebel Camp" improvement that has a chance to spawn Barbarians in enemy territories. If two Guerrilleros are adjacent to each other, they will cause enemy troops to flee when they attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CL_UC_GUERRILLERO_STRATEGY">
+			<Text>Groops of Guerrilleros can be used to put a thorn in enemy forces, either by creating unrest and barbarians or by causing seemingly superior forces to fall back.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_UC_GUERRILLERO_TEXT">
+			<Text>Guerrilla war in Cuba was very different to that conducted elsewhere in the world for one primary reason: the concept of “foquismo”. Codified into a proper political theory by Régis Debray after the Cuban Revolution, it centred on the idea that a small paramilitary force could provide a focal point for a popular uprising, which ran counter to the accepted doctrine among revolutionaries that one had to wait for the popular struggle before one could begin the armed struggle. This was inspired by the Maoist idea of “people’s war”, but was unique to Cuba’s revolutionaries - and its use elsewhere to aid the struggles of Marxist rebellions led directly to the death of Che Guevara in Bolivia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CL_UC_REVOLUTION">
+			<Text>[ICON_SPY] Spies generate "Revolutionary Fervor" in Cities, causing them to generate [ICON_HAPPINESS_4] Unhappiness (more after an Ideology is adopted). [ICON_HAPPINESS_4] Unhappiness penalties to [ICON_STRENGTH] Combat and [ICON_PRODUCTION] Production are halved.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CL_UC_DANCE_HALL">
+			<Text>Dance Hall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CL_UC_DANCE_HALL_TEXT">
+			<Text>Cuba’s tradition of popular music began with musical theatre and the “zarzuela” operetta form, a light, satirical opera originally from Spain that turned into a kind of running commentary on Cuban current events. This gave rise to the “bufo” style of musical comedy, which itself spawned the still-practiced guaracha movement. However, the biggest and most important aspect of Cuban music is son, which filled the dance halls and the airwaves alike with Afro-Cuban rhythms. However, the party couldn’t last; it was eventually superseded by jazz and swing, with Arsenio Rodriguez and Beny More the last of the great son artists. It lost its controversial edge, and that would never do in Cuba.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CL_UC_DANCE_HALL_STRATEGY">
+			<Text>Cheaper than the Opera House it replaces, the Dance Hall provides +1 [ICON_HAPPINESS_1] Happiness and +15% [ICON_PRODUCTION] Military Production if the [ICON_GREAT_WORK] Great Work of Music slot is filled. Revolutionary Fervor in this city contributes towards [ICON_GREAT_PEOPLE] Great Musicians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CL_UC_DANCE_HALL_HELP">
+			<Text>Cheaper than the Opera House it replaces, the Dance Hall provides +1 [ICON_HAPPINESS_1] Happiness and +15% [ICON_PRODUCTION] Military Production if the [ICON_GREAT_WORK] Great Work of Music slot is filled. Revolutionary Fervor in this city contributes towards [ICON_GREAT_PEOPLE] Great Musicians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_CL_UC_CUBA">
+			<Text>
+				Viva President Castro, leader, revolutionary, and creator of a modern, united Cuba! For years, your people were wracked with rebellion after rebellion; ever since the days of Marti, the land you love has been threatened with subjugation by thuggish despots. It was you, though, who awoke the fire in the Cuban citizen, you who formed a government after taking Havana, and you who reforged a nation in your own image. Times were often hard under your rule, especially after the collapse of the Soviet Union and the mass exodus of your people, but for all the problems it faces without and within, your country still stands proud and free.[NEWLINE][NEWLINE]President Castro, the imperialists of the world threaten your dream and the dream of your nation. You must take command, el Presidente, and cast out those who would render your achievements ashes. Will you do so through force of arms, or will the Cuban dream make those conquests for you? Can you build a Civilization that will stand the test of time?
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CL_UC_REVOLUTION_SHORT">
+			<Text>¡Viva la Revolución!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_DESC">
+			<Text>Fidel Castro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_LIVED">
+			<Text>1926-</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_NAME">
+			<Text>Fidel Castro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_SUBTITLE">
+			<Text>Leader of Cuba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_TITLES_1">
+			<Text>Prime Minister of Cuba (1959-1973)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_TITLES_2">
+			<Text>President of Cuba (1973-2008)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_TITLES_3">
+			<Text>First Secretary of the Cuban Communist Party (1961-2011)</Text>
+		</Row>
+			<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_HEADING_1">
+				<Text>History</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_TEXT_1">
+				<Text>Fidel Castro was the head of state of Cuba from the success of its Communist revolution to his retirement due to age and declining health in 2008.  Castro headed one of the longest-lasting Communist governments in history, that still persists to this day.  Communist Cuba remains critical in North American geopolitics, maintaining an icy relationship with the United States even after the Cold War ended, due in part to brinksmanship between America and Castro’s Cuba.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_HEADING_2">
+				<Text>Early Life</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_TEXT_2">
+				<Text>Castro was the son of a wealthy sugar cane farmer, an immigrant from Galicia.  Sent to Catholic school at a young age, Castro did not become interested in politics until he began studying law at the University of Havana.   There, he began his involvement with leftist and anti-imperialist politics.  After a number of unsuccessful attempts at political activism, including running for the presidency of his school’s student federation, his politics became increasingly radical.  As student activism became more violent, so did Castro.  He participated in a number of ventures across Latin America, including a failed coup attempt in the Dominican Republic.  As he began his family, he returned to a more peaceful, but still activist, career in law.  However, the coup by right-wing politician Fulgencio Batista drove Fidel Castro to revulsion,</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_HEADING_3">
+				<Text>MR 26-7</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_TEXT_3">
+				<Text>Castro and many other Cubans decided to fight what they perceived to be Batista’s tyranny.  Castro took direct action, founding a paramilitary called “The Movement.”The first major action by The Movement was to attack Moncada Barracks, in Santiago de Cuba.  The attack proved disastrous.Fidel and his brother Raul led 135 revolutionaries – 61 were killed and 51 captured.  Castro himself was tried and sentenced to 15 years in prison, but not before giving a famous speech, where he justified his actions and stated that “history will absolve me.  A few years later, Batista pardoned Castro, beliving him to no longer be a threat.  This was not the case.  “The Movement’ became the “July 26th Movement”, or MR-26-7.   While MR 26-7 cells prepared for a bigger action, Castro fled to Mexico with his brother, where he fell in with Argentine communist fighter Che Guevara.  In Mexico, and with Guevara’s and others’ help, Castro and his associates trained in clandestine and guerrilla warfare, the kind they needed to take the fight to Batista.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_HEADING_4">
+				<Text>Return to Cuba</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_TEXT_4">
+				<Text>Castro and company returned to Cuba by boat in December of 1956.  Only a small group of about 20 were able to encamp in the jungle.  Castro’s group began raiding army outposts for supplies and weapons.  They were aided by Guevara’s training as a doctor, along with support and trust from the locals.  26-7 cells continued their campaign of agitation while sending Castro supplies.  Castro’s strategy worked.  His tactics endeared him to locals, allowing him to constantly grow his forces.  Escalation meant that Batista’s soldiers turned even more brutal, causing further public outrage against his government.  In 1959, Castro’s forces took Havana from a military junta that had been established (with American backing) to displace the failing Batista. He was sworn in as Prime Minister in February of that year.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_HEADING_5">
+				<Text>Cuba under Castro</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_TEXT_5">
+				<Text>Castro’s Cuba did not start off as explicitly socialist as he is remembered – however, his regime certainly developed into a socialist state, popular with workers and peasants but unpopular among the intelligentsia, many of whom emigrated (legally or otherwise) to the United States and elsewhere.   Cuba was closely associated with the Soviet Union and global communism during the Cold War.  Famously, the United States sponsored the Bay of Pigs invasion, a guerrilla force that was designed to remove Castro from power in 1961.  It proved disastrous.  Cuba was also central to the Cuban Missile Crisis, whereupon Soviet premier Nikita Khrushchev planned to install a Soviet missile base in Cuba, infuriating the nearby Americans.  This incident was perhaps the closest the world has come to global nuclear war.  Cuba was used as battleground, but had no place in the negotiations, infuriating Castro.  After the Cuban Missile Crisis, Castro has turned more toward the Non-Aligned Movement for political support, even serving as President.  Cuba was still committed to socialism, though – it directly supported Angola’s Marxist MPLA at the request of Agostinho Neto in the 1970s. Castro’s Cuba survived the end of the Cold War, although not unscathed.  The Special Period, during the 1990s, was a period of economic hardship brought on by the loss of Communist trading partners.  Cuba somewhat regained its footing in the 2000s, by aligning itself with leftist governments in South America, like Hugo Chavez’ Venezuela.  Castro began to fall into ill health in the 2000s, turning over his presidential duties to his brother Raul in 2006.  Raul was formally elected in 2008.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_HEADING_6">
+				<Text>Judgement of History</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEADER_CL_UC_CASTRO_TEXT_6">
+				<Text>Castro is viewed negatively by many in the West, especially the United States.  His role in the Cuban Missile Crisis, along with the substantial (and politically active) Cuban-American population has made the Cold War last longer politically than historically, when it comes to relations between the two countries.  However, in 2015, America and Cuba finally reestablished embassies.  Castro’s rule was not economically successful, but its longevity, persisting at least 25 years after the end of the Cold War, is notable.  Communist Cuba has also been widely criticized for its human rights violations.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SPY_NAME_CL_UC_CUBA_0">
+				<Text>Raul</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SPY_NAME_CL_UC_CUBA_1">
+				<Text>Che</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SPY_NAME_CL_UC_CUBA_2">
+				<Text>Camilo</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SPY_NAME_CL_UC_CUBA_3">
+				<Text>Blas</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SPY_NAME_CL_UC_CUBA_4">
+				<Text>Juantorena</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SPY_NAME_CL_UC_CUBA_5">
+				<Text>Arnaldo</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SPY_NAME_CL_UC_CUBA_6">
+				<Text>Haydee</Text>
+				<Gender>feminine</Gender>
+			</Row>
+			<Row Tag="TXT_KEY_SPY_NAME_CL_UC_CUBA_7">
+				<Text>Cuban Pete</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SPY_NAME_CL_UC_CUBA_8">
+				<Text>Celia</Text>
+				<Gender>feminine</Gender>
+			</Row>
+			<Row Tag="TXT_KEY_SPY_NAME_CL_UC_CUBA_9">
+				<Text>Panfilo Jama</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV_CL_UC_CUBA_DESC">
+				<Text>Republic of Cuba</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV_CL_UC_CUBA_SHORT_DESC">
+				<Text>Cuba</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV_CL_UC_CUBA_ADJECTIVE">
+				<Text>Cuban</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV_CL_UC_CUBA">
+				<Text>Cuba</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIVLOPEDIA_CL_UC_CUBA_TITLE">
+				<Text>Cuba</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_HEADING_1">
+				<Text>History</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_TEXT_1">
+				<Text>Cuba is the largest Caribbean island.  It was once inhabited by the Taino, or Arawak people, among others.  Since its colonization in the 15th century by the Spanish, Cuba has been a key part of the New World colonies and a key strategic place in the Caribbean.  Its prominence in the region, its economy and its proximity to the territorial United States have made it a prominent colonial and postcolonial nation through the Age of Discovery, the Latin American independence struggle, and the Cold War.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_HEADING_2">
+				<Text>Geography and Climate</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_TEXT_2">
+				<Text>Cuba is the largest island in the Caribbean, and the 17th largest in the world. Cuba’s narrow landmass spans a large swath of the Gulf of Mexico.  Its climate is tropical, which tailors the environment to the cultivation of sugar cane and its byproducts. This tropical climate subjects Cuba to year-round warm weather, but also the danger of Atlantic hurricanes. </Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_HEADING_3">
+				<Text>Colonial History</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_TEXT_3">
+				<Text>Cuba was a Spanish colony for centuries, from the late 1400s to 1898.  Christophor Colombus arrived with his three ships in 1492.  Twenty years later, Spanish settlements began to pop up.  Unlike other Caribbean colonies, over the centuries Cuba became quite urbanized, and had a diversified economy.   Cuba had a substantial slave population.  Cuban planters benefitted from the successful slave revolt in Haiti, in that they were able to anticipate similar unrest in Cuba.  While this helped to perpetuate the institution of slavery in the colony and indeed the colonial rule itself, 19th Century Cuba had a significantly higher amount of free persons of color than other slaveholding states at the time.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_HEADING_4">
+				<Text>Independent Cuba</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_TEXT_4">
+				<Text>Cuba’s independence took much longer than other Latin American nations.In the second half of the 1800s, about forty years after all other Latin American nations began to become independent, Cuban planter Carlos Manuel de Cespedes launched an uprising known as the Ten Years War, which did not end in independence, but did win the Cubans a promise of greater autonomy from Spain.  Slavery was abolished in 1875. Cuba finally won its independence in 1898, with the help of exiled dissident Jose Marti, a writer who penned his Manifesto of Montecristi before his death in a battle in 1895.  Marti is regarded as Cuba’s national hero.  The Americans became involved in the conflict when their battleship, the Maine, exploded in the harbor in Havana.  American journalist William Randolph Hearst’s (who supported the Cuban rebels) sensationalist coverage of the incident helped to bring the conflict to a head in the Spanish-American War, which ended in the 1898 Treaty of Paris, granting Cuba its independence after four centuries.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_HEADING_5">
+				<Text>The Revolution</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_TEXT_5">
+				<Text>The first few decades of Cuban independence were rather prosperous, but prosperity was confined to the wealthy.  Especially during the rule of Fulgencio Batista, Cuba was known for its tourism industry – both Frank Sinatra and the American Mafia were influential in Havana in the 1950s.  Cuba was relatively well-developed for the region, thanks to its more urban organization.	The Cuban Revolution took place in 1959.  Fidel Castro, a militant student activist in the 1940s, attempted to start a violent revolution through his organization MR 26-7.  After a failed attack on Moncada Barracks, Castro was imprisoned but eventually pardoned.  Fleeing to Mexico, Castro fell in with Argentine Marxist Che Guevara.  Together, Castro and Guevara recruited allies and trained on guerrilla warfare. The pair, along Castro’s brother Raul and Camilo Cienfuegos, returned to Cuba in the mid 1950s.  Engaging in guerrilla warfare, MR 26-7 engaged in agitation in the cities while Castro’s group recruited local peasants and raided army bases in the jungles and mountains.  Batista’s regime crumbled under a faltering military and collapsing public support.  An American-backed right-wing coup deposed him – but the junta was itself deposed in 1959, when Castro and Guevara took Havana.
+				</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_HEADING_6">
+				<Text>Cuba and Soviet Russia</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_TEXT_6">
+				<Text>During the Cold War, Cuba, as America’s closest Communist neighbor, needed to align themselves with the Soviet Union in order to survive economically and politically. Castro was subjected to a number of assassination attempts by the CIA, including the failed support of the Bay of Pigs invasion. These tensions came to a head in the Cuban Missile Crisis in 1962.  Cuba had requested the placement of Soviet nuclear missiles in Cuba to prevent future harassment from the Americans.   Soviet premier Nikita Khrushchev agreed, as the Americans had upset the thermonuclear balance by placing missiles in Turkey. American spy planes discovered the transport of these  missiles, and blockaded further importation of missiles.  After two weeks of tense negotiation, the Soviet missiles were pulled back, as were the American counterparts in Turkey.  This crisis had far-reaching implications for the ongoing Cold War, but Cuba was merely a place for these events to occur, rather than a meaningful actor.  Fidel Castro was not at the negotiating table during the crisis.  While Cuba was still aligned with the Soviets politically and economically, Castro turned to the Non-Aligned Movement during the next few decades.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_HEADING_7">
+				<Text>The Special Period</Text>
+			</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_TEXT_7">
+			<Text>After the end of the Cold War, Cuba lost much of its Communist trade due to the dissolution of the Soviet Union.  The severe economic depression persisted throughout the 1990s, and was most evident in a massive shortage of gasoline and fuel. Famine led to rationing, which persists to this day.  The Cuban economy began to recover late in the decade – one source of help was a new alignment with left-wing Latin American states like Venezuela and Bolivia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_HEADING_8">
+			<Text>Cuba after Fidel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_TEXT_8">
+			<Text>Fidel Castro turned over presidential duties to his brother Raul in 2006, citing health concerns.  In recent years, Cuba and the Untied States have warmed relations.  In 2015, embassies reopened in Havana and Washington, and travel and trade restrictions began to ease.  Despite this, Cuba remains a steadfast Communist nation 25 years after the end of the Soviet Union.  Cuba remains an important Latin American political actor, with Miami’s substantial Cuban refugee population continuing their resistance to the Castros from afar.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_HEADING_9">
+			<Text>Trivia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_UC_CUBA_TEXT_9">
+			<Text>-Fidel Castro attended El Colegio de Belen, a Jesuit-run predatory school, in 1945.  After Communist Cuba expelled the Jesuits, the school relocated to Miami, where it still operates today. -During the Ten Years War, two thousand Chinese indentured servants fought on the side of the rebels.  Today, there is a monument in their honor in Havana.  -In 2000, a statue of John Lennon was built in Havana.  The Beatles were banned in the 1960s and 70s.  -Cuba’s literacy rate of 99.7% is one of the highest in the world.  1961, just after the revolution, was dedicated to education through the Cuban Literacy Campaign.</Text>
+		</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_0">
+				<Text>Havana</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_1">
+				<Text>Santiago de Cuba</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_2">
+				<Text>Camagüey</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_3">
+				<Text>Guantanamo</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_4">
+				<Text>Pinar del Rio</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_5">
+				<Text>Holguin</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_6">
+				<Text>Cienfuegos</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_7">
+				<Text>Santa Clara</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_8">
+				<Text>Matanzas</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_9">
+				<Text>Bayamo</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_10">
+				<Text>Sancti Spiritus</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_11">
+				<Text>Florida</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_12">
+				<Text>Moron</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_13">
+				<Text>Ciego de Avila</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_14">
+				<Text>Las Tunas</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_15">
+				<Text>Artemisa</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_16">
+				<Text>Nueva Gerona</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_17">
+				<Text>Cardenas</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_18">
+				<Text>Baracoa</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_19">
+				<Text>Palma Soriano</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_20">
+				<Text>Varadero</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_21">
+				<Text>Manzanilla</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_22">
+				<Text>Colon</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_23">
+				<Text>Contramaestro</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_24">
+				<Text>Sandino</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_25">
+				<Text>La Maya</Text>
+			</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_26">
+			<Text>Guanabacoa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_27">
+			<Text>Baracoa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_28">
+			<Text>Guines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_29">
+			<Text>Sagua La Grande</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_30">
+			<Text>Trinidad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_31">
+			<Text>Placetas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_32">
+			<Text>Nuevitas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_33">
+			<Text>Banes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_34">
+			<Text>San Luis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_UC_CUBA_35">
+			<Text>San Jose de las Lajas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UC_GOBANANAS">
+			<Text>Foquismo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UC_GOBANANAS_HELP">
+			<Text>Can knock back enemies when dealing heavy damage when adjacent to another Guerrillero.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UC_COMBAT_1">
+			<Text>¡Viva la Revolución!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UC_COMBAT_1_HELP">
+			<Text>Reduces combat penalty from unhappiness by 1%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UC_COMBAT_2_HELP">
+			<Text>Reduces combat penalty from unhappiness by 2%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UC_COMBAT_4_HELP">
+			<Text>Reduces combat penalty from unhappiness by 4%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UC_COMBAT_8_HELP">
+			<Text>Reduces combat penalty from unhappiness by 8%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UC_COMBAT_16_HELP">
+			<Text>Reduces combat penalty from unhappiness by 16%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UC_COMBAT_32_HELP">
+			<Text>Reduces combat penalty from unhappiness by 32%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CL_UC_REBEL_CAMP">
+			<Text>Rebel Camp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CL_UC_REBEL_CAMP_HELP">
+			<Text>May only be built in foreign territory within the vicinity of a City generating Revolutionary Fervor and consumes the Guerrillero. The Camp will spawn barbarians every 3 turns for 9 turns, and then be destroyed. Don't listen to the red text below. You will be able to build this in enemy lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CL_UC_REBEL_CAMP">
+			<Text>Rebel Camp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_CL_UC_REBEL_CAMP_HELP">
+			<Text>May only be built in foreign territory within the vicinity of a City generating Revolutionary Fervor and consumes the Guerrillero. +50% [ICON_STRENGTH] Defense bonus. May spawn Barbarians in territories experiencing Revolutionary Fervor.</Text>
+		</Row>
+	</Language_en_US>	
+</GameData>

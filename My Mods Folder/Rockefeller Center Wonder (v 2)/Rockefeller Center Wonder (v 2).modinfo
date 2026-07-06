@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cfafc9d5-6416-4be0-8bc0-8beaebfc8cad" version="2">
+  <Properties>
+    <Name>Rockefeller Center Wonder</Name>
+    <Teaser>Built during the Great Depression with John D. Rockefeller as the sole financeur of the whole project, the Rockefeller center</Teaser>
+    <Description>Built during the Great Depression with John D. Rockefeller as the sole financeur of the whole project, the Rockefeller center features many New York icons. Along with the icons of the Radio City Music Hall and South Plaza ice-skating rink, the Rockefeller center has be come a core part of New York city right from the finish of the construction. Ingame, the Rockefeller Center provides 5  Happiness with the Commerce policy tree, and 20  Gold with Freedom. As well as this, your current Influence with all city-states is doubled.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Ambrox62, Mentos,, Moriboe</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="44AAE026D3E2DC2DCAC808971D4D6DB8" import="1">Art/Rockefeller_icon128.dds</File>
+    <File md5="156537F51FD1FCE5CD55FA6A49B86990" import="1">Art/Rockefeller_icon256.dds</File>
+    <File md5="2950A31980A6C39C4D96871DCCC2ECA1" import="1">Art/Rockefeller_icon45.dds</File>
+    <File md5="E1B9ECE4DBDD7A15D300A2CEA19D7C53" import="1">Art/Rockefeller_icon64.dds</File>
+    <File md5="751403AE3B80B0F3917BCAC3154E3304" import="1">Art/Rockefeller_icon80.dds</File>
+    <File md5="73D91DB26B6A6E82AC0CDEE72F186896" import="1">Art/Rockefeller_splash.dds</File>
+    <File md5="B5499EFF9963E216607011F72D4483AB" import="1">Art/Rockefeller_splash_a.dds</File>
+    <File md5="687DDA90407B48A948ACB0DB0AEF15A9" import="0">readme.txt</File>
+    <File md5="91D83821D699281299D20D755D4F5362" import="0">XML/Buildings/Rockefeller_BuildingClasses.xml</File>
+    <File md5="8AF1452A30F3933D946B7385D506B326" import="0">XML/Buildings/Rockefeller_Buildings.xml</File>
+    <File md5="362B20882A6262440D0DDFA1085E4D24" import="0">XML/Civilizations/Rockefeller_Civilizations.xml</File>
+    <File md5="3E2FA4B4C9F2DDEBB2AA38D1D79832DE" import="0">XML/GameInfo/Rockefeller_IconTextureAtlases.xml</File>
+    <File md5="EB70E3913776BDDF5B35B15ECD4B7D33" import="0">XML/GameInfo/Rockefeller_Policies.xml</File>
+    <File md5="D98B6A8457DBEF33CFAD770A113B0083" import="0">XML/Text/Rockefeller_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Rockefeller_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Rockefeller_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Rockefeller_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Rockefeller_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Rockefeller_Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Rockefeller_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

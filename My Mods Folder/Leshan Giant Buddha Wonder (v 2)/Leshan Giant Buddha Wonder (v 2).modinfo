@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e7d8c523-e50f-4cbb-8ed4-169b1af3100f" version="2">
+  <Properties>
+    <Name>Leshan Giant Buddha Wonder</Name>
+    <Teaser>The largest pre-modern statue on Earth, the Leshan Giant Buddha was constructed during the Tang dynasty in the hope of calming</Teaser>
+    <Description>The largest pre-modern statue on Earth, the Leshan Giant Buddha was constructed during the Tang dynasty in the hope that the presence of Buddha would calm the turbulent waters of the rivers below, where the Min and Dadu rivers merge. Construction lasted around 100 years, and when it was finished the currents did calm down in the water. However, this was due to the ammount of stone removed, and not the statue itself. According to local legend, the site was chosen because the mountain range which the statue is carved in is shaped like a reclined Buddha, with the statue at the heart. Ingame, the Buddha provides 6 [ICON_HAPPINESS_1] Happiness, with an additional 1 [ICON_HAPPINESS_1] Happiness for every 3 social policies adopted.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Ambrox62, Moriboe, mentos</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="69424C211CB802C82C130D566BA8492F" import="1">Art/Leshan_icon128.dds</File>
+    <File md5="F433A1550F852C0E04903B918E207804" import="1">Art/Leshan_icon256.dds</File>
+    <File md5="FC614A891F4DD81FC9C1DB696A747F52" import="1">Art/Leshan_icon45.dds</File>
+    <File md5="A3BF04187E5892AC9BB68BA477045F06" import="1">Art/Leshan_icon64.dds</File>
+    <File md5="1C0CB0CB5A473F41759B19A29027ACBD" import="1">Art/Leshan_icon80.dds</File>
+    <File md5="F3F50E0857089DEB880EF094468D47BC" import="1">Art/Leshan_Splash.dds</File>
+    <File md5="9AAA96F2E33030F684EDAA9E0B86AA79" import="0">XML/Buildings/Leshan_BuildingClasses.xml</File>
+    <File md5="BF67F8A9D4E133F82189A4C707682B95" import="0">XML/Buildings/Leshan_Buildings.xml</File>
+    <File md5="037ED44D15D8387032893256DEA54DA6" import="0">XML/Civilizations/Leshan_Civilizations.xml</File>
+    <File md5="9141510F8326014703668319750C582E" import="0">XML/GameInfo/Leshan_IconTextureAtlases.xml</File>
+    <File md5="2723A0F57DB9C830946ABD6F4774A466" import="0">XML/Text/Leshan_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Leshan_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Leshan_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Leshan_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Leshan_text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Leshan_IconTextureAtlases.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

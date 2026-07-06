@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MLK">
+			<Text>Martin Luther King Memorial</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_MLK_HELP">
+			<Text>+10% Generation of [ICON_GREAT_PEOPLE] Great people in all cities. +5 [ICON_HAPPINESS_1] Happiness with Freedom</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_MLK_QUOTE">
+			<Text>
+				[NEWLINE]"Out of a mountain of despair, a stone of hope."[NEWLINE] - Martin Luther King Jr.[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_MLK_PEDIA">
+			<Text>The Martin Luther King memorial is a large monument constructed in 2011 to honour former Civil Rights activist Martin Luther King junior. It was inspired by a phrase in King's iconic "I have a dream" speech at the Lincoln memorial as part of the March on Washington, one hundred years after Lincoln's Emancipation Proclaimation, in which he decreed all slaves were now free citizens. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

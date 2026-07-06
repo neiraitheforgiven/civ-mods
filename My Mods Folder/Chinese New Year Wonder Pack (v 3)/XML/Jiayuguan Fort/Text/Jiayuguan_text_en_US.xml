@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_JIAYUGUAN">
+			<Text>Jiayuguan Fort</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_JIAYUGUAN_HELP">
+			<Text>+2 [ICON_GOLD] Gold boost to trade routes with the city.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_JIAYUGUAN_QUOTE">
+			<Text>
+				[NEWLINE]"Fortitude is the marshal of thought, the armor of the will, and the fort of reason"[NEWLINE] - Francis Bacon[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_JIAYUGUAN_PEDIA">
+			<Text>Jiayuguan fort is situated at Jiayu pass, the westernmost pass of the Great Wall. Built during the Ming Dynasty in order to protect traders on the Silk Road from Nomadic raiders in the north, it remains as one of the most intact sections of the Great Wall in all of China. According to legend, when the fort was being built the general asked a mathmatician to calculate the ammount of bricks required for the entire fort. The mathmatician gave his calculation, and when the construction was finished there was one brick left over. When accused of being wrong, the mathematician replied, "That brick is to be placed over the entrance, to bless all those who pass through these gates". To this day the brick remains there. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

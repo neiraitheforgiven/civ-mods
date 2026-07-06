@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/13/2012 7:25:41 AM -->
+<GameData>
+	<WonderSplashImages>
+		<Row>
+			<WonderType>BUILDING_KRONBORG</WonderType>
+			<Image>KRONBORG_splash_a.dds</Image>
+			<Anchor>R,B</Anchor>
+			<Weight>5</Weight>
+		</Row>
+	</WonderSplashImages>
+</GameData>

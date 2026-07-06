@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/21/2012 1:23:56 AM -->
+<GameData>
+	<GameOptions>
+		<Row>
+			<Type>GAMEOPTION_NO_MP_LIST</Type>
+			<Description>TXT_KEY_GAME_OPTION_NO_MP_LIST</Description>
+			<Help>TXT_KEY_GAME_OPTION_NO_MP_LIST_HELP</Help>
+		</Row>
+	</GameOptions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_MP_LIST">
+			<Text>Hide MP List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_MP_LIST_HELP">
+			<Text>The multiplayer score list on the right will be hidden in hotseat mode</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

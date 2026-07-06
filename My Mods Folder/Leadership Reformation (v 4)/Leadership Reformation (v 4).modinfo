@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1c60d0cc-ed38-4572-b163-c4014fc3ba87" version="4">
+  <Properties>
+    <Name>Leadership Reformation</Name>
+    <Teaser>GG and GAs are born with custom promotions to granting allied units their promotions.</Teaser>
+    <Description>Great Generals and Great Admirals are now born with unique custom promotions granting to their nearby units!
+
+Recommended Community Patch for 100% functionality.
+
+FAQ:
+
+Q: I CAN'T SEE THE UNITPANEL
+A: Look in my Lua folder and there are subfolders with UnitPanel that should  be replacing the UnitPanel in the Lua main folder of this mod (Choose one that meets your condition, not all)</Description>
+    <Authors>Techpriest Enginseer</Authors>
+    <SpecialThanks>LeeS</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="828b5b4b-7c62-4afb-a43f-034b596ef5e4" minversion="0" maxversion="999" title="Community Balance Patch (No-EUI)" />
+    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="0" maxversion="999" title="Community Balance Patch (EUI)" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Vox Populi" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="602D1DC084D1A2147356358953797718" import="1">Icons/GPAtlas256.dds</File>
+    <File md5="D45793D9874F9054273DFE385FD32DD3" import="1">Icons/GPAtlas32.dds</File>
+    <File md5="93044DCDAC2C9D1C106EB52F75186CB2" import="1">Icons/GPAtlas45.dds</File>
+    <File md5="39F8A47B70BFB448DDEC21CB7693BFD7" import="1">Icons/GPAtlas64.dds</File>
+    <File md5="8E92FC4A97E5DFDD1934D73ED7548DF4" import="0">LUA/AdmiralPromotion.lua</File>
+    <File md5="4EFC65261535FB6EE4E784B1807B50A3" import="0">LUA/ClickHereifCBPButNoEUI/UnitPanel.lua</File>
+    <File md5="C51A8C93AFB42EFE6E65461EF2A3E4CB" import="0">LUA/ClickHereIfCBPEUI/UnitPanel.lua</File>
+    <File md5="A93978909DB82A5577B7F4CA620A1A33" import="0">LUA/ClickHereIfEUI/UnitPanel.lua</File>
+    <File md5="C8497E521BF277249D798546D5E4AD1D" import="1">LUA/EnginseerConfig.lua</File>
+    <File md5="8ED1E8345BBC4D155E4F988CF90DEBEC" import="0">LUA/GeneralPromotion.lua</File>
+    <File md5="182528E321DBD6860A02ACC65F8BA2D8" import="1">LUA/GGTraits.lua</File>
+    <File md5="77096F73DACB6659E908978A3740C95D" import="0">LUA/CityTraits.lua</File>
+    <File md5="209D6AAB92056681CA0C4822F2A1FC1B" import="1">LUA/PlotIterators.lua</File>
+    <File md5="281EC768CF1EE8867E253C697DFE386D" import="1">LUA/UnitPanel.lua</File>
+    <File md5="03F570B858CC3EDFEAF2A0C13EFF0D7C" import="0">SQL for CP/Promotions.sql</File>
+    <File md5="441A32225DBB431D7CAFCD8CBC9B4303" import="0">XML/Banzai.xml</File>
+    <File md5="7F664D4F3299B02AD2EE0F036DEA98AF" import="0">XML/Blockader.xml</File>
+    <File md5="3475E4D418DB73A337A7B4FB56F2C699" import="0">XML/Butcher.xml</File>
+    <File md5="73FC5FEBF06877330550C0F86E9CA36E" import="0">XML/Commando.xml</File>
+    <File md5="DC0411064858B442B4D35CCDBC6E4673" import="0">XML/Cowardly.xml</File>
+    <File md5="93E8D9F79EFC1E916D9F82F4CB45FD2A" import="0">XML/DummyBuildings.xml</File>
+    <File md5="E5ADD5BE9479B9D8E4EE9229F05F0362" import="0">XML/DummyPromotions.xml</File>
+    <File md5="22EC085B781233A42639DD3AC1A447C2" import="0">XML/ForcedMarch.xml</File>
+    <File md5="CA97682A3F55CE75035BF6E02941D77D" import="0">XML/Foreign Recruitment.xml</File>
+    <File md5="E4BE14BA92E3CC8AB12C4BFD7B0161FE" import="0">XML/Gunnery.xml</File>
+    <File md5="095EC6C7282A8488F2A7A8EC065FB84B" import="0">XML/Homeguard.xml</File>
+    <File md5="92424FCD9C1BB7D72D4B1239E77147C1" import="0">XML/CPPromotions.xml</File>
+    <File md5="C67CF470650A351EC8AC1EDCE71AB1C0" import="0">XML/Default.xml</File>
+    <File md5="19D96DEB43B01E7A24F0A27F2334F1CC" import="0">XML/Impressment.xml</File>
+    <File md5="CE6ECEC1B8D065BAD8EE8F7831EEE4C7" import="0">XML/LocalIntelligence.xml</File>
+    <File md5="6292DB6F9787CC90F34CF4EDCF928F16" import="0">XML/Nationalism.xml</File>
+    <File md5="8A7CD548151E91143952FBA02204DE73" import="0">XML/Piloting.xml</File>
+    <File md5="6591F11E94B6D84C61E19689637E435F" import="0">XML/Self-Sufficient.xml</File>
+    <File md5="496A05677FF12B52868D437D2B7F271D" import="0">XML/Skirmishes.xml</File>
+    <File md5="2DFE921548C9A1EE7BC447AC13891F91" import="0">XML/StrictFormation.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/CPPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>SQL for CP/Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Default.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Homeguard.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Nationalism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/LocalIntelligence.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cowardly.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Butcher.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Commando.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ForcedMarch.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Foreign Recruitment.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Self-Sufficient.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Skirmishes.xml</UpdateDatabase>
+      <UpdateDatabase>XML/StrictFormation.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Banzai.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Impressment.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Blockader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gunnery.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Piloting.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DummyPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DummyBuildings.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/GeneralPromotion.lua">
+      <Name>GreatGeneralPromo</Name>
+      <Description>LUA that grants the Great General custom promotions upon birth!</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/AdmiralPromotion.lua">
+      <Name>GreatAdmiralPromo</Name>
+      <Description>Whocares</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/CityTraits.lua">
+      <Name>CityPromo</Name>
+      <Description>Whocares</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

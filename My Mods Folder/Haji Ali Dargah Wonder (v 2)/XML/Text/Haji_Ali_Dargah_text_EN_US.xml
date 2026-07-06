@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_HAJI_ALI_DARGAH">
+			<Text>Haji Ali Dargah</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_HAJI_ALI_DARGAH_HELP">
+			<Text>+20% Gold from [ICON_CONNECTED] Trade Routes. +2 [ICON_GOLD] Gold from Sea resources. City must be built on the coast.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_HAJI_ALI_DARGAH_QUOTE">
+			<Text>
+				[NEWLINE]"That's what a ship is, you know - it's not just a keel and a hull and a deck and sails, that's what a ship needs. But what a ship is,... really is, is freedom."[NEWLINE] - Captain Jack Sparrow[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_HAJI_ALI_DARGAH_PEDIA">
+			<Text>Haji Ali Dargah is a Mosque and Tomb located on an islet of the coast of Mumbai, India, in the Arabian Sea. It was constructed in 1431 in memory of a Muslim merchant known as Sayyed Peer Haji Ali Shah Bukhari (R.A.), who prior to settling in Mumbai, travelled through Persia and modern day Uzbekistan. After accumulating great wealth he gave up all his worldly possessions and embarked on a pilgrimage to Mecca. Upon this trip he died, and his body is said to have floated back to India, and became stuck on the islet which formed the site of his tomb. The Dargah is linked to the coast with a causeway which becomes flooded at high tide, and as such it is only accessiable at low tide. Even with this limited accessibility, on average 80,000 people a week visit the site, often to recieve a blessing. The Indo-Islamic architecture is often worn down by salt spray, and as such in 2008 the site was extensively refurbished. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

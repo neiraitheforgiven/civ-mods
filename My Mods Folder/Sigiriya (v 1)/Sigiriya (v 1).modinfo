@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fe91136c-bc2d-480c-96bf-7d244cba62a9" version="1">
+  <Properties>
+    <Name>Sigiriya</Name>
+    <Teaser>Adds Sigiriya as a World Wonder</Teaser>
+    <Description>Adds Sigiriya, the lavish mountain-top palace of King Kashyapa, as a World Wonder.</Description>
+    <Authors>Reedstilt</Authors>
+    <SpecialThanks>COF</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A051B40139E5F369238C40B30D883C99" import="1">Art/Sigiriya_splash.dds</File>
+    <File md5="2C672099226ED3DB2AF46CBDFF6A8691" import="1">Art/Sigiriya_icon128.dds</File>
+    <File md5="C78A1347FAC5C034481F97144DEB4A87" import="1">Art/Sigiriya_icon256.dds</File>
+    <File md5="C2E2D1D1B0955BC02951E10198744A75" import="1">Art/Sigiriya_icon45.dds</File>
+    <File md5="31CE45671A822DBD287DFED7151E8C78" import="1">Art/Sigiriya_icon64.dds</File>
+    <File md5="2F0AABEE840CB02BF5E538A7943A61B3" import="1">Art/Sigiriya_icon80.dds</File>
+    <File md5="54758C5045C71B70CE3558FDBA3B8BAC" import="0">XML/Buildings/Sigiriya_BuildingClasses.xml</File>
+    <File md5="97142FBD35FBB565B118F51972177C60" import="0">XML/Buildings/Sigiriya_Buildings.xml</File>
+    <File md5="62F9A81887E14E56CC3738C7C7F48B30" import="0">XML/Civilizations/Sigiriya_Civilizations.xml</File>
+    <File md5="6D930609BA4DF2C7B2D03FAFBB3B3D2E" import="0">XML/GameInfo/Sigiriya_IconTextureAtlases.xml</File>
+    <File md5="F654CE5653E03CAA09E2B260C3243339" import="0">XML/Text/Sigiriya_text_EN_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Sigiriya_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Sigiriya_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Sigiriya_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Sigiriya_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Sigiriya_text_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

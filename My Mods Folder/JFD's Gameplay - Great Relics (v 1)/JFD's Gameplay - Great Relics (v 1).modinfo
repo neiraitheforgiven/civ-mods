@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a5696d83-5f52-4f0b-85e2-15c07818b612" version="1">
+  <Properties>
+    <Name>JFD's Gameplay - Great Relics</Name>
+    <Teaser>Adds [COLOR_CYAN]Great Relics[ENDCOLOR] as a new gameplay concept. Click for details.</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]Great Relics[ENDCOLOR] are a new type of Great Work that can be acquired by expending a Great Prophet once you have enhanced a Religion. They can only be slotted into the Great Relic Slots provided by the Monastery and Solomon's Temple World Wonder.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="aa78c420-1dbc-4b63-a641-07aa0222febf" minversion="0" maxversion="999" title="JFD's Utilities - Conflict Resolution Patch" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="(1) Community Patch" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="90AAEA90CC1DD5ED85FCC19DA46CC229" import="1">Art/Font Icons/FontIcons_JFD_GreatRelics_22.dds</File>
+    <File md5="297821E3B413E8510468E7DE2CDE1C59" import="1">Art/Font Icons/FontIcons_JFD_GreatRelics_22.ggxml</File>
+    <File md5="E3F4DD11479C2D877D558D8E36FFB570" import="1">Art/Icon Atlases/JFD_GreatRelics_IconAtlas_128.dds</File>
+    <File md5="E969F65564B031191AC5AE68893D1822" import="1">Art/Icon Atlases/JFD_GreatRelics_IconAtlas_256.dds</File>
+    <File md5="B76ECE4FCEA251006E779D2FE5244BEA" import="1">Art/Icon Atlases/JFD_GreatRelics_IconAtlas_32.dds</File>
+    <File md5="9461EFADF2FD393033C81AA16840B8D5" import="1">Art/Icon Atlases/JFD_GreatRelics_IconAtlas_45.dds</File>
+    <File md5="11DD8DAC26A1C4618870EAE67C851C1D" import="1">Art/Icon Atlases/JFD_GreatRelics_IconAtlas_64.dds</File>
+    <File md5="805C97882790888EA1FE0C639B82B9E6" import="1">Art/Icon Atlases/JFD_GreatRelics_IconAtlas_80.dds</File>
+    <File md5="6753F92F5CB3698E2909789F6A765FCA" import="1">Art/Images/Great Works/gwr01.dds</File>
+    <File md5="D4A2EDF659E2CFFE08188D82AB28D813" import="1">Art/Images/Great Works/gwr02.dds</File>
+    <File md5="9E018309FE415D0521468F8CA2788A9B" import="1">Art/Images/Great Works/gwr03.dds</File>
+    <File md5="F4AE3389DFF1E06904FC4CBA65C9CFBD" import="1">Art/Images/Great Works/gwr04.dds</File>
+    <File md5="B0B1E9D7F5D2CFBB2D34B383ABEF2F3F" import="1">Art/Images/Great Works/gwr05.dds</File>
+    <File md5="2763064636B0E339C1D6095F82041B22" import="1">Art/Images/Great Works/gwr06.dds</File>
+    <File md5="665EBF6F75ADFA58AFE05631EA0C3884" import="1">Art/Images/Great Works/gwr07.dds</File>
+    <File md5="7367ADC4BB2C3A81FC131900C03CF6E6" import="1">Art/Images/Great Works/gwr08.dds</File>
+    <File md5="A780E44827BE2B522EB18238516515CB" import="1">Art/Images/Great Works/gwr09.dds</File>
+    <File md5="9A3490C29FF846095CF0EE43DC031214" import="1">Art/Images/Great Works/gwr10.dds</File>
+    <File md5="5DF4AE8FEC262C5903EF9DD3AB102F5B" import="1">Art/Images/Great Works/gwr11.dds</File>
+    <File md5="35517020D4893DE0855B29E52E152A84" import="1">Art/Images/Great Works/gwr12.dds</File>
+    <File md5="3AB2A1E7EDFEF86BF3F534B9009F2870" import="1">Art/Images/Great Works/gwr13.dds</File>
+    <File md5="1DFC2A2F4E335252AEA687D167FFCF64" import="1">Art/Images/Great Works/gwr14.dds</File>
+    <File md5="7477593DD6CB3CE3F8FB4303814979C6" import="1">Art/Images/Great Works/gwr15.dds</File>
+    <File md5="997A92E07C22BFA6DE0395F4BCABB97D" import="1">Art/Images/Great Works/gwr16.dds</File>
+    <File md5="C5DD98FFBE477768C8215F96C4215A57" import="1">Art/Images/Great Works/gwr17.dds</File>
+    <File md5="52E7AE4241A52FA6763B290C4E45F20C" import="1">Art/Images/Great Works/gwr18.dds</File>
+    <File md5="93E3F06E88B06B42FFA9C46DA255EDEA" import="1">Art/Images/Great Works/gwr19.dds</File>
+    <File md5="91DAE32A4717384E221A135D515A9BE0" import="1">Art/Images/Great Works/gwr20.dds</File>
+    <File md5="ABCBDFC528DFA078689719E21990E549" import="1">Art/Images/Great Works/gwr21.dds</File>
+    <File md5="5C0F7DFB4803945C10279C8BC9D9C91D" import="1">Art/Images/Great Works/gwr22.dds</File>
+    <File md5="2E44A41A5A739894ABE9E49B8A1E76B1" import="1">Art/Images/Great Works/gwr23.dds</File>
+    <File md5="C0932317A74DCF0ACA0B28369F489A31" import="1">Art/Images/Great Works/gwr24.dds</File>
+    <File md5="9C7588481E0330B7CF8F40F1B2451E69" import="1">Art/Images/Great Works/Relic_background.dds</File>
+    <File md5="8FA26A7068A1826ED7860E70F5809C16" import="1">Art/Images/greatworks_relic.dds</File>
+    <File md5="5201832B3D130B4C1A886EF6C26D5A5F" import="1">Art/Images/greatworks_relic_empty.dds</File>
+    <File md5="348140BDD93C9C53BC33A20B99622305" import="1">Art/Images/greatworks_relic_hl_34.dds</File>
+    <File md5="F4833BBB11F298BA69FF4C3D857CEF97" import="1">Art/Images/Wonders/Wonder_TempleSolomon.dds</File>
+    <File md5="F8F1E42B914EB262B3BD37C670BB4359" import="1">Audio/Sounds/gwr00.mp3</File>
+    <File md5="1AF826C978BDCA2C01935705E1B7CF4E" import="1">Audio/Wonders/Wonder_SolomonsTemple.mp3</File>
+    <File md5="01CBF33A9CC1E5F7CB8278A6320651DA" import="0">Core/GreatRelics_ArtDefines.sql</File>
+    <File md5="D5C5DB09BD2B065C0994A437437BC3C5" import="0">Core/GreatRelics_Beliefs.sql</File>
+    <File md5="DB09007462A295E1C2DCB8C2AEB2FCBD" import="0">Core/GreatRelics_Buildings.sql</File>
+    <File md5="B13289805C5FE583729AF405A27FED8A" import="0">Core/GreatRelics_Concepts.sql</File>
+    <File md5="90181CF851181627DF2BE7BD08E7CF1D" import="0">Core/GreatRelics_GameText.xml</File>
+    <File md5="233FA7A9F6032DA8470D65133BC27B80" import="0">Core/GreatRelics_GameText_Interface.xml</File>
+    <File md5="2BD00898B7BFEE87716261CEF868BFED" import="0">Core/GreatRelics_GreatWorks.sql</File>
+    <File md5="5A160E15C889804543A622C6FF80FF36" import="0">Core/GreatRelics_Master.sql</File>
+    <File md5="DB92918A8990D1C222074E4AE8E9A652" import="0">Core/GreatRelics_Units.sql</File>
+    <File md5="20BAD653893941F4EAFD49A640172E59" import="0">Credits.txt</File>
+    <File md5="E0DCC946FFFA196A8419A7FC6D5CDB79" import="0">Lua/JFD_GreatRelics_Functions.lua</File>
+    <File md5="F086206B3B5661844327AD4661F27D71" import="0">Lua/JFD_GreatRelics_TutorialFunctions.lua</File>
+    <File md5="92A664C17578054BAD0EDACF0C2C5CD5" import="0">Lua/JFD_GreatRelics_TutorialFunctions.xml</File>
+    <File md5="2AD2F752F39F06EF94B42EB535523E68" import="1">Lua/UI/Overrides/GreatWorkPopup.lua</File>
+    <File md5="6DB50632F0F78FF8FD7868A27B385E5E" import="1">Lua/UI/Overrides/GreatWorkPopup.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/GreatRelics_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatRelics_GreatWorks.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatRelics_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatRelics_Beliefs.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatRelics_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatRelics_Concepts.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatRelics_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GreatRelics_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GreatRelics_Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_GreatRelics_Functions.lua">
+      <Name>JFD_GreatRelics_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_GreatRelics_TutorialFunctions.lua">
+      <Name>JFD_GreatRelics_TutorialFunctions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="367445c0-b979-4565-898b-dce8adf5186e" version="2">
+  <Properties>
+    <Name>Mount Rushmore Wonder</Name>
+    <Teaser>Mount Rushmore is an iconic presidential monument located in the Black Hills of the American state of South Dakota.</Teaser>
+    <Description>Mount Rushmore is an iconic monument located in the Black Hills of the American state of South Dakota. It was constructed using explosives and finer carving from the Granite rock of the hills during the early 20th century - construction began in 1927, and finished in 1941 as a result of lack of funding. The design features four U.S. Presidents - George Washington, Thomas Jefferson, Theodore Roosevelt and Abraham Lincoln, chosen for their sucesses in expanding or securing American territories during their respective times as president. Ingame, Mount Rushmore causes the [ICON_GOLD] Gold cost of purchasing tiles to be reduced by -35%, and [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in Non-occupied cities to be reduced by -15%, while it requires a nearby mountain and Dynamite.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Mentos, moriboe, Ambrox62</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="4575A81274740E90A429B90EAE4B3FDF" import="1">Art/Rushmore_icon128.dds</File>
+    <File md5="6497C6198C283E7D34BEC7C0BF44F285" import="1">Art/Rushmore_icon256.dds</File>
+    <File md5="3EDB05B32B148C07D05AE6A4C09EA18A" import="1">Art/Rushmore_icon45.dds</File>
+    <File md5="FFFCA278A069054D2293D4559C7280C1" import="1">Art/Rushmore_icon64.dds</File>
+    <File md5="92C5D70C8C3FD87163434AB11663E988" import="1">Art/Rushmore_icon80.dds</File>
+    <File md5="216842ECD8D8CF2C7773D76D8D176CE3" import="1">Art/Rushmore_splash.dds</File>
+    <File md5="DAC0046272F8205842875C89264945A5" import="1">Art/Rushmore_splash_a.dds</File>
+    <File md5="20E981DB7EC703520C7D46A3192F6198" import="0">XML/Buildings/Rushmore_BuildingClasses.xml</File>
+    <File md5="29B8CE5D3533C8C9CDE061924D986F88" import="0">XML/Buildings/Rushmore_Buildings.xml</File>
+    <File md5="D22040FF3AC5CD95ABE05EA574F5E855" import="0">XML/Civilizations/Rushmore_Civilizations.xml</File>
+    <File md5="FBC3DB93555897C6DFCAB0922A13C75B" import="0">XML/GameInfo/Rushmore_IconTextureAtlases.xml</File>
+    <File md5="A75B551F8ACCE59208F4A59106656A55" import="0">XML/Text/Rushmore_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Rushmore_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Rushmore_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Rushmore_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Rushmore_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Rushmore_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

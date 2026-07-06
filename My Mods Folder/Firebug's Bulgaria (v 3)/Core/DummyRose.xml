@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/16/2016 5:06:25 AM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DUMMY_ROSE</Type>
+			<BuildingClass>BUILDINGCLASS_ROSE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<Gold>100</Gold>
+		</Row>
+	</Buildings>
+	
+	
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_ROSE_DUMMY</Type>
+			<DefaultBuilding>BUILDING_DUMMY_ROSE</DefaultBuilding>
+		</Row>
+
+	</BuildingClasses>
+	
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_DUMMY_ROSE</BuildingType>
+			<ResourceType>RESOURCE_BULG_ROSE</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+</GameData>

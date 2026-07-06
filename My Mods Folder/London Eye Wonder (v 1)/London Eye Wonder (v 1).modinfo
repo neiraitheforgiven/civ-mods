@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e13b9bbe-1fc4-4214-905f-13aa302ba293" version="1">
+  <Properties>
+    <Name>London Eye Wonder</Name>
+    <Teaser>The London Eye is a large ferris wheel located on the bank of the Thames River in the centre of London, England.</Teaser>
+    <Description>The London Eye is a large ferris wheel located on the bank of the Thames River in the centre of London, England. When it opened in March 2000 it was the tallest Ferris Wheel in the world, with a height of 135 metres. This was also the tallest viewing deck in London until 2013, when it was passed by the Shard. Although now surpassed by other Ferris Wheels in Singapore and China for total height, the London Eye remains not only the world's tallest cantilevered observation wheel, but also an icon of the London skyline. Ingame, the London Eye provides +1 Gold for every citizen in the city, +5 happiness and +5 Gold, while it requires Ecology.</Description>
+    <Authors>Pouakai, sukritact, chrissifniotis</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="2BAAA06CC66A74675FB7518B62CD710A" import="1">Art/London_128.dds</File>
+    <File md5="F878214A04BC097C5F4BA59656D93A03" import="1">Art/London_256.dds</File>
+    <File md5="947609FF2392BC30210AA63BD5A14AF4" import="1">Art/London_45.dds</File>
+    <File md5="3A4579D8706D8915BD84333B0014615C" import="1">Art/London_64.dds</File>
+    <File md5="F9B4D54C41E8F884BF1E661D09AD1257" import="1">Art/London_80.dds</File>
+    <File md5="4E3A717824DA139A7C97A6C5B971B9A2" import="1">Art/London_splash.dds</File>
+    <File md5="17BC3F349DF3F0EA4A14191DB3884FFB" import="0">XML/Buildings/London_BuildingClasses.xml</File>
+    <File md5="94F787010B7F831256AB9F0D0B5AA48D" import="0">XML/Buildings/London_Buildings.xml</File>
+    <File md5="C5CF45DF040724E84D8F24D6F2AB9BEE" import="0">XML/Civilizations/London_Civilizations.xml</File>
+    <File md5="E82004E71D0BC8D362F5ED92CD2CB1B2" import="0">XML/GameInfo/London_IconTextureAtlases.xml</File>
+    <File md5="A811FC702B833CFFAD328E23B2429784" import="0">XML/Text/London_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/London_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/London_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/London_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/London_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/London_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

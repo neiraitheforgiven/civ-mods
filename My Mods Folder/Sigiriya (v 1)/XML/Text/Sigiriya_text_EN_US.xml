@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_SIGIRIYA">
+			<Text>Sigiriya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SIGIRIYA_ELEPHANT">
+			<Text>Sigiriya</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_SIGIRIYA_HELP">
+			<Text>Provides a free Garden in this city and +4 [ICON_TOURISM] Tourism. All [ICON_RES_IVORY] Ivory throughout the Empire gains +2 [ICON_PRODUCTION] Production. Requires a nearby Mountain.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_SIGIRIYA_QUOTE">
+			<Text>
+				[NEWLINE]"I am Budal. Came with hundreds of people to see Sigiriya. Since all the others wrote poems, I did not!"[NEWLINE]- Budal</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_SIGIRIYA_PEDIA">
+			<Text>Sigiriya, the Lion Rock, is a 200-meter tall prominence in central Sri Lanka. The site consists of an ancient citadel built by King Kashyapa during the 5th century. The Sigiriya site contains the ruins of an upper palace located on the flat top of the rock, a mid-level terrace that includes the Lion Gate and the mirror wall with its frescoes, the lower palaces located behind the lavish lower gardens, and moats and ramparts which protected the citadel. The site was both a palace and a fortress. The upper palace on the top of the rock includes cisterns cut into the rock. The moats and walls that surround the lower palace are exquisitely beautiful.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

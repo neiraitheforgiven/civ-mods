@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_GOLDEN_PAVILION">
+			<Text>The Golden Pavilion</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_GOLDEN_PAVILION_HELP">
+			<Text>+1 [ICON_GOLD] Gold for every 2 [ICON_CITIZEN] Citizens in this City.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_GOLDEN_PAVILION_QUOTE">
+			<Text>[NEWLINE]"A book holds a house of Gold"[NEWLINE] - Chinese Proverb[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_GOLDEN_PAVILION_PEDIA">
+			<Text>The Golden Pavilion (Known as Kinkaku-ji in Japanese) is a Buddhist temple in Kyoto, Japan. it was originally built as a villa at an unknown date, however was bought in 1397 by Shogun Ashikaga Yoshimitsu, who converted the villa into the Kinkaku-ji complex. Upon his death, it was converted to a Zen temple by his son. [NEWLINE][NEWLINE] In July 1950 it was burnt down by a Monk with a mental illness, causing a massive renovation project to be undertaken. The renovations took five years, completed in 1955. The exterior of the upper two floors were covered in pure gold leave, giving the name 'Golden Pavilion', however it is unclear wether the gold leaf was present in the pre-1950's version.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

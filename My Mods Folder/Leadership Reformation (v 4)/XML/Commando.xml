@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_COMMANDO_GG</Type>
+			<Description>TXT_KEY_PROMOTION_COMMANDO_GG</Description>
+			<Help>TXT_KEY_PROMOTION_COMMANDO_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COMMANDO_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_COMMANDO_GG2</Type>
+			<Description>TXT_KEY_PROMOTION_COMMANDO_GG2</Description>
+			<Help>TXT_KEY_PROMOTION_COMMANDO_GG2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COMMANDO_GG2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_COMMANDO_GG3</Type>
+			<Description>TXT_KEY_PROMOTION_COMMANDO_GG3</Description>
+			<Help>TXT_KEY_PROMOTION_COMMANDO_GG3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COMMANDO_GG3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_COMMANDO</Type>
+			<Description>TXT_KEY_PROMOTION_COMMANDO</Description>
+			<Help>TXT_KEY_PROMOTION_COMMANDO_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>11</PortraitIndex>
+			<FlankAttackModifier>50</FlankAttackModifier>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COMMANDO</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_COMMANDO2</Type>
+			<Description>TXT_KEY_PROMOTION_COMMANDO2</Description>
+			<Help>TXT_KEY_PROMOTION_COMMANDO2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>11</PortraitIndex>
+			<FlankAttackModifier>50</FlankAttackModifier>
+			<RoughDefense>25</RoughDefense>
+			<RoughAttack>25</RoughAttack>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COMMANDO2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_COMMANDO3</Type>
+			<Description>TXT_KEY_PROMOTION_COMMANDO3</Description>
+			<Help>TXT_KEY_PROMOTION_COMMANDO3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>11</PortraitIndex>
+			<FlankAttackModifier>50</FlankAttackModifier>
+			<RoughDefense>25</RoughDefense>
+			<RoughAttack>25</RoughAttack>
+			<Amphib>true</Amphib>
+			<River>true</River>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COMMANDO3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO_GG">
+			<Text>Commando I (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO_GG_HELP">
+			<Text>This Great General is a general who specializes in ambush and sneak tactics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO_GG2">
+			<Text>Commando II (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO_GG2_HELP">
+			<Text>This Great Experienced General with his addition of specializing in ambush tactics, he or she has also studied guerrilla warfare. Replaces [COLOR_POSITIVE_TEXT]Commando I[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO_GG3">
+			<Text>Commando III (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO_GG3_HELP">
+			<Text>This Great Veteran General is known for his or her flexibility of battle tactics. Some of the tactics are renown for their sudden appearance with one army appearing out of a forest and then disappearing once again. Replaces [COLOR_POSITIVE_TEXT]Commando III[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO">
+			<Text>Commando I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO_HELP">
+			<Text>+50% Flank Attack Modifier. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Commando I[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO2">
+			<Text>Commando II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO2_HELP">
+			<Text>+50% Flank Attack Modifier. +25% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] terrain. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Commando II[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO3">
+			<Text>Commando III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO3_HELP">
+			<Text>+50% Flank Attack Modifier. +25% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] terrain. No penalty when attacking from rivers or water. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Commando III[ENDCOLOR] trait.</Text>
+		</Row>
+</GameData>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 06/06/15 11:13:11 AM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_GREAT_WAR_INFANTRY</Class>
+			<Type>UNIT_CL_UC_GUERRILLERO</Type>
+			<Combat>50</Combat>
+			<Cost>320</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CL_UC_GUERRILLERO</Description>
+			<Civilopedia>TXT_KEY_CIV5_CL_UC_GUERRILLERO_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CL_UC_GUERRILLERO_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CL_UC_GUERRILLERO</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_PLASTIC</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_CL_GREENBERET</UnitArtInfo>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CL_UC_CUBA_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<UnitFlagAtlas>CL_UC_GUERRILLERO_FLAG_ATLAS</UnitFlagAtlas>
+			<WorkRate>100</WorkRate>
+		</Row>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_CL_UC_GUERRILLERO</UnitType>
+			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_CL_UC_GUERRILLERO</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CL_UC_GUERRILLERO</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Unit_Flavors>
+</GameData>

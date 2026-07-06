@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="adbc3334-367b-4435-a584-fd783b712865" version="5">
+  <Properties>
+    <Name>Custom Advanced Setup Screen</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Custom Setup Screen: more options, allows hotseat with mods</Teaser>
+    <Description>Custom Setup Screen: more options, allows hotseat with mods</Description>
+    <Authors>Gedemon</Authors>
+    <HideSetupGame>1</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="CC82E1F0684E32C36BC20CC5B0FB610E" import="1">AdvancedSetup.lua</File>
+    <File md5="C97D85364AE9D06F2356EFDAE18A6727" import="1">AdvancedSetup.xml</File>
+    <File md5="153A655855CFFC6018F4FA4BAFAE68A2" import="0">HotSeatData.xml</File>
+    <File md5="EC663283D251ED5EB1A6B2D7551C196C" import="0">GameSetupScreen.xml</File>
+    <File md5="663A21A5157DB7377C3688DD9A4A4855" import="0">HotSeatLoad.xml</File>
+    <File md5="AE623038B3610D337D67B196DEE70617" import="0">GameSetupScreen.lua</File>
+    <File md5="E0177868669096C4DB7B6EE0370DBD0C" import="0">HotSeatLoad.lua</File>
+    <File md5="9F58BDA99EB2527C5C9B400BDA76C4EC" import="0">HotSeatInGame.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>HotSeatData.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="Custom" file="AdvancedSetup.xml">
+      <Name>Advanced Setup</Name>
+      <Description>Custom Advanced Setup Screen with more options (including hotseat with mods)</Description>
+    </EntryPoint>
+    <EntryPoint type="Custom" file="HotSeatLoad.xml">
+      <Name>Load Hotseat Game</Name>
+      <Description>Special screen to reload previously saved hotseat games.</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="HotSeatInGame.lua">
+      <Name>HotSeat</Name>
+      <Description>HotSeat</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

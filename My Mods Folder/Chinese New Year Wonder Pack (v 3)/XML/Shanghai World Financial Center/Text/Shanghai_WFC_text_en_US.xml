@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_SHANGHAI_WFC">
+			<Text>Shanghai World Financial Center</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_SHANGHAI_WFC_HELP">
+			<Text>1500 [ICON_GOLD] upon completion</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_SHANGHAI_WFC_QUOTE">
+			<Text>[NEWLINE]"We have the best government that Money can buy"[NEWLINE] - Mark Twain[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_SHANGHAI_WFC_PEDIA">
+			<Text>The Shanghai World Financial Center is a supertall skyscraper located in the Chinese city of Shanghai. When it was completed in 2007, it was the second-tallest building on Earth and the tallest in China. It has since been downgraded to fourth tallest. However, it still has the tallest observation deck at 474 metres above sea level. The main feature of the Shanghai World Financial Center is the large rectangular apeture located near the top of the building. In early designs this was intended to be a circle, however controversy about similarities to the 'Rising Sun' motif of Japan lead to the shape being changed. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

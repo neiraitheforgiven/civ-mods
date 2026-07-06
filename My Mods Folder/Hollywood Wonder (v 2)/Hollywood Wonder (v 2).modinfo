@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="88fc7896-7516-499c-9fe5-8fd4a6466681" version="2">
+  <Properties>
+    <Name>Hollywood Wonder</Name>
+    <Teaser>The Los Angeles, USA district of Hollywood has long been associated with the American film industry.</Teaser>
+    <Description>The Los Angeles, USA district of Hollywood has long been associated with the American film industry. It began life as a real estate development named "Hollywoodland" at the start of the 20th century, with the first film studio opening just over a decade later. Since then, Hollywood has been under continual development, with the district now home to several multi-million dollar companies. Ingame, Hollywood provides +1 Happiness for every theatre in the empire, and requires Electronics</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>ambrox62, Moriboe, mentos</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="63D67D58A3807DAB64F74048BF52DA79" import="1">Art/Hollywood_icon128.dds</File>
+    <File md5="D0984FD508628B726ADCD4122F96B6D9" import="1">Art/Hollywood_icon256.dds</File>
+    <File md5="2FF26FCE2A5BA0323A4F123C979C8347" import="1">Art/Hollywood_icon45.dds</File>
+    <File md5="A3EFA3913F22CEE29ADB016E97CAB588" import="1">Art/Hollywood_icon64.dds</File>
+    <File md5="E1FBD6F60551896F6272910929016DAD" import="1">Art/Hollywood_icon80.dds</File>
+    <File md5="018C979140D8782221BFAD3D9B744AD0" import="1">Art/Hollywood_splash.dds</File>
+    <File md5="748F8521595B3B54D212B72FB9A8D775" import="0">XML/Buildings/Hollywood_BuildingClasses.xml</File>
+    <File md5="19893BD68ED9AA1B94D42BDB003B9EBC" import="0">XML/Buildings/Hollywood_Buildings.xml</File>
+    <File md5="9D162F5F3B8BBA836C93A1183FA7BFA6" import="0">XML/Civilizations/Hollywood_Civilizations.xml</File>
+    <File md5="0B93586A886CED48FE6A1FAA64220A51" import="0">XML/GameInfo/Hollywood_IconTextureAtlases.xml</File>
+    <File md5="690F4B2F5BC1B7F12DB1DA29B9E393C0" import="0">XML/Text/Hollywood_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Hollywood_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Hollywood_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Hollywood_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Hollywood_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Hollywood_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

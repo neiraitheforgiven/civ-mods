@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BW_ATLAS_TEMPLE_OF_HEAVEN</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>TEMPLE_OF_HEAVEN_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_TEMPLE_OF_HEAVEN</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>TEMPLE_OF_HEAVEN_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_TEMPLE_OF_HEAVEN</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>TEMPLE_OF_HEAVEN_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_TEMPLE_OF_HEAVEN</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>TEMPLE_OF_HEAVEN_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_TEMPLE_OF_HEAVEN</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>TEMPLE_OF_HEAVEN_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

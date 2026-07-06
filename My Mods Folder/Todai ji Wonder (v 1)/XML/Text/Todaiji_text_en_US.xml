@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_TODAIJI">
+			<Text>Todai-ji</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_TODAIJI_HELP">
+			<Text>+1 [ICON_PEACE] Faith for every animal resource worked by the city. </Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_TODAIJI_QUOTE">
+			<Text>[NEWLINE]"The colour of the mountains is Buddha's body; the sound of running water is his great speech."[NEWLINE] - Dogen[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_TODAIJI_PEDIA">
+			<Text>Todai-ji is a Buddhist temple in the city of Nara in Japan. Its Great Buddha Hall displays the world’s largest bronze statue of the Buddha Vairocana and serves as the headquarters of the Kegon school of Buddhism in the country. Sika deer roam the grounds freely; they are regarded as messengers of the gods in Shinto.[NEWLINE][NEWLINE]The site of the temple was built during 728 by Emperor Shomu as an appeasement for his first son to consort Komyoshi, Prince Motoi, who died a year after his birth. The Tenpyo era followed and caused severe devastation and epidemics. These prompted Shomu to promote the construction of provincial temples across Japan. Known then as Kinshosen-ji, Shomu appointed Todai-ji the Provincial temple of Yamato Province and the head of all the temples. The complex maintained influence in the province and the rest of Japan until Japanese Buddhism moved from Nara to Mount Hiei and the capital of Japan moved to Kamakura during the mid ninth century.[NEWLINE][NEWLINE]The complex features many structures, all to appeal to the aesthetics of the garden designs. Over its history villas next to Todai-ji have become part of the complex, some of these are open to public viewing. Within the complex houses a number of architectural masterpieces; including the Nigatsu-do – the Hall of the Second Month - and the illustrious Daibutsuden – Great Buddha Hall.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a094e5e3-d7d8-48fb-9d64-9f587bb1780f" version="3">
+  <Properties>
+    <Name>Empire State Building Wonder</Name>
+    <Teaser>Long New York's tallest building, the Empire State Building was constructed during the Great Depression in a competition</Teaser>
+    <Description>Long New York's tallest building, the Empire State Building was constructed over eighty years ago during a competition with two other New York skyscrapers, The Chrysler Building and 40 Wall Street, for the title of New York's tallest building, a title which the Empire State Building won. The building took place in the midst of the Great Depression, and became a sign of hope for the city. It also featured a spire which was originally intended to be used as a mooring for Airships, however this was scrapped as it was impossible for the craft to sucessfully dock. Ingame, the Empire State Building provides +35% [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections, and +8 [ICON_GOLD] Gold upon discovering Flight, while it requires Electronics.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>ambrox62, Mentos, Moriboe</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="4BBE61B222114D699F37B8032F5E17BD" import="1">Art/Empire_128.dds</File>
+    <File md5="3299163067A1FA58BEB17B626CF49052" import="1">Art/Empire_256.dds</File>
+    <File md5="EBCB35A92ECA592B2B6D856D425F5612" import="1">Art/Empire_45.dds</File>
+    <File md5="1E525ACDEEB7F7828ED3BC3175C8813F" import="1">Art/Empire_64.dds</File>
+    <File md5="66E1E911CD4B3BB80BD37C3815CD7D49" import="1">Art/Empire_80.dds</File>
+    <File md5="693272A38A534DB468E7BA4CF7F1A1A1" import="1">Art/Empire_splash.dds</File>
+    <File md5="C736DB856B3B57734E0B13C623A5502F" import="0">XML/Buildings/Empire_BuildingClasses.xml</File>
+    <File md5="7FDB0AF3B91EED2434B3D749AE60C187" import="0">XML/Buildings/Empire_Buildings.xml</File>
+    <File md5="4AA7A709064C83697AC51C20BFC14AA4" import="0">XML/Civilizations/Empire_Civilizations.xml</File>
+    <File md5="5CAD0B2222DDE7669171D5A104EF2F63" import="0">XML/GameInfo/Empire_IconTextureAtlases.xml</File>
+    <File md5="AF301CD8F66D7EDBB52B93D9AE665D55" import="0">XML/Text/Empire_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Empire_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Empire_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Empire_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Empire_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Empire_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

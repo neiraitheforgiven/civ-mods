@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ac2dc341-40a4-4166-b637-e5b3140515a6" version="2">
+  <Properties>
+    <Name>White Sands Missile Range Wonder</Name>
+    <Teaser>Located in the deserts of New Mexico,  the White Sands Missile Range is America's largest military installation at nearly 8300km</Teaser>
+    <Description>Located in the deserts of New Mexico,  the White Sands Missile Range is America's largest military installation at just under 8,300 square kilometres. It has been home to several prolific tests since it became a military site in 1941, including the Trinity Atomic Bomb test, several V-2 rocket test firings, the Apollo escape system and as a landing strip for the early Space Shuttle. Ingame, the White Sands Missile Range provides 3 Guided missiles in the city in which it is built, increases the operational range of Aircraft by 3 tiles, and requires Rocketry.</Description>
+    <Authors>Pouakai, jpbar81</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="7C89B4BFD9ABF536847B1CFB967C1D71" import="1">Art/WhiteSands_128.dds</File>
+    <File md5="444A6658B2EDF775ED632ADC4B0B34C2" import="1">Art/WhiteSands_256.dds</File>
+    <File md5="F49B25CD3CFC642B7507BF16FD3A929C" import="1">Art/WhiteSands_45.dds</File>
+    <File md5="91B9F2FF7F6CEC80068912C8E65208EE" import="1">Art/WhiteSands_64.dds</File>
+    <File md5="39631CAEEA3BA58BA9FE5F09DA7804BC" import="1">Art/WhiteSands_80.dds</File>
+    <File md5="C5666E7B77FD76AA844982DFEE592AB4" import="1">Art/WhiteSands_Splash.dds</File>
+    <File md5="03913F94FD9A7A55F47A0D24FCB3CFBB" import="0">XML/Buildings/WhiteSands_BuildingClasses.xml</File>
+    <File md5="CE9CDBECD2DFE008C702B450803BDE92" import="0">XML/Buildings/WhiteSands_Buildings.xml</File>
+    <File md5="7298830E35722987FCD13938BD6DF70A" import="0">XML/Civilizations/WhiteSands_Civilizations.xml</File>
+    <File md5="FD7668221BDC199030B8A4A5CF87F92E" import="0">XML/GameInfo/WhiteSands_IconTextureAtlases.xml</File>
+    <File md5="3843D9281592D0C4DC28C98E3E74F76E" import="0">XML/Text/WhiteSands_text_en_US.xml</File>
+    <File md5="49642865116767D9A4AEEC0F2FDBF9F6" import="0">XML/Units/WhiteSands_UnitPromotions.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/WhiteSands_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/WhiteSands_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/WhiteSands_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/WhiteSands_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/WhiteSands_text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/WhiteSands_UnitPromotions.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

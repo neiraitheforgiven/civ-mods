@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 09/24/16 12:12:40 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_DECISIONS_SEMINOLE_RESISTANCE">
+			<Text>Organize the Resistance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_SEMINOLE_RESISTANCE_DESC">
+			<Text>
+				Our people face a great threat and require the assembly of a great war party to defend their lives. We shall organize our resistance efforts to ensure our victory.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Seminole
+				[NEWLINE][ICON_BULLET]Must have Gunpowder
+				[NEWLINE][ICON_BULLET]Must have at least 3 Chickees
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]-20% [ICON_GOLD] Army Maintenance.
+				[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] from Chickees.
+				[NEWLINE][ICON_BULLET]A free Great General appears near the [ICON_CAPITAL] Capital.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_SEMINOLE_RESISTANCE_ENACTED_DESC">
+			<Text>
+				Our people face a great threat and require the assembly of a great war party to defend their lives. We shall organize our resistance efforts to ensure our victory.[NEWLINE]
+				[NEWLINE][ICON_BULLET]-20% [ICON_GOLD] Army Maintenance.
+				[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] from Chickees.
+				[NEWLINE][ICON_BULLET]A free Great General appears near the [ICON_CAPITAL] Capital.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_SEMINOLE_GAMBLING">
+			<Text>Legalize Gambling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_SEMINOLE_GAMBLING_DESC">
+			<Text>
+				Gambling has long been considered a vice and has been outlawed for centuries. We shall reverse this decision and create casinos to increase business and tourism.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Seminole
+				[NEWLINE][ICON_BULLET]Must have Refrigeration
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+25% [ICON_GOLD] Gold and [ICON_TOURISM] Tourism from Hotels.
+				[NEWLINE][ICON_BULLET]+33% [ICON_GOLD] Gold and [ICON_TOURISM] Tourism from the National Visitor Center.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_SEMINOLE_GAMBLING_ENACTED_DESC">
+			<Text>
+				Gambling has long been considered a vice and has been outlawed for centuries. We shall reverse this decision and create casinos to increase business and tourism.[NEWLINE]
+				[NEWLINE][ICON_BULLET]+25% [ICON_GOLD] Gold and [ICON_TOURISM] Tourism from Hotels.
+				[NEWLINE][ICON_BULLET]+33% [ICON_GOLD] Gold and [ICON_TOURISM] Tourism from the National Visitor Center.
+			</Text>
+		</Row>
+		<!--RYOGA UNIQUE CULTURAL INFLUENCE-->
+		<Row Tag="TXT_KEY_GENERIC_UC_SEMINOLE_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now living in the swamp and clamoring for college football season. I fear the rest of the world will soon succumb to the influence of your culture.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

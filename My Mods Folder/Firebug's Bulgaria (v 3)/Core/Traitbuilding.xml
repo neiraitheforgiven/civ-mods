@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Buildings>
+	  <Row>
+		  <Type>BUILDING_TRAIT_UNHAPPINESS</Type>
+		  <BuildingClass>BUILDINGCLASS_TRAIT_BULGARIA</BuildingClass>
+		  <Cost>-1</Cost>
+		  <FaithCost>-1</FaithCost>
+		  <GreatWorkCount>-1</GreatWorkCount>
+		  <CityCountUnhappinessMod>-20</CityCountUnhappinessMod>
+	  </Row>
+
+	</Buildings>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TRAIT_BULGARIA</Type>
+			<DefaultBuilding>BUILDING_TRAIT_UNHAPPINESS</DefaultBuilding>
+		</Row>
+
+	</BuildingClasses>
+</GameData>

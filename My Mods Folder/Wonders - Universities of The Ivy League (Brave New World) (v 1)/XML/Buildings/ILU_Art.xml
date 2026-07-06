@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>IVY_LEAGUE_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ART/IvyLeagueAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>IVY_LEAGUE_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ART/IvyLeagueAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>IVY_LEAGUE_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/IvyLeagueAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>IVY_LEAGUE_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/IvyLeagueAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>  
+</GameData>

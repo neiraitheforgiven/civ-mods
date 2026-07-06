@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--PHILIP II-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PHILIP_II">
+			<Text>Philip II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PHILIP_II_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PHILIP_II_TEXT_1">
+			<Text>Philip II was King of Spain, King of Portugal, King of Naples and Sicily, and during his marriage to Queen Mary I, was King of England and Ireland. He was also Duke of Milan. From 1555, he was lord of the Seventeen Provinces of the Netherlands.[NEWLINE][NEWLINE]Known in Spain as "Felipe el Prudente" ('"Philip the Prudent'"), his empire included territories on every continent then known to Europeans, including his namesake the Philippine Islands. During his reign, Spain reached the height of its influence and power. This is sometimes called the Golden Age. The expression, "the empire on which the sun never sets," was coined during Philip's time to reflect the extent of his dominion.[NEWLINE][NEWLINE]During Philip's reign there were separate state bankruptcies in 1557, 1560, 1569, 1575, and 1596. This was partly the cause for the declaration of independence which created the Dutch Republic in 1581. A devout Catholic, Philip is also known for organising a huge naval expedition against Protestant England in 1588, known usually as the Spanish Armada, which was unsuccessful, mostly due to storms and grave logistical problems.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PHILIP_II_HEADING_2">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PHILIP_II_TEXT_2">
+			<Text>Under Philip II, Spain reached the peak of its power. However, in spite of the great and increasing quantities of gold and silver flowing into his coffers from the American mines, the riches of the Portuguese spice trade, and the enthusiastic support of the Habsburg dominions for the Counter-Reformation, he would never succeed in suppressing Protestantism or defeating the Dutch rebellion. Early in his reign, the Dutch might have laid down their weapons if he had desisted in trying to suppress Protestantism, but his devotion to Catholicism would not permit him to do so. He was a devout Catholic and exhibited the typical 16th century disdain for religious heterodoxy; he said, "Before suffering the slightest damage to religion in the service of God, I would lose all of my estates and a hundred lives, if I had them, because I do not wish nor do I desire to be the ruler of heretics."[NEWLINE][NEWLINE]The defeat of Protestantism was always keen in Philip's mind. For a while, he ruled England jointly with Queen Mary Tudor and a reconciliation with the Catholic Church followed. Heresy trials were reestablished and hundreds of Protestants burned at the stake. England and Philip parted ways after the death of his Queen, nicknamed "Bloody Mary". Philip's gravest mistake over the long run was his attempt to violently eradicate Protestantism from the Netherlands which was a major economic asset for the empire. Under harsh occupation, the Dutch finally rebelled and wrested independence after an eighty-year war, the strain of which did Philip's realm little good. His greatest battlefield accomplishment was the defeat of the Ottoman fleet at Lepanto which turned the tide against Turkish aggression.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PHILIP_II_NAME">
+			<Text>Philip II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PHILIP_II_SUBTITLE">
+			<Text>Leader of Spain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PHILIP_II_TITLES_1">
+			<Text>King of Spain[NEWLINE]King of Naples and Sicily[NEWLINE]King of England and Ireland[NEWLINE]King of Portugal and the Algarves[NEWLINE]Lord of the Seventeen Provinces[NEWLINE]Duke of Milan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PHILIP_II_LIVED">
+			<Text>1527 - 1598</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_CIV5_DAWN_SPAIN_TEXT">
+			<Text>Philip II, by the Grace of God, His Catholic Majesty, and King of Spain, welcome. Beneath your rule, the Spanish empire would reach its greatest height. Stretching from the Americas in the West to your namesake, the Philippines, in the East, Spain would become the pre-eminent power of the 16th century. Indeed, through your inheritance of the Habsburg lands in Europe and your marriage to Mary, Queen of England, you would become the most powerful monarch that Europe had seen since Charlemagne.[NEWLINE][NEWLINE]Illustrious King, the greatest task falls upon you - to rise to the challenge and command an empire upon which the sun never sets. Can you, in the name of God and the Holy Mother Church, diffuse Spain's forces across the earth? Can you bring prosperity and faith to the darkest corners of your empire? Can you build a civilization that can stand the test of time?</Text>
+		</Replace>
+		<!--PLUS ULTRA-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_SPAIN_PHILIP_II_SHORT">
+			<Text>Plus Ultra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_SPAIN_PHILIP_II">
+			<Text>During a [ICON_GOLDEN_AGE] Golden Age, Civilian Units have +2 [ICON_MOVES] Movement and are produced +100% faster, and cities begin with additional territory. Founded cities always begin with your main religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SPAIN_PHILIP_II">
+			<Text>JFD: Spain (Philip II)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SPAIN_PHILIP_II_HELP">
+			<Text>+100% [ICON_PRODUCTION] Production toward Civilian Units.</Text>
+		</Row>
+		<!--TERCIO-->
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_TERCIO">
+			<Text>Dominant military Unit of the Renaissance Era. Only Philip II's Spain may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Musketman which it replaces, as well as a Bonus vs Mounted promotion. It also performs a first-strike ranged attack before combat. However it is also more expensive to build.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_TERCIO_STRATEGY">
+			<Text>The Tercio is the Spanish Unique Unit for Philip II, replacing the Musketman. This Unit is stronger in combat than the Musketman and fights at a higher strength against mounted units. Before engaging in melee, the Tercio also performs a ranged attack that can damage or kill the enemy unit before making contact. The Tercio is more expensive to build however.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TERCIO">
+			<Text>Mixed Formation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TERCIO_HELP">
+			<Text>Before engaging in melee, this unit has an extra attack.</Text>
+		</Row>
+		<!--SEMINARY-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_SEMINARY">
+			<Text>Seminary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SEMINARY_HELP">
+			<Text>Missionaries trained in this city will produce [ICON_GOLDEN_AGE] Golden Age Points when expended.[NEWLINE][NEWLINE]+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City. Allows Archaeologists to be built in this city.[NEWLINE][NEWLINE]City must have a Library.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SEMINARY_STRATEGY">
+			<Text>The Seminary is a Medieval-era building that focuses on science and religion. It is the unique University replacement for Philip II's Spain. In addition to increasing the city's Faith and Science output, the Seminary awards the 'Tridentine Philosophy' promotion to newly trained Missionaries, which causes them to produce Golden Age Points once they have been expended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_SEMINARY_TEXT">
+			<Text>A seminary, theological college, or divinity school is an educational institution for educating students (sometimes called seminarians) in theology, generally to prepare them for ordination as clergy or for other ministry. The establishment of modern seminaries resulted from Roman Catholic reforms of the Counter-Reformation after the Council of Trent. The Tridentine seminaries placed great emphasis on personal discipline as well as the teaching of philosophy as a preparation for theology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SEMINARY">
+			<Text>Tridentine Philosophy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SEMINARY_HELP">
+			<Text>Produces [ICON_GOLDEN_AGE] Golden Age Points when expended, based upon your [ICON_PEACE] Total Faith Per Turn (x3).</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

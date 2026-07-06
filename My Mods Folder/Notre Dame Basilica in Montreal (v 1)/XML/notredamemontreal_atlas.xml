@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/3/2014 1:47:14 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>NOTREDAME_MONTREAL_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>notredamemontreal256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>NOTREDAME_MONTREAL_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>notredamemontreal128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>NOTREDAME_MONTREAL_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>notredamemontreal64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>NOTREDAME_MONTREAL_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>notredamemontreal80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>NOTREDAME_MONTREAL_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>notredamemontreal45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

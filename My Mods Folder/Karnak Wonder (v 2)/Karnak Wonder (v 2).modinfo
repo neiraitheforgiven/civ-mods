@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="02cb3cc6-d53a-4987-a309-b4063021c01d" version="2">
+  <Properties>
+    <Name>Karnak Wonder</Name>
+    <Teaser>The Karnak Temple Complex of Thebes (Modern day Luxor) is one which provides a cross-section of the Kemetic beliefs</Teaser>
+    <Description>The Karnak Temple Complex of Thebes (Modern day Luxor) is one which provides a cross-section of the beliefs associated with the Kemetic religion of Ancient Egyptian society. It is a sacred site on which temples and shrines have been constructed from the reign of Senusret I in 1941 BCE to Ptolemaic Egypt in as late as 30 BCE. It is widely known for the Avenue of Sphinxes, a row leading up to the entrance to Karnak which features approximately two thousand Sphinxes lining the path. Ingame, Karnak provides a free temple in the city in which it is built, and +2 faith from Flood plains.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Mentos, Moriboe, Ambrox62</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="5C8CD9AFE1890A9D4A9628535711D32F" import="1">Art/Karnak_icon128.dds</File>
+    <File md5="1A22D433098E3C2E227C5131C70A204C" import="1">Art/Karnak_icon256.dds</File>
+    <File md5="2F4423142A4856BEF1C55B753A74A84B" import="1">Art/Karnak_icon45.dds</File>
+    <File md5="5CAC1DD15DC86449372EE200FE058D13" import="1">Art/Karnak_icon64.dds</File>
+    <File md5="7BA2E9EC829333FFA71C635BFABB141F" import="1">Art/karnak_icon80.dds</File>
+    <File md5="BC30CEDCB213A671C48EEDD9AA3EE37E" import="1">Art/Karnak_splash.dds</File>
+    <File md5="DA9AA8792559F0FB54C9FBFDC48D8A41" import="1">Art/Karnak_splash_a.dds</File>
+    <File md5="3A2A6E8FA87B65F5AC82DFD3BC14EE1C" import="0">XML/Buildings/Karnak_BuildingClasses.xml</File>
+    <File md5="775CB9E1A454BBB41C69400F3AC16F91" import="0">XML/Buildings/Karnak_Buildings.xml</File>
+    <File md5="F65FA04158351A6AAEACCE5D02204384" import="0">XML/Civilizations/Karnak_Civilizations.xml</File>
+    <File md5="2CDB0EA3B80EE72A594C5C0A25557CDA" import="0">XML/GameInfo/Karnak_IconTextureAtlases.xml</File>
+    <File md5="15C11CD8A9EFEA984F1E0965D7976CD5" import="0">XML/Text/Karnak_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Karnak_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Karnak_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Karnak_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Karnak_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Karnak_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

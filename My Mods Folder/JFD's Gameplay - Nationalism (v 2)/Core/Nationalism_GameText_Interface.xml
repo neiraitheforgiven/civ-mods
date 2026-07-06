@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--NOTIFICATIONS-->
+		<!--===================================================-->
+		<!--Nationalism Can Be Spent!-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_NATIONALISM_CAN_BE_SPENT_SHORT_DESC">
+			<Text>Nationalism Can Be Spent!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_NATIONALISM_CAN_BE_SPENT_DESC">
+			<Text>You have enough [ICON_JFD_NATIONALISM] Nationalism to re-adopt one of your Social Policies.</Text>
+		</Row>
+		<!--Social Policy Nationalised!-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_NATIONALISM_SPENT_SHORT_DESC">
+			<Text>Social Policy Nationalised!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_NATIONALISM_SPENT_DESC">
+			<Text>Culture to Nationalism: {1_Num} ({2_Num}) [ICON_JFD_NATIONALISM]</Text>
+		</Row>
+		<!--World Event!-->
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_POLICY_NATIONALISED_DESC">
+			<Text>{1_Desc} of {2_Desc} has Nationalised their Social Policy: [COLOR_POSITIVE_TEXT]{3_Desc}[ENDCOLOR].</Text>
+		</Row>
+		<!--===================================================-->
+		<!--SOCIAL POLICY SCREEN-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_POLICY_NATIONALISM_ADOPTED_TOOLTIP">
+			<Text>[COLOR_JFD_NATIONALISM]Effects duplicated with [ICON_JFD_NATIONALISM] Nationalism.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_POLICY_NATIONALISM_DOUBLE_TOOLTIP">
+			<Text>[COLOR_JFD_NATIONALISM]Duplicate this Policy by spending [ICON_JFD_NATIONALISM] Nationalism.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SLIDER_NATIONALISM">
+			<Text>Culture to Nationalism: {1_Num} ({2_Num}) [ICON_JFD_NATIONALISM]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SLIDER_NATIONALISM_TOOLTIP">
+			<Text>The amount of [ICON_CULTURE] Culture Per Turn being diverted to [ICON_JFD_NATIONALISM] Nationalism and the amount of Nationalism currently stored.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SLIDER_NATIONALISM_TOOLTIP_EXTRA_PER_TURN">
+			<Text>+{1_Num} [ICON_JFD_NATIONALISM] extra Per Turn from Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SLIDER_NATIONALISM_PERCENT_TOOLTIP">
+			<Text>Percentage of [ICON_CULTURE] Culture Per Turn being diverted to [ICON_JFD_NATIONALISM] Nationalism. Increase the limit by researching certain Technologies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_POLICY_NATIONALISM_UNLOCK_TOOLTIP">
+			<Text>[COLOR_WARNING_TEXT]You need {1_Num} [ICON_JFD_NATIONALISM] Nationalism to spend.[ENDCOLOR]</Text>
+		</Row>
+		<!--===================================================-->
+		<!--STARTUP POPUP-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_NATIONALISM_TITLE">
+			<Text>NATIONALISM</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NATIONALISM_MESSAGE">
+			<Text>Welcome! This brief summary will seek to explain the new gameplay component: [COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR].[NEWLINE][NEWLINE][ICON_JFD_NATIONALISM] Nationalism is a new yield that can be expended to duplicate Social Policies that you have already adopted; doubling their effects. Nationalism is generated from your [ICON_CULTURE] Culture Per Turn; the amount of Culture Per Turn contributing to Nationalism instead of Culture is determined by a new slider in the Social Policy screen. When you have enough Nationalism, it can then be spent to re-adopt a Social Policy that you have already taken (but not an Ideological Tenet).[NEWLINE][NEWLINE]The amount of Culture Per Turn you can devote to your Nationalism increases with certain Technologies.[NEWLINE][NEWLINE]You can find this information again in the Civilopedia under Concepts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NATIONALISM_BUTTON">
+			<Text>Close</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

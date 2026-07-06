@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5f612783-7a32-435a-a3f5-35e17affeeda" version="1">
+  <Properties>
+    <Name>Moorish Wonders</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds 2 Moorish wonders:
+
+The Mosque-Cathedral of Cordoba: +1 faith from culture producing buildings in the city.
+
+Medina Az</Teaser>
+    <Description>Adds 2 Moorish wonders:
+
+The Mosque-Cathedral of Cordoba: +2 culture from temples empire-wide. 
+
+Medina Azahara: +1 gold for each luxury worked by the city.  Gain 175 Culture each time a Great work or an improvement by a great person is made( does not include missions, such as spread religion and trade missions)
+
+Compatible with More Luxuries by Barathor
+
+Credits
+icons by regalmanemperor
+Lua by FramedArchitecture
+Voice Acting by CharlatanAlley</Description>
+    <Authors>regalmanemperor</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="be2d13ee-d18d-410e-8f04-7cd19cd99a98" minversion="0" maxversion="999" title="More Luxuries" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="26130FD051CB3EEE0900F39AEC8E179B" import="1">Moorish Wonders/Art/medinaazahara_splash.dds</File>
+    <File md5="787049A8FBD3230CC79BB27422026C4F" import="1">Moorish Wonders/Art/mezquitacordoba_splash.dds</File>
+    <File md5="CEC412F4602204FB95D3A18823850C26" import="1">Moorish Wonders/Art/moorishwonder128.dds</File>
+    <File md5="58E4BA29ADA25B75BF594C1A9C221846" import="1">Moorish Wonders/Art/moorishwonder256.dds</File>
+    <File md5="30D3EB9F83461E7B19E1AF2B0A98CEA4" import="1">Moorish Wonders/Art/moorishwonder45.dds</File>
+    <File md5="66B27E13B52E81332BB90780246DCB0F" import="1">Moorish Wonders/Art/moorishwonder64.dds</File>
+    <File md5="6D719BB8A215AFC20A8664A2F2B05B40" import="1">Moorish Wonders/Art/moorishwonder80.dds</File>
+    <File md5="D4EC15F6E4EEE712B333316CE6C5DFC2" import="0">Moorish Wonders/Lua/CulturePerGP.lua</File>
+    <File md5="0C74018CE47BF78DDC658F180EC38D68" import="0">Moorish Wonders/Lua/CulturePerGP.sql</File>
+    <File md5="E15AFE74CC16304C054EC3A143156828" import="1">Moorish Wonders/Music/medinaazaharaquote.mp3</File>
+    <File md5="824B239E27ACFB598DE412EF64353874" import="1">Moorish Wonders/Music/mezquitacordobaquote.mp3</File>
+    <File md5="5460B113FE173497CC68E897EA1B0909" import="0">Moorish Wonders/XML/MoorWonderAtlas.xml</File>
+    <File md5="4B81F60D8B5A8B2C86B27846C7D3B589" import="0">Moorish Wonders/XML/MoorWonderMain.xml</File>
+    <File md5="1D2604DF00460D3F9604F03F322932C2" import="0">Moorish Wonders/XML/MoreLuxMod.xml</File>
+    <File md5="5521B08A3BA716B1C8C836F02592536F" import="0">Moorish Wonders/XML/MoorWonderText.xml</File>
+    <File md5="217B21088ABD2CE159CA52A95833AE62" import="0">Moorish Wonders/XML/MoorWonderQuotes.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Moorish Wonders/Lua/CulturePerGP.sql</UpdateDatabase>
+      <UpdateDatabase>Moorish Wonders/XML/MoorWonderAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Moorish Wonders/XML/MoorWonderMain.xml</UpdateDatabase>
+      <UpdateDatabase>Moorish Wonders/XML/MoorWonderQuotes.xml</UpdateDatabase>
+      <UpdateDatabase>Moorish Wonders/XML/MoorWonderText.xml</UpdateDatabase>
+      <UpdateDatabase>Moorish Wonders/XML/MoreLuxMod.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Moorish Wonders/Lua/CulturePerGP.lua">
+      <Name>CulturePerGP</Name>
+      <Description>CulturePerGP</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

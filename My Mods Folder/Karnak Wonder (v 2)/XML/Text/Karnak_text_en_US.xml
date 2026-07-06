@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_KARNAK">
+			<Text>Karnak</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_KARNAK_HELP">
+			<Text>Free temple in this city. +2 [ICON_PEACE] Faith from Flood plains worked by the city.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_KARNAK_QUOTE">
+			<Text>[NEWLINE]"The body is the house of god. That is why it is said "Man know yourself""[NEWLINE] - Egyptian Proverb[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_KARNAK_PEDIA">
+			<Text>Karnak is a large temple complex located in Thebes (Modern day Luxor). It was constructed during the reign of Ramesses II as a place of worship for many different gods and goddesses, instead of focusing on just one member of the Egyptian Pantheon.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

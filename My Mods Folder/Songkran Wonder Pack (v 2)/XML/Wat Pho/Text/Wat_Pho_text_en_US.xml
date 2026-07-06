@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_WAT_PHO">
+			<Text>Wat Pho</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_WAT_PHO_HELP">
+			<Text>+10% [ICON_PEACE] Faith generated in all cities</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_WAT_PHO_QUOTE">
+			<Text>[NEWLINE]"Buddhism teaches one to embrace change."[NEWLINE] - Koo Stark[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_WAT_PHO_PEDIA">
+			<Text>Wat Pho is a large Buddhist temple in Bangkok, Thailand. It is widely known for the enormous Golden Buddha statue, however Wat Pho has several Buddha statues, all in Yoga poses. This is due to the former occupants of the site, whom were Thai Medicine operators. The temple is one of the largest in Bangkok, with a floor space of around 80,000 square metres. The reclining Golden Buddha is the largest of its kind in the world, at 43 metres long and 15 high.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

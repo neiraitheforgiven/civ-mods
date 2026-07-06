@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fc1a9e65-82aa-472d-864a-95b50550b675" version="1">
+  <Properties>
+    <Name>Topkapi Palace Wonder</Name>
+    <Teaser>Overlooking the waters of the Bosphorous, Topkapi Palace is a large complex that served as the palace for the Ottoman sultans d</Teaser>
+    <Description>Overlooking the waters of the Bosphorous, Topkapi Palace is a large complex that served as the palace for the Ottoman sultans during much of their over six-hundred year rule. It acted not only as a palace but also as a walled village of sorts, with all amenities available inside for the use of the occupants. It also houses a wide collection of relics, including some holy in Islam (such as the cloak and sword of the prophet Muhammed) and others which provide a cross-section of history (Including a collection of Islamic weaponry spanning 13 centuries). Ingame, Topkapi Palace provides +1 faith for every military building in the empire, while it requires Gunpowder.</Description>
+    <Authors>Pouakai, Sukritact</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="80D2AF4C67E597806D64F6830F69A9ED" import="1">Art/Topkapi_128.dds</File>
+    <File md5="787A8053C0311E5B3FBAC4D7B6E785B4" import="1">Art/Topkapi_256.dds</File>
+    <File md5="D93200E9311FCBBFC0F05A1C8D6EB3F9" import="1">Art/Topkapi_45.dds</File>
+    <File md5="89B39CE3FC83F7817A750DD8FC20D7C3" import="1">Art/Topkapi_64.dds</File>
+    <File md5="82F93F63A89E0BE234891FEC5636508A" import="1">Art/Topkapi_80.dds</File>
+    <File md5="3C787A26D55325CD91C5EC239B46DAE7" import="1">Art/Topkapi_splash.dds</File>
+    <File md5="E6F64B343407BE78BF339C64426F26EB" import="0">XML/Buildings/Topkapi_BuildingClasses.xml</File>
+    <File md5="182E05D3FC447B7A799D473C5BA700C0" import="0">XML/Buildings/Topkapi_Buildings.xml</File>
+    <File md5="4AC5AD642EE12875C3FF7820ED5C1ECE" import="0">XML/Civilizations/Topkapi_Civilizations.xml</File>
+    <File md5="A22924ABFB1A45E0E2E6A96ED2C2C9D4" import="0">XML/GameInfo/Topkapi_IconTextureAtlases.xml</File>
+    <File md5="D83793D3FAD9EDDDD3AA09BBE64E26FB" import="0">XML/Text/Topkapi_text_EN_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Topkapi_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Topkapi_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Topkapi_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Topkapi_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Topkapi_text_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

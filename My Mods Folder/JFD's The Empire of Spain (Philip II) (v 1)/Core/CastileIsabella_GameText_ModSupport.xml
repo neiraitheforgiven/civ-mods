@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--GAZEBO COMMUNITY BALANCE OVERHAUL-->
+		<Row Tag="TXT_KEY_UNIT_JFD_CONQUISTADOR_STRATEGY_CBO">
+			<Text>The Conquistador is a multi-purpose unit that is strong both on land and at sea. Replacing the Knight, it is an exceptional scout on land with extra visibility. It also has the ability to found new cities, but only on a foreign continent that does not contain the Castilian capital. When founded, cities built by Conquistadors start with 3 Citizens, claim additional territory, and automatically receive the following selection of buildings:[NEWLINE][NEWLINE][ICON_BULLET] Council[NEWLINE][ICON_BULLET] Granary[NEWLINE][ICON_BULLET] Market[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Shrine[NEWLINE][ICON_BULLET] Barracks[NEWLINE][ICON_BULLET] Watermill (if applicable)[NEWLINE][ICON_BULLET] Library[NEWLINE][ICON_BULLET] Forge[NEWLINE][ICON_BULLET] Well (if applicable)[NEWLINE][ICON_BULLET] Mission (Castle)[NEWLINE][NEWLINE]Note: the bonuses for constructing buildings from the Progress and Industry policy branches do apply to the buildings constructed by Pioneers, so expect a large boost to your culture or income when you settle new lands with this unit![NEWLINE][NEWLINE]In the water, the Conquistador has the defensive embarkation promotion that allows it to defend itself against naval units. It also suffers no penalty when attacking cities, unlike the Knight.</Text>
+		</Row>
+		<!--JFD PIETY-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_CASTILE_PIETY">
+			<Text>Conquering cities of a foreign religion awards [ICON_PEACE] Faith and [ICON_GOLD] Gold. Conquered cities begin with your State Religion and cannot lose this religion whilst under your control.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_JINETES_PIETY">
+			<Text>Early Mounted Unit that is deadliest when flanking. Restores Hit Points and 2 [ICON_MOVES] Movement after capturing a city following a different State Religion, and attacks cities more effectively. Only Castile may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_JINETES_STRATEGY_PIETY">
+			<Text>The Jinete is the unique Horseman for Castile. The Jinete, unlike the Horseman, receives a smaller penalty when attacking cities and restores Hit Points and Movement whenever it captures a city following a different State Religion. They are also more effective at performing flank attacks.</Text>
+		</Row>
+		<!--SUKRITACT DECISIONS-->
+		<!--Form the Spanish Nation-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_CASTILE_SPAIN">
+			<Text>Form the Spanish Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_CASTILE_SPAIN_DESC">
+			<Text>
+				Having united our people through faith and perserverance, we are now in a position to proclaim our once lost heritage - that of a Spanish Nation. In doing so, our people and our crown will be bound together for centuries to come.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Castile.
+				[NEWLINE][ICON_BULLET]Must have at least 80% religious unity (current: [COLOR_POSITIVE_TEXT]{1_Percent}%[ENDCOLOR])
+				[NEWLINE][ICON_BULLET]Must have at least 5 cities.
+				[NEWLINE][ICON_BULLET]May only be enacted from the beginning of the Medieval Era.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_GOLD] Gold.
+				[NEWLINE][ICON_BULLET]{3_Num} [ICON_PEACE] Faith.
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A [ICON_GOLDEN_AGE] Golden Age begins.
+				[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness for each City you own [ICON_CONNECTED] connected to the [ICON_CAPITAL] Capital.
+				[NEWLINE][ICON_BULLET]-15% [ICON_HAPPINESS_4] Unhappiness in the [ICON_CAPITAL] Capital.
+				[ICON_BULLET]Become known as Spain.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_CASTILE_SPAIN_ENACTED_DESC">
+			<Text>
+				Having united our people through faith and perserverance, we are now in a position to proclaim our once lost heritage - that of a Spanish Nation. In doing so, our people and our crown will be bound together for centuries to come.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A [ICON_GOLDEN_AGE] Golden Age begins.
+				[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness for each City you own [ICON_CONNECTED] connected to the [ICON_CAPITAL] Capital.
+				[NEWLINE][ICON_BULLET]-15% [ICON_HAPPINESS_4] Unhappiness in the [ICON_CAPITAL] Capital.
+				[ICON_BULLET]Become known as Spain.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_CASTILE_SPAIN">
+			<Text>{1_LeaderName} has consolidated his power over the Rus' and has declared himself Tsar of All the Russias.</Text>
+		</Row>
+		<!-- Castile -->
+		<Replace Tag="TXT_KEY_DECISIONS_SPAINCOLUMBUS">
+			<Text>Fund Columbus' Expedition</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_SPAINCOLUMBUS_DESC">
+			<Text>The explorer Christopher Columbus has repeatedly petitioned the courts of the land to finance an expedition to try and find new trade routes. Perhaps if we were to fund this voyage it would indeed bring us the wealth that he so claims.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Castile.
+				[NEWLINE][ICON_BULLET]Must have researched Astronomy.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold.
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]2 Caravels and a Great Admiral appear near the [ICON_CAPITAL] Capital.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_SPAINCOLUMBUS_ENACTED_DESC">
+			<Text>The explorer Christopher Columbus has repeatedly petitioned the courts of the land to finance an expedition to try and find new trade routes. Perhaps if we were to fund this voyage it would indeed bring us the wealth that he so claims.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]2 Caravels and a Great Admiral appear near the [ICON_CAPITAL] Capital.
+			</Text>
+		</Replace>
+	</Language_en_US>
+</GameData>

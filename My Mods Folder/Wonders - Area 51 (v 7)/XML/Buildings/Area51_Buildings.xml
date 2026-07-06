@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_AREA_51</Type>
+			<DefaultBuilding>BUILDING_AREA_51</DefaultBuilding>
+			<Description>TXT_KEY_WONDER_AREA_51</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AREA_51</Type>
+			<BuildingClass>BUILDINGCLASS_AREA_51</BuildingClass>
+			<Cost>1350</Cost>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<Help>TXT_KEY_WONDER_AREA_51_HELP</Help>
+			<Description>TXT_KEY_WONDER_AREA_51</Description>
+			<Civilopedia>TXT_KEY_WONDER_AREA_51_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_AREA_51_QUOTE</Quote>			
+			<TrainedFreePromotion>PROMOTION_AREA_51</TrainedFreePromotion>
+			<NearbyTerrainRequired>TERRAIN_DESERT</NearbyTerrainRequired>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<FreeBuildingThisCity>BUILDINGCLASS_MILITARY_BASE</FreeBuildingThisCity>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<Defense>1400</Defense>
+			<IconAtlas>BW_ATLAS_AREA_51</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>			
+			<WonderSplashImage>Area51Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AREA_51</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AREA_51</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AREA_51</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AREA_51</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AREA_51</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_WONDER_AREA_51">
+			<Text>Area 51</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_AREA_51_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"One more anal-probing gyro-pyro levitating ectoplasm alien anti-matter story and I'm going to take out my gun and shoot somebody."[NEWLINE] - Fox Mulder[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_AREA_51_HELP">
+			<Text>All newly-trained aircraft Units in this City receive the [COLOR_POSITIVE_TEXT]Black Project[ENDCOLOR] Promotion, granting +3 operational range and a reduction of damage taken from interception by 50%. Provides a free Military Base in the City in which it is built. City must be built on or next to Desert.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_AREA_51_DESC">
+			<Text>Area 51 is a military base, and a remote detachment of Edwards Air Force Base. It is located in the southern portion of Nevada in the western United States, 83 miles (133 km) north-northwest of Las Vegas. Situated at its center, on the southern shore of Groom Lake, is a large military airfield. The base's primary purpose is undetermined; however, based on historical evidence, it appears to support development and testing of experimental aircraft and weapons systems.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c3b6e30c-3548-4fbc-9d7f-cf3025be8261" version="2">
+  <Properties>
+    <Name>JFD's Gameplay - Nationalism</Name>
+    <Teaser>Adds [COLOR_CYAN]Nationalism[ENDCOLOR] as a new gameplay concept. Click for details.</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR] is a new yield that can be expended to duplicate Social Policies that you have already adopted. Nationalism is generated from your Culture Per Turn; the amount of Culture Per Turn contributing to Nationalism instead of Culture is determined by a slider in the Social Policy screen. When you have enough Nationalism, it can then be spent to re-adopt Social Policies.[NEWLINE][NEWLINE]The amount of Culture Per Turn you can devote to Nationalism increases with certain Technologies.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="aa78c420-1dbc-4b63-a641-07aa0222febf" minversion="0" maxversion="999" title="JFD's Utilities - Conflict Resolution Patch" />
+  </Dependencies>
+  <References>
+    <Mod id="5f36d178-6435-4a05-897b-4224ed58a079" minversion="0" maxversion="999" title="Reform and Rule (BNW)" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="(2) Community Balance Overhaul" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="(1) Community Patch" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="603C89733240A0B7F4E588D7D896B887" import="1">Art/Font Icons/FontIcons_JFD_Nationalism_22.ggxml</File>
+    <File md5="D51E5125FD5869092C86A4B17F13EB84" import="1">Art/Font Icons/FontIcons_JFD_Nationalism_22.dds</File>
+    <File md5="CB600DC4E9642CBA2DC4B00458B5FF36" import="1">Art/Icon Atlases/JFD_Nationalism_SocialPoliciesXP2_IconAtlas_64.dds</File>
+    <File md5="7BAA3A7B2933EA69B28175F9EBB94934" import="1">Art/Icon Atlases/JFD_Nationalism_SocialPolicies_IconAtlas_64.dds</File>
+    <File md5="CA2CB8C4DE88E04E49FC258097BE5B7A" import="1">Art/Icon Atlases/JFD_Nationalism_TechMisc_IconAtlas_45.dds</File>
+    <File md5="930FE40F004B55784A5B7F0C8876D29E" import="1">Art/Images/NationalismPolicyActive80.dds</File>
+    <File md5="96E62883F77B4288E97BE23D1C3DE1B7" import="1">Audio/Sounds/NationalismPolicyAdopted.mp3</File>
+    <File md5="5F5D8BACCE35AD74F904B9640F6A7B58" import="0">Core/Nationalism_ArtDefines.sql</File>
+    <File md5="92785A2CB8BBC217E97603429020E9B9" import="0">Core/Nationalism_Concepts.sql</File>
+    <File md5="E75C4D254E583A0C7E1051CACDAE233A" import="0">Core/Nationalism_GameText.xml</File>
+    <File md5="0CB105905B73303EBCFC7D063C3A8DA9" import="0">Core/Nationalism_GameText_Interface.xml</File>
+    <File md5="1EFA7A955F4F1BEC655CF64286D58706" import="0">Core/Nationalism_IdeologicalTenets.sql</File>
+    <File md5="D3D7A705EA9476D36E2D295C950CE789" import="0">Core/Nationalism_Master.sql</File>
+    <File md5="B113103BEF1A3F7ADC6ED2602BF8B63A" import="0">Core/Nationalism_NationalismPolicies_CP.sql</File>
+    <File md5="70785C893C55EEAE5B58957C2F97EEAA" import="0">Core/Nationalism_Notifications.sql</File>
+    <File md5="40C53E947B1AB521161211B16FD9FB54" import="0">Core/Nationalism_NationalismPolicies.sql</File>
+    <File md5="BF733DA832D199C5B85EE937791BAA4B" import="0">Core/Nationalism_NationalismPromotions.sql</File>
+    <File md5="0439703C86F6AC75D26A2997625A45BC" import="0">Core/Nationalism_NationalismPromotions_CP.sql</File>
+    <File md5="8836AE54D1FAB70ABAF5AED66CD4F6C8" import="0">Core/Nationalism_Techs.sql</File>
+    <File md5="913ABB34757E528B7FBDE6104D93243A" import="0">Credits.txt</File>
+    <File md5="A317A349CBE59555BAEDDD8E7C69129B" import="0">Lua/JFD_Nationalism_Functions.lua</File>
+    <File md5="59E29EEA5BEB29093C2278ADF1D32884" import="0">Lua/JFD_Nationalism_TutorialFunctions.lua</File>
+    <File md5="481E3A3D00C62BB2378F5C7FC36AFD11" import="0">Lua/JFD_Nationalism_TutorialFunctions.xml</File>
+    <File md5="39A49541BF6AD818692ACD0B59F9E45A" import="1">Lua/UI/Overrides/SocialPolicyPopup.lua</File>
+    <File md5="ECD8C44520FA683B781C28F80B32C29F" import="1">Lua/UI/Overrides/SocialPolicyPopup.xml</File>
+    <File md5="20D7B2CA6E46D7B427128EF0CB9C7E0A" import="1">Lua/Utilities/JFD_Nationalism_Utils.lua</File>
+    <File md5="550846BDCA258E2C6252BEE72A0A0896" import="1">Lua/Utilities/Save Utilities/JFD_Nationalism_GlobalDefines.lua</File>
+    <File md5="836D509B1B49B10CDD48F873DEF35AA2" import="1">Lua/Utilities/Save Utilities/JFD_Nationalism_TSLSerializerV3.lua</File>
+    <File md5="CD3E8C278CE1FD36806AA4CF6BE3BF88" import="1">Lua/Utilities/Save Utilities/TableSaverLoader016.lua</File>
+    <File md5="69FCADF0D2AE7C0C2CEC9D821AD41883" import="1">Lua/Utilities/Save Utilities/TSLSerializerCoreV3.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Nationalism_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Nationalism_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Nationalism_Concepts.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Nationalism_IdeologicalTenets.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Nationalism_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Nationalism_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Nationalism_NationalismPolicies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Nationalism_NationalismPolicies_CP.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Nationalism_Notifications.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Nationalism_NationalismPromotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Nationalism_NationalismPromotions_CP.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Nationalism_Techs.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Nationalism_TutorialFunctions.xml">
+      <Name>JFD_Nationalism_TutorialFunctions.xml</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Nationalism_Functions.lua">
+      <Name>JFD_Nationalism_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

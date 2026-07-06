@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8ef2d7bb-6f98-4333-9b0c-e4e8137abc82" version="1">
+  <Properties>
+    <Name>Neirai's Nez Perce</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Adds the [COLOR_POSITIVE_TEXT]Nez Perce[ENDCOLOR] to the game as a playable civ</Teaser>
+    <Description>Adds the [COLOR_POSITIVE_TEXT]Nez Perce[ENDCOLOR] to the game as a playable civ</Description>
+    <Authors>Neirai</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A2A922439DBF06136E998555CDE3AD43" import="1">Art/Atlases/NTF_Nez_Perce_Alpha_128.dds</File>
+    <File md5="C5CACF00FDC1BA79AE932256ED57E1FB" import="1">Art/Atlases/NTF_Nez_Perce_Alpha_24.dds</File>
+    <File md5="F1230BBF55E335C5936346EB0B13AF56" import="1">Art/Atlases/NTF_Nez_Perce_Alpha_256.dds</File>
+    <File md5="71DFBA0998A2A80C48D7D192EDB34034" import="1">Art/Atlases/NTF_Nez_Perce_Alpha_32.dds</File>
+    <File md5="2FB85911CF93A8AE43148FF09BEC0155" import="1">Art/Atlases/NTF_Nez_Perce_Alpha_48.dds</File>
+    <File md5="6CE43DEC4FFE20BD6418A00BD483DF47" import="1">Art/Atlases/NTF_Nez_Perce_Alpha_64.dds</File>
+    <File md5="F083C824FDC02F17CF0863F212569607" import="1">Art/Atlases/NTF_Nez_Perce_128.dds</File>
+    <File md5="CF948B93D2325E5B8532AD42E2C584AF" import="1">Art/Atlases/NTF_Nez_Perce_256.dds</File>
+    <File md5="DC2D8001EF90FBB50EB58D81688FB213" import="1">Art/Atlases/NTF_Nez_Perce_32.dds</File>
+    <File md5="60CE72538DDDBAB54F1061B7D79F18E0" import="1">Art/Atlases/NTF_Nez_Perce_45.dds</File>
+    <File md5="35DC8A9A498439E023CDDDD463450EF4" import="1">Art/Atlases/NTF_Nez_Perce_64.dds</File>
+    <File md5="D71DF1E1FC5EBD6C8C7B5AC389EA1AF4" import="1">Art/Atlases/NTF_Nez_Perce_80.dds</File>
+    <File md5="55F9306FE4755EF30FBEF20D9F996D15" import="1">Art/Models/Appaloosa Rider/nez_perce_horse.dds</File>
+    <File md5="4622246A6038DB9F7204479303DB17C1" import="1">Art/Models/Appaloosa Rider/nez_perce_horse.fxsxml</File>
+    <File md5="BEC80431C084B286D3C46CE4A4DF6802" import="1">Art/Models/Appaloosa Rider/nez_perce_horse.gr2</File>
+    <File md5="5A5460884B7341A4010B886C293C1647" import="1">Art/Models/Appaloosa Rider/nez_perce_horse_man.dds</File>
+    <File md5="AD28C73AAC64786AD59D8F4A254C304D" import="1">Art/Models/Appaloosa Rider/nez_perce_horse_man_sref.dds</File>
+    <File md5="8E60995EE240A014ADE22BE2C00B5366" import="1">Art/Models/Appaloosa Rider/nez_perce_horse_sref.dds</File>
+    <File md5="ECC0DF3D962C2E3D771DC0DB41506CEB" import="1">Art/Models/NTF_AppaloosaRiderFlag32.dds</File>
+    <File md5="56319598780D42FFECE5A7DA56906D15" import="1">Art/Models/Salmon/MC_SalmonFontIcons.dds</File>
+    <File md5="6F92F96667DC435494EC3657586EF672" import="1">Art/Models/Salmon/MC_SalmonFontIcons_22.ggxml</File>
+    <File md5="30B97F0430D0CEDF1BBFEF6FF3567E6F" import="1">Art/Models/Salmon/sv_MC_Salmon.dds</File>
+    <File md5="CE72915E566EA173E63045A0BDFEF281" import="1">Art/Models/sv_appaloosarider.dds</File>
+    <File md5="6A578CF5A8F6365BF8557210BDAEF331" import="1">Art/Scenes/NTF_Nez_Perce_DoM.dds</File>
+    <File md5="7B4B3DE9E05F06A45EBF249BCEEC8FA5" import="1">Art/Scenes/NTF_Nez_Perce_Map.dds</File>
+    <File md5="26DB350B04D8A791CB14EBC28E73EFE9" import="1">Art/Scenes/NTF_Nez_Perce_Leaderscene.dds</File>
+    <File md5="1370099896B84778D58C6B8ADFFA5275" import="1">Core/Art/MC_Chinook_ArtDefines.sql</File>
+    <File md5="203805BFFA6D5C68CD619926A0235DF9" import="0">Core/Art/NTF_Nez_Perce_Leaderscene.xml</File>
+    <File md5="4C4764BCF6CD3AFE10D7F4D7514ACC21" import="0">Core/Art/NTF_AppaloosaArtDef.sql</File>
+    <File md5="9A7E22DC1E23709284656D6B11C65D5E" import="0">Core/Buildings/NTF_Nez_Perce_Buildings.sql</File>
+    <File md5="214D183FD3CB6B8E90857790BEDFB913" import="0">Core/Civilizations/NTF_Nez_Perce_Civilizations.sql</File>
+    <File md5="5990847E4A5D1DCD644A0B42B9EEBE8D" import="0">Core/GameInfo/NTF_Nez_Perce_IconTextureAtlases.sql</File>
+    <File md5="0F9E63A555B81A700469E9A43A44A852" import="0">Core/GameInfo/NTF_Nez_Perce_Sounds.xml</File>
+    <File md5="CACFDA9F614C8BF3F9084DDCDAAF532C" import="0">Core/Leaders/NTF_Nez_Perce_Leader.sql</File>
+    <File md5="A9D0DA75158EC6E3BED296609C55F0AD" import="0">Core/Terrain/NTF_Nez_Perce_Resources.sql</File>
+    <File md5="D4FADAF2BAF14D18B5D66642A9C52E83" import="0">Core/Text/NTF_Nez_Perce_Text.xml</File>
+    <File md5="61E53369DFC09FFAF845C36B9EBEA749" import="0">Core/Units/NTF_Nez_Perce_Units.sql</File>
+    <File md5="31C770D0455B8A1216D82E43322593AD" import="0">Lua/NTF_Nez_Perce_Functions.lua</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Lua/Sukritact_SaveUtils.lua</File>
+    <File md5="349DFCF03B97BE802CE1D895FAE2A52F" import="0">Mod Support/MC_NTF_Seneca_ModSupport.sql</File>
+    <File md5="2C280DD02E7B9EC947749349BCDF7747" import="1">Sounds/Nez_Perce_Peace.mp3</File>
+    <File md5="2414B7DDC5D16A3F30D5DD3889992F3B" import="1">Sounds/Nez_Perce_War.mp3</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Art/MC_Chinook_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/NTF_AppaloosaArtDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/NTF_Nez_Perce_Leaderscene.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings/NTF_Nez_Perce_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations/NTF_Nez_Perce_Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/NTF_Nez_Perce_IconTextureAtlases.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/NTF_Nez_Perce_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaders/NTF_Nez_Perce_Leader.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Terrain/NTF_Nez_Perce_Resources.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Text/NTF_Nez_Perce_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/NTF_Nez_Perce_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Mod Support/MC_NTF_Seneca_ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/NTF_Nez_Perce_Functions.lua">
+      <Name>Nez Perce Functions</Name>
+      <Description>Functions for Nez Perce</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

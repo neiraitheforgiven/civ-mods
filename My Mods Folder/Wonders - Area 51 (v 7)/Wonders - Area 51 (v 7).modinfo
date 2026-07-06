@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="781707ea-4035-41e2-aebb-0e7087d23187" version="7">
+  <Properties>
+    <Name>Wonders - Area 51</Name>
+    <Teaser>Area 51 is a remote military base that appears to support development and testing of experimental aircraft and weapons systems.</Teaser>
+    <Description>Area 51 is a military base, and a remote detachment of Edwards Air Force Base. It is located in the southern portion of Nevada in the western United States, 83 miles (133 km) north-northwest of Las Vegas. Situated at its center, on the southern shore of Groom Lake, is a large military airfield. The base's primary purpose is undetermined; however, based on historical evidence, it appears to support development and testing of experimental aircraft and weapons systems. All newly-trained aircraft Units in this City receive the [COLOR_POSITIVE_TEXT]Black Project[ENDCOLOR] Promotion, granting +3 operational range and a reduction of damage taken from interception by 50%. Provides a free Military Base in the City in which it is built. Available with Radar.
+
+[NEWLINE][NEWLINE]
+
+Follow me on twitter @fourfourhero to get notifications about updates to this mod as well as others.</Description>
+    <Authors>Envoy (@fourfourhero)</Authors>
+    <SpecialThanks>Pouakai</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="52B4C68AC98EFBBBD561A8903BFA6B9B" import="1">ART/Area51IconAtlas128.dds</File>
+    <File md5="D8E86992646E5E6416660FF8149B6091" import="1">ART/Area51IconAtlas256.dds</File>
+    <File md5="8C261C5DE4400999B7DC0CAF695108ED" import="1">ART/Area51IconAtlas45.dds</File>
+    <File md5="6626F8986F51DB78E3D40321C3D4060D" import="1">ART/Area51IconAtlas64.dds</File>
+    <File md5="17433E2CB568F3CA97A960022B430588" import="1">ART/Area51Splash.dds</File>
+    <File md5="594342E815756278BFB46FDAF3EF7F95" import="0">XML/Buildings/Area51_Buildings.xml</File>
+    <File md5="A2156A1CE4ABC686441B4A98DCA82812" import="0">XML/Buildings/Area51_IconTextureAtlases.xml</File>
+    <File md5="F11494994103DF719C8C732E1B5267F9" import="0">XML/Civilizations/Area51_Civilizations.xml</File>
+    <File md5="90B38BFF574AF79305FC8640D156A907" import="0">XML/Units/Area51_UnitPromotions.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Units/Area51_UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Area51_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Area51_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Area51_Civilizations.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

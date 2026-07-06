@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4b457e54-f195-4c1a-bf0d-6613fe6b306b" version="3">
+  <Properties>
+    <Name>Nazca Lines Wonder</Name>
+    <Teaser>The Nazca lines have long been a source of mystery and intrigue throughout the world. Thought to be built by the Nazca culture</Teaser>
+    <Description>The Nazca lines have long been a source of mystery and intrigue throughout the world. Thought to be built by the Nazca culture of Peru in the fourth century CE, the exact purpose of the lines remains unknown to this day, although theories range from an astronomical observatory to landing sites of extraterrestrial spacecraft. With the Nazca Lines, Temples in the empire provide an additional +1 faith, while Universities provide +2 Science. Aditionally, you will recieve 4 Tourism upon the adoption of Flight.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>Mentos, Moriboe, Ambrox62</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="96CDA235EE0488580251806C1844E5EB" import="1">Art/Nazca_128.dds</File>
+    <File md5="BFFE6B52B584418A6A627B32A81843DB" import="1">Art/Nazca_256.dds</File>
+    <File md5="3E019A2F6D9AA7052C22055CD8C08707" import="1">Art/Nazca_45.dds</File>
+    <File md5="3455D20A265E53887593F00324AD10F1" import="1">Art/Nazca_64.dds</File>
+    <File md5="371E4C23A28340E71450285732A514C7" import="1">Art/Nazca_80.dds</File>
+    <File md5="1D350EC3E10B43B19068F2AC38B406C3" import="1">Art/nazca_splash.dds</File>
+    <File md5="A9C843C659561323A92FEADE9817DBFA" import="0">XML/Buildings/Nazca_BuildingClasses.xml</File>
+    <File md5="A402C23D046FA5808515AEC721987E52" import="0">XML/Buildings/Nazca_Buildings.xml</File>
+    <File md5="E6B31CEC4B3FAB4FFD4DAE9F2D55E075" import="0">XML/Civilizations/Nazca_Civilizations.xml</File>
+    <File md5="29446C916B33EA6E29E9D64C1DCECA12" import="0">XML/GameInfo/Nazca_IconTextureAtlases.xml</File>
+    <File md5="0619AADAA2C33057E46E511277E2EA9F" import="0">XML/Text/Nazca_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Nazca_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Nazca_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Nazca_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Nazca_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Nazca_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

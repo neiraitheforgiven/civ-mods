@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="07a47090-2af7-41de-9aa6-b67d741273f4" version="1">
+  <Properties>
+    <Name>Todai ji Wonder</Name>
+    <Teaser>Todai-ji is a large Buddhist temple located in the Japanese city of Nara</Teaser>
+    <Description>Todai-ji is a large Buddhist temple located in the Japanese city of Nara. It is most famous for the Giant Buddha Hall, which houses the Daibutsu, the largest Bronze statue in the world. First built during the 7th century, when Nara was the capital of Japan, the complex is now the headquarters of a Japanese buddhist sect known as the Kegon school. Throughout Todai-ji and Nara as a whole, wild Sika deer can often be seen wandering freely, as these animals are sacred in Japanese religion as they are believed to be the messengers of the gods. Ingame, Todai-ji provides +1 faith for every animal resource worked by the city, and requires Metal Casting.</Description>
+    <Authors>Pouakai, sukritact, chrissifniotis</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="FBACA306D4A99784DF8F6E1B129511B9" import="1">Art/Todaiji_128.dds</File>
+    <File md5="D5708E78B1E2D70B0743279C52B5CAB3" import="1">Art/Todaiji_256.dds</File>
+    <File md5="D89234E88A2D1747D5A6E0DB0263A69F" import="1">Art/Todaiji_45.dds</File>
+    <File md5="0EB54BB878FF0224A7E85C1CB9A5F595" import="1">Art/Todaiji_64.dds</File>
+    <File md5="E36F4F9BB0DFFF90F73C7103E9DF892C" import="1">Art/Todaiji_80.dds</File>
+    <File md5="088E8E1B50B25722348BBF2E2304E103" import="1">Art/Todaiji_splash.dds</File>
+    <File md5="608488900A21F4FBBD59BF60AAFEAAAC" import="0">XML/Buildings/Todaiji_BuildingClasses.xml</File>
+    <File md5="C2326408571AF022462A98944D1352D0" import="0">XML/Buildings/Todaiji_Buildings.xml</File>
+    <File md5="07002301EA396E9EF0BD2AA04166A0AA" import="0">XML/Civilizations/Todaiji_Civilizations.xml</File>
+    <File md5="53AB8474032883B8C125D0F3CA0FF057" import="0">XML/GameInfo/Todaiji_IconTextureAtlases.xml</File>
+    <File md5="0CEED842A4A45D2D362696CC14BE4264" import="0">XML/Text/Todaiji_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Todaiji_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Todaiji_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Todaiji_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Todaiji_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Todaiji_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

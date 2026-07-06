@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a954965d-ec7b-4e34-a5b6-5b4f4376e429" version="5">
+  <Properties>
+    <Name>Temple of Heaven Wonder</Name>
+    <Teaser>The Temple of Heaven is a large religious complex in the centre of Beijing, China. It was constructed in the 15th century</Teaser>
+    <Description>The Temple of Heaven is a large religious complex in the centre of Beijing, China. It was constructed in the 15th century during the reign of the Yongle Emperor, and features elements of Taoism and Heaven worship, among which was an annual festival dedicated to heaven. The complex was occupied by the eight-nation alliance during the Boxer rebellion in 1900, and was not opened to the public until 1918.</Description>
+    <Authors>Pouakai, sukritact</Authors>
+    <SpecialThanks>ambrox62, moriboe</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="E920556B18B392AEE1162D89655E668D" import="1">Art/Temple_of_Heaven_128.dds</File>
+    <File md5="71C6A5287D1DC99737D1FBDC0B6FC5BC" import="1">Art/Temple_of_Heaven_256.dds</File>
+    <File md5="E07FB8F47949AB546124EBE6813C87D0" import="1">Art/Temple_of_Heaven_45.dds</File>
+    <File md5="89508045FF0BB2B9E3C00498A88F9D9A" import="1">Art/Temple_of_Heaven_64.dds</File>
+    <File md5="A2B52FA02AFE4E484696E113D8A4239C" import="1">Art/Temple_of_Heaven_80.dds</File>
+    <File md5="6CB7BE8D4FFAB71A04B7A351D05D55CE" import="1">Art/Temple_of_Heaven_splash.dds</File>
+    <File md5="ADC603C97F34A815AB4D9D2CBDA2D5DD" import="0">XML/Buildings/Temple_of_Heaven_BuildingClasses.xml</File>
+    <File md5="7946ED1358C32C80B5695B9F5A400D33" import="0">XML/Buildings/Temple_of_Heaven_Buildings.xml</File>
+    <File md5="28A0A93F22BDEBCE7E6CDF2A9B9E5A2F" import="0">XML/Civilizaions/Temple_of_Heaven_Civilizations.xml</File>
+    <File md5="C59BD3359DE814D72BC26B8CEA871AA5" import="0">XML/GameInfo/Temple_of_Heaven_IconTextureAtlases.xml</File>
+    <File md5="E74A1B058EBFC620561FDA70A6831FD3" import="0">XML/Text/Temple_of_Heaven_text_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Temple_of_Heaven_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Temple_of_Heaven_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizaions/Temple_of_Heaven_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Temple_of_Heaven_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Temple_of_Heaven_text_en_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

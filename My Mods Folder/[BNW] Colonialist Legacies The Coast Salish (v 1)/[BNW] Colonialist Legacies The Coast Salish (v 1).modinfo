@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0072a319-d2bd-46f0-a572-03743d3bb336" version="1">
+  <Properties>
+    <Name>[BNW] Colonialist Legacies The Coast Salish</Name>
+    <Teaser>Adds the generous [COLOR_POSITIVE_TEXT]Coast Salish (ft. Seattle)[ENDCOLOR] to the game!</Teaser>
+    <Description>Adds the generous Coast Salish (ft. Seattle) to the game!</Description>
+    <Authors>Neirai the Forgiven, TPangolin, Reedstilt</Authors>
+    <SpecialThanks>Chrisy, DMS</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact's Events &amp; Decisions" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="The Enlightenment Era" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="JFD’s Rise to Power" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD's and Pouakai's Mercenaries" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD's Cities in Development" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Maps Pack" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="B20AFE8174B39E9CE00542E849CEDC8F" import="1">Art/Garamante/Garamante.fbx</File>
+    <File md5="6D871C36DF6C351EFC421D579541E427" import="1">Art/Garamante/Garamante.dds</File>
+    <File md5="3A45E3ACA449194C653E3B6F6FC1A6F5" import="1">Art/Garamante/sv_u_stomex.dds</File>
+    <File md5="D678AD4D19A8110637EE0A3BEF788B91" import="1">Art/Garamante/u_CLSTOMEX.fxsxml</File>
+    <File md5="A212CDA10B0719A5D357304C81C37717" import="1">Art/Garamante/Garamante.gr2</File>
+    <File md5="1C2E53F63C16D16E9CDAE18C5DE851CA" import="1">Art/Garamante/Garamante_sref.dds</File>
+    <File md5="3F91E524C1F5AF2E18CFF0CC55C8960B" import="1">Art/Icons/Alphas/SalishAlpha128.dds</File>
+    <File md5="2B28400854896291BF033D7F491D7CEA" import="1">Art/Icons/Alphas/SalishAlpha16.dds</File>
+    <File md5="B13D5A86910249F3BF3DCAE5F08B1B78" import="1">Art/Icons/Alphas/SalishAlpha24.dds</File>
+    <File md5="297E78A9C63177C7C97D3ACDEDD539D1" import="1">Art/Icons/Alphas/SalishAlpha32.dds</File>
+    <File md5="486CD0467A3A3B908D897389521C5BC2" import="1">Art/Icons/Alphas/SalishAlpha44.dds</File>
+    <File md5="8B427D5EAEBFC38BC1A3C78F1059F492" import="1">Art/Icons/Alphas/SalishAlpha48.dds</File>
+    <File md5="DCDA3123BC500CC451ACF3B5D0F4428E" import="1">Art/Icons/Alphas/SalishAlpha64.dds</File>
+    <File md5="AB91038ADF5E6B40D8A5400AC445D036" import="1">Art/Icons/Alphas/SalishAlpha80.dds</File>
+    <File md5="B9E76363C97139E5565394C09DB4363F" import="1">Art/Icons/Alphas/UnitAlpha32.dds</File>
+    <File md5="026A73E189F1E3214A70D84CCDE73756" import="1">Art/Icons/SalishAtlas128.dds</File>
+    <File md5="9C65369C81E42CA33E5706A0B9DBC1DC" import="1">Art/Icons/SalishAtlas256.dds</File>
+    <File md5="AA3B33E58310BC3FBDBA309B5DA3498A" import="1">Art/Icons/SalishAtlas32.dds</File>
+    <File md5="009271FE5B7D107A43F4FCCBC8EE29C4" import="1">Art/Icons/SalishAtlas45.dds</File>
+    <File md5="E35FE0E384D9615FF7573EA2CB6E3970" import="1">Art/Icons/SalishAtlas64.dds</File>
+    <File md5="76244B1D4E2A68D0EC26410622AC2BDF" import="1">Art/Icons/SalishAtlas80.dds</File>
+    <File md5="E0688AC6F128651C577B906384FF3A22" import="1">Art/SalishDoM.dds</File>
+    <File md5="283B38C42184BD7E04E8E7B1A99A906C" import="1">Art/CLSeattle.dds</File>
+    <File md5="290C0BBF1AF4E0D430FF7BE71DFB40B6" import="1">Art/SalishMap.dds</File>
+    <File md5="5D18DE37AF463CA4565D8B904AC68C6C" import="0">Mod Support/CL_Salish_ModSupport.sql</File>
+    <File md5="3DFE9BC65C497D8515436433885B0706" import="1">Music/SalishPeace.mp3</File>
+    <File md5="78664765E442F881542B42BC6B19173E" import="1">Music/SalishWar.mp3</File>
+    <File md5="623FBC53EED737D423EDE9319042F778" import="1">The Salish/CLSeattle.xml</File>
+    <File md5="20BB3133524D5BCA93DA18B5192A6F2E" import="0">The Salish/SalishArtDefine.sql</File>
+    <File md5="69EDA953EF94781A6285DC4649B1BA5F" import="0">The Salish/SalishDecisions.sql</File>
+    <File md5="5E8F30F3455A89F81C36D0CD611D1A85" import="1">The Salish/SalishDecisions.lua</File>
+    <File md5="B36F76E9D60763F6E3FDB14214253D1F" import="0">The Salish/StomexDefine.sql</File>
+    <File md5="263438C5E4B2824D580837CD95BACBD9" import="0">The Salish/Seattle_Talks.sql</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">The Salish/Sukritact_SaveUtils.lua</File>
+    <File md5="F12F9850AA1D8FD99CD79929A9BE6FF5" import="0">The Salish/PotlatchHouse.sql</File>
+    <File md5="2C1E9D24992EE17E851E0118CD9EAA6E" import="0">The Salish/Stomex.sql</File>
+    <File md5="B4A29A66C23C4762660EB1701BBE094F" import="0">The Salish/Coast Salish.lua</File>
+    <File md5="59DF772BD7CBCDD51E77928B16398CB9" import="0">The Salish/TheLawOfGenerosity.sql</File>
+    <File md5="C23DD3CDB64A5E584A0C1734A22FE108" import="0">The Salish/Seattle.sql</File>
+    <File md5="B7FBC02DA9BCF5A625FDD9D4BF036234" import="0">The Salish/The Lushootseed.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>The Salish/StomexDefine.sql</UpdateDatabase>
+      <UpdateDatabase>The Salish/PotlatchHouse.sql</UpdateDatabase>
+      <UpdateDatabase>The Salish/Stomex.sql</UpdateDatabase>
+      <UpdateDatabase>The Salish/TheLawOfGenerosity.sql</UpdateDatabase>
+      <UpdateDatabase>The Salish/Seattle_Talks.sql</UpdateDatabase>
+      <UpdateDatabase>The Salish/Seattle.sql</UpdateDatabase>
+      <UpdateDatabase>The Salish/The Lushootseed.sql</UpdateDatabase>
+      <UpdateDatabase>The Salish/SalishDecisions.sql</UpdateDatabase>
+      <UpdateDatabase>Mod Support/CL_Salish_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>The Salish/SalishArtDefine.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="The Salish/Coast Salish.lua">
+      <Name>Lushootseed</Name>
+      <Description>All the Lushootseed lua. I'll regret that later</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

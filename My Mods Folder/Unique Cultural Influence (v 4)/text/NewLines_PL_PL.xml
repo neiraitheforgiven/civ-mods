@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/22/2014 2:39:26 PM -->
+<GameData>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_GENERIC_AMERICA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze jeansy i słuchają waszego Rock and Rolla. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ARABIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze kefije i malują arabeską. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_AZTEC_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele piją waszą xocolatl i jedzą wasze tacos. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CHINA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują waszą porcelanę i oglądają wasze filmy wuxia. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_EGYPT_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasz papirus i noszą wasz makijaż. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ENGLAND_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele piją waszą herbatę i słuchają waszego popu. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_FRANCE_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele jedzą wasz ser i używają waszych perfum. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GERMANY_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze samochody i piją wasze piwo. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREECE_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele tańczą Sirtaki i oglądają wasze tragedie. Prawdziwą tragedią jest fakt, że reszta świata wkrótce podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INDIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele ćwiczą Yogę i oglądają wasze Bollywoodzkie filmy. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_IROQUOIS_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele grają w wasze Lacrosse i palą waszą tabakę. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_JAPAN_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze kimono i oglądają wasze anime. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_OTTOMAN_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze fezy i jedzą wasze kebaby. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_PERSIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele jedzą wasz pilaw i kupują wasze dywany. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ROME_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze togi i oglądają wasze walki gladiatorów. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RUSSIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze matrioszki i piją waszą wódkę. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SIAM_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze sampoty i ćwiczą Muay Thai. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SONGHAI_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze koszulki z bogolanfini i grają na korze. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BABYLON_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele są zafascynowani waszą astrologią i wierzą, że ich losy są zapisane w gwiazdach. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MONGOL_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele grają na morin chuurach podczas śpiewania gardłami. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INCA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze ubrania ze skóry lamy i żują wasze liście koki. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SPAIN_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele tańczą twoje flamenco i oglądają twoje walki byków. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_POLYNESIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze koszulki i tańczą wasze hula. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_DENMARK_INFLUENTIAL_ON_AI_1">
+			<Text>Nasze dzieci dorastają z waszymi bajkami i bawią się waszymi klockami. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_KOREA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują waszą elektronikę i grają w wasze MMORPG. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_AUSTRIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze kiełbasy i piją wasze napoje energetyczne. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BYZANTIUM_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele spędzają swoje dni grając w tryk traka i robiąc mozaiki. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CARTHAGE_INFLUENTIAL_ON_AI_1">
+			<Text>Wasz tyryjski purpur to nowa czerń wśród moich obywateli. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CELTS_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze kilty i piją wasze piwo. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ETHIOPIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele piją waszą kawę i noszą dredy. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_HUNS_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele cofają się do waszego barbarzyńskiego, koczowniczego sposobu życia. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MAYA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele przyjęli wasz kalendarz i przewidują katastrofy w niedalekiej przyszłości. Przewiduję, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_NETHERLANDS_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze tulipany i wasze drewniaki. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SWEDEN_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze meble i słuchają waszego death metalu. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ASSYRIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele piją wasz arak i tańczą kiggę. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_BRAZIL_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele piją waszą Caipirinhę i słuchają bossa nova. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_INDONESIA_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze batikowe ubrania i słuchają gamelanu. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_MOROCCO_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele jedzą wasz kuskus i oglądają wasze tancerki. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_POLAND_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele jedzą wasze pierogi i tańczą waszego Mazurka. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_PORTUGAL_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze azulejo i słuchają waszego fado. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SHOSHONE_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze upierzone czapeczki wojenne i jedzą pejotl. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VENICE_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują waszą szklaną biżuterię i wasze maski. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_ZULU_INFLUENTIAL_ON_AI_1">
+			<Text>Nasi obywatele kupują wasze wuwuzele i wasze tarcze ceremonialne. Boję się, że reszta świata również podda się wpływowi waszej kultury.</Text>
+		</Row>
+	</Language_PL_PL>
+</GameData>

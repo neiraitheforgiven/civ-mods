@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2019 7:11:13 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CONCEPTS-->
+		<!--===================================================-->
+		<!--Great Relics-->
+		<Row Tag="TXT_KEY_JFD_GREAT_RELICS_HEADING1_TITLE">
+			<Text>Great Relics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GREAT_RELICS_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Great Relics[ENDCOLOR] are a new type of Great Work that can be acquired by expending a Great Prophet once you have enhanced a Religion. They can only be slotted into the Great Relic Slots provided by the Monastery and Solomon's Temple World Wonder.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--BELIEFS-->
+		<!--===================================================-->
+		<!--Iconography-->
+		<Row Tag="TXT_KEY_BELIEF_JFD_ICONOGRAPHY_SHORT">
+			<Text>Iconography</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JFD_ICONOGRAPHY">
+			<Text>+1 [ICON_PEACE] Faith from [ICON_GREAT_WORK] Great Works and [ICON_JFD_RELIC] Relics</Text>
+		</Row>
+		<!--===================================================-->
+		<!--BUILDINGS-->
+		<!--===================================================-->
+		<!--Monastery-->
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY_JFD_GREAT_RELICS">
+			<Text>Monasteries can hold a [ICON_JFD_RELIC] Great Relic, increasing [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism. They also increase a city's [ICON_PEACE] Faith and [ICON_CULTURE] Culture output near to improved Incense and/or Wine resources.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--GREAT PEOPLE-->
+		<!--===================================================-->
+		<!--Great Prophet-->
+		<Row Tag="TXT_KEY_UNIT_HELP_PROPHET_JFD_GREAT_RELICS">
+			<Text>The Great Prophet is the only unit who can found, enhance, or reform a religion. He can also construct the special Holy Site improvement which, when worked, produces lots of [ICON_PEACE] Faith. Finally, the Great Prophet can be expended to create a Relic once you have enhanced your Religion. The Great Prophet is expended when used in any of these ways.</Text>
+		</Row>
+		<!--Unique Names-->
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_1">
+			<Text>Jesus of Nazareth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_2">
+			<Text>Gautama Buddha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_3">
+			<Text>Mohammad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_4">
+			<Text>Confucius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_5">
+			<Text>Hermes Trismegistus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_6">
+			<Text>Guru Nanak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_7">
+			<Text>Zoroaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_8">
+			<Text>Ezekiel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_9">
+			<Text>Paul the Apostle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_10">
+			<Text>Martin Luther</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_11">
+			<Text>Laozi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_12">
+			<Text>Drona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_13">
+			<Text>Dede Korkut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_14">
+			<Text>Amaterasu Omikami</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_15">
+			<Text>Acamapichtli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_16">
+			<Text>Augustine of Hippo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_17">
+			<Text>Nagarjuna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_18">
+			<Text>Abu Hurairah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_19">
+			<Text>Zhu Xi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_20">
+			<Text>Plutarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_21">
+			<Text>Guru Angad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_22">
+			<Text>Wiraz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_23">
+			<Text>Judah ha-Nasi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_24">
+			<Text>Andrew the Apostle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_25">
+			<Text>John Calvin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_26">
+			<Text>Zhang Daoling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_27">
+			<Text>Jaimini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_28">
+			<Text>Alpamish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_29">
+			<Text>O no Yasumaro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_30">
+			<Text>Huitzilihuitl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_31">
+			<Text>Manetho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_32">
+			<Text>Gobind Singh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_33">
+			<Text>Phinehas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_34">
+			<Text>Matthew the Evangelist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_35">
+			<Text>Yamato Takeru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_36">
+			<Text>Fergus Mór</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_37">
+			<Text>Khema</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_38">
+			<Text>Geoffroi de Charny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_39">
+			<Text>Aubert of Avranches</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_40">
+			<Text>Albertus Magnus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_41">
+			<Text>Buddhaghosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_42">
+			<Text>Joseph of Arimathea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_43">
+			<Text>Helena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_44">
+			<Text>Joseph of Arimathea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_45">
+			<Text>Muadh ibn Jabal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_46">
+			<Text>Confucian Disciple</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_47">
+			<Text>Simon Peter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_48">
+			<Text>Ninigi-no-Mikoto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_49">
+			<Text>Scordisci Forgemaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_50">
+			<Text>Patisar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_51">
+			<Text>Luke the Evangelist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_52">
+			<Text>Thomas the Apostle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_53">
+			<Text>Saint Nino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PROPHET_NAME_54">
+			<Text>Longinus</Text>
+		</Row>
+		<!--===================================================-->
+		<!--GREAT WORKS-->
+		<!--===================================================-->
+		<!--Great Relic-->
+		<Row Tag="TXT_KEY_GREAT_WORK_SLOT_JFD_RELIC_SLOTS_TOOLTIP">
+			<Text>[ICON_JFD_RELIC] Relic slots: {1_NumSlots}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SLOT_JFD_RELIC_EMPTY_TOOLTIP">
+			<Text>Empty Relic Slot</Text>
+		</Row>
+		<!--Relics-->
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_1">
+			<Text>Book of Thoth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_2">
+			<Text>Robes of the Guru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_3">
+			<Text>Ark of the Covenant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_4">
+			<Text>Beard of the Evangelist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_5">
+			<Text>Grass Cutting Sword</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_6">
+			<Text>Stone of Scone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_7">
+			<Text>The Tooth of Buddha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_8">
+			<Text>Shroud of Turin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_9">
+			<Text>Saint Aubert's Skull</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_10">
+			<Text>Philosopher's Stone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_11">
+			<Text>Footprint of the Buddha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_12">
+			<Text>Holy Grail</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_13">
+			<Text>Splinter of the True Cross</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_14">
+			<Text>Relic of the Precious Blood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_15">
+			<Text>Blessed Sandals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_16">
+			<Text>Mawangdui Silk Texts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_17">
+			<Text>Chains of St. Peter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_18">
+			<Text>Eight Hand Mirror</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_19">
+			<Text>Gundestrup Cauldron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_20">
+			<Text>Bones of the Magi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_21">
+			<Text>Casket of the Evangelist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_22">
+			<Text>Cincture of the Theotokos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_23">
+			<Text>Grapevine Cross</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_RELIC_24">
+			<Text>Lance of Longinus</Text>
+		</Row>
+		<!--===================================================-->
+		<!--WORLD WONDERS-->
+		<!--===================================================-->
+		<!--Solomon's Temple-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_SOLOMONS_TEMPLE">
+			<Text>Solomon's Temple</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_SOLOMONS_TEMPLE_HELP">
+			<Text>Should this city be captured, the amount of [ICON_GOLD] Gold plundered by the enemy is tripled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_SOLOMONS_TEMPLE_QUOTE">
+			<Text>[NEWLINE]"All the rivers run into the sea; yet the sea is not full."[NEWLINE] - King Solomon[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_SOLOMONS_TEMPLE_PEDIA">
+			<Text>Solomon's Temple, according to the Hebrew Bible, is an ancient, holy temple built by Solomon, King of the Israelites, destroyed by Nebuchadnezzar II of Babylon in his siege of Jersualem in 587 BCE. The Temple was dedicated to the god of Israel, Yahweh, and allegedly housed the legendary Ark of the Covenant. Because of the religious sensivity involved, it is difficult to determine much factual record of the Temple.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

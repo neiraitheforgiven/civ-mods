@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/29/2014 11:43:43 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MEDINA_AZAHARA">
+			<Text>Medina Azahara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MEZQUITA_CORDOBA">
+			<Text>Mosque-Cathedral of Cordoba</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_MEDINA_AZAHARA_HELP">
+			<Text>Gain 175 [ICON_CULTURE] Culture each time a Great Person creates an Improvement or a [ICON_GREAT_WORK] Great Work. Luxury Resources worked by this City produce +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MEZQUITA_CORDOBA_HELP">
+			<Text>+2 [ICON_CULTURE] Culture produced by Temples empire-wide.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_MEDINA_AZAHARA_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"I have now reigned above fifty years in victory or peace; beloved by my subjects, dreaded by my enemies, and respected by my allies. Riches and honours, power and pleasure, have waited on my call, nor does any earthly blessing appear to have been wanting to my felicity." [NEWLINE]- Abd-ar-Rahman III[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MEZQUITA_CORDOBA_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Sacred for lovers of art, you are the glory of faith,[NEWLINE]You have made Andalusia pure as a holy land!" [NEWLINE]- Muhammad Iqbal[NEWLINE][TAB]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_MEDINA_AZAHARA_PEDIA">
+			<Text>The Medina Azahara was a vast palace complex built by the most powerful of the Moorish rulers, Abd-ar-Rahman III, to consolidate his rule as Caliph over previously Umayyad Spain. According to Legend, it was named after Abd-ar-Rahman's favourite concubine: Azahara. A few miles from the center of Cordoba, the palace served as the de facto capital of Muslim Iberia. Built beginning in 936 CE, the small city in itself included magnificent reception halls, opulent pavillions and spacious gardens that attracted the poets and artists of Al-Andalus.[NEWLINE][NEWLINE] In 1010, the palace was sacked during a civil war and as a result, abandoned. New rulers recycled many of it's ruins to erect buildings far away.[NEWLINE][NEWLINE] Starting in 1910, the remnants of the vast complex were excavated. Since then, only 10% of the 277 acres have been uncovered, though this includes the central part of Medina Azahara.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MEZQUITA_CORDOBA_PEDIA">
+			<Text>The internationally renowned Mosque-Cathedral of Cordoba is built on the site of a previous Visigothic Church. After the Islamic conquest of the Visigothic Spain, the building was divided between Christians and Muslims. When Abd-ar-Rahman I became the new emir in 750 CE, he purchased the Christian half and built a mosque to rival those of Damascus, Baghdad and Jerusalem. Over the course of future Emirs and Caliphs, the mosque was changed and expanded till Cordoba fell to the rulers of Castile, who subsequently converted it into a cathedral.[NEWLINE][NEWLINE]The Mosque-Cathedral of Cordoba is famous for its long rows of arches and the richly gilded mihrab. Spotless white marble from nearby quarries was brought in for the innumerable columns. The Mosque-Cathedral has 20 doors in total, all from throughout it's history.[NEWLINE][NEWLINE]Since the early 2000s, Spanish Muslims have lobbied the Roman Catholic Church to allow them to pray in the building. The Vatican and Spanish churches have opposed this move. Others have called for it to be converted into a museum, similar to the Hagia Sophia in Istanbul.</Text>
+		</Row>
+    </Language_en_US>
+</GameData>

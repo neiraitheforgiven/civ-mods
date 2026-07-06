@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/16/2014 11:54:41 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CIVILIZATION-->
+		<Row Tag="TXT_KEY_CIV_JFD_PORTUGAL_AFONSO_I_ADJECTIVE">
+			<Text>Portuguese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_PORTUGAL_AFONSO_I_DESC">
+			<Text>Portuguese Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_PORTUGAL_AFONSO_I_SHORT_DESC">
+			<Text>Portugal</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_1">
+			<Text>Coimbra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_2">
+			<Text>Porto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_3">
+			<Text>Tavira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_4">
+			<Text>Vimaranes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_5">
+			<Text>Braga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_6">
+			<Text>Viseu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_7">
+			<Text>Leiria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_8">
+			<Text>Gaia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_9">
+			<Text>Évora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_10">
+			<Text>Silves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_11">
+			<Text>Faro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_12">
+			<Text>Aveiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_13">
+			<Text>Guarda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_14">
+			<Text>Beja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_15">
+			<Text>Bragança</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PORTUGAL_AFONSO_I_16">
+			<Text>Tomar</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PORTUGAL_AFONSO_I_0">
+			<Text>Edith</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PORTUGAL_AFONSO_I_1">
+			<Text>Moambique</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PORTUGAL_AFONSO_I_2">
+			<Text>Armandola</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PORTUGAL_AFONSO_I_3">
+			<Text>Isobella</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PORTUGAL_AFONSO_I_4">
+			<Text>Franco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PORTUGAL_AFONSO_I_5">
+			<Text>Escobar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PORTUGAL_AFONSO_I_6">
+			<Text>Pedro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PORTUGAL_AFONSO_I_7">
+			<Text>Eusebio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PORTUGAL_AFONSO_I_8">
+			<Text>Maria</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PORTUGAL_AFONSO_I_9">
+			<Text>Raul</Text>
+		</Row>
+		<!--LEADER-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I">
+			<Text>Afonso I</Text>
+		</Row>
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PORTUGAL_AFONSO_I_NAME">
+			<Text>Afonso I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PORTUGAL_AFONSO_I_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PORTUGAL_AFONSO_I_TEXT_1">
+			<Text>Alfonso Henriques was born at Guimarães in the castle of his father, Henry of Burgundy, Count of Portugal. His ambitious mother, Teresa, daughter of Alfonso VI of Leon and Castile, ruled the county as regent after Henry died in 1112. When Alfonso rebelled against his mother in 1127 and took control of the county, he immediately faced an invasion by his cousin, the new king of Leon, Alfonso VII. The Leonese king refused to recognize the independence of Portugal until 1143, when Alfonso Henriques became a vassal of the pope; the two cousins then signed a treaty in Zamora under the auspices of the Church.[NEWLINE][NEWLINE]Alfonso was now free to enlarge his domain by conquering lands from the Moslems. His first great victory had been against the Almoravids at Ourique on July 25, 1139. This battle established Alfonso's reputation as a warrior, and it was about this time that he abandoned the title of count for that of king. On March 15, 1147, he captured Santarém, setting the stage for the major campaign of his career. In May a company of English, German, and Flemish Crusaders en route to the Holy Land arrived in Portugal and entered into a lucrative agreement with Alfonso. They joined the royal forces in the 17-week siege of Lisbon, which ended with the Moslems' capitulation on October 25.[NEWLINE][NEWLINE]Alfonso now addressed himself to the task of settling the Tagus Valley in order to assure its security against Moslem attack. Several of the Crusaders had accepted his offer of land grants, but the population was still not dense enough to resist Moslem incursions. The defense of this region was therefore entrusted to the Knights Templar, and the task of populating the empty lands between Lisbon and Leiria was assigned to the Cistercian monastic order.[NEWLINE][NEWLINE]Between 1150 and 1169 Alfonso campaigned constantly in the south. He succeeded in containing the Moslems and in making some territorial conquests. To secure peace with the new king of Leon, Ferdinand II, Alfonso offered him his daughter Urraca, whom Ferdinand married in 1165. Two years later, however, the kings quarreled and Alfonso invaded Galicia, the southern part of which was in dispute. In 1169 Alfonso aided in the siege of Badajoz but was in turn besieged by Ferdinand's troops, who had come to help the surrounded Moslems. Seeking to escape, Alfonso was caught in the gate of the city and broke his leg. He was captured by Ferdinand, and as part of the ransom arrangements he was forced to abandon all claims upon Galicia. As a result of his accident, the King never fought again, and the burden of military leadership passed to his son Sancho.[NEWLINE][NEWLINE]The year 1171 brought a heightening of the Almohad threat, but in 1172 Alfonso negotiated a 5-year truce with the caliph. As the decade drew to a close, Pope Alexander III officially recognized Alfonso's conquests and bestowed full royal dignity on him and on his successors. The last years of Alfonso's reign were marked by a continuation of the struggle with the Almohads. He died at Coimbra on Dec. 6, 1185, having reigned for 57 years.[NEWLINE][NEWLINE]The significance of Alfonso's reign as the beginning of a Portuguese national state is clear. But how and why Portugal was able to emerge as an independent power at this time are complex questions. Explanations based on a hypothetical Lusitanian spirit must be rejected in favor of answers founded on the political and geographic realities of the epoch. Although northern Portugal is well protected from Spanish incursions by the rugged Douro Gorge, the most significant roots of Portuguese independence lie in the political weakness of 12th-century Castile, which was unable to prevent the independence of either Leon or Portugal. Alfonso must thus be seen as a consummate politician who took full advantage of the moment to declare his country's independence.</Text>
+		</Row>
+		<!--Lived-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PORTUGAL_AFONSO_I_LIVED">
+			<Text>1109 - 1185 AD</Text>
+		</Row>
+		<!--Titles-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PORTUGAL_AFONSO_I_SUBTITLE">
+			<Text>Leader of Portugal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_PORTUGAL_AFONSO_I_TITLES_1">
+			<Text>King</Text>
+		</Row>
+		<!--DOM-->
+		<Row Tag="TXT_KEY_CIV_DAWN_JFD_PORTUGAL_AFONSO_I_TEXT">
+			<Text>Hail great crusader, Afonso I, first King of Portugal. Having wrested independence from Leon in 1139, you waged nearly 50 years of war against the heathen Moors. A servant of God and Church, you also brought great learning to Portugal, patronizing her monasteries and her ancient military orders. Through your capable kingship, Portugal's place amongst the powers of Iberia would be secured for centuries, and you would become fondly honoured as the father of the Portuguese nation.[NEWLINE][NEWLINE]Afonso the Conqueror, Portugal's sovereignty is once again at your charge. Can you raise your armies and dispel the heathens that would threathen your lands? Can you bring honour and nobility to the great military orders of Portugal? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+		<!--Responses-->
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_FIRSTGREETING_1">
+			<Text>Hail. I am King Afonso I, father of the Portuguese nation. Let us hope that we can live together cordially.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_DEFEATED_1">
+			<Text>Not only am I slain, but so, too, is the Portuguese nation defeated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_ATTACKED_HOSTILE_1">
+			<Text>God has seen fit to test me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_DEC_FRIENDSHIP_1">
+			<Text>Worthy friends are hard to come by. But you - I count you among the worthy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_DENOUNCE_1">
+			<Text>I will not stand for any threats against Portugal.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_DENOUNCE_FRIEND_1">
+			<Text>You have betrayed our sacred convenant. Now you will pay the price.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_DOW_GENERIC_1">
+			<Text>We were not fated to be friends. May God reveal his favour in our upcoming battle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Stay your settlers. They wander into Portuguese lands, and these are lands I am prepared to defend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_GREETING_HOSTILE_HELLO_1">
+			<Text>God truly tests me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_GREETING_NEUTRAL_HELLO_1">
+			<Text>Greetings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_GREETING_POLITE_HELLO_1">
+			<Text>Hail, friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Do you come seeking a battle? I will surely deliver, and deliver you to God as well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_LUXURY_TRADE_1">
+			<Text>I am here to make a trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Open your borders to me so that I may march forth my armies and slay our enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>Your gold will not buy your right to these lands. That right can only be won through honour and bloodshed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_REQUEST_1">
+			<Text>To fight back our foes, Portugal requires your aide.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>So be it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_TOO_SOON_FOR_DOF_1">
+			<Text>I would do me no good.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_PORTUGAL_AFONSO_I_TOO_SOON_NO_PEACE_1">
+			<Text>It cannot be done.</Text>
+		</Row>
+		<!--UNIQUE TRAIT-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_PORTUGAL_AFONSO_I_SHORT">
+			<Text>Miracle of Ourique</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_PORTUGAL_AFONSO_I">
+			<Text>Defeating units in their lands will convert nearby [ICON_CITIZEN] Citizens to your main religion and damage nearby cities. Courthouses exude +25% religious pressure.</Text>
+		</Row>
+		<!--User Interfaces-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PORTUGAL_AFONSO_I_COURTHOUSE_HELP">
+			<Text>+25% religious pressure emanating from this City.</Text>
+		</Row>
+		<!--Dummies-->
+		<Row Tag="TXT_KEY_BUILDING_DUMMY_JFD_PORTUGAL_AFONSO_I">
+			<Text>JFD: Portugal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DUMMY_JFD_PORTUGAL_AFONSO_I_HELP">
+			<Text>+25% religious pressure</Text>
+		</Row>
+		<!--UNIQUE 1-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CONVENTO">
+			<Text>Convento</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CONVENTO_HELP">
+			<Text>Units purchased with [ICON_PEACE] Faith in this city can [ICON_MOVES] move immediately.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CONVENTO_STRATEGY">
+			<Text>The unique Convento is the Portuguese replacement for the Castle under Afonso I. It increases the [ICON_PEACE] Faith and [ICON_STRENGTH] Defense of cities. In addition, the Convento allows all units purchased with [ICON_PEACE] Faith in this city to move immediately. It also does not require Walls to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CONVENTO_TEXT">
+			<Text>The Convent of Christ is a former Roman Catholic convent/monastery in the civil parish of Tomar, in the Centrol region municipality of Tomar. Originally a 12th-century Templar stronghold, when the order was dissolved in the 14th century the Portuguese branch was turned into the Knights of the Order of Christ, that later supported Portugal's maritime discoveries of the 15th century. The Convent and Castle complex is a historic and cultural monument which was listed in the list of UNESCO World Heritage list in 1983.</Text>
+		</Row>
+		<!--UNIQUE 2-->
+		<Row Tag="TXT_KEY_UNIT_JFD_KNIGHT_AVIZ">
+			<Text>Knight of Aviz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_KNIGHT_AVIZ_HELP">
+			<Text>Only the Portuguese under Afonso I may build this unit. It is especially durable when fighting religious wars, healing 10 damage per turn when beginning in the borders of a civilization following a different religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_KNIGHT_AVIZ_STRATEGY">
+			<Text>The Knight of Aviz is the Portuguese unique unit under Afonso I. Perfectly suited for religious crusades, the Knight of Aviz heals when beginning its turn in the territory of a civilization following a different religion. Unlike the Knight which it replaces, this unit does not require [ICON_RES_HORSE] Horses to build, although it takes require more production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_KNIGHT_AVIZ_TEXT">
+			<Text>The Military Order of Aviz is a Portuguese Order of Chivalry. As a monastic military order, it was founded in emulation of such military orders as the Knights Templar, which existed in Portugal as early as 1128. Afonso, the first King gave to it the town of Évora, captured from the Moors in 1166, and the Knights were first called "Friars of Santa Maria of Évora". Pedro Henriques, an illegitimate son of the King's father, was the first grand master.</Text>
+		</Row>
+		<!--Promotions-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_KNIGHT_AVIZ">
+			<Text>Order of Aviz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_KNIGHT_AVIZ_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]HEALS[ENDCOLOR] +10 damage each turn if beginning in the borders of a civilization with a different religion.</Text>
+		</Row>
+		<!--MOD-->
+		<Row Tag="TXT_KEY_MOD_JFD_PORTUGAL_AFONSO_I_DESCRIPTION">
+			<Text>PORTUGAL (AFONSO I)[NEWLINE][NEWLINE]UNIQUE TRAIT: MIRACLE OF OURIQUE[NEWLINE]Defeating units in their lands will convert nearby [ICON_CITIZEN] Citizens to your main religion and damage nearby cities. Courthouses exude +25% religious pressure.[NEWLINE][NEWLINE]UNIQUE BUILDING: CONVENTO (CASTLE)[NEWLINE]The unique Convento is the Portuguese replacement for the Castle under Afonso I. It increases the [ICON_PEACE] Faith and [ICON_STRENGTH] Defense of cities. In addition, the Convento allows all units purchased with [ICON_PEACE] Faith in this city to move immediately. It also does not require Walls to be built.[NEWLINE][NEWLINE]UNIQUE UNIT: KNIGHT OF AVIZ (KNIGHT)[NEWLINE]The Knight of Aviz is the Portuguese unique unit under Afonso I. Perfectly suited for religious crusades, the Knight of Aviz heals when beginning its turn in the territory of a civilization following a different religion. Unlike the Knight which it replaces, this unit does not require [ICON_RES_HORSE] Horses to build, although it takes require more production.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

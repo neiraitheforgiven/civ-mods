@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8577eb1c-e2c5-4a0a-a23e-ccaae26c0d00" version="5">
+  <Properties>
+    <Name>Wartburg Wonder</Name>
+    <Teaser>This mod adds the German castle of Wartburg to the game as a wonder</Teaser>
+    <Description>The German castle of Wartburg is one which is representative of the Bavarian castles which dot the south German countryside. It was built from 1068 onwards in a feudal fiefdom, and served as the residence for Martin Luther following his excommunication from the Catholic faith. Ingame, Warburg contains a pre-built Great Work of Writing and provides +3 Happiness, while it requires Chivalry</Description>
+    <Authors>Pouakai, Sukritact</Authors>
+    <SpecialThanks>Moriboe, Ambrox62, Mentos</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="598DC69E6BE830012C2951638FA7705E" import="1">Art/Wartburg_icon128.dds</File>
+    <File md5="C1F6622571F991F20DF11B1F5BD025C0" import="1">Art/Wartburg_icon256.dds</File>
+    <File md5="A76D2E85CB4106726A31C7AB72FA2CDA" import="1">Art/Wartburg_icon45.dds</File>
+    <File md5="68F3DFE5B21A9EEF9BB7685D01417A74" import="1">Art/Wartburg_icon64.dds</File>
+    <File md5="6029E5743AA6247B4A06FC7DD99CD54B" import="1">Art/Wartburg_icon80.dds</File>
+    <File md5="479341492E4B36CDB0EA376AD597DC03" import="1">Art/Wartburg_splash.dds</File>
+    <File md5="9DA2B1AA41913A396ED82B4174916BF6" import="0">XML/Buildings/Wartburg_BuildingClasses.xml</File>
+    <File md5="9C61DBBD1A34AFFEF03895DC3F921D5D" import="0">XML/Buildings/Wartburg_Buildings.xml</File>
+    <File md5="4FCC38F5044A94DE11A287EE97ECC9CA" import="0">XML/Civilizations/Wartburg_Civilizations.xml</File>
+    <File md5="649678272A97C6B37063C5928F21D8E5" import="0">XML/GameInfo/Wartburg_GreatWorks.xml</File>
+    <File md5="E22AF47C6EBC4D7BF968ADD2F240E672" import="0">XML/GameInfo/Wartburg_IconTextureAtlases.xml</File>
+    <File md5="A5791565B3932DF74E9BB88B61A94B91" import="0">XML/Text/Wartburg_text_EN_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Wartburg_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Wartburg_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Wartburg_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Wartburg_GreatWorks.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Wartburg_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Wartburg_text_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

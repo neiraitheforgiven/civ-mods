@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/19/2013 4:35:22 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BULGARIA_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>BulgariaAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ATLAS</Atlas>
+			<IconSize>24</IconSize>
+			<Filename>BulgariaAtlas24.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>BulgariaAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>BulgariaAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>BulgariaAtlas32.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>BulgariaAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>BulgariaAtlas80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ALPHA</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>BulgariaAlpha128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ALPHA</Atlas>
+			<IconSize>24</IconSize>
+			<Filename>BulgariaAlpha24.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ALPHA</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>BulgariaAlpha45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ALPHA</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>BulgariaAlpha32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ALPHA</Atlas>
+			<IconSize>48</IconSize>
+			<Filename>BulgariaAlpha48.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ALPHA</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>BulgariaAlpha64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BULGARIA_ALPHA</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>BulgariaAlpha80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>OPALCHENTSI_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>opalchentsiflag.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+
+			<Atlas>ACTION_BULG_ROSE</Atlas>
+
+			<IconSize>45</IconSize>
+
+			<Filename>RoseOtto45.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		<Row>
+
+			<Atlas>ACTION_BULG_ROSE</Atlas>
+
+			<IconSize>64</IconSize>
+
+			<Filename>RoseOtto64.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+		
+	</IconTextureAtlases>
+
+</GameData>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_BUTCHER_GG</Type>
+			<Description>TXT_KEY_PROMOTION_BUTCHER_GG</Description>
+			<Help>TXT_KEY_PROMOTION_BUTCHER_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BUTCHER_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BUTCHER_GG2</Type>
+			<Description>TXT_KEY_PROMOTION_BUTCHER_GG2</Description>
+			<Help>TXT_KEY_PROMOTION_BUTCHER_GG2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BUTCHER_GG2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BUTCHER_GG3</Type>
+			<Description>TXT_KEY_PROMOTION_BUTCHER_GG3</Description>
+			<Help>TXT_KEY_PROMOTION_BUTCHER_GG3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BUTCHER_GG3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BUTCHER</Type>
+			<Description>TXT_KEY_PROMOTION_BUTCHER</Description>
+			<Help>TXT_KEY_PROMOTION_BUTCHER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>10</PortraitIndex>
+			<NearbyEnemyCombatMod>-15</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+			<AttackMod>-15</AttackMod>
+			<DefenseMod>-15</DefenseMod>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BUTCHER</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BUTCHER2</Type>
+			<Description>TXT_KEY_PROMOTION_BUTCHER2</Description>
+			<Help>TXT_KEY_PROMOTION_BUTCHER2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>10</PortraitIndex>
+			<NearbyEnemyCombatMod>-25</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+			<AttackMod>-15</AttackMod>
+			<DefenseMod>-15</DefenseMod>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BUTCHER2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BUTCHER3</Type>
+			<Description>TXT_KEY_PROMOTION_BUTCHER3</Description>
+			<Help>TXT_KEY_PROMOTION_BUTCHER3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>10</PortraitIndex>
+			<NearbyEnemyCombatMod>-35</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+			<AttackMod>-5</AttackMod>
+			<DefenseMod>-5</DefenseMod>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BUTCHER3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_BUTCHER_GG">
+			<Text>Butcher (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUTCHER_GG_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Brutal[ENDCOLOR] General has a tendency of sending out troops at a large disadvantage. Demoralizing all troops nearby to the bloodbath slaughter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUTCHER_GG2">
+			<Text>Butcher II (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUTCHER_GG2_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Brutal[ENDCOLOR] Experienced General is known for his brutal tactics of executing cowards who retreats from his or her place in the battlefield. Further demoralizing all troops nearby to the bloodbath slaughter. Replaces [COLOR_NEGATIVE_TEXT]Butcher I[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUTCHER_GG3">
+			<Text>Butcher III (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUTCHER_GG3_HELP">
+			<Text>This [COLOR_NEGATIVE_TEXT]Brutal[ENDCOLOR] Veteran General has earned notorious nicknames known for his successful bloodbaths that are even known by his or her enemies. Greatly demoralizing all troops. Replaces [COLOR_NEGATIVE_TEXT]Butcher II[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUTCHER">
+			<Text>Butcher I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUTCHER_HELP">
+			<Text>-15% [ICON_STRENGTH] Combat Strength to both [COLOR_POSITIVE_TEXT]Allied[ENDCOLOR] and [COLOR_NEGATIVE_TEXT]Hostile[ENDCOLOR] units. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Butcher I[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUTCHER2">
+			<Text>Butcher II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUTCHER2_HELP">
+			<Text>-15% [ICON_STRENGTH] Combat Strength to [COLOR_POSITIVE_TEXT]Allied[ENDCOLOR] and -25% to [COLOR_NEGATIVE_TEXT]Hostile[ENDCOLOR] units. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Butcher II[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUTCHER3">
+			<Text>Butcher III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUTCHER3_HELP">
+			<Text>-15% [ICON_STRENGTH] Combat Strength to [COLOR_POSITIVE_TEXT]Allied[ENDCOLOR] and -35% to [COLOR_NEGATIVE_TEXT]Hostile[ENDCOLOR] units. Acquired when starting the turn near a Great General with the [COLOR_NEGATIVE_TEXT]Butcher III[ENDCOLOR] trait.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

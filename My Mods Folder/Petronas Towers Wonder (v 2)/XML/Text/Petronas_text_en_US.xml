@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_PETRONAS">
+			<Text>The Petronas Towers</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_PETRONAS_HELP">
+			<Text>Free Great Person of your choice appears near the [ICON_CAPITAL] Capital</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_PETRONAS_QUOTE">
+			<Text>
+				[NEWLINE]"The reality of a hollow object is in the void and not in the walls that define it. The power of the void is increased and made more explicit... that ... with its supporting structure creates a portal to the sky ... a door to the infinite"[NEWLINE] - César Pelli[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_PETRONAS_PEDIA">
+			<Text>Located in the Malaysian capital of Kuala Lumpur, the Petronas Towers are currently the tallest twin tower complex anywhere on earth. Construction began in 1992 and took six years. When the towers were completed, they became the tallest buildings anywhere on earth, a title they held for a further six years, until Taipei 101 was completed in 2004. [NEWLINE][NEWLINE]The design of the buildings is a reflection of Malaysia's state religion of Islam, with many features of the building inspired by designs found in Islamic art and architecture. The shape of the tower is based on an islamic design known as the Rub el Hizb, which consists of two squares, one at a 45 degree angle to the other. In order to achieve the shape of the Petronas towers, the designers simply added a small circle at each intersection of the square outlines, which gave the shape. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

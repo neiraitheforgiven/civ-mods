@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_SELARON">
+			<Text>Escadaria Selarón</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_SELARON_HELP">
+			<Text>Provides +6 [ICON_TOURISM] Tourism. All artist specialists provide +3 [ICON_GOLD] GOld.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_SELARON_QUOTE">
+			<Text>[NEWLINE]"Stairs are climbed step by step"[NEWLINE] - Turkish proverb[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_SELARON_PEDIA">
+			<Text>Escadaria Selarón is a stairway located in the Lapa and Saint Teresa neighbourhoods of Rio de Janiero, along what is officially known as Rua Manuel Carneiro. Construction began in 1990 by the Chilean artist Jorge Selarón, hense the name of the stairs, and has been refered to as being a constantly evolving piece of art, and never completed by the artist. Estimates put the ammount of tiles at over 2000, gathered from a variety of sources, from construction sites in the city to tiles being donated by visitors and organisations. For example, tiles featuring a race flag were donated by the American television show The Amazing Race as part of a challenge. The steps have become an iconic setting for many groups, being used in music videos by Snoop Dogg and U2, among others, and as a setting for a variety of advertisements and magazines. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

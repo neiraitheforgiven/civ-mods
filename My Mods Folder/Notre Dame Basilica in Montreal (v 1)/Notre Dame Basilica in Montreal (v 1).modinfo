@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9ba8c0cc-1096-4235-b877-0aaf75235ff9" version="1">
+  <Properties>
+    <Name>Notre Dame Basilica in Montreal</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Notre-Dame Basilica (French: Basilique Notre-Dame de Montréal) is a basilica in the historic district of Old Montreal, in Montr</Teaser>
+    <Description>Notre-Dame Basilica (French: Basilique Notre-Dame de Montréal) is a basilica in the historic district of Old Montreal, in Montreal, Quebec, Canada. The church's Gothic Revival architecture is among the most dramatic in the world; its interior is grand and colourful, its ceiling is coloured deep blue and decorated with golden stars, and the rest of the sanctuary is a polychrome of blues, azures, reds, purples, silver, and gold. It is filled with hundreds of intricate wooden carvings and several religious statues. Unusual for a church, the stained glass windows along the walls of the sanctuary do not depict biblical scenes, but rather scenes from the religious history of Montreal. Ingame, it has 2 slots for great works of music and gives a free great person.</Description>
+    <Authors>Walid</Authors>
+    <SpecialThanks>Leugi</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="6BDCA926C5C067C865765FA220C5C85B" import="1">Art/notredamemontreal_splash.dds</File>
+    <File md5="247D874851400DA55DBA40F548AD26E1" import="1">Art/notredamemontreal128.dds</File>
+    <File md5="403929C0F8D033E29896B3EF5A794271" import="1">Art/notredamemontreal256.dds</File>
+    <File md5="E2816D01CC923384D808D3263112C6F2" import="1">Art/notredamemontreal45.dds</File>
+    <File md5="3D1F0A203961CC55AAE156E674643F6F" import="1">Art/notredamemontreal64.dds</File>
+    <File md5="7CA815DD59EC9FA410093C4B2F43283A" import="1">Art/notredamemontreal80.dds</File>
+    <File md5="DD4C059E8801FEE8D4DAC8D1D2AAEA56" import="0">XML/notredamemontreal_atlas.xml</File>
+    <File md5="CE2BC3C1116C10CD36D0180F76C4F815" import="0">XML/notredamemontreal_building.xml</File>
+    <File md5="4E6358170F6B4E3149941F699304A2B7" import="0">XML/notredamemontreal_text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/notredamemontreal_atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/notredamemontreal_building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/notredamemontreal_text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MILLAU">
+			<Text>Millau Viaduct</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_MILLAU_HELP">
+			<Text>All land military units recieve +1 [ICON_MOVES] Movement point. [NEWLINE]City must be built on a hill.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_MILLAU_QUOTE">
+			<Text>
+				[NEWLINE]"Above the cloud with its shadow is the star with its light. Above all things reverence thyself."[NEWLINE] - Pythagoras[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_MILLAU_PEDIA">
+			<Text>The Millau Viaduct is a cable stayed suspension bridge located in the South of France, spanning the Tarn River valley in Millau. It has a length of 2,460 metres and is the tallest bridge in the world, the highest point being 343 metres from the base. The Viaduct is part of a highway from Paris to Montpiller, in southern France. It is also the tallest structure in France, with the P2 Pillar being taller than the Eifel Tower. The route for the highway was chosen in 1989, with construction beginning in 2001 and taking 5 years.  </Text>
+		</Row>
+		<!-- Promotion tags -->
+        <Row Tag="TXT_KEY_PROMOTION_MILLAU">
+            <Text>Millau Viaduct</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_MILLAU_HELP">
+            <Text>+1 Movement for all land units</Text>
+        </Row>
+	</Language_en_US>
+</GameData>

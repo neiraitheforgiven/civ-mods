@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_INSPIRED_NATIONALISM_GG</Type>
+			<Description>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG</Description>
+			<Help>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_INSPIRED_NATIONALISM_GG2</Type>
+			<Description>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG2</Description>
+			<Help>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_INSPIRED_NATIONALISM_GG3</Type>
+			<Description>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG3</Description>
+			<Help>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>GG_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_INSPIRED_NATIONALISM</Type>
+			<Description>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM</Description>
+			<Help>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>16</PortraitIndex>
+			<OutsideFriendlyLandsModifier>10</OutsideFriendlyLandsModifier>
+			<FriendlyLandsModifier>15</FriendlyLandsModifier>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_INSPIRED_NATIONALISM_2</Type>
+			<Description>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_2</Description>
+			<Help>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>17</PortraitIndex>
+			<OutsideFriendlyLandsModifier>15</OutsideFriendlyLandsModifier>
+			<FriendlyLandsModifier>20</FriendlyLandsModifier>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_2</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_INSPIRED_NATIONALISM_3</Type>
+			<Description>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_3</Description>
+			<Help>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>18</PortraitIndex>
+			<OutsideFriendlyLandsModifier>20</OutsideFriendlyLandsModifier>
+			<FriendlyLandsModifier>25</FriendlyLandsModifier>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_3</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG">
+			<Text>Inspired Regionalism (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG_HELP">
+			<Text>This [COLOR_POSITIVE_TEXT]Legendary[ENDCOLOR] General possess a characteristic that inspires troops to fight better in friendly territories.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG2">
+			<Text>Inspired Allegiance (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG2_HELP">
+			<Text>This [COLOR_POSITIVE_TEXT]Legendary[ENDCOLOR] Experienced General inspires nearby troops to considerably fight better in friendly territories. Replaces [COLOR_POSITIVE_TEXT]Inspired Regionalism[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG3">
+			<Text>Inspired Nationalism (Trait)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_GG3_HELP">
+			<Text>This [COLOR_POSITIVE_TEXT]Legendary[ENDCOLOR] Veteran General inspires nearby troops to greatly fight better in friendly territories. Replaces [COLOR_POSITIVE_TEXT]Inspired Allegiance[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_NATIONALISM">
+			<Text>Inspired Regionalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength inside friendly territory and +10% [ICON_STRENGTH] Combat Strength outside friendly territory. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Inspired Regionalism[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_2">
+			<Text>Inspired Allegiance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_NATIONALISM2_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength inside friendly territory and +15% [ICON_STRENGTH] Combat Strength outside friendly territory. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Inspired Allegiance[ENDCOLOR] trait.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_NATIONALISM_3">
+			<Text>Inspired Nationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INSPIRED_NATIONALISM3_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength inside friendly territory and +20% [ICON_STRENGTH] Combat Strength outside friendly territory. Acquired when starting the turn near a Great General with the [COLOR_POSITIVE_TEXT]Inspired Nationalism[ENDCOLOR] trait.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

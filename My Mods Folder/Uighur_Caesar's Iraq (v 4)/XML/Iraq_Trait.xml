@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 03/22/15 6:44:40 PM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_LAND_OF_TWO_RIVERS</Type>
+			<Description>TXT_KEY_TRAIT_LAND_OF_TWO_RIVERS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LAND_OF_TWO_RIVERS_SHORT</ShortDescription>		
+		</Row>
+	</Traits>
+</GameData>

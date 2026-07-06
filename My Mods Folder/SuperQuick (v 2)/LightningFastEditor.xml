@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<GameSpeeds>
+		<Row>
+			<Type>GAMESPEED_LUDICROUS</Type>
+			<Description>TXT_KEY_GAMESPEED_LUDICROUS</Description>
+			<Help>TXT_KEY_GAMESPEED_LUDICROUS_HELP</Help>
+			<DealDuration>5</DealDuration>
+			<GrowthPercent>10</GrowthPercent>
+			<TrainPercent>10</TrainPercent>
+			<ConstructPercent>10</ConstructPercent>
+			<CreatePercent>10</CreatePercent>
+			<ResearchPercent>10</ResearchPercent>
+			<GoldPercent>10</GoldPercent>
+			<GoldGiftMod>250</GoldGiftMod>
+			<BuildPercent>10</BuildPercent>
+			<ImprovementPercent>10</ImprovementPercent>
+			<GreatPeoplePercent>10</GreatPeoplePercent>
+			<CulturePercent>10</CulturePercent>
+			<FaithPercent>10</FaithPercent>
+			<BarbPercent>10</BarbPercent>
+			<FeatureProductionPercent>10</FeatureProductionPercent>
+			<UnitDiscoverPercent>10</UnitDiscoverPercent>
+			<UnitHurryPercent>10</UnitHurryPercent>
+			<UnitTradePercent>10</UnitTradePercent>
+			<GoldenAgePercent>20</GoldenAgePercent>
+			<HurryPercent>100</HurryPercent>
+			<InflationPercent>300</InflationPercent>
+			<InflationOffset>-10</InflationOffset>
+			<ReligiousPressureAdjacentCity>240</ReligiousPressureAdjacentCity>
+			<VictoryDelayPercent>10</VictoryDelayPercent>
+			<MinorCivElectionFreqMod>10</MinorCivElectionFreqMod>
+			<OpinionDurationPercent>10</OpinionDurationPercent>
+			<SpyRatePercent>10</SpyRatePercent>
+			<PeaceDealDuration>5</PeaceDealDuration>
+			<RelationshipDuration>25</RelationshipDuration>
+			<LeaguePercent>10</LeaguePercent>
+
+			<PortraitIndex>3</PortraitIndex>
+
+		</Row>
+	</GameSpeeds>
+	<GameSpeed_Turns>
+
+		-<Row>
+
+			<GameSpeedType>GAMESPEED_LUDICROUS</GameSpeedType>
+
+			<MonthIncrement>3200</MonthIncrement>
+
+			<TurnsPerIncrement>10</TurnsPerIncrement>
+
+		</Row>
+
+
+		-<Row>
+
+			<GameSpeedType>GAMESPEED_LUDICROUS</GameSpeedType>
+
+			<MonthIncrement>2400</MonthIncrement>
+
+			<TurnsPerIncrement>10</TurnsPerIncrement>
+
+		</Row>
+
+
+		-<Row>
+
+			<GameSpeedType>GAMESPEED_LUDICROUS</GameSpeedType>
+
+			<MonthIncrement>1600</MonthIncrement>
+
+			<TurnsPerIncrement>5</TurnsPerIncrement>
+
+		</Row>
+
+
+		-<Row>
+
+			<GameSpeedType>GAMESPEED_LUDICROUS</GameSpeedType>
+
+			<MonthIncrement>1200</MonthIncrement>
+
+			<TurnsPerIncrement>5</TurnsPerIncrement>
+
+		</Row>
+
+
+		-<Row>
+
+			<GameSpeedType>GAMESPEED_LUDICROUS</GameSpeedType>
+
+			<MonthIncrement>600</MonthIncrement>
+
+			<TurnsPerIncrement>5</TurnsPerIncrement>
+
+		</Row>
+
+
+		-<Row>
+
+			<GameSpeedType>GAMESPEED_LUDICROUS</GameSpeedType>
+
+			<MonthIncrement>120</MonthIncrement>
+
+			<TurnsPerIncrement>10</TurnsPerIncrement>
+
+		</Row>
+
+
+		-<Row>
+
+			<GameSpeedType>GAMESPEED_LUDICROUS</GameSpeedType>
+
+			<MonthIncrement>60</MonthIncrement>
+
+			<TurnsPerIncrement>10</TurnsPerIncrement>
+
+		</Row>
+
+
+
+
+
+
+
+	</GameSpeed_Turns>
+	-<Language_en_US>
+
+
+		-<Row Tag="TXT_KEY_GAMESPEED_LUDICROUS">
+
+			<Text>Ludicrous Speed</Text>
+
+		</Row>
+
+
+		-<Row Tag="TXT_KEY_GAMESPEED_LUDICROUS_HELP">
+
+			<Text>Gameplay is ten times standard speed!!.</Text>
+
+		</Row>
+
+	</Language_en_US>
+
+</GameData>

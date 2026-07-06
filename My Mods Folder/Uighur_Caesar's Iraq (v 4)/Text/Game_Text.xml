@@ -1,0 +1,319 @@
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_UC_ASSYRIAN_LEVY">
+			<Text>Assyrian Levy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_UC_ASSYRIAN_LEVY">
+			<Text>The Assyrian Levy heals faster when inside of friendly territory, making it excellent at defending your homeland. It is also cheaper to produce than the Great War Infantry which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_ASSYRIAN_LEVY_STRATEGY">
+			<Text>The Assyrian Levy slightly weaker than the Great War Infantry that it replaces, but it is cheaper to produce. It starts with a promotion that allows it to heal faster in friendly territory, making it very capable of protecting your land from foreign invaders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_ASSYRIAN_LEVY_TEXT">
+			<Text>The Assyrian Levies were the first Iraqi military force established by the British in British controlled Iraq. The Levies originated in a local Arab armed scout force raised during the First World War. After Iraq became a British Mandate, the force became a minority manned force of mostly, Iraqi Turkmen, Kurds and Assyrians who lived in the north of the country while the nascent Iraqi Army was manned by Arabs. Eventually it became mostly Assyrian manned and British officered force while it was used mostly for the guarding of the RAF bases in Iraq.[NEWLINE][NEWLINE]The Levies distinguished themselves in May 1941 during the Anglo-Iraqi War and were also used in other theatres of the Second World War after 1942. The force thereafter grew and survived until it was disbanded in May 1955 when control of RAF Habbaniya and RAF Shaibah was handed to Iraq.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_LAND_OF_TWO_RIVERS">
+			<Text>Cities settled on rivers have +1 [ICON_HAPPINESS_1] Happiness and have a chance to instantly improve flat, freshwater tiles within 2 tiles with Farms. During [ICON_GOLDEN_AGE] Golden Ages, river tiles yield +1 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOW">
+			<Text>Nezamiyeh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOWPEDIA">
+			<Text>The Nezamiyeh are a group of the medieval institutions of higher education established in the Muslim World during the Medieval Era.The most famous and celebrated of all the nizamiyyah schools was Al-Nizamiyya of Baghdad.</Text>
+		</Row>
+        
+		<Row Tag="TXT_KEY_BUILDING_HOW_STRATEGY">
+			<Text>
+				The Nezamiyeh can only be built by Iraq. In additon to regular university yields, it provides +2 [ICON_PEACE] faith and has a [ICON_GREAT_WORK] Great Work of Writing slot. Instead of providing +2 [ICON_RESEARCH] science from Jungle tiles, the Nezamiyeh grants extra [ICON_GREAT_PEOPLE] Great Scientist points equal to a quarter of the city's [ICON_PEACE] faith generation.			
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOW_HELP">
+			<Text>+33% [ICON_RESEARCH] Science. +2 [ICON_PEACE] Faith. 1 [ICON_GREAT_WORK] Great Work of Writing Slot. Gain [ICON_GREAT_PEOPLE] Great Scientist points equal to a quarter of this city's [ICON_PEACE] Faith generation. Must have a Library.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_ASSYRIAN_LEVY">
+			<Text>Mesopatamian Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_ASSYRIAN_LEVY_HELP">
+			<Text>Attacks and moves across rivers without penalty. Heals when starting on a river tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_IRAQ">
+			<Text>Peace be upon you, King Faisal I,leader of the Iraqi people. It was through your military leadership and cunning diplomacy during the Arab Revolt that secured independence for most modern day Arab nations. Afterwards, in defiance of the European powers, you established the kingdom of Syria, the first independent Arab nation in modern times. Although you were unsuccessful in maintaining Syria's independence from France, you were given a second chance after being chosen to be the king of Iraq. Despite being unheard of by the majority of Iraqis at the beginning of your reign, you quickly established yourself as a competent and popular leader. You helped your country transition towards independence by stregthening its economy through the expansion of the oil industry and the construction of railroads. More importantly, you ended conflict between the various religious groups of Iraq by advocating Arab unity and cooperation. Although you died a sudden death at the age of 48, you left behind an impressive legacy and remain one of the most influential statesmen in the modern history of the Middle East.[NEWLINE][NEWLINE] Iraq has fallen into a state of dismay in recent history. The country has been ravaged by violent terrorist organizations and the restoration of order seems to be far in the distance. O great leader, return to your people for they need you now more than ever. Can you bring peace back to the most ancient land in the world? Can you put an end to the religious conflict that has plagued your nation? Will you rebuild a civilization that will stand the test of time?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_LAND_OF_TWO_RIVERS_SHORT">
+			<Text>Land of Two Rivers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_FIRSTGREETING_1">
+			<Text>Greetings traveler, I am King Faisal I of Iraq, the land of the Tigris and Euphartes Rivers. If you come in peace, we may develop a beneficial friendship. Otherwise, I will not hesitate to drown you in these rivers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_FIRSTGREETING_2">
+			<Text>Welcome to the Kingdom of Iraq. I am its leader King Faisal. May God bless both of our nations with peace and prosperity. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_FIRSTGREETING_3">
+			<Text>I welcome you to Iraq. I am the leader of the Iraqi people, King Faisal I. Iraq is the most ancient land in the world and if you respect our sovereignity and history, I will do the same to your nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_POLITE_HELLO_1">
+			<Text>Peace be upon you my friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_POLITE_HELLO_2">
+			<Text>Here to admire the rivers once again friend?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_POLITE_HELLO_3">
+			<Text>Make yourself at home, or at least as much as you can inside of a Bedouin tent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_NEUTRAL_HELLO_1">
+			<Text>Greetings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_NEUTRAL_HELLO_2">
+			<Text>Welcome back to Iraq.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_NEUTRAL_HELLO_3">
+			<Text>Are you in need of assistance?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_HOSTILE_HELLO_1">
+			<Text>Speak quickly. Iraq is too good for the likes of you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_HOSTILE_HELLO_2">
+			<Text>Be glad that the tribesmen haven't slain you yet vile one.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_HOSTILE_HELLO_3">
+			<Text>What business does a traitor have here?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_DEFEATED_1">
+			<Text>What a sad day, the rivers run dry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_DEFEATED_2">
+			<Text>If you are to destroy this nation, at least leave its monuments to remind the world of our greatest.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_DEFEATED_3">
+			<Text>This victory is temporary. The  Iraqis will build again as we have done before.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_DESC">
+			<Text>Faisal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_LIVED">
+			<Text>1885-1933</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_NAME">
+			<Text>Faisal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_SUBTITLE">
+			<Text>Leader of Iraq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_TITLES_1">
+			<Text>King of Iraq (1921-1933)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_TITLES_2">
+			<Text>King of Syria (1920)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_TEXT_1">
+			<Text>Faisal I, was the first king of both Syria and Iraq. He succesfully lead the Arab Revolt against the Ottoman Empire during World War I with his father, Sharif Husayn Ibn Ali. He had a short reign in Syria before being ousted by the French. The British, who he had developed a friendship with, decided that he would be a good candidate for the leader of Iraq and helped him win popular support and the monarchy. He would rule Iraq for the next 12 years, overseeing the development of its economy and independence. In 1932, the British Mandate of Iraq ended and Faisal become the first ruler of an independent Iraq.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_HEADING_2">
+			<Text>Background</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_TEXT_2">
+			<Text>Faisal was the third son of Husayn Ibn Ali, Sharif of Mecca. Faisal's family were the Hashemites, an Arab dynasty that traced their lineage back to the Prophet Muhammad. Faisal grew up in Istanbul and later became an Ottoman administrator of the city of Jedda. During a stop in Syria take he made while traveling to Istanbul, he received the Damascus Protocol from secret Arab nationalist societies. The Hashemites were promised support for an independent nation from the Mediterranean Sea to Persia if they submitted the protocol to Britiain. This document became the basis for the Hussein-McMahon Correspondence where the British agreeded to support Arab independence if they rebelled against the Ottoman Empire, who the British were at war with. Husayn finally agreeded to an Alliance with the Entente after discovering that the Ottomans were planning to dispose of him after the war. The Arab Revolt began in 1916 when Faisal and his brother Ali laid siege to Medina.  </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_HEADING_3">
+			<Text>Leadership during the Arab Revolt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_TEXT_3">
+			<Text>Faisal and Ali began the first Arab offensive by attacking the Ottoman garrison in Medina. This initial attack failed and they retreated to Mecca. Joining their father, Faisal and Ali fought in Mecca which would be the first victory for the Arab armies. It was at this time that the British and French began providing support for the Arabs in the form of soldiers and artillery, which the underequipped Arabs lacked. Lawrence of Arabia also arrived in the Middle East at this time and he quickly began friends with Faisal. As a result of their friendship, Faisal's Arab Northern Army became the most well equipped and funded of the Arab armies. Faisal and Lawrence became two of the most important commanders during the war, leading the irregular troops who formed the bulk of the Arab rebels. The irregular troops soon destroyed the Hejaz Railway which had previously connected Damascus to Mecca. This attack greatly damaged the Turks as it cut of their ability to send reinforcements and supplies to the south. With of the help of the British, the Arabs pushed north eventually capturing Jerusalem and invading Syria. The invasion of Syria was lead by Faisal who won three decisive victories at Megiddo, Aleppo, and Damascus. The capture of Damascus put an end to all major fighting in the Middle Eastern Theatre of the Great War. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_HEADING_4">
+			<Text>Peace and King of Syria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_TEXT_4">
+			<Text>After the victory at Damascus, Faisal learned that he had been betrayed by the European Powers. Britain and France had Sykes-Picot Agreement which would divide the former Ottoman territories into spheres of influence. The Arab nation promised to the Hashemites by the British had been cut in half due to France gaining control of Syria. Faisal responded by declaring an Arab government in Syria, much to the chagrin of the French. Faisal then traveled to Paris to represent the Arabs at the peace negotations following the Great War. He tried to convince the Europeans to recognize an independent Arab state with the borders the British had originally agreed upon, but his attempts were ultimately unsuccessfully due to the French refusing to give up their claim to Syria. Upon returning to the Middle East, Faisal was declared king by the Syrian Congress which had been governing Syria since the end of the war. He was chosen despite his support for the creation of Israel, which had lead to some members of the congress becoming distrustful of him. The kingdom of Syria was short lived however as the French soon offered an ultimatum to the Arabs. Knowing how devasting a war with France would be, Faisal accepted French demands. However, his minister of defense, Yusuf al-Azmah, refused the order and attacked the French at Maysalun. Al-Azmah''s forces were crushed and he was killed during the battle. After the defeat, Faisal abdicated the throne and lived in exile in Great Britain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_HEADING_5">
+			<Text>King of Iraq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_TEXT_5">
+			<Text>The fall of the Syrian Kingdom would not be the end of Faisal as well. The British were in need of someone to rule over the Mandate of Iraq and since they were still on good terms with Faisal they contacted him. Most people in Iraq had never heard of Faisal before, but he quickly managed to gain public support. Faisal was declared King of Iraq in 1921. Faisal immediately began to improve Iraq and continue his Pan-Arab agenda. He welcomed formed members of the Syrian government who had been exiled to work in his government to improve relations between Iraq and Syria, still hoping that they could be unified one day. He also employed teachers and doctors to improve the education of his people. His greatest economic achievement was the development of motor routes from Baghdad to Syria and Jordan. This sparked interest in Iraqi oil that lead to economic growth in Iraq. His Pan-Arab ideology was still very visible in his government and his policies. He used Pan-Arab ideas to create unity between the Sunnis and the Shiites, the two largest religious groups in Iraq which had been in constant conflict and still are to this day. To promote equality in his kingdom, he diversified his administration by including officials from different ethnic and religious groups. One of his few failures as leader of Iraq was to impose universal military service. It is believed that he wanted to build up Iraq's army to enforce his Pan-Arab ideas through force. In 1932, the British ended their mandate in Iraq, giving the Iraqi people independence. The British still had influence in Iraq as the agreement allowed the British to send advisors and keep military bases in Iraq. Conflict between Iraq and Britain also grew due to Britain's control over Kuwait, which was a former territory of Iraq during the Ottoman Empire. These disputes remained unresolved as Faisal died of a heart attack in Switzerland in 1933.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_HEADING_6">
+			<Text>Aftermath and Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_TEXT_6">
+			<Text>Faisal's sudden death lead to a decline in Iraq as political instability and intolerance grew. Iraq has never recovered since Faisal's death and has become a country known for totalitarian rule, civil disorder, and religious conflict. During his reign, Faisal was able to prevent these conflicts by promoting Arab unity and maintaining close ties with the British. His success as an Arab Revolt leader has lead to his reverence by many Arabs today as a liberator. Although unsuccessful in his ideas of a Pan-Arab state, his belief in Arab unity remains an inspiration to this today and demonstrates that cooperation between quarreling religious groups is possible. Ultimately, King Faisal is one of the most important figures in the modern history of the Middle East.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RIVERDUMMY">
+			<Text>RIVERDUMMY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RIVERDUMMY_STRATEGY">
+			<Text>
+				RIVERDUMMY's provide an early defense against attackers. Though they are less expensive than walls, they
+				provide only half the defense.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_RIVERDUMMY_TEXT">
+			<Text>
+				Built of little more than mud and raw lumber RIVERDUMMYs were as vulnerable to the weather as they were
+				to enemy attack. Yet they remained popular in border cities if only because they made the people behind them feel more secure.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IRAQ_0">
+			<Text>Abdullah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IRAQ_1">
+			<Text>Husayn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IRAQ_2">
+			<Text>Ali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IRAQ_3">
+			<Text>Hamid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IRAQ_4">
+			<Text>Ahmed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IRAQ_5">
+			<Text>Qasim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IRAQ_6">
+			<Text>Aurens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IRAQ_7">
+			<Text>Hassan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IRAQ_8">
+			<Text>Omar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_IRAQ_9">
+			<Text>Haddadi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_IRAQ_DESC">
+			<Text>Kingdom of Iraq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_IRAQ_SHORT_DESC">
+			<Text>Iraq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_IRAQ_ADJECTIVE">
+			<Text>Iraqi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_IRAQ">
+			<Text>Iraq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_IRAQ_TITLE">
+			<Text>Iraq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_HEADING_1">
+			<Text>Mesopotamia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_TEXT_1">
+			<Text>The Fertile Crescent in Iraq is considered to be the cradle of civilization. The earliest civilization of Sumer originated in the Fertile Crescent and other great civilizations such as Babylon and Assyria emerged afterwards. Since those two Civs already have Civlopedia entries, this Civlopedia will focus on the history of Iraq from the introduction of Islam to modern day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_HEADING_2">
+			<Text>During the Caliphate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_TEXT_2">
+			<Text>The Rashidun Caliphate began their first invasion of the Sassanid Empire by invading. At the time, Mesopotamia was the most important political and economic center of the Persian Sassanid Empire. Arab general Khalid ibn al-Walid conquered all of Mesopotamia, except for the Sassanid capital of Ctesiphon (modern day Baghdad) in 633. Ctesiphon fell three years later and by 641 the Persians had been completely expelled from Iraq. Following the conquest of Iraq, many Arabs migrated to Mesopotamia, leading to the decline of Zoroastrianism and adoption of Islam by the majority of Iraqis. Iraq became an important province for the Islamic caliphate. Baghdad was the capital of the Abbasid Caliphate and become one of the largest cities in the world at the time. Harun al-Rashid built the House of Wisdom which attracted many great Islamic scientists, philosophers, mathematicians, and writers. Iraq fell victim to the Mongol Invasions during the 13th century and was completely devasted. Baghdad, at the time the world's greatest intellectual center, was completely destroyed by the Mongols and remained a ruined city for centuries. Iraq became a province of the Mongol Empire, and later the Il-Khanate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_HEADING_3">
+			<Text>Ottoman Iraq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_TEXT_3">
+			<Text>After being bounced around for centuries by the Mongols, Persians, and Turks, the Ottomans conquered Iraq from the Safavid Dynasty in the 16th century. Iraq would begin to regain some of its former glory under Ottoman rule. Iraq received autonomy from the Ottoman sultan in 1704 and was ruled over by a Mamluk dynasty. Mamluks were freed slaves who converted to Islam and received special military and administrative training. The Mamluks were mostly of Georgian origin and managed to establish order and developed the economy of Iraq by encouraging trade with Europeans and modernizing infrastructure. Autonomy was revoked in 1831 when the sultan was angered by Muhammad Ali, the autonomous leader of Egypt, who claimed control over Syria. The Ottomans would directly control Iraq until after the First World War. The British defeated the Ottomans the Mesopotamian Campaign of World War I and the Ottoman Empire was later dissolved by the Treaty of Versailles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_HEADING_4">
+			<Text>Protectorate Period</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_TEXT_4">
+			<Text>With the dissolution of the Ottoman Empire, Iraq became a protectorate of the British who already had troops in the region. This lead to great dissatisfaction as the Iraqi people were expecting independence after the Great War. For the first time in history, the Sunnis and Shias in Iraq joined forces to lead a rebellion against the British in 1920. The Kurds in the north also rebelled in an attempt to gain their own independence at this time. After quelling the rebellions, Winston Churchill decided that in order to prevent future rebellions Iraq needed to be ruled by a native. Faisal, who was living in exile in England at the time was approached by the British and offered the crown of Iraq. Faisal was still close with the British after they had fought alongside each other against the Turks in World War I. Faisal accepted and became the first King of Iraq, despite not being Iraqi. As a result, he was largely unheard of in Iraq at the time and the British had to use a propaganda campaign to raise awareness and support for him. Faisal used Pan-Arab ideology to promote unity between the Sunnis and Shias during his reign and developed the Iraqi economy. By building a railroad from Baghdad to Damascus, he was able to spark interest in Iraqi oil and sell petroleum to Mediterranean nations. Iraq was finally given independence by Britain in 1932 and promptly joined the League of Nations. Faisal died the following year in 1933.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_HEADING_5">
+			<Text>Kingdom of Iraq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_TEXT_5">
+			<Text>The monarchial period of Iraq proved to be a time of turbulence and instability. Faisal's successor King Ghazi was a figurehead ruler who was extremely incompetent. The Sunni dominated government suppressed all Assyrians, Shias, and Kurds, committing many massacres and atrocities. The continued presence of the British, who had retained control of military bases, was also a debate that divided many Iraqis. Anti-British Iraqis stated that Kuwait was an integral part of Iraq and demanded that it be annexed by Iraq. Beginning with the coup d'etat by Bakr Sidqi, Iraq experienced five coups from 1936 from 1941. Rashid Ali al-Gaylani gained power in 1941 and established a pro-Nazi government. Due to his ties with Axis Powers, the British invaded and reinstalled Abd al-Ilah, regent for Prince Faisal II. Nuri al-Said, former Prime Minister during the Mandatory Period, also returned to office due to his pro-Britishness. He served as Prime Minister for six terms between 1941 and 1958. The monarchy was overthrown and abolished by a coup in 1958.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_HEADING_6">
+			<Text>Ba'athist Period</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_TEXT_6">
+			<Text>Iraq would be ruled by a weak republic for ten years after the 1958 coup. In 1968, it was overthrown by the Ba'ath Party of Iraq. Ba'athism is a socialist, Pan-Arabic ideology that originated developed in Syria, but spread to Iraq. The Ba'ath party was lead by Ahmed Hassan al-Bakr and Saddam Hussein, who established and lead the party's intelligence and security organization. Using Saddam's intelligence system, the Ba'ath Party suppressed all non-Ba'ath groups and ideas including Shias and Communists. Saddam Hussein's power grew and by the mid 1970s he was de facto leader of the Ba'ath Party and finally ascended to president in 1979 when al-Bakr died. Following the Iranian Revolution, tension between Iraq and Iran intensified over border conflicts, ideological differences, and Shia unrest in Iraq. Saddam decided to invade Iran in September 1980, believing that Iraq would win the war quickly. However, Iran proved to be a much stronger opponent and the war resulted in a bloody eight stalemate that killed approximately a million on each side. Kurdish nationalist groups rebelled during the war, resulting in Saddam initiating the al-Anfal campaign. This genocidal campaign resulted in the slaughter of hundreds of thousands of Iraqi Kurds. Iraq was economically drained from the war and faced even further economic depression due to Kuwait's intentional increase in oil production. The decline in oil prices harmed Iraq's economy even more and Saddam responded by threatening Kuwait if they did not lower production. Negotiations broke down and Saddam invaded Kuwait in 1990. An international coalition lead by the United States formed soon after and joined the war to protect Kuwait. Sanctions were placed on Iraq after the war by the United Nations. Iraq's economic situation worsened and unrest continued to grow. Ba'athist rule finally ended in 2003 when the United States invaded Iraq after they were suspected of having weapons of mass destruction. Saddam's government was overthrown and he was executed in 2006.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_HEADING_7">
+			<Text>Iraq Today</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRAQ_TEXT_7">
+			<Text>After the invasion, Iraq has been plagued by insurgencies, terrorists organizations, and civil war. Violence between Shia and Sunni groups has became more prevalent. Iraq ratified a new constitution in 2005 and had an increase in sectarian violence soon after in 2006. Al-Qaeda bombed one of the holiest Mosque in the Shia religion which set off Shia reprisals against Sunnis. Following a surge of American troops, violence reduced and the Iraq War was formally declared over in 2011. Since 2014, Iraq has once again experienced tremendous violence due to a major insurgency by the Islamic State of Iraq and the Levant, generally referred to as ISIS. ISIS has captured several major cities in Iraq and Syria including Mosul, Iraq's second largest city. An international coalition has formed to defeat the terrorist organization. It is yet to be seen if peace and prosperity will return to Iraq any time soon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ARBIL">
+			<Text>Arbil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SULAYMANIYAH">
+			<Text>Sulaymaniyah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KIRKUK">
+			<Text>Kirkuk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FALLUJAH">
+			<Text>Fallujah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KARBALA">
+			<Text>Karbala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NAJAF">
+			<Text>Najaf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AFAK">
+			<Text>Afak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ISKANDARIYA">
+			<Text>Iskandariya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HALABJA">
+			<Text>Halabja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KUT">
+			<Text>Kut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAMARRA">
+			<Text>Samarra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAMAWAH">
+			<Text>Samawah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAJI">
+			<Text>Taji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAL_AFAR">
+			<Text>Tal Afar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TEL_KEPPE">
+			<Text>Tel Keppe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UMM_QSAR">
+			<Text>Umm Qsar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ZAKHO">
+			<Text>Zakho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_FIRST_GREETING_1">
+			<Text>Greetings traveler, I am King Faisal I of Iraq, the land of the Tigris and Euphrates Rivers. If you come in peace, we may develop a beneficial friendship. Otherwise, I will not hesitate to drown you in these rivers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_FIRST_GREETING_2">
+			<Text>Welcome to the Kingdom of Iraq. I am its leader King Faisal. May God bless both of our nations with peace and prosperity. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_FAISAL_FIRST_GREETING_3">
+			<Text>I welcome you to Iraq. I am King Faisal I, leader of the Iraqi people. Iraq is the most ancient land in the world and if you respect our sovereignty and history, I will do the same to your nation.</Text>
+		</Row>
+
+	</Language_en_US>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_FAISAL">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_FAISAL_FIRST_GREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FAISAL">
+				<ResponseType>RESPONSE_POLITE_HELLO</ResponseType>
+				<Response>TXT_KEY_LEADER_POLITE_HELLO_%</Response>
+			</Row>
+	</Diplomacy_Responses>
+</GameData>

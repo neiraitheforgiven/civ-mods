@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0c77b764-f39f-45cf-8730-3190da3f5b2a" version="1">
+  <Properties>
+    <Name>JFD's Gameplay - Prisoners of War</Name>
+    <Teaser>Adds [COLOR_CYAN]Prisoners of War[ENDCOLOR] as a new gameplay concept. Click for details.</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]Prisoners of War[ENDCOLOR] is a new gameplay mechanic resulting from your combat victories. Successfully defeating an enemy unit now has a chance to leave you with prisoners of war, based on the advancement of your military Technologies. Prisoners of War must be dealt with through one of several actions, each rewarding a different Yield.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="aa78c420-1dbc-4b63-a641-07aa0222febf" minversion="0" maxversion="999" title="JFD's Utilities - Conflict Resolution Patch" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="(1) Community Patch" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Pouakai's Enlightenment Era" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="c3b6e30c-3548-4fbc-9d7f-cf3025be8261" minversion="0" maxversion="999" title="JFD's Gameplay - Nationalism" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="686C33EE03A424DD22EC1A6DB51FF627" import="1">Art/Icon Atlases/JFD_PrisonersWar_NotificationAtlas_80.dds</File>
+    <File md5="F96BAF543AB02586B4CD913507F7420E" import="1">Audio/Sounds/GenericChoice.mp3</File>
+    <File md5="87CE54464855C50320C8E21B0E06D439" import="1">Audio/Sounds/PrisonersWar_Notification.wav</File>
+    <File md5="2F4AB5AA521B903CA7B4274D6D9091DF" import="1">Audio/Sounds/PrisonersWar_Popup.wav</File>
+    <File md5="CCB91BD8D2CC45D8F2C1BCE5ED8B7B7A" import="0">Core/PrisonersWar_Buildings.sql</File>
+    <File md5="07FC4ACD94F5F85AFD9057FC6553B85E" import="0">Core/PrisonersWar_Concepts.sql</File>
+    <File md5="A049BDF8C1A8E5D32E9AD069529A1770" import="0">Core/PrisonersWar_Beliefs.sql</File>
+    <File md5="46A1B01B40E16C7F984AA2C182928762" import="0">Core/PrisonersWar_Civilizations.sql</File>
+    <File md5="A610596ABD94D70C5478466EAC658941" import="0">Core/PrisonersWar_Controls.sql</File>
+    <File md5="FCB387E1869BC08B4F59A5896B84FBDC" import="0">Core/PrisonersWar_GameText.xml</File>
+    <File md5="D0B7CDC84CEA0F917E5D427A67B3D8D0" import="0">Core/PrisonersWar_GameText_Interface.xml</File>
+    <File md5="1A61D3E0347727F9A25AE3C9D5BCDD98" import="0">Core/PrisonersWar_Master.sql</File>
+    <File md5="6112D3E3536E25F0450121329C0B0658" import="0">Core/PrisonersWar_ArtDefines.sql</File>
+    <File md5="11AE0A672DFB4B2D9576231FCF00493F" import="0">Core/PrisonersWar_Notifications.sql</File>
+    <File md5="51F7BB7D81DC5554B55D6F618616AB36" import="0">Core/PrisonersWar_Techs.sql</File>
+    <File md5="F8B613B842D2AD5CF5C1A5F41F8E1C28" import="0">Credits.txt</File>
+    <File md5="53560493BB6BDA19F9571109E57E8746" import="0">JFD_UserSettings.sql</File>
+    <File md5="E20878E88BF2A09DFF6C30670A6589AC" import="0">Lua/JFD_PrisonersWar_EndTurnButton.lua</File>
+    <File md5="36A67E5C44C3D9C38EEAC1D3C226680D" import="0">Lua/JFD_PrisonersWar_EndTurnButton.xml</File>
+    <File md5="C47A5DA12AE83E0E850D9890D8F30C85" import="0">Lua/JFD_PrisonersWar_Functions.lua</File>
+    <File md5="8AAF8D8A227A99B339080C3E3C1B06A7" import="0">Lua/JFD_PrisonersWar_Functions.xml</File>
+    <File md5="1C8CA85976FEDE11DA748091FF684042" import="0">Lua/JFD_PrisonersWar_TopPanel.lua</File>
+    <File md5="7AAB7379CE628E617340F20A2C3FECD1" import="0">Lua/JFD_PrisonersWar_TutorialFunctions.lua</File>
+    <File md5="154E1A8AE5BAD5EC6F9DAFC77C0AFF22" import="0">Lua/JFD_PrisonersWar_TutorialFunctions.xml</File>
+    <File md5="F2D133956048ABA4F30FB1A399CBD498" import="0">Lua/JFD_PrisonersWar_TopPanel.xml</File>
+    <File md5="9FB8724587E23A81E8BB2084A2668341" import="1">Lua/Utilities/JFD_PrisonersWar_Utils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>JFD_UserSettings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PrisonersWar_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PrisonersWar_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PrisonersWar_Beliefs.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PrisonersWar_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PrisonersWar_Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PrisonersWar_Concepts.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PrisonersWar_Controls.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PrisonersWar_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/PrisonersWar_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/PrisonersWar_Notifications.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PrisonersWar_Techs.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_PrisonersWar_Functions.xml">
+      <Name>JFD_PrisonersWar_Functions.xml</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_PrisonersWar_TutorialFunctions.xml">
+      <Name>JFD_	InGameUIAddin	JFD_PrisonersWar_Functions.xml		Lua/JFD_PrisonersWar_Functions.xml_TutorialFunctions.xml</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_PrisonersWar_EndTurnButton.lua">
+      <Name>JFD_PrisonersWar_EndTurnButton.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_PrisonersWar_TopPanel.lua">
+      <Name>JFD_PrisonersWar_TopPanel.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

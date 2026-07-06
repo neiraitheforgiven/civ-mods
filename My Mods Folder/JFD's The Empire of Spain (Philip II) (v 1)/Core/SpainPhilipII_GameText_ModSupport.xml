@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--GAZEBO COMMUNITY BALANCE OVERHAUL-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_SEMINARY_HELP_CBO">
+			<Text>Missionaries trained in this city will produce [ICON_GOLDEN_AGE] Golden Age Points when expended.[NEWLINE][NEWLINE]+1 [ICON_RESEARCH] Science from Jungle and Forest tiles worked by this City. Gain 33% of the [ICON_RESEARCH] Science output of the City as an instant boost to your current Research when a [ICON_CITIZEN] Citizen is born in this City. Reduces [ICON_HAPPINESS_3] Illiteracy.[NEWLINE][NEWLINE]City must have a Library.</Text>
+		</Row>
+		<!--JFD PIETY-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_SPAIN_PHILIP_II_PIETY">
+			<Text>During a [ICON_GOLDEN_AGE] Golden Age, Civilian Units have +2 [ICON_MOVES] Movement and are [ICON_PRODUCTION] produced +100% faster, and cities begin with additional territory. Founded cities always begin with your State Religion.</Text>
+		</Row>
+		<!--JFD SOVEREIGNTY-->
+		<!--SUKRITACT DECISIONS-->
+		<!--Patronize the School of Salamanca-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SPAIN_PHILIP_II_SCHOOL_SALAMANCA">
+			<Text>Patronize the School of Salamanca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SPAIN_PHILIP_II_SCHOOL_SALAMANCA_DESC">
+			<Text>
+				The great School of Salamanca is a pre-eminent institution for confronting the evils of humanism and for strenghtening the doctrine of natural law. It should please God thus that we, His humble servant, should patronize His most esteemed and sacred school of thought.
+				[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Spain (Philip II).
+				[NEWLINE][ICON_BULLET]May only be enacted from the beginning of the Renaissance Era.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_PEACE] Faith.
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_GOLD] Gold.
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]10% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SPAIN_PHILIP_II_SCHOOL_SALAMANCA_ENACTED_DESC">
+			<Text>
+				The great School of Salamanca is a pre-eminent institution for confronting the evils of humanism and for strenghtening the doctrine of natural law. It should please God thus that we, His humble servant, should patronize His most esteemed and sacred school of thought.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]10% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith.
+			</Text>
+		</Row>
+		<!--Issue the Encomiendas-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SPAIN_PHILIP_II_ENCOMIENDAS">
+			<Text>Issue the Encomiendas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SPAIN_PHILIP_II_ENCOMIENDAS_DESC">
+			<Text>By the grace of God, we have come to rule over a diverse and expansive empire, full of uncivilized aborigines. It is the duty of us Spaniards to protect and educate them. Yet we cannot do this alone; we must enlist the help of colonists throughout the empire in this task, promising them the loyalty of these natives in return.
+				[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Spain (Philip II).
+				[NEWLINE][ICON_BULLET]Must have at least {1_Req}.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_GOLDEN_AGE] Golden Age Points.
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold in all {3_City}.
+				[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] Production in all {3_City}.
+				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Note: The [ICON_GOLDEN_AGE] Golden Age Points cost increases with every {4_City} that you own.[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SPAIN_PHILIP_II_ENCOMIENDAS_ENACTED_DESC">
+			<Text>By the grace of God, we have come to rule over a diverse and expansive empire, full of uncivilized aborigines. It is the duty of us Spaniards to protect and educate them. Yet we cannot do this alone; we must enlist the help of colonists throughout the empire in this task, promising them the loyalty of these natives in return.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold in all {3_City}.
+				[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] Production in all {3_City}.
+			</Text>
+		</Row>
+		<!--Issue the Encomiendas (ExCE)-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SPAIN_PHILIP_II_ENCOMIENDAS_DESC_EXCE">
+			<Text>
+				By the grace of God we have come to rule over a diverse and expansive empire, full of uncivilised aborigines. It is the duty of us Spaniards to protect and educate them. Yet the monarchy cannot do this alone; we must enlist the help of colonists throughout the empire in this task, promising them the loyalty of these natives in return.
+				[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Spain (Philip II).
+				[NEWLINE][ICON_BULLET]Must have at least {1_Req}.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_GOLDEN_AGE] Golden Age Points.
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold in all {3_City}.
+				[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] Production in all {3_City}.
+				[ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness on Tribal Consulates.
+				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Note: The [ICON_GOLDEN_AGE] Golden Age Points cost increases with every {4_City} that you own.[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SPAIN_PHILIP_II_ENCOMIENDAS_ENACTED_DESC_EXCE">
+			<Text>
+				By the grace of God we have come to rule over a diverse and expansive empire, full of uncivilised aborigines. It is the duty of us Spaniards to protect and educate them. Yet the monarchy cannot do this alone; we must enlist the help of colonists throughout the empire in this task, promising them the loyalty of these natives in return.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold in all {3_City}.
+				[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] Production in all {3_City}.
+				[ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness on Tribal Consulates.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

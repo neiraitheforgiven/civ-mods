@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/3/2014 1:47:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_NOTREDAME_MONTREAL">
+			<Text>Notre-Dame Basilica</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_NOTREDAME_MONTREAL_HELP">
+			<Text>Has 2 slots Great Works of Music. Provides a free Cathedral in the city. Gives 1 free Great Person.</Text>
+		</Row>
+		<!-- Theming Tags -->
+		<Row Tag="TXT_KEY_NOTREDAME_MONTREAL_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure to have to have 2 Great Works Of Music from the same era and from your civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_NOTREDAME_MONTREAL">
+			<Text>Choir of Our Lady</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_NOTREDAME_MONTREAL_QUOTE">
+			<Text>[NEWLINE]"Every great architect is - necessarily - a great poet. He must be a great original interpreter of his time, his day, his age."[NEWLINE] - Frank Lloyd Wright[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_NOTREDAME_MONTREAL_PEDIA">
+			<Text>Montreal's Notre-Dame Basilica is one of the crown jewels in Quebec's rich religious heritage. Dedicated to Our Lady the Blessed Virgin – “Notre Dame” – the small original chapel was operated at first by the Jesuits. Then came the Sulpician Fathers, who in 1657 undertook construction of a larger church. The Sulpician François Dollier de Casson was its architect, and the present-day Notre-Dame Street served as the original site. Its construction, in Baroque style was completed between 1672 and 1683. [NEWLINE]
+			By 1800, Dollier’s church had become too small, and the Fabrique decided to build the church we know today. To design the new church, the building council engaged the services of the New York architect James O’Donnell – himself an Irish Protestant by origin. O’Donnell and the Fabrique opted for the Gothic Revival style then in vogue in England and the United States. The main construction work took place between 1824 and 1829.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

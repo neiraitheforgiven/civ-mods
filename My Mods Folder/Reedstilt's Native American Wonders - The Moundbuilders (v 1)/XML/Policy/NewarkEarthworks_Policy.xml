@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/20/2015 4:52:33 PM -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_NEWARKEARTHWORKS</Type>
+			<Description>TXT_KEY_POLICY_NEWARKEARTHWORKS</Description>
+			<Civilopedia>TXT_KEY_CIV5_POLICY_NEWARKEARTHWORKS_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_NEWARKEARTHWORKS_RULE_HELP</Help>
+			<GridX>1000</GridX>
+			<GridY>1000</GridY>
+			<PortraitIndex>1</PortraitIndex>
+			<TradeRouteTourismModifier>10</TradeRouteTourismModifier>
+			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
+		</Row>
+	</Policies>
+</GameData>

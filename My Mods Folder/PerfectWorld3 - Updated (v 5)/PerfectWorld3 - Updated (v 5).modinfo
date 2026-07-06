@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3fd4c510-fe0c-4a5f-81b8-8d0b71f65868" version="5">
+  <Properties>
+    <Name>PerfectWorld3 - Updated</Name>
+    <Teaser>This is an updated version of PerfectWorl3 by Cephalo. It is intended to look play and feel like PerfectWorld. I have implememn</Teaser>
+    <Description>This is an updated version of PerfectWorl3 by Cephalo. It is intended to look play and feel like PerfectWorld. I have implememnted numerous bugfixes and optimizations as well as altering how some map elements get placed.
+
+From the original mod:
+"This map script uses various manipulations of Perlin noise to create landforms, and generates climate based on a simplified model of geostrophic and monsoon wind patterns. Rivers are generated along accurate drainage paths governed by the elevation map used to create the landforms."</Description>
+    <Authors>Cephalo, Bobert13</Authors>
+    <SpecialThanks>The CivFanatics Community</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="9EF8FB180E996AB1A51FF93CA97C394B" import="0">PerfectWorld3(v5b).lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="MapScript" file="PerfectWorld3(v5b).lua">
+      <Name>PerfectWorld3(v5b).lua</Name>
+      <Description>Simulated semi-psuedo-quasi-realistic climate</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

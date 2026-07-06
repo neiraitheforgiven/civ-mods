@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_URDNOT_SAETHWYR_FORT">
+			<Text>Red Dragon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_URDNOT_SAETHWYR_FORT_HELP">
+			<Text>Treats friendly hills as forts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_URDNOT_SAETHWYR">
+			<Text>Eden of Bards</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_URDNOT_SAETHWYR_HELP">
+			<Text>Generate Culture when fortified on friendly hills</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_WALES_ADJECTIVE">
+			<Text>Welsh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_WALES_DESC">
+			<Text>Wales</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_WALES_SHORT_DESC">
+			<Text>Wales</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_TEXT_1">
+			<Text>Wales is a small constituent nation of the United Kingdom - the dominant political entity in the British isles - known for its unique language, stunning landscapes and hospitable people. Wales became culturally distinct from the rest of Britain during the Saxon invasions, when Wales became the last independent refuge of the indigenous Britonnic peoples. The remainder of the isles were taken over by Germanic and Gaelic invaders which would evolve into the modern nations of England and Scotland respectively. This cultural isolation led to Wales developing a unique culture which has endured some 800 years of English domination. Today, Wales is gradually becoming more attuned to their culture and increasingly rejects the cultural hegemony of England, with something of a rennaisance in the Welsh language flowering recently.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_HEADING_2">
+			<Text>Geography</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_TEXT_2">
+			<Text>Wales is situated entirely on a small peninsula which juts out of the west coast of the British Isles into the Irish Sea. Wales is warmed by the gulf stream which keeps it significantly warmer, albeit rainier, than nations on similar latitudes such as Canada or Norway. Like England, Wales is dominated by rolling green hills and valleys, but is considerably more mountainous than its neighbour. Multiple large  mountain ranges runs through Wales - the second largest mountain in Britain is situated in Wales, Snowdon, which is 1,085m tall (3560 ft) and attracts hundreds of thousands of visitors a year. Wales, particularly its northern region, Gwynedd, is an important home for British wildlife, and is home to fairly limited human settlement.  </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_HEADING_3">
+			<Text>Origins and Early History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_TEXT_3">
+			<Text>Wales was settled by humans around the same time as the rest of the British isles, some 12,000 years ago, after neolithic man arrived via a now non-existent land bridge with the European continent which became submerged around 6000BC. Little is known about Wales until Roman contact but it is known that Wales had an important role in exporting valuable metals as far as modern Portugal. The first truly recorded pieces of Welsh history were during the Roman occupation of Great Britain. In the thirty years following AD 48, the Romans came to conquer the entirety of Wales, by defeating many of the native inhabitants; two notable tribes which resisted the Romans were the Silures of south-east Wales and the Ordovices in the north. Both of these tribes were crushed by the invaders, and only the Demetae tribe in present-day Pembrokeshire survived, as they were able to negotiate a treaty with the Romans. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_HEADING_4">
+			<Text>Post-Roman Wales</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_TEXT_4">
+			<Text>In 383, the decentralisation of power from Rome to Britain lead to individual Welsh kingdoms becoming increasingly autonomous and powerful in the region. Two such examples were the soon-Kingdoms of Powys and Gwent, in mid and south Wales respectively. The person credited with this transfer of power was the Roman Emperor, Magnus Maximus; legend has it that he was asked by his British wife to return some authority to his subjects in Britain. He is credited as a founding father of Wales for this – possibly fictional – contribution. [NEWLINE][NEWLINE] When the Roman Empire fell into terminal decline, troops were recalled from Britain in an attempt to defend Rome in 410 AD. With the Roman garrisons in Wales empty, the various tribal powers were able to reassume full sovereignty. Following the collapse of the Empire, the Welsh tribes experienced a cultural change; Irish settlers in Dyfed brought Ogham script, and Christianity spread throughout the region. The monuments built to various saints – notably Saint David – lead to this period of Welsh history being called the Age of the Saints. Power in Wales was consolidated into several kingdoms, such as Powys and Gwynedd, the latter being one of the most powerful in years to come, embarking on campaigns as far away as Northumbria. [NEWLINE][NEWLINE] Due to Wales’ geography, it evolved separately from neighbouring England. While the west coast of Britain had long been dominated by Brythonic tribes (in contrast to the Angles in the east), events such as the Battle of Chester severed land links to the rest of the Britons, resulting in a split between Wales, Cornwall, and the Kingdom of Strathclyde in the Scottish Lowlands. As the mountainous terrain of Wales was difficult for any army to bypass, its politics remained distinct from those of England due to the geographical divide between them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_HEADING_5">
+			<Text>Medieval Wales and English Domination</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_TEXT_5">
+			<Text>Early Medieval Wales provided more border skirmishes with the increasingly dominant English Kingdom of Mercia, not least on its front with Powys. King Offa of Mercia – unwilling to conquer Wales – built a dyke on the frontier with Wales to formally mark the border. Despite Wales never having formally being consolidated into one nation, the land border likely made it easier for any one king to gain dominance over the country; after all, they would have little to worry about from the Mercian front. Rhodri Mawr (Rhodri the Great), the King of Gwynedd, was able to seize control of most of the country (from the north coast to the southern valleys) in the 9th century. However, dynastic rules lead to the dismantling of this enlarged realm. Gruffydd ap Llywelyn, initially King of Gwynedd as well, united most of Wales in the 11th century, even annexing some of England; however, this too collapsed following defeat by Harold Godwinson. [NEWLINE][NEWLINE] Following the Norman conquest of England in 1066, the invaders quickly turned their attention to Wales and seized much of the Northern half of the country in 1075. In 1081, Gruffudd ap Cynan, king of Gwenydd, was invited to a meeting with the Norman earl of Shrewsbury and the earl of Chester where he was quickly imprisoned and his kingdom was partitioned, handing the rest of North Wales to the Normans. At the same time, William the Conqueror invaded the south and seized much of the south coast. By 1093 it seemed as though Wales would meet the same fate as England. Unlike England however, a massive revolt erupted in Wales the following year. Gruffudd ap Cynan, newly freed, returned to Gwenydd and led the kingdom to freedom and by 1136 the combined forces of Gwenydd and Deheubarth won a crushing victory over the Norman forces at Crug Mawr, liberating southwest Wales. Eventually, Gwenydd rose to become the strongest of the Welsh kingdoms and its king, Llewelyn Fawr, became the first man since the Norman wars to be able to claim to be Prince of Wales, having unified and liberated nearly the entire region. Despite his strength, Gwenydd entered a period of intense struggle following his death in 1240; his weaker son Dafydd entered into renwed conflict with the kingdom of England, resulting in several decades of bitter conflict. Llywelyn the Great's grandson, Llywelyn the Last, was lured into a meeting with the Engish lords where he was murdered and his army slaughtered, making Wales England's first colonial territory and she would stay as such, save for the brief rulership of Owain Glyndwr in the 1400's, until annexed in 1542. [NEWLINE][NEWLINE] Wales faced increasing disenfranchisement in the following centuries as the English lords excercised greater control over the disputed region. A series of massive forifications were constructed by Edward I around Wales and the English heir apparent became the designated Prince of Wales. (a practice that continues to this day) In 1400, a disgruntled minor Nobleman, Owain Glyndwr, rose his battle standard in rebellion against the English after being pushed too far in various land disputes. Glyndwr smashed several English hosts and held the first ever Welsh parliament at Machynlleth. Despite his impressive resistance, the English gradually won back the territory and Glyndwr died sometime around 1415 - he was never captured. Following the rebellion, the Welsh were forbidden from carrying arms or living in fortified towns. [NEWLINE][NEWLINE] In 1455, the Wars of the roses erupted in England, a civil war regarding succession rights to the English throne between the Yorkist and Lancastrian houses. As the two houses fought eachother to bloody pieces, a third claimant, Henry Ap Twdwr, landed in Wales to seek support for his 'third way' - claiming descent from both the houses of York and Lancaster. Henry defeated his exhausted rivals and took the throne as Henry VII of England, beginning the Tudor dynasty. This new dynasty would rule England until the death of Elizabeth I Tudor in 1603. The Tudors, being Welsh, albeit heavily saxonised, greatly relaxed restrictions on the Welsh people and supported a flowering rennaisance of Welsh culture. Some of the greatest and most famous English rulers of all time hail from this small Welsh family such as Henry VIII, who founded the church of England and was a key figure in the European reformation, and Elizabeth I who smashed the Spanish armada, cemented protestanism in Britain and began Englands colonial empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_HEADING_6">
+			<Text>Wales in the Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_TEXT_6">
+			<Text>During the early modern period, Wales became increasingly anglicised. While the majority of the population spoke Welsh, the elites of the nation used English. The Catholics were displaced by the Church of Wales – at least partially due to the entire Bible being translated into Welsh for use by Anglican preachers – though they still remained influential in parts of the country. During the Wars of Three Kingdoms, Wales was largely royalist, and supplied a sizable portion of the King’s army; however, there were no major battles in Wales. [NEWLINE][NEWLINE] Much of Wales’ population – especially in the rural areas – was illiterate in this time. In 1731, Griffith Jones came up with the idea of a circulating school that would visit various areas in Wales, and teach the people there how to write, before moving on after a few months; around 250,000 people learnt how to read via this method. As Welsh was still the majority language of the country, people were taught how to write using Welsh. The language was now more widely used in Wales due to the increase in the number of people being able to write it, leading to a slight revival of the language. [NEWLINE][NEWLINE] The Industrial Revolution – which swept Europe during the 18th century – took a firm grip on Wales. In the southern valleys, the large deposits of coal and other minerals proved vital to extract, helping the United Kingdom adapt to the advancing technologies. The valleys became the natural home to the ironworkers, leading to a population increase in Wales, especially during the 19th century. Places such as Merthyr Tydfil and the Rhondda saw large increases in mining, with many workers taking up jobs in this new-found industrial heartland. Over the course of the next few decades, Wales found itself as one of the world’s largest coal exporters. [NEWLINE][NEWLINE] During the early 20th century, the Labour Party became dominant in southern Wales, with its first leader, Kier Hardie, elected as a member for two constituencies in the Valleys as the party rose to dominance there. Though the Liberals had long been the natural party of governance in Wales, the large-scale industry caused a huge concentration of workers in the valleys, and – with the enlarged voting franchise – Labour became the obvious choice for the workers there. The industry in south Wales provided a huge boost not only for the economy of the region, but for Welsh national identity; the tradition of eisteddfod began to gain acceptance across Wales once more, and the thriving economy allowed the creation of a national museum for the country. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_HEADING_7">
+			<Text>Modern Wales</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_US_WALES_TEXT_7">
+			<Text>Today, attempts to revive the Welsh national identity continue strong, with a Welsh assembly (A parliament without tax raising powers) was created in the 1998 Government of Wales act which received considerable boosts to its power and autonomy in 2006 and 2011. The Welsh nationalist party, Plaid Cymru, which seeks greater autonomy and eventual independence for Wales, gained a record 15 seats in the 60-seat national assembly in 2007 and 22.4% of the vote. The Welsh language continues to grow and is now taught in schools - about 20% of Welsh people now speak Welsh and it became the official language of Wales in 2011. Interestingly, this makes it the only de jure official language in Britain. After a millenium and a half of the Mother Tongue being hounded out of Britain and onto a small spit of land in the Irish channel, Welsh is back.</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_1">
+			<Text>Cardiff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_2">
+			<Text>Swansea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_3">
+			<Text>Casnewydd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_4">
+			<Text>Wrecsam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_5">
+			<Text>Y Barri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_6">
+			<Text>Cwmbran</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_7">
+			<Text>Pen-y-bont ar Ogwr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_8">
+			<Text>Llanelli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_9">
+			<Text>Penrhyndeudraeth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_10">
+			<Text>Caerffili</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_11">
+			<Text>Pontypridd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_12">
+			<Text>Ynysybwl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_13">
+			<Text>Pont-y-pwl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_14">
+			<Text>Bro Morgannwg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_15">
+			<Text>Cefn-mawr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_16">
+			<Text>Coed Duon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_17">
+			<Text>Bwcle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_18">
+			<Text>Ystrad Mynach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_19">
+			<Text>Maesteg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_20">
+			<Text>Glyn Ebwy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_21">
+			<Text>Aberystwyth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_22">
+			<Text>Bangor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_23">
+			<Text>Senghenydd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_24">
+			<Text>Tumble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_25">
+			<Text>Ystradgynlais</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_26">
+			<Text>Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_WALES_27">
+			<Text>Bethesda</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_US_WALES_9">
+			<Text>Bryn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_WALES_8">
+			<Text>Llewelyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_WALES_7">
+			<Text>Mawr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_WALES_6">
+			<Text>Hywel Dda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_WALES_5">
+			<Text>Abberffraw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_WALES_4">
+			<Text>Madog</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_WALES_3">
+			<Text>Fawr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_WALES_2">
+			<Text>Ap Gruffudd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_WALES_1">
+			<Text>Ap Tudur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_WALES_0">
+			<Text>Gwaelod</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_OWAIN_GLYNDWR_DESC">
+			<Text>Owain Glyndwr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_TEXT_1">
+			<Text>Revered throughout Wales as a national hero and symbol of pride, Owain Glyndwr led an ill-fated rebellion against English domination of Wales during the 15th century. Through a balance of brilliance on the field and expert diplomacy with England's enemies, Owain was able to sustain a major rebellion for 15 years and inspire Welshmen across the isles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_TEXT_2">
+			<Text>Glyndwr was born in either 1349 or 1359 at a time in which English dominance over Wales was near-total. He was born into a prosperous Anglo-Welsh noble family in the disputed Welsh Marches, the traditional border between Wales and England. The Welsh marches served to guard England from Wales and acted the marcher lords there easily flitted between English and Welsh high society, usually speaking both languages - a rarity in the medieval period. The marcher lords were respected in English society as an instrument of royal power in Wales, and in Welsh society as uchelwyr, nobility descended from pre-conquest Welsh kings. As such, Glyndwr was granted an extremely fortunate upbringing before leaving for London to study Law sometime around 1380, though he returned in 1383. Owain was schooled in the art of warfare while serving with the English army in Scotland and returned to Wales in 1387 to retire on his considerable estate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_HEADING_3">
+			<Text>Pushed to Rebellion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_TEXT_3">
+			<Text>Despite Glyndwrs cozy position, a series of events began to push him towards revolt throughout the 1390s. Glyndwrs neighbour, Baron Grey de Ruthyn, seized some of his lands, focing Glyndwr to appeal to parliament regarding this clearly illegal seizure. Facing discrimination due to his welsh heritage, Glyndwr left London empty-handed and red-faced. Soon after, Glyndwr was recalled for military service in Scotland but Grey refused to relay the message until it was too late, returning to London in order to denounce the unknowing Glyndwr as a traitor and justify further seizures of Glyndwr lands. Though Glynwdr was quick to point out the absurdity of the situation, Grey was an old friend of the English king Henry IV and went unpunished. Branded a traitor and on the list of the king's personal enemies, Glynwdr returned to Powys where, following a series of riots, he was crowned Prince of Powys, rose his battle standard, and attacked Grey's stronghold. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_HEADING_4">
+			<Text>War with England</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_TEXT_4">
+			<Text>A few mild skirmishes followed the seizure of Lord Grey's lands, until in 1401 the revolt went truly national. Shocked, Henry IV appointed Henry Hotspur to crush the rebellion, who offered amnesties for any treasonous Welshmen save for Glyndwr himself and his cousins (who, interestingly, were Tudurs, ancestors of Henry VII who would begin the Tudor line in England). In June, Glyndwr and Henry met on the field for the first time, resulting in a crushing defeat for the English attackers, forced into the hilly terrain of Mynydd Hyddgen where Glyndwrs light archers and hill ponies excelled. Humiliated, Henry responded with the Welsh Penal laws in early 1402, which banned Welshmen from carrying weapons or living in fortified towns - though supposed to control the spread of rebellion, the harsh measures merely pushed undecided Welshmen towards Glywndwr and the revolt only spread. [NEWLINE][NEWLINE] In 1403, the revolt began to spread like wildfire as Welshmen from across the isles took up the banner. Students stole away from Oxford in the dead of night to join their Welsh bretheren on the field while hundreds of Welsh archers serving with England, seasoned by campaigns in France and Scotland, deserted their posts to join Glynwdr - it had captured the Welsh consciousness and all but banished the English from Wales. In 1404 Glynwdr held the first Welsh parliament, setting out his plans for the war and the peace - committing to two Welsh universities and a return to the ancient laws of Hewyl Dda. [NEWLINE][NEWLINE] Despite the successes, Glyndwr knew that he couldn't succeed alone and dispatched messengers to England's traditional enemies - the Scottish, the Irish and above all, the French. Despite a lukewarm reception in Ireland, the French and Scottish both agreed to aid Wales' struggle and began plundering the seas surrounding Wales. By 1405 the alliance with France was formalised and an enormous invasion of english aquitaine began to take attention away from the beleagured Welshmen. Despite this, in 1406 politics in Paris shifted and French support was withdrawn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_HEADING_5">
+			<Text>Defeat, Death and Dissapearence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_TEXT_5">
+			<Text>Owain remained nigh-unbeatable in the field, but he had more serious problems. Without the numbers or equipment to seige major fortifications, Owain was forced to remain in the countryside awaiting English hosts. When no such hosts were sent out, following a new, more defensive strategy by the English, Owain was goaded into an offensive. Tearing through England, Glyndwr sacked as far as Birmingham in 1407 but Wales' ancient castles remained in English hands as larger and larger sorties began to reclaim the surrounding land for the English crown. While in England, Glyndwrs ancient home was captured by the English in 1409. His wife and children were imprisoned in the tower of London and Glyndwr was now a prince with no seat and no home, constantly on the run. Overnight, the prince who seemed as though he couldn't be beaten was suddenly on the back foot. [NEWLINE][NEWLINE] Returning to raids and skirmishes, Glyndwr's men were one-by-one captured or killed in suicide raids into English territory. Meanwhile, Henry V, a far more capable king than his father, adopted a conciliatory attitude towards the Welsh - considerably relaxing laws and offering royal pardons to any who surrendered, plus an enormous reward for Glyndwr and his cousins. Despite this, and the fact that most had put down their arms, Glyndwr was never turned in by his people, hurrying from castle to castle, house to house, always one step ahead of his pursuers. He continued his revenge campaign against England until he died in 1415.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_HEADING_6">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_TEXT_6">
+			<Text>Glyndwr remains an important symbol of Welsh heritage and as a reminder of the free spirit of the Welsh people. His war is known in Wales as the Last War of Welsh independence, reminding all that his dream is yet to be realised. With Welsh national consciousness continuing to grow and with further demands for Welsh freedom, Glyndwr is as topical as ever today. He may be long dead, but his vision of a free and independent Wales lives on in his countrymen. Even soon after his war, Glyndwr was recognised as a true and fair leader, even Shakespeare noted that he was "not in the roll of common men and a worthy gentleman, exceedingly well read, and profited in strange concealments; valiant as a lion, and wondrous affable; and as bountiful as mines of India".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_LIVED">
+			<Text>1359 - 1415</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_NAME">
+			<Text>Owain Glyndwyr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_SUBTITLE">
+			<Text>Prince of Wales</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_TITLES_2">
+			<Text>Prince of Powys Fadog</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_OWAIN_TITLES_1">
+			<Text>Prince of Wales</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_US_WALES_TEXT">
+			<Text>O prince, hail thee who rebels against all odds, may your enemies curse your name! You lead the Welsh people, the single refuge of a Britonnic culture which once spanned these hallowed isles, but are now reduced to a small peninsula - forced to flee by the dreaded Saxon menace. Under your esteemed leadership however, the Welsh people were renewed again after centuries of subjugation. Against all odds, you rallied your tiny princedom to defy a King, and smashed several English hosts in the battlefield - such was the devotion you inspired in the Welsh people that despite the considerable price on your head, not a single Welshman dared turn you in to the English scourge. Your rebellion inspired your bretheren from across the isles to travel home to rid their land of English hegemony, becoming a folk hero and legend in your own right for centuries to come.[NEWLINE][NEWLINE]Mighty prince, the people of Wales labour under suzerains who they dare not call friend - they long to take their rightful place among the great nations of albion. Can you rally this nation of poets and rebels into a major power? Can you defy all attempts to cow you or your people? Can you build a civilisation to stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_US_WALES_SHORT">
+			<Text>Rhyfelgyrch Gwyr Harlech</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_US_WALES">
+			<Text>Welsh [ICON_GREAT_WORK] Great Works satisfy any [ICON_TOURISM] theming bonuses and yield [ICON_HAPPINESS_1] Happiness when displayed. During a [ICON_GOLDEN_AGE] Golden Age, local [ICON_HAPPINESS_1] Happiness in the [ICON_CAPITAL] Capital is converted into [ICON_GREAT_PEOPLE] Great Musician Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_US_LONGBOWMAN">
+			<Text>Saethwyr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_US_LONGBOWMAN_CIVILOPEDIA">
+			<Text>Though the Longbow is famous throughout the British Isles, many believe that the Welsh bowmen truly perfected or even invented the art. Records of Longbow use appear very early in Welsh history and proved a considerable obstacle to English attempts to subdue the small nation. Several invasions were stymied by Welsh longbowmen or Saethwyr (Marksmen specialised in taking out individual targets with incredible accuracy) in defensive positions. The hilly, wooded Welsh terrain proved a considerable boon to the marksmen who knew the lands well - as noted in the multiple crushing defeats of English hosts during Welsh rebellions such as Glyndwrs. Eventually, after the Welsh were conquered, the Welsh longbowman became a staple in English armies - multiple Welsh regiments were present at Agincourt and other notable English battles, and served across the kingdom from Scotland to Spain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_US_LONGBOWMAN_HELP">
+			<Text>The Saethwyr is [ICON_STRENGTH] stronger than the Crossbowman it replaces, and may treat any hill in friendly territory as though it were a fort, granting considerable combat bonuses. Aditionally grants [ICON_CULTURE] when fortified.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_US_LONGBOWMAN_STRATEGY">
+			<Text>The Saethwyr is the Welsh unique unit, replacing the Crossbowman. It excels at defensive strategies and can be used to guard ever shifting borders without needing to fear enemy melee attacks thanks to the flexibility offered by automatic fort bonuses and its higher ranged combat strength. Aditionally can augment your [ICON_CULTURE] cultural output simply by guarding your territory.</Text>
+		</Row>
+		<Row Tag="BUILDING_DECISIONS_US_WELSH_LANGUAGE">
+			<Text>Cynulliad Cenedlaethol Cymru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WELSH_LANGUAGE_DESC">
+			<Text>Cynulliad Cenedlaethol Cymru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LANGUAGE">
+			<Text>Cynulliad Cenedlaethol Cymru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LANGUAGE_HELP">
+			<Text>The Cynulliad Cenedlaethol Cymru, or Welsh Assembly, provides 2 slots for a [ICON_GREAT_WORK] Great Work of Literature, and turns 25% of the [ICON_CULTURE] culture from Great Works in this city into [ICON_TOURISM] tourism, providing an additional means of generating [ICON_TOURISM] tourism prior to the Hotel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LANGUAGE_STRATEGY">
+			<Text>Use the Welsh Assembly to help boost your Great Works by providing the earliest means of converting great work culture into tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LANGUAGE_PEDIA">
+			<Text>The Welsh Assembly was established in 1998 following a 1997 referendum regarding Wales' status in the United Kingdom. Successive legislation in 2006 and 2011 granted the Welsh assembly the ability to make laws without consulting parliament, granting considerable autonomy to Wales for the first time in centuries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAER">
+			<Text>Caer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAER_PEDIA">
+			<Text>Caers, Welsh Castles, are a staple of Medieval Welsh architecture owing to the near constant intercenine and international warfare that gripped Wales prior to Englands consolidation of the territory in the 16th century. The first Welsh castles, like those in the rest of the isles, were merely earthen fortifications. As the Welsh kingdoms grew in prestige and power, so did their castles, and by the 11th century siginificant improvements had been made in the field with wood and stone structures jutting out of the fertile Welsh landscape like well-armed mountains. With the arrival of the English in 1075, it became even more important for both sides to maintain major fortifications - those buult by Edward I in the 13th century are some of the best surviving examples. During Glyndwr's rebellion, the impressive nature of Wales' Caers proved to be his downfall as the English assumed a defensive stance later in the War and radiated control from the major castles, eventually winning the nation back.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAER_HELP">
+			<Text>Grants 7 [ICON_STRENGTH] defensive strength and 25 hit points to this city. Contains a slot for a [ICON_GREAT_WORK] Great Work of Music, or two if built on a hill. During [ICON_GOLDEN_AGE] Golden Ages, further boosts the [ICON_CULTURE] Culture output of all [ICON_GREAT_WORK] Great Works and provides a base [ICON_TOURISM] 2 tourism. Must have walls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAER_STRATEGY">
+			<Text>The Caer is the Welsh unique building. Unlike the Castle it replaces, the Caer has a slot for a [ICON_GREAT_WORK] Great Work of Music, and an extra slot if built on a hill. During [ICON_GOLDEN_AGE] Golden Ages, the Caer grants a small [ICON_TOURISM] tourism boost and bonus [ICON_CULTURE] culture for all your [ICON_GREAT_WORK] Great Works, making it a powerful asset to [ICON_CULTURE] culture and [ICON_TOURISM] tourism generation, especially in the midgame, so long as you can keep your happiness up! The Caer also boosts [ICON_STRENGTH] defensive strength by 7 and city HP by 25, and requires walls, like a regular castle. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_US_CYMRU_DESC">
+			<Text>Tywysogaeth Cymru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_US_CYMRU_SHORT_DESC">
+			<Text>Cymru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_US_WELSH_LAW">
+			<Text>Establish the Laws of Hywel Dda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_US_WELSH_LAW_DESC">
+			<Text>
+				All Welshmen should be equal before the law - yet in this fractured lands hundreds of nobles bicker and squabble about its implementation, ensuring injustice for all. Let us formalise the laws of Wales into a revolutionary new tome which will set out the future of this great nation![NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Wales (Owain Gylndwr)
+				[NEWLINE][ICON_BULLET]Must have researched Civil Service
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Faith} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A [ICON_GOLDEN_AGE] Golden Age begins
+				[NEWLINE][ICON_BULLET]Receive a free Constabulary in the [ICON_CAPITAL] Capital
+				[NEWLINE][ICON_BULLET]Constabularies, Police Stations and Courthouses yield 1 [ICON_HAPPINESS_1] Happiness and 2 [ICON_CULTURE] Culture
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_US_WELSH_LAW_ENACTED_DESC">
+			<Text>
+				All Welshmen should be equal before the law - yet in this fractured lands hundreds of nobles bicker and squabble about its implementation, ensuring injustice for all. Let us formalise the laws of Wales into a revolutionary new tome which will set out the future of this great nation![NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A [ICON_GOLDEN_AGE] Golden Age begins
+				[NEWLINE][ICON_BULLET]Receive a free Constabulary in the [ICON_CAPITAL] Capital
+				[NEWLINE][ICON_BULLET]Constabularies, Police Stations and Courthouses yield 1 [ICON_HAPPINESS_1] Happiness and 2 [ICON_CULTURE] Culture
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_WELSH_LANGUAGE">
+			<Text>Promote Welsh Heritage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_WELSH_LANGUAGE_DESC">
+			<Text>
+				As we march forward into modernity, many have come to think of our proud and ancient language as 'uncool' or 'improper', favouring other, alien tongues over ours. Lets embark on a campaign to educate our citizens on their traditions and their heritage and embrace what it truly means to be Welsh.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Wales (Owain Gylndwr)
+				[NEWLINE][ICON_BULLET]Player must have researched Archaeology
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]The empire is renamed to Cymru
+				[NEWLINE][ICON_BULLET]The capital is renamed to Caerdydd
+				[NEWLINE][ICON_BULLET]Receive the Cynulliad Cenedlaethol Cymru in the [ICON_CAPITAL] Capital, which contains 2 slots for [ICON_GREAT_WORK] Great Works of Writing and grants 25% of the [ICON_CULTURE] Culture from [ICON_GREAT_WORK] Great Works in that city as [ICON_TOURISM] Tourism.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_WELSH_LANGUAGE_ENACTED_DESC">
+			<Text>
+				As we march forward into modernity, many have come to think of our proud and ancient language as 'uncool' or 'improper', favouring other, alien tongues over ours. Lets embark on a campaign to educate our citizens on their traditions and their heritage and embrace what it truly means to be Welsh..[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]The empire is renamed to Cymru
+				[NEWLINE][ICON_BULLET]The capital is renamed to Caerdydd
+				[NEWLINE][ICON_BULLET]Receive the Cynulliad Cenedlaethol Cymru in the Capital, which contains 2 slots for [ICON_GREAT_WORK] Great Works of Writing and grants 25% of the [ICON_CULTURE] Culture from [ICON_GREAT_WORK] Great Works in that city as [ICON_TOURISM] Tourism.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

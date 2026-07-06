@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="48a7a81e-3f9f-45ce-be8c-6c44d412139f" version="1">
+  <Properties>
+    <Name>Wonders - Universities of The Ivy League (Brave New World)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>This mod adds the eight Universities of the Ivy League as Wonders for your Civilization to pursue and build.</Teaser>
+    <Description>This mod adds the eight Universities of the Ivy League as Wonders for your Civilization to pursue and build. Available with Scientific Theory.
+
+[NEWLINE][NEWLINE]
+
+The Ivy League is an athletic conference composed of sports teams from eight private institutions of higher education in the Northeastern United States. The conference name is also commonly used to refer to those eight schools as a group. The eight institutions are Brown University, Columbia University, Cornell University, Dartmouth College, Harvard University, Princeton University, the University of Pennsylvania, and Yale University. The term Ivy League also has connotations of academic excellence, selectivity in admissions, and social elitism.
+
+[NEWLINE][NEWLINE]
+
+Requires Brave New World.
+
+[NEWLINE][NEWLINE]
+
+Follow me on twitter @fourfourhero to get notifications about updates to this mod as well as others.</Description>
+    <Authors>Envoy (@fourfourhero)</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="8AA5AF6E0E7813700C0CACA733AB0614" import="1">ART/Brown2.dds</File>
+    <File md5="894246D3C36B59ED880411C8F8CA7A47" import="1">ART/Columbia1.dds</File>
+    <File md5="0226E6314583F0722A686DDBBEB3BEF7" import="1">ART/Cornell1.dds</File>
+    <File md5="875D746239A76F8BEA895D09F0178F1D" import="1">ART/Dartmouth1.dds</File>
+    <File md5="C74BD14AA7259956DD1E2624824559E1" import="1">ART/Harvard2.dds</File>
+    <File md5="EB70DE81E7856CA0A4AFDF4E4EFEBD34" import="1">ART/IvyLeagueAtlas128.dds</File>
+    <File md5="E4242612492550D3902C6179F1103670" import="1">ART/IvyLeagueAtlas256.dds</File>
+    <File md5="F62D04E75D40EBD99F1FB65FB3C1AD94" import="1">ART/IvyLeagueAtlas45.dds</File>
+    <File md5="9D71DCCB8FF73F719798012160AEAEB2" import="1">ART/IvyLeagueAtlas64.dds</File>
+    <File md5="DAE1BF685F292D4DC021062B0F2B30D7" import="1">ART/Princeton1.dds</File>
+    <File md5="54DEFA38B855C17A34D96724C2C3D9D8" import="1">ART/UPenn1.dds</File>
+    <File md5="7BBCD6EB3DBA4F07361063F7D4672F67" import="1">ART/Yale1.dds</File>
+    <File md5="6AF0E9E488F0900F3D082FF6715D952F" import="0">XML/Buildings/ILU_Art.xml</File>
+    <File md5="032FEE995AFBF18174AF41DFAAEC86D2" import="0">XML/Buildings/ILU_Brown.xml</File>
+    <File md5="BC8C135AAD0CB698E24BA33DA34A2F78" import="0">XML/Buildings/ILU_BuildingClasses.xml</File>
+    <File md5="30ECEF76752D6F22E8455753C3A82B40" import="0">XML/Buildings/ILU_Columbia.xml</File>
+    <File md5="42EA1DA153CA6FAA349D0B19DC2375B7" import="0">XML/Buildings/ILU_Cornell.xml</File>
+    <File md5="C4760814CCA72E32E2E7692397FF5B11" import="0">XML/Buildings/ILU_Dartmouth.xml</File>
+    <File md5="62260903FF09DB73139CC542900FC1E0" import="0">XML/Buildings/ILU_Harvard.xml</File>
+    <File md5="4DD15C260AFAF68EDEDF17EF2F6DE717" import="0">XML/Buildings/ILU_Princeton.xml</File>
+    <File md5="D46427775199788A4F5168FA16FEA676" import="0">XML/Buildings/ILU_UPenn.xml</File>
+    <File md5="0B42538119693EC66A7EE396F2262231" import="0">XML/Buildings/ILU_Yale.xml</File>
+    <File md5="ABA46B863C74EB47115FB314E05ACEE5" import="0">XML/Civilizations/ILU_Civilizations.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/ILU_Art.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/ILU_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/ILU_Harvard.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/ILU_Yale.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/ILU_UPenn.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/ILU_Columbia.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/ILU_Princeton.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/ILU_Brown.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/ILU_Dartmouth.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/ILU_Cornell.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/ILU_Civilizations.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
